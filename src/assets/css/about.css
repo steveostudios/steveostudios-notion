@@ -1,0 +1,125 @@
+
+.page.about {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 2rem;
+}
+
+/* Bio */
+.page.about .bio {
+	grid-column: span 4;
+}
+
+/* History */
+.page.about .history {
+	grid-column: span 2;
+}
+
+.page.about .history ul {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	padding: 0 0 1.5rem;
+	list-style: none;
+}
+
+.page.about .history ul::before {
+	position: absolute;
+	display: block;
+	top: 0;
+	bottom: 0;
+	background-color: var(--trim);
+	left: 1rem;
+	width: 2px;
+	transform: translateX(-1px);
+	content: "";
+}
+
+.page.about .history ul li {
+	position: relative;
+	margin-left: 10px;
+	display: flex;
+	margin-bottom: 2rem;
+}
+
+.page.about .history ul li h4 {
+	margin: 0;
+	font-size: 0.875rem;
+	text-transform: uppercase;
+}
+
+.page.about .history ul li p {
+	margin: 0;
+	font-size: 0.75rem;
+}
+
+.page.about .history ul li p.dates {
+	color: var(--grey);
+}
+
+.page.about .history .dot-double {
+	background: var(--white);
+	border: 2px solid var(--trim);
+	min-width: 8px;
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	margin-right: 1rem;
+	border-radius: 9999px;
+}
+
+/* Personality */
+.personality {
+	min-width: 10rem;
+	min-height: 10rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 4rem;
+}
+
+.personality .icon {
+  width: 50%;
+  height: 50%;
+}
+
+.personality span {
+	font-size: 2rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+.personality ol {
+	padding: 0;
+}
+
+.personality.workingGenius ol li:nth-child(3),
+.personality.workingGenius ol li:nth-child(4) {
+	opacity: 0.5;
+}
+
+.personality.workingGenius ol li:nth-child(5),
+.personality.workingGenius ol li:nth-child(6) {
+	opacity: 0.33;
+}
+
+.personality.realYou ul {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.personality.realYou ul li span {
+	font-size: 1rem;
+	font-weight: 700;
+	flex: 1;
+}
+
+@media only screen and (max-width: 767px) {
+	.page.about .history {
+		grid-column: span 4;
+	}
+	.page.about .personality {
+		grid-column: span 2;
+	}
+}

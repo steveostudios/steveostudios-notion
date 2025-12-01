@@ -1,0 +1,203 @@
+{% from "macros/icon.njk" import icon %}
+
+<div class="book-selector">
+      <div class="group">
+        <input type="checkbox" id="stats" checked>
+        <label for="stats">{{ icon("chart-simple-solid") }}</label>
+      </div>
+      <div class="group">
+        <input type="checkbox" id="fiction" checked>
+        <label for="fiction">Fiction</label>
+        <input type="checkbox" id="non-fiction" checked>
+        <label for="non-fiction">Non-Fiction</label>
+      </div>
+      <div class="group">
+        <input type="checkbox" id="5star" checked>
+        <label for="5star">{{ icon("star-solid") }}{{ icon("star-solid") }}{{ icon("star-solid") }}{{ icon("star-solid") }}{{ icon("star-solid") }}</label>
+        <input type="checkbox" id="4star" checked>
+        <label for="4star">{{ icon("star-solid") }}{{ icon("star-solid") }}{{ icon("star-solid") }}{{ icon("star-solid") }}</label>
+        <input type="checkbox" id="3star" checked>
+        <label for="3star">{{ icon("star-solid") }}{{ icon("star-solid") }}{{ icon("star-solid") }}</label>
+        <input type="checkbox" id="2star" checked>
+        <label for="2star">{{ icon("star-solid") }}{{ icon("star-solid") }}</label>
+        <input type="checkbox" id="1star" checked>
+        <label for="1star">{{ icon("star-solid") }}</label>
+      </div>
+      <div class="group">
+        <input type="checkbox" id="hardcover" checked>
+        <label for="hardcover">Hardcover</label>
+        <input type="checkbox" id="paperback" checked>
+        <label for="paperback">Paperback</label>
+        <input type="checkbox" id="ebook" checked>
+        <label for="ebook">E-Book</label>
+        <input type="checkbox" id="audio" checked>
+        <label for="audio">Audio</label>
+      </div>
+      <div class="group">
+        <input type="checkbox" id="hasPost" checked>
+        <label for="hasPost">{{ icon("link-light") }}</label>
+        <input type="checkbox" id="missingPost" checked>
+        <label for="missingPost">{{ icon("link-slash-light") }}</label>
+      </div>
+      <button id="clear" disabled>{{ icon("xmark-solid") }}</button>
+    </div>
+    
+  <script>
+  let hiddenSelectors = [];
+  const clear = document.getElementById('clear');
+  const fiction = document.getElementById('fiction');
+  const nonFiction = document.getElementById('non-fiction');
+  const fiveStar = document.getElementById('5star');
+  const fourStar = document.getElementById('4star');
+  const threeStar = document.getElementById('3star');
+  const twoStar = document.getElementById('2star');
+  const oneStar = document.getElementById('1star');
+  const hardcover = document.getElementById('hardcover');
+  const paperback = document.getElementById('paperback');
+  const ebook = document.getElementById('ebook');
+  const audio = document.getElementById('audio');
+  const hasPost = document.getElementById('hasPost');
+  const missingPost = document.getElementById('missingPost');
+
+  const stats = document.getElementById("stats");
+  const bookStats = document.getElementsByClassName("bookStats")[0];
+
+  const checkFiles = () => {
+    const books = document.querySelectorAll('.book-cover');
+    books.forEach(book => {
+      book.classList.remove('hide');
+      if (hiddenSelectors.includes("fiction") && book.dataset.fiction === 'fiction') {
+          book.classList.add('hide');
+      }
+      if (hiddenSelectors.includes("nonfiction") && book.dataset.fiction === 'nonfiction') {
+          book.classList.add('hide');
+      }
+      if (hiddenSelectors.includes("fivestar") && book.dataset.stars === '5') {
+          book.classList.add('hide');
+      }
+      if (hiddenSelectors.includes("fourstar") && book.dataset.stars === '4') {
+          book.classList.add('hide');
+      }
+      if (hiddenSelectors.includes("threestar") && book.dataset.stars === '3') {
+          book.classList.add('hide');
+      }
+      if (hiddenSelectors.includes("twostar") && book.dataset.stars === '2') {
+          book.classList.add('hide');
+      }
+      if (hiddenSelectors.includes("onestar") && book.dataset.stars === '1') {
+          book.classList.add('hide');
+      }
+      if (hiddenSelectors.includes("hardcover") && book.dataset.format.toLowerCase() === 'hardcover') {
+          book.classList.add('hide');
+      }
+      if (hiddenSelectors.includes("paperback") && book.dataset.format.toLowerCase() === 'paperback') {
+          book.classList.add('hide');
+      }
+      if (hiddenSelectors.includes("ebook") && book.dataset.format.toLowerCase() === 'ebook') {
+          book.classList.add('hide');
+      }
+      if (hiddenSelectors.includes("audio") && book.dataset.format.toLowerCase() === 'audio') {
+          book.classList.add('hide');
+      }
+      if (hiddenSelectors.includes("hasPost") && book.dataset.review === "true") {
+          book.classList.add('hide');
+      }
+      if (hiddenSelectors.includes("missingPost") && book.dataset.review === "false") {
+          book.classList.add('hide');
+      }
+
+      if (!hiddenSelectors.length) {
+        clear.disabled = true
+      } else {
+        clear.disabled = false
+        }
+    });
+  }
+
+  const toggleSelector = (item) => {
+    console.log(item);
+    if (hiddenSelectors.includes(item)) {
+      console.log('found it');
+      hiddenSelectors = hiddenSelectors.filter(i => i !== item);
+    } else {
+      hiddenSelectors = [ ...hiddenSelectors, item ];
+    }
+    checkFiles();
+  console.log(hiddenSelectors)
+  }
+
+
+  fiction.addEventListener('click', () => {
+    toggleSelector('fiction');
+  });
+
+  nonFiction.addEventListener('click', () => {
+   toggleSelector('nonfiction');
+  });
+
+  fiveStar.addEventListener('click', () => {
+   toggleSelector('fivestar');
+  });
+  fourStar.addEventListener('click', () => {
+   toggleSelector('fourstar');
+  });
+  threeStar.addEventListener('click', () => {
+   toggleSelector('threestar');
+  });
+  twoStar.addEventListener('click', () => {
+   toggleSelector('twostar');
+  });
+  oneStar.addEventListener('click', () => {
+   toggleSelector('onestar');
+  });
+  hardcover.addEventListener('click', () => {
+   toggleSelector('hardcover');
+  });
+  paperback.addEventListener('click', () => {
+   toggleSelector('paperback');
+  });
+  ebook.addEventListener('click', () => {
+   toggleSelector('ebook');
+  });
+  audio.addEventListener('click', () => {
+   toggleSelector('audio');
+  });
+  hasPost.addEventListener('click', () => {
+   toggleSelector('hasPost');
+  });
+  missingPost.addEventListener('click', () => {
+   toggleSelector('missingPost');
+  });
+
+  stats.addEventListener("click", () => {
+    if (stats.checked) {
+      bookStats.classList.add("active");
+    } else {
+      bookStats.classList.remove("active");
+    }
+  })
+
+
+  clear.addEventListener('click', () => {
+    fiction.checked = true;
+    nonFiction.checked = true;
+    fiveStar.checked = true;
+    fourStar.checked = true;
+    threeStar.checked = true;
+    twoStar.checked = true;
+    oneStar.checked = true;
+    hardcover.checked = true;
+    paperback.checked = true;
+    ebook.checked = true;
+    audio.checked = true;
+    hasPost.checked = true;
+    missingPost.checked = true;
+    hiddenSelectors = [];
+    const books = document.querySelectorAll('.book-cover');
+    books.forEach(book => {
+      book.classList.remove('hide');
+    });
+    clear.disabled = true;
+  });
+
+</script>

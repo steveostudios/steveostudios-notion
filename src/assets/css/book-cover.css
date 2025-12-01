@@ -1,0 +1,122 @@
+
+.book-cover-box,
+.book-cover-box-face,
+.book-cover-box-back,
+.book-cover-box-face img {
+	width: 130px;
+	height: 200px;
+}
+
+.book-cover-box-face,
+.book-cover-box-back,
+.book-cover-box-side {
+	position: absolute;
+	top: 0;
+}
+
+.book-cover {
+	display: flex;
+	width: 130px;
+	perspective: 600px;
+	flex-direction: column;
+	transform: scale(1);
+	align-items: center;
+	justify-content: center;
+	transition: all 0.5s ease;
+	transform-style: preserve-3d;
+}
+
+.book-cover.hide {
+	transform: scale(0);
+	width: 0;
+	height: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+.book-cover-box {
+	position: relative;
+	transform-style: preserve-3d;
+	transform-origin: center;
+	transform: rotateY(-30deg);
+	transition: all 0.5s ease;
+}
+
+.book-cover-box:hover {
+	transform: rotateY(0deg);
+}
+
+.book-cover-box-side {
+	top: 2px;
+	width: var(--sideWidth);
+	height: 196px;
+	transform: rotateY(90deg) translateZ(128px);
+	transform-origin: left center;
+	background: linear-gradient(
+		90deg,
+		#fff 0%,
+		#f9f9f9 5%,
+		#fff 10%,
+		#f9f9f9 15%,
+		#fff 20%,
+		#f9f9f9 25%,
+		#fff 30%,
+		#f9f9f9 35%,
+		#fff 40%,
+		#f9f9f9 45%,
+		#fff 50%,
+		#f9f9f9 55%,
+		#fff 60%,
+		#f9f9f9 65%,
+		#fff 70%,
+		#f9f9f9 75%,
+		#fff 80%,
+		#f9f9f9 85%,
+		#fff 90%,
+		#f9f9f9 95%,
+		#fff 100%
+	);
+}
+
+.book-cover-box-back {
+	box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+	background-color: #01060f;
+	transform: translateZ(calc(-1 * var(--sideWidth)));
+}
+
+.book-cover progress {
+	align-self: center;
+	transform: translateZ(20px);
+	position: absolute;
+	bottom: -1rem;
+}
+
+@media screen and (max-width: 768px) {
+	.book-cover {
+		width: 80px;
+		height: 120px;
+	}
+	.book-cover-box,
+	.book-cover-box-face,
+	.book-cover-box-back,
+	.book-cover-box-face img {
+		width: 100%;
+		height: 100%;
+	}
+	.book-cover-box-face,
+	.book-cover-box-back,
+	.book-cover-box-face img {
+		height: 120px;
+	}
+
+	.book-cover-box-side {
+		height: calc(120px - 4px);
+		width: calc(var(--sideWidth) / 2);
+		transform: rotateY(90deg) translateZ(78px);
+	}
+	.book-cover-box-back {
+		box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+		background-color: #01060f;
+		transform: translateZ(calc(-1 * var(--sideWidth) / 2));
+	}
+}

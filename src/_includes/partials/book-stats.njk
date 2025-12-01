@@ -1,0 +1,44 @@
+
+{% set years = books.years | reverse %}
+{% set stats = collections.stats %}
+
+<div class="bookStats active">
+  <div>
+    <h4>Books by Years</h4>
+    {% booksByYearSVG stats.yearStats %}
+  </div>
+  <div>
+    <h4>Pages by Year</h4>
+    {% pagesByYearSVG stats.yearStats %}
+  </div>
+  <div class="list">
+    <h4>Stats</h4>
+    {% goalProgress goals, stats.yearStats %}
+    <table>
+      <tr>
+        <td></td>
+        <td>Books</td>
+        <td>Pages</td>
+      </tr>
+      <tr>
+        <td>Most</td>
+        <td>{{ stats.mostBooksBooks | number_with_delimiter }} ({{ stats.mostBooksYear }})</td>
+        <td>{{ stats.mostPagesPages | number_with_delimiter }} ({{ stats.mostPagesYear }})</td>
+      <tr>
+        <td>Current</td>
+        <td>{{ stats.currentlyReadingBooks | number_with_delimiter }}</td>
+        <td>{{ stats.currentlyReadingProgress | number_with_delimiter }}/{{ stats.currentlyReadingPages | number_with_delimiter }}</td>
+      </tr>
+      <tr>
+        <td>This Year</td>
+        <td>{{ stats.thisYearBooks | number_with_delimiter }} ({{ stats.thisYearBooksRank | to_ordinal }})</td>
+        <td>{{ stats.thisYearPages | number_with_delimiter }} ({{ stats.thisYearPagesRank | to_ordinal }})</td>
+      </tr>
+      <tr>
+        <td>All Time</td>
+        <td>{{ stats.totalBooks | number_with_delimiter }}</td>
+        <td>{{ stats.totalPages | number_with_delimiter }}</td>
+      </tr>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,179 @@
+.bookStats {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+	margin-bottom: 2rem;
+	align-items: flex-start;
+	gap: 1rem;
+	position: relative;
+	height: 0;
+	transition: all 0.25s ease-in-out;
+	overflow: hidden;
+	clear: both;
+	width: 100%;
+}
+
+.bookStats-toggle {
+	float: right;
+}
+
+.bookStats.active {
+	height: 224px;
+	overflow-y: scroll;
+}
+
+.bookStats h4 {
+	margin: 0 0 0.5rem 0;
+	padding: 0;
+}
+
+.bookStats p {
+	margin: 0 0 1rem 0;
+	padding: 0;
+}
+
+.bookStats svg .year .value {
+	/* font-size: 10px; */
+	paint-order: stroke;
+	fill: var(--dark-grey);
+	stroke: var(--white);
+	stroke-width: 3px;
+	stroke-linecap: butt;
+	stroke-linejoin: miter;
+}
+
+.bookStats svg .year .xyear {
+	/* font-size: 10px; */
+	text-orientation: mixed;
+	writing-mode: vertical-rl;
+	fill: var(--grey);
+}
+
+.bookStats svg .year .dot {
+	fill: var(--dark-grey);
+	stroke: var(--white);
+	stroke-width: 2px;
+	transform-origin: center;
+}
+
+.bookStats svg .line {
+	fill: none;
+	stroke: var(--primary-color);
+	stroke-width: 2px;
+}
+
+.bookStats svg .fill {
+	fill: var(--primary-color);
+	opacity: 0.4;
+	stroke-width: 0;
+}
+
+.bookStats svg .horizontal {
+	stroke: var(--grey);
+	stroke-width: 0.5;
+	stroke-linecap: square;
+}
+
+.bookStats > div {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookStats .bookStats-toggle {
+	grid-column: span 3;
+}
+
+.bookStats .list {
+	justify-content: flex-start;
+	width: 100%;
+}
+
+.bookStats .list table {
+	list-style: none;
+	padding: 0;
+	flex: 1;
+	margin: 0;
+}
+
+.bookStats .list table tr {
+	justify-content: space-between;
+	font-size: 0.85rem;
+	color: var(--dark-grey);
+	gap: 1rem;
+}
+
+.bookStats .list table tr:first-of-type {
+	font-size: 0.75rem;
+}
+
+.bookStats .list table tr td {
+	text-align: right;
+	height: 0.5rem;
+	border-bottom: 1px solid var(--trim);
+}
+
+.bookStats .list table tr td:first-of-type {
+	text-align: left;
+	color: var(--grey);
+}
+
+.bookStats .goalProgress {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	flex-direction: column;
+	font-size: 0.75rem;
+}
+
+.bookStats .goalProgress > div {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	width: 100%;
+	height: 2rem;
+	gap: 2rem;
+	flex: 1;
+}
+
+.bookStats .goalProgress progress {
+	flex: 1;
+	margin: 0;
+	height: 0.35rem;
+	border-radius: 1rem;
+}
+.bookStats .goalProgress progress[value] {
+	-webkit-appearance: none;
+	appearance: none;
+	border-radius: 1rem;
+}
+
+.bookStats .goalProgress progress::-webkit-progress-bar {
+	background-color: #eee;
+	border-radius: 1rem;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.bookStats .goalProgress progress[value]::-webkit-progress-value {
+	border-radius: 8px;
+	background-color: var(--primary-color);
+}
+
+@media (min-width: 900px) {
+	.bookStats {
+		grid-template-columns: repeat(2, auto);
+	}
+	.bookStats > div {
+		justify-self: flex-start;
+	}
+}
+
+@media (min-width: 1200px) {
+	.bookStats {
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.bookStats > div {
+		justify-self: flex-start;
+	}
+}
+

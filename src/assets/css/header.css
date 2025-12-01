@@ -1,0 +1,219 @@
+
+header {
+  padding: 2rem 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  background-color: var(--black);
+  margin-bottom: 4rem;
+}
+
+header:after {
+  background: inherit;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-1.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+
+header .content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+header .content > div {
+  display: flex;
+  align-items: center;
+}
+
+/* Header > Heading */
+header .content .avatar {
+  display: flex;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 6rem;
+  margin-right: 1rem;
+}
+
+header .content h1 {
+  font-size: 2.5rem;
+  padding: 0;
+  margin: 0 0 0.25rem 0;
+}
+
+header .content h1 a,
+header .content h1 a:visited,
+header .content h1 a:hover {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+header .content h2 {
+  color: var(--white);
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+/* Header > Navigation */
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul a,
+header nav ul a:visited {
+  background: var(--primary-color);
+  padding: 0.5rem 1rem;
+  color: var(--black);
+  margin-left: 8px;
+  border-radius: 24px;
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul a span {
+  display: flex;
+}
+
+header nav ul a .icon svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+  fill: var(--black) !important;
+}
+
+header nav ul a:hover {
+  background: var(--grey);
+  color: var(--black);
+  text-decoration: none;
+}
+
+header nav ul a:hover .icon svg {
+  fill: var(--black) !important;
+}
+
+/* Socials */
+header .socials {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+  align-items: center;
+  height: 2rem;
+}
+
+header .socials li svg {
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-right: 0.25rem;
+  fill: var(--dark-grey);
+}
+
+header .socials li a:hover svg {
+  opacity: 0.75;
+}
+
+/* Home */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  header {
+    padding-bottom: 0;
+    margin-bottom: 2rem;
+  }
+  header .content {
+    flex-direction: column;
+    padding: 0 1rem 1.5rem 1rem;
+  }
+
+  header .content .avatar {
+    width: 5rem;
+  }
+
+  header .content h1 {
+    font-size: 2rem;
+  }
+
+  header .content h2 {
+    font-size: 0.65rem;
+  }
+
+  header .content .socials {
+    margin-bottom: 1rem;
+  }
+  header nav ul a .title {
+    display: none;
+  }
+
+  header nav ul a {
+    padding: 0.5rem 1.5rem;
+  }
+
+  header nav ul a .icon svg {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  header .content {
+    flex-direction: column;
+    padding: 0 1rem 1.5rem 1rem;
+  }
+
+  header .content > div {
+    justify-content: center;
+  }
+  header .content .socials {
+    margin-bottom: 1rem;
+  }
+  header nav ul a .title {
+    display: none;
+  }
+
+  header nav ul a {
+    padding: 0.5rem 1.5rem;
+  }
+
+  header nav ul a .icon svg {
+    margin-right: 0;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  header nav ul a .title {
+    display: none;
+  }
+
+  header nav ul a {
+    padding: 0.5rem 1.5rem;
+  }
+
+  header nav ul a .icon svg {
+    margin-right: 0;
+  }
+}

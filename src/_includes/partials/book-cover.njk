@@ -1,0 +1,20 @@
+{% macro render(book) %}
+{% set sideWidth = book.pageTotal / 100 * 6 + 4 %}
+
+<div class="book-cover"
+  style="--sideWidth: {{ sideWidth }}px;"
+>
+  <div class="book-cover-box">
+    <div class="book-cover-box-face">
+      <a href="/book/{{ book.slug }}-{{ book.id }}">
+       {% if book.coverImage %}
+          {% image book.coverImage, book.title, "100vw" %}
+        {% endif %}
+      {{ book.title }}
+      </a>
+    </div>
+    <div class="book-cover-box-side"></div>
+    <div class="book-cover-box-back"></div>
+  </div>
+</div>
+{% endmacro %}

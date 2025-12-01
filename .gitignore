@@ -1,0 +1,4 @@
+.env
+.cache
+_site
+node_modules

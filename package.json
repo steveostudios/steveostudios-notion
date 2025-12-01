@@ -1,0 +1,21 @@
+{
+  "name": "steveostudios-notion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve --watch --quiet",
+    "clear-cache": "rm -rf .cache",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-fetch": "^5.1.0",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@notionhq/client": "^4.0.2",
+    "dotenv": "^17.2.3"
+  }
+}

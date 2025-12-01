@@ -1,0 +1,216 @@
+
+{
+	"title": "Steveostudios",
+	"name": "Steve Stone",
+	"bio": "<p>Hi. I’m Steve Stone. Father of three boys, husband of the most incredible woman in the world, and Christ-follower. I'm passionate about coffee, design, youth ministry, and making things.</p><p>I started out at <a href='https://www.centralonline.tv/'>Central Christian Church</a> in Las Vegas doing video production while in attending UNLV's film school. Then God called me out to Louisville, Kentucky to work at <a href='https://www.southeastchristian.org/home'>Southeast Christian Church</a>. My great friend Dave Harris and I started Digital Stache and created motion backgrounds and a few app-based games (Spin That Wheel, Scorekeep, Ready, Set Go). We also had a podcast for a few years called <a href='https://churchtechtalk.com'>Church Tech Talk</a>, ran a site called Stuff I Can Use (formerly Vine Resources), and put on a free conference for church tech folks called Gurus.</p><p>I then worked at <a href='https://www.downloadyouthministry.com/'>Download Youth Ministry</a> making apps that help youth workers, like <a href='https://sidekick.tv/'>Sidekick</a>.</p><p>I just started working at <a href='https://playlister.app'>Playlister</a> where I hope to contribute to the incredible tools they make to help churches.</p>",
+	"location": "Louisville, KY",
+	"subtitle": "Developer. Designer. Youth Worker. Nerd.",
+	"contact": [
+		{
+			"icon": "envelope-light",
+			"value": "steveostudios@gmail.com",
+			"url": "mailto:steveostudios@gmail.com"
+		},
+		{
+			"icon": "phone-light",
+			"value": "502-489-0878",
+			"url": "tel:502-489-0878"
+		},
+		{
+			"icon": "map-pin-light",
+			"value": "Louisville, KY"
+		},
+		{
+			"icon": "link-light",
+			"value": "https://steveostudios.com",
+			"url": "https://steveostudios.com"
+		}
+	],
+	"work": [
+		{
+			"company": "Playlister",
+			"title": "Senior Software Engineer",
+			"dates": "05/2022 - Present",
+			"location": "Remote, Louisville, KY",
+			"description": [
+				"Full-stack developer, including APIs, NodeJS, React, GraphQL, Jest, WebDriverIO, Postgres.",
+				"Help create robust features in Figma before development.",
+				"Created and maintain a Storybook design system to maintain a consistent UI throughout applications in our monorepo.",
+				"Features planning from idea to design to code to deploy."
+			]
+		},
+		{
+			"company": "Download Youth Ministry",
+			"title": "Director of Technology",
+			"dates": "08/2015 - 05/2022",
+			"location": "Remote, Louisville, KY",
+			"description": [
+				"Designed and developed a fully-customizable presentation/games app called <a href=\"https://sidekick.tv\">Sidekick</a> to help youth workers have fun in their services.",
+				"Designed, developed, and maintained several web-based products, APIs, and internal tools.",
+				"Led DYM through technical decisions, maintained servers and code management, provided data analysis, and helped our team understand technical implications of decisions.",
+				"Handled technical customer support, led in-person and online training for products.",
+				"Maintained and developed tools on our e-commerce platform and trained our team on web standards and best practices."
+			]
+		},
+		{
+			"company": "Southeast Christian Church",
+			"title": "Creative Media Designer",
+			"dates": "08/2006 - 08/2015",
+			"location": "Louisville, KY",
+			"description": [
+				"Trained, recruited, and discipled a student-run video production team.",
+				"Helped design and maintain the production system for the Block (Student Ministry building) with an emphasis on cost efficiency and being easy for students to run.",
+				"Designed series graphics, created motion graphics, promotional material, print pieces, for all campuses' student ministry.",
+				"Helped with series planning, creative elements, and running games from stage.",
+				"Developed and ran stufficanuse.com, a website where we gave away series graphics for other churches to use for free."
+			]
+		},
+		{
+			"company": "Central Christian Church",
+			"title": "Video Director",
+			"dates": "08/2001 - 08/2006",
+			"location": "Las Vegas, NV",
+			"description": [
+				"Scheduled, trained, recruited, and discipled volunteer video team.",
+				"Directed and produced video for weekend services.",
+				"Maintained video systems for main auditorium and campus-wide.",
+				"Helped start Central Video Production Team where we created videos for every ministry, including weekend production."
+			]
+		},
+		{
+			"company": "Ethel M Chocolates",
+			"title": "CADD Operator",
+			"dates": "08/1999 - 08/2001",
+			"location": "Las Vegas, NV",
+			"description": [
+				"Worked with experienced engineers to draw parts and components for the factory lines.",
+				"Learned value of systems and efficiencies, as well as attention to detail.",
+				"Created some Flash header animations for mmsworld.com."
+			]
+		}
+	],
+	"education": [
+		{
+			"school": "University of Nevada, Las Vegas",
+			"study": "Film/Cinematography",
+			"dates": "09/2002 - 08/2006"
+		},
+		{
+			"school": "Advanced Technologies Academy",
+			"study": "CADD/Architecture",
+			"dates": "09/1998 - 05/2002"
+		}
+	],
+	"personality": {
+		"enneagram": "9w1",
+		"briggsMyers": "INFJ-T",
+		"strengthsFinder": [
+			"Connectedness",
+			"Ideation",
+			"Belief",
+			"Adaptation",
+			"Includer"
+		],
+		"workingGenius": [
+			"Invention",
+			"Tenacity",
+			"Wonder",
+			"Enablement",
+			"Galvanizing",
+			"Discernment"
+		],
+		"realYou": [
+      {"Spiritual Gifts": ["Server", "Teacher"]},
+        {"Capabilities": ["Practitioner"]},
+        {"Core Values": ["Tradition", "Creativity"]},
+        {"Service Style": ["Novelty"]},
+        {"Team Style": ["Creative & Imaginative"]},
+        {"Leadership Style": ["Conductor"]}
+    ]
+	},
+	"socials": [
+		{
+			"network": "github",
+			"url": "https://github.com/steveostudios",
+			"icon": "github"
+		},
+		{
+			"network": "vimeo",
+			"url": "https://vimeo.com/steveostudios",
+			"icon": "vimeo"
+		},
+		{
+			"network": "dribbble",
+			"url": "https://dribbble.com/steveostudios",
+			"icon": "dribbble"
+		},
+		{
+			"network": "twitter",
+			"url": "https://twitter.com/steveostudios",
+			"icon": "twitter"
+		}
+	],
+	"interests": [
+		{
+			"title": "reading",
+			"icon": "book-light"
+		},
+		{
+			"title": "teaching",
+			"icon": "screen-users-light"
+		},
+		{
+			"title": "coffee",
+			"icon": "mug-hot-light"
+		},
+		{
+			"title": "creating",
+			"icon": "paintbrush-fine-light"
+		}
+	],
+	"skills": [
+		"troubleshooting",
+		"creating",
+		"design systems",
+		"training",
+		"experimenting",
+		"production",
+		"self-learner",
+		"film"
+	],
+	"resumeBio": "<p>I love creating tools, spaces, and experiences that communicate the Gospel clearly. I am passionate about the power of discipleship. I believe that church services can be fun, inviting, and that the message sticks better if people feel loved, welcomed, and connected. I enjoy thinking deeply about problems, the thrill of live production, and creating sustainable systems.</p>",
+	"applications": [
+		{
+			"title": "Design",
+			"apps": ["Photoshop", "Illustrator", "XD", "Cinema 4D", "Figma", "Sketch"]
+		},
+		{
+			"title": "Video",
+			"apps": ["After Effects", "Premiere", "Final Cut Pro"]
+		},
+		{
+			"title": "Live Production",
+			"apps": [
+				"Playlister",
+				"ProPresenter",
+				"ProVideoPlayer",
+				"Zoom",
+				"OBS",
+				"Sidekick"
+			]
+		},
+		{
+			"title": "Software Development",
+			"apps": [
+				"Cursor",
+				"Javascript",
+				"React",
+				"Git",
+				"Node",
+				"Electron",
+				"GraphQL",
+				"SQL"
+			]
+		}
+	]
+}

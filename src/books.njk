@@ -1,0 +1,44 @@
+---
+layout: base
+title: "Books"
+permalink: "/books/index.html"
+---
+
+<div class="page books">
+  {% include "./_includes/partials/book-stats.njk" %}
+{% include "./_includes/partials/book-selector.njk" %}
+  {% if collections.stats.currentlyReading.length > 0 %}
+    <h3>
+      <div>
+        Currently Reading <span>{{ collections.stats.currentlyReadingBooks }} books</span>
+      </div>
+    </h3>
+    <ul class="shelf">
+      {% for book in collections.stats.currentlyReading %}
+        <li>
+          {% bookCover book, true %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% for stat in collections.stats.yearStats %}
+    <h3>
+      <div>
+        {{ stat.year }} <span>{{ stat.books }} books</span><span>{{ stat.pages }} pages</span>
+      </div>
+      {% if goals[stat.year] %}
+        <div>
+          <progress id="file" max="{{ goals[stat.year] }}" value="{{ stat.books }}"></progress><span>{{ stat.books }}/{{ goals[stat.year] }} books</span>
+        </div>
+      {% endif %}
+    </h3>
+    <ul class="shelf">
+      {% for book in stat.items %}
+        <li>
+          {% bookCover book %}
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</div>

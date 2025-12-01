@@ -1,0 +1,46 @@
+@import url("typography.css");
+@import url("header.css");
+@import url("footer.css");
+@import url("about.css");
+@import url("books.css");
+@import url("book-stats.css");
+@import url("book-selector.css");
+@import url("book-cover.css");
+@import url("projects.css");
+
+:root {
+  --primary-color: #e9a20a;
+  --blue: #2c7ccf;
+  --black: #1f1f1f;
+  --white: #f6f7f8;
+  --trim: #cfd8d1;
+  --grey: #b5b7ba;
+  --dark-grey: #545658;
+}
+
+body {
+  background: var(--white);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-variant-numeric: lining-nums;
+  -moz-font-feature-settings: "lnum" 1;
+  -moz-font-feature-settings: "lnum=1";
+  -ms-font-feature-settings: "lnum" 1;
+  -o-font-feature-settings: "lnum" 1;
+  -webkit-font-feature-settings: "lnum" 1;
+  font-feature-settings: "lnum" 1;
+}
+
+main {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr 4rem;
+}
+
+.page {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+  margin-bottom: 4rem;
+}

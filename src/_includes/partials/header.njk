@@ -1,0 +1,48 @@
+{% from "macros/icon.njk" import icon %}
+
+<header>
+  <div class="content">
+    <div>
+      <img class="avatar" src="/assets/img/avatar.jpg" alt="{{ me.name }}"/>
+      <div>
+        <h1><a href="/">{{ me.name }}</a></h1>
+        <h2>{{ me.subtitle }}</h2>
+<ul class="socials">
+          {% for social in me.socials %}
+          <li>
+            <a href={{social.url}} alt={{social.network}}>{{ icon(social.icon) }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+</div>
+    </div>
+      <nav>
+        <ul>
+          <li>
+            <a href="/">
+              {{ icon("home") }}
+              <span class="title">About</span>
+            </a>
+          </li>
+          <li>
+            <a href="/blog">
+                {{ icon("rss") }}
+              <span class="title">Blog</span>
+            </a>
+          </li>
+          <li>
+            <a href="/projects">
+                {{ icon("code-solid") }}
+              <span class="title">Projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="/books">
+              {{ icon("books") }}
+              <span class="title">Books</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+  </div>
+</header>

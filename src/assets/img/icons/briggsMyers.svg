@@ -1,0 +1,22 @@
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <path d="m62 14h4v100h-4z" />
+  <path d="m14 66h4v100h-4z" transform="matrix(0 -1 1 0 -52 80)" />
+  <g fill="#c4c4c4">
+    <path d="m16 16h20v20h-20z" />
+    <path d="m16 69h20v20h-20z" />
+    <path d="m69 16h20v20h-20z" />
+    <path d="m69 69h20v20h-20z" />
+    <path d="m16 39h20v20h-20z" />
+    <path d="m16 92h20v20h-20z" />
+    <path d="m69 39h20v20h-20z" />
+    <path d="m69 92h20v20h-20z" />
+    <path d="m39 16h20v20h-20z" />
+    <path d="m39 69h20v20h-20z" />
+    <path d="m92 16h20v20h-20z" />
+    <path d="m92 69h20v20h-20z" />
+    <path d="m39 39h20v20h-20z" />
+    <path d="m39 92h20v20h-20z" />
+    <path d="m92 39h20v20h-20z" />
+    <path d="m92 92h20v20h-20z" />
+  </g>
+</svg>

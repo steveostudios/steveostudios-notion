@@ -1,0 +1,90 @@
+---
+layout: "base.njk"
+title: "Home"
+---
+ 
+{% from "macros/icon.njk" import icon %}
+ 
+<div class="page about">
+  <div class="bio">
+    <h3>About</h3>
+    {{ me.bio | safe }}
+  </div>
+
+  <div class="work history">
+    <h3>Work History</h3>
+    <ul>
+   {% for work in me.work %}
+      <li>
+        <span class="dot-double"></span>
+        <div>
+          <h4>{{ work.company }}</h4>
+          <p>{{ work.title }}</p>
+          <p class="dates">{{ work.dates }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="education history">
+    <h3>Education History</h3>
+    <ul>
+    {% for education in me.education %}
+      <li>
+        <span class="dot-double"></span>
+        <div>
+          <h4>{{ education.school }}</h4>
+          <p>{{ education.study }}</p>
+          <p class="dates">{{ education.dates }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="enneagram personality">
+    <h3>Enneagram</h3>
+    {{ icon("enneagram") }}
+    <span>{{ me.personality.enneagram}}</span>
+  </div>
+
+  <div class="briggsMyers personality">
+    <h3>Briggs-Myers</h3>
+    {{ icon("briggsMyers") }}
+    <span>{{ me.personality.briggsMyers}}</span>
+  </div>
+
+  <div class="strengthsFinder personality">
+    <h3>Strengths Finder</h3>
+    {{ icon("strengthsFinder") }}
+    <ol>
+      {% for strength in me.personality.strengthsFinder %}
+      <li>{{ strength }}</li>
+      {% endfor %}
+    </ol>
+  </div>
+
+  <div class="workingGenius personality">
+    <h3>Working Genius</h3>
+    {{ icon("workingGenius") }}
+    <ol>
+      {% for genius in me.personality.workingGenius %}
+      <li>{{ genius }}</li>
+      {% endfor %}
+    </ol>
+  </div>
+
+    <div class="realYou personality">
+    <h3>Real You</h3>
+    {{ icon("fingerprint") }}
+    <ul>
+      {% for category in me.personality.realYou %}
+        {% for title, attributes in category %}
+          <li><span>{{ title }}</span>: {{ attributes | join(", ") }}</li>
+        {% endfor %}
+      {% endfor %}
+    </ul>
+  </div>
+  
+</div>

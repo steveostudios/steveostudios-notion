@@ -1,0 +1,17 @@
+---
+layout: base
+pagination:
+  data: books
+  size: 1
+  alias: book
+permalink: "/books/{{ book.slug }}-{{ book.id }}/index.html"
+---
+
+<article>
+  <h1>{{ book.title }}</h1>
+  {% if book.author %}<p>by {{ book.author }}</p>{% endif %}
+  {% if book.pageTotal %}
+    <p>{{ book.pagesRead or 0 }} / {{ book.pageTotal }} pages read</p>
+  {% endif %}
+</article>
+
