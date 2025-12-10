@@ -1,0 +1,16 @@
+ <div class="slider">
+  {% for image in project.images %}
+    {% set src = image.url %}
+    {% set alt = image.alt %} 
+
+    {% if loop.first == true %}
+      <input type="radio" name="slide-switch" id="{{ image.filename | replace('.jpg', '') }}" checked="checked" />
+    {% else %}
+      <input type="radio" name="slide-switch" id="{{ image.filename | replace('.jpg', '') }}" />
+    {% endif %}
+    <label for="{{ image.filename | replace('.jpg', '') }}">
+      {% image src, alt, "project" %}
+    </label>
+    {% image src, alt, "project" %}
+  {% endfor %}
+</div>

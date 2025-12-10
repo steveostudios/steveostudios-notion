@@ -61,6 +61,11 @@ module.exports = function (eleventyConfig) {
       decoding: "async",
     };
 
+    if (!metadata) {
+      console.error("Metadata is null/undefined for src:", src);
+      return "";
+    }
+
     return Image.generateHTML(metadata, imageAttributes);
   });
 

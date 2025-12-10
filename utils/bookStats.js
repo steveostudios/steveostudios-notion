@@ -2,15 +2,15 @@
 const bookStats = (collectionApi) => {
 	const books = collectionApi
 		.getAll()[0]
-		.data.books.sort((a, b) => new Date(b.dateFinish) - new Date(a.dateFinish));
+		.data.books.sort((a, b) => (b.dateFinish || "").localeCompare(a.dateFinish || ""));
 	// create array of years with their book/page stats.
 	// -- used for graphs, stats, and "shelves"
 	const yearStats = Object.entries(
 		books
 			.filter((book) => book.dateFinish) // filter only finished books
-			.sort((a, b) => new Date(b.dateFinish) - new Date(a.dateFinish)) // sort by finish date
+			.sort((a, b) => b.dateFinish.localeCompare(a.dateFinish)) // sort by finish date
 			.reduce((acc, cur) => {
-				const year = new Date(cur["dateFinish"]).getFullYear();
+				const year = parseInt(cur["dateFinish"].split('-')[0]);
 				if (!acc[year]) {
 					acc[year] = [];
 				}
@@ -42,7 +42,7 @@ const bookStats = (collectionApi) => {
 	const now = new Date().getFullYear();
 	const thisYear = books.filter((book) => {
 		if (!book.dateFinish) return false;
-		return new Date(book.dateFinish).getFullYear() === now;
+		return parseInt(book.dateFinish.split('-')[0]) === now;
 	});
 	const thisYearBooks = thisYear.length;
 	const thisYearPages = thisYear.reduce((acc, cur) => acc + (cur.pageTotal || 0), 0);
@@ -57,7 +57,7 @@ const bookStats = (collectionApi) => {
 	// Current
 	const currentlyReading = books
 		.filter((book) => book.dateStart !== null && book.dateFinish === null)
-		.sort((a, b) => new Date(b.dateStart) - new Date(a.dateStart)); // sort by start date, most recent first
+		.sort((a, b) => (b.dateStart || "").localeCompare(a.dateStart || "")); // sort by start date, most recent first
 	const currentlyReadingBooks = currentlyReading.length;
 	const currentlyReadingPages = currentlyReading.reduce(
 		(acc, cur) => acc + (cur.pageTotal || 0),

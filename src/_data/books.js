@@ -21,7 +21,7 @@ module.exports = async function () {
     const title = props["Title"]?.title?.[0]?.plain_text || "";
     const subtitle = props["Subtitle"]?.rich_text?.[0]?.plain_text || "";
     const slug = props.Slug?.formula?.[0]?.string || slugify(props.Title?.title?.[0]?.plain_text) || "untitled";
-    const author = props["Author(s)"]?.rich_text?.[0]?.plain_text || "";
+    const authors = props["Author(s)"]?.multi_select || null;
     const pageTotal = props["Page Total"]?.number || null;
     const pagesRead = props["Pages Read"]?.number || null;
     const minutesTotal = props["Minutes Total"]?.number || null;
@@ -33,6 +33,7 @@ module.exports = async function () {
     const stars = props["Stars"]?.select?.name.length || null;
     const asin = props["ASIN"]?.rich_text?.[0]?.plain_text || "";
     const isbn = props["ISBN"]?.rich_text?.[0]?.plain_text || "";
+    const url = props["URL"]?.url || null;
     const fiction = props["Fiction"]?.checkbox || false;
     const own = props["Own"]?.checkbox || false;
       
@@ -59,7 +60,7 @@ module.exports = async function () {
       title,
       subtitle,
       slug,
-      author,
+      authors,
       pageTotal,
       pagesRead,
       minutesTotal,
@@ -71,6 +72,7 @@ module.exports = async function () {
       stars,
       asin,
       isbn,
+      url,
       coverImage,
       fiction,
       own

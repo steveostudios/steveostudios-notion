@@ -1,0 +1,13 @@
+---
+layout: layouts/resume.njk
+pagination:
+    data: resumes
+    size: 1
+    alias: resume
+permalink: "resume/{{ resume.slug }}/"
+---
+<div class="page resume">
+  {% include "./../_includes/partials/resume.njk" %}
+</div>
+
+

@@ -1,0 +1,46 @@
+<aside>
+  {% if project.frontEnd %}
+    <section>
+      <h4>Front End</h4>
+      <ul>
+        {% for item in project.frontEnd %}
+        <li>{{ item.name }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+  {% if project.backEnd %}
+    <section>
+      <h4>Back End</h4>
+      <ul>
+        {% for item in project.backEnd %}
+        <li>{{ item.name }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+  {% if project.host %}
+    <section>
+      <h4>Hosting</h4>
+      <ul>
+        {% for item in project.host %}
+        <li>{{ item.name }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+  {% if project.url %}
+    {% if project.hiddenUrl != true %}
+      <section>
+        <a href="{{ project.url }}">Go to site</a>
+      </section>
+    {% endif %}
+  {% endif -%}
+  {% if project.repo %}
+    {% if project.hiddenRepo != true %}
+      <section>
+        <a href="{{ project.repo }}">Go to repo</a>
+      </section>
+    {% endif %}
+  {% endif %}
+</aside>

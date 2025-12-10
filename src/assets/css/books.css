@@ -88,7 +88,7 @@
 
 /* Individual Book Page */
 .page.book h1 {
-	margin-bottom: 3rem;
+	margin-bottom: 0;
 	line-height: 1.2;
 }
 .page.book h1 svg {
@@ -101,8 +101,8 @@
 	font-weight: normal;
 }
 .page.book h2 {
-	margin-left: 2rem;
 	font-size: 14px;
+  margin-bottom: 24px;
 }
 
 .page.book p {
@@ -120,6 +120,10 @@
 	grid-template-rows: auto auto;
 	gap: 2rem;
 	margin-top: 1rem;
+}
+
+.page.book .content .book-cover {
+	margin-bottom: 24px;
 }
 
 .page.book .content aside {

@@ -16,6 +16,8 @@
     "@11ty/eleventy-fetch": "^5.1.0",
     "@11ty/eleventy-img": "^6.0.4",
     "@notionhq/client": "^4.0.2",
-    "dotenv": "^17.2.3"
+    "dotenv": "^17.2.3",
+    "markdown-it": "^14.1.0",
+    "notion-to-md": "^3.1.9"
   }
 }

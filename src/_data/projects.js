@@ -1,5 +1,11 @@
 
-const { fetchDatabase } = require("./notionClient");
+const { fetchDatabase, notion } = require("./notionClient");
+const { AssetCache } = require("@11ty/eleventy-fetch");
+const { NotionToMarkdown } = require("notion-to-md");
+const MarkdownIt = require("markdown-it");
+
+const n2m = new NotionToMarkdown({ notionClient: notion });
+const md = new MarkdownIt();
 
 module.exports = async function () {
   const dbId = process.env.NOTION_DB_PROJECTS;
@@ -13,8 +19,7 @@ module.exports = async function () {
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/(^-|-$)/g, "");
 
-
-  const mappedItems = raw.map((item, index) => {
+  const mappedItems = await Promise.all(raw.map(async (item, index) => {
     const props = item.properties;
 
     const id = item.id;
@@ -30,10 +35,30 @@ module.exports = async function () {
     const imagesProp = props["Images"];
     let images = [];
     if (imagesProp && imagesProp.files && imagesProp.files.length > 0) {
-      images = imagesProp.files.map(file => file.file?.url || file.external?.url);
+      images = imagesProp.files.map(file => {
+        return {
+          url: file.file?.url || file.external?.url,
+          alt: title,
+          filename: file.name
+        };
+      });
     }
 
-    const image = images.length > 0 ? images[0] : null;
+    const image = images.length > 0 ? images[0].url : null;
+
+    // Fetch Content
+    const cacheKey = `project_content_${id}`;
+    const cache = new AssetCache(cacheKey);
+    let content = "";
+
+    if (cache.isCacheValid("1d")) {
+      content = cache.getCachedValue();
+    } else {
+      const mdblocks = await n2m.pageToMarkdown(id);
+      const mdString = n2m.toMarkdownString(mdblocks);
+      content = md.render(mdString.parent);
+      await cache.save(content, "json");
+    }
       
     return {
       id,
@@ -47,9 +72,10 @@ module.exports = async function () {
       client,
       image,
       images,
-      order
+      order,
+      content
     };
-  });
+  }));
 
   return mappedItems.sort((a, b) => {
     return (a.order || 0) - (b.order || 0);

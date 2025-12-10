@@ -4,14 +4,64 @@ pagination:
   data: books
   size: 1
   alias: book
-permalink: "/books/{{ book.slug }}-{{ book.id }}/index.html"
+permalink: "/book/{{ book.slug }}-{{ book.id }}/index.html"
 ---
+{% from "macros/icon.njk" import icon %}
 
-<article>
-  <h1>{{ book.title }}</h1>
-  {% if book.author %}<p>by {{ book.author }}</p>{% endif %}
+<div class="page book">
+  <h1>
+    {{ icon("book-light") }} {{ book.title }}
+  </h1>
+  <h2>
+    {% if book.authors %}<span>by {% for author in book.authors %}{{ author.name }}{% if not loop.last %}, {% endif %}{% endfor %}</span>{% endif %}
+  </h2>
+  <div class="content has-book">
+    <div>
+      {% bookCover book %}
+         {% if book.dateStart %}
+          <p>{{ book.dateStart }} - 
+          {% if book.dateFinish %}
+            {{ book.dateFinish }}
+          {% else %}
+            Currently Reading
+          {% endif %}
+          </p>
+        {% endif %}
   {% if book.pageTotal %}
-    <p>{{ book.pagesRead or 0 }} / {{ book.pageTotal }} pages read</p>
+    <p>{{ book.pageTotal }} Pages</p>
   {% endif %}
-</article>
-
+ {% if book.fiction %}
+        Fiction
+      {% else %}
+        Non-Fiction
+      {% endif %}
+      {% if book.pagesTotal %}
+        <p>{{ book.pagesRead }}/{{ book.pagesTotal }}</p>
+      {% endif %}
+{% if book.url %}
+        <a href="{{ book.url }}">Get it here</a>
+      {% endif %}
+      {% if book.asin %}
+        <a href="https://www.amazon.com/dp/{{ book.asin }}/">Get it here</a>
+      {% endif %}
+    </div>
+    <article>
+      <div class="subheader">
+        {% if book.stars > 0 %}
+          <div class="stars">
+            <div class="stars-back">
+              {% for i in range(5) %}
+                {{ icon("star-solid") }}
+              {% endfor %}
+            </div>
+            <div class="stars-front">
+              {% for i in range(book.stars) %}
+                {{ icon("star-solid") }}
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+     </div>  
+    </article>
+  </div>
+</div>

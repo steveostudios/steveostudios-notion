@@ -1,0 +1,97 @@
+<header>
+    <img class="avatar" src="/img/steveostudios2.jpg" />
+    <div class="headings">
+      <h1>{{ me.name }}</h1>
+      <h2>{{ me.subtitle }}</h2>
+    </div>
+    <div class="contact">
+      {% for item in me.contact %}
+        <div>{% if item.url %}
+          <a href="{{item.url}}">{{ item.value }}</a>
+          {% else %}
+          {{ item.value }}
+          {% endif %}
+          {{ item.icon | svgContents: "icon" }}</div>
+      {% endfor %}
+    </div>
+    <div class="bio">
+      {% if resume.bio %}
+        {{ resume.bio}}
+      {% else %}
+        {{ me.resumeBio }}
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="work history">
+    <h3>Work Experience</h3>
+    <ul>
+      {% for work in me.work %}
+      <li>
+        <div>
+          <h4>{{ work.title }}, {{ work.company }}</h4>
+          <p class="dates">{{ work.location }} <span>{{ work.dates }}</span></p>
+          <ul>
+            {% for task in work.description %}
+              <li>{{ task }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="skills">
+    <h3>Skills</h3>
+    <ul>
+      {% for skill in me.skills %}
+        <li>{{ skill }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="applications">
+    <h3>Applications</h3>
+    {% for skill in me.applications %}
+      <h4>{{ skill.title }}</h4>
+      <p>
+        {% for app in skill.apps %}
+          {% unless forloop.last %}
+            {{ app }}, 
+          {% else %}
+            {{ app}}
+          {% endunless %}
+        {% endfor %}
+      </p>
+    {% endfor %}
+  </div>
+
+  <div class="interests">
+    <h3>Interests</h3>
+    <ul>
+      {% for interest in me.interests %}
+        <li>{{ interest.icon | svgContents: "icon" }}{{ interest.title }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+
+  <div class="education history">
+    <h3>Education History</h3>
+    <ul>
+      {% for education in me.education %}
+      <li>
+        <div>
+          <h4>{{ education.school }}</h4>
+          <p>{{ education.study }}</p>
+          <p class="dates">{{ education.dates }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% if resume.image %}
+  {% assign src = resume.image %}
+  {% assign alt = resume.name %}
+    <div class="thankyou">Thank you for your time {% image src, alt, "resume", "png" %}</div>
+  {% endif %}

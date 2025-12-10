@@ -49,7 +49,7 @@ module.exports = async function (book, showProgress = false) {
     <div class="book-cover-box-side"></div>
     <div class="book-cover-box-back"></div>
   </div>
+${showProgress ? `<progress value="${book.progress}" max="1"></progress>` : ""}
 </div>
-${showProgress ? `<progress value="${book.progress}" max="100"></progress>` : ""}
 `;
 };

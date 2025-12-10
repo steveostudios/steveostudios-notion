@@ -1,0 +1,82 @@
+.slider {
+  width: 100%;
+  position: relative;
+  padding-top: 55%;
+  display: flex;
+  max-width: calc(100vw - 4rem);
+  justify-content: center;
+}
+
+.slider>img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  transition: opacity 0.5s ease-in-out;
+  border: 1px solid var(--trim);
+}
+
+.slider input[type="radio"] {
+  display: none;
+}
+
+.slider label {
+  margin: 18px 10px 0 0;
+  float: left;
+  cursor: pointer;
+  opacity: 0.6;
+  border: 2px solid var(--trim);
+  min-width: 1.5rem;
+  min-height: 1.5rem;
+  border-radius: 1rem;
+}
+
+.slider label img {
+  border: 1px solid var(--trim);
+  display: block;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  max-width: 100px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  display: none;
+}
+
+.slider input[type="radio"]:checked+label {
+  opacity: 1;
+  background-color: var(--primary-color);
+}
+
+.slider input[type="radio"]~img {
+  opacity: 0;
+}
+
+.slider input[type="radio"]:checked+label+img {
+  opacity: 1;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+ .slider label {
+    border: none;
+  }
+
+  .slider label img {
+    width: 100px;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .slider label {
+    border: none;
+  }
+
+  .slider label img {
+    width: 100px;
+    display: block;
+  }
+}
