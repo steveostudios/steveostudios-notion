@@ -8,6 +8,7 @@
 @import url("book-cover.css");
 @import url("projects.css");
 @import url("project-slider.css");
+@import url("resume.css");
 
 :root {
   --primary-color: #e9a20a;

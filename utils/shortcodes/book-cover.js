@@ -2,28 +2,10 @@ const Image = require("@11ty/eleventy-img");
 
 module.exports = async function (book, showProgress = false) {
   let imageHtml = "";
-  if (book.coverImage) {
+  if (book.coverImage && book.coverImage.large) {
     try {
-      let metadata = await Image(book.coverImage, {
-        widths: [300, 600],
-        formats: ["jpeg"],
-        outputDir: "./_site/assets/img/",
-        urlPath: "/assets/img/",
-        cacheOptions: {
-          duration: "1d",
-          directory: ".cache",
-          removeUrlQueryParams: false,
-        },
-      });
-
-      let imageAttributes = {
-        alt: book.title,
-        sizes: "100vw",
-        loading: "lazy",
-        decoding: "async",
-      };
-
-      imageHtml = Image.generateHTML(metadata, imageAttributes);
+      // Use the pre-optimized large image
+      imageHtml = `<img src="${book.coverImage.large}" alt="${book.title}" loading="lazy" decoding="async" style="width: 100%; height: auto;">`;
     } catch (e) {
       console.error(`[bookCover] Error generating image for ${book.title}:`, e);
     }

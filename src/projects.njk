@@ -10,7 +10,7 @@ permalink: "/projects/index.html"
     <li>
       <a href="/project/{{ project.slug }}">
     {% if project.image %}
-    <img src="{{ project.image }}" alt="{{ project.title }}" />
+    <img src="{{ project.image.medium }}" alt="{{ project.title }}" />
     {% endif %}
       <div>
         <h2>{{ project.title }}</h2>

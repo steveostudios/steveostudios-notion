@@ -1,6 +1,6 @@
  <div class="slider">
   {% for image in project.images %}
-    {% set src = image.url %}
+    {% set src = image.large %}
     {% set alt = image.alt %} 
 
     {% if loop.first == true %}
@@ -9,8 +9,8 @@
       <input type="radio" name="slide-switch" id="{{ image.filename | replace('.jpg', '') }}" />
     {% endif %}
     <label for="{{ image.filename | replace('.jpg', '') }}">
-      {% image src, alt, "project" %}
+      <img src="{{ image.thumb }}" alt="{{ alt }}" loading="lazy" />
     </label>
-    {% image src, alt, "project" %}
+    <img src="{{ image.large }}" alt="{{ alt }}" loading="lazy" />
   {% endfor %}
 </div>

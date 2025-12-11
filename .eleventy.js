@@ -39,12 +39,12 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addFilter("to_ordinal", numToOrdinal);
   
   // Images
-  eleventyConfig.addNunjucksAsyncShortcode("image", async function(src, alt, sizes) {
+  eleventyConfig.addNunjucksAsyncShortcode("image", async function(src, alt, sizes, format) {
     if(!src) return "";
 
     let metadata = await Image(src, {
       widths: [300, 600],
-      formats: ["jpeg"],
+      formats: [format || "jpeg"],
       outputDir: "./_site/assets/img/",
       urlPath: "/assets/img/",
       cacheOptions: {

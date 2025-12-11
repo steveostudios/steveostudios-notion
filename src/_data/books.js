@@ -1,5 +1,6 @@
 
-const { fetchDatabase } = require("./notionClient");
+const { fetchDatabase, notion } = require("./notionClient");
+const { slugify, fetchPageContent, extractCoverImage, optimizeImage, limitConcurrency } = require("../utils/notion-helpers");
 
 module.exports = async function () {
   const dbId = process.env.NOTION_DB_BOOKS;
@@ -7,14 +8,7 @@ module.exports = async function () {
 
   const raw = await fetchDatabase(dbId);
 
-  const slugify = (str) => 
-  str
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
-
-
-  const mappedBooks = raw.map((page, index) => {
+  const mappedBooks = await limitConcurrency(raw, async (page, index) => {
     const props = page.properties;
 
     const id = page.id;
@@ -37,23 +31,11 @@ module.exports = async function () {
     const fiction = props["Fiction"]?.checkbox || false;
     const own = props["Own"]?.checkbox || false;
       
-    let coverImage = null;
-    if (page.cover) {
-      if (page.cover.type === "external") {
-        coverImage = page.cover.external.url;
-      } else if (page.cover.type === "file") {
-        coverImage = page.cover.file.url;
-      }
-    }
+    const rawCoverImage = extractCoverImage(page, props["Cover"]);
+    const coverImage = await optimizeImage(rawCoverImage, "book");
     
-    const coverProp = props["Cover"];
-    if (coverProp && coverProp.files && coverProp.files.length > 0) {
-        if (!coverImage) {
-             coverImage = coverProp.files[0].file?.url || coverProp.files[0].external?.url;
-        }
-    }
-    
-    // if (coverImage) console.log("Found cover for:", title);
+    // Fetch Content
+    const content = await fetchPageContent(id, notion);
     
     return {
       id,
@@ -75,9 +57,10 @@ module.exports = async function () {
       url,
       coverImage,
       fiction,
-      own
+      own,
+      content
     };
-  });
+  }, 5);
 
   return mappedBooks;
 };

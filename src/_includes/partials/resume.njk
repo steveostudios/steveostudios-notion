@@ -1,5 +1,8 @@
+
+{% from "macros/icon.njk" import icon %}
+
 <header>
-    <img class="avatar" src="/img/steveostudios2.jpg" />
+    <img class="avatar" src="/assets/img/avatar.jpg" />
     <div class="headings">
       <h1>{{ me.name }}</h1>
       <h2>{{ me.subtitle }}</h2>
@@ -11,7 +14,7 @@
           {% else %}
           {{ item.value }}
           {% endif %}
-          {{ item.icon | svgContents: "icon" }}</div>
+          {{ icon(item.icon) }}</div>
       {% endfor %}
     </div>
     <div class="bio">
@@ -31,7 +34,7 @@
         <div>
           <h4>{{ work.title }}, {{ work.company }}</h4>
           <p class="dates">{{ work.location }} <span>{{ work.dates }}</span></p>
-          <ul>
+         <ul>
             {% for task in work.description %}
               <li>{{ task }}</li>
             {% endfor %}
@@ -57,11 +60,11 @@
       <h4>{{ skill.title }}</h4>
       <p>
         {% for app in skill.apps %}
-          {% unless forloop.last %}
+          {% if not loop.last %}
             {{ app }}, 
           {% else %}
             {{ app}}
-          {% endunless %}
+          {% endif %}
         {% endfor %}
       </p>
     {% endfor %}
@@ -71,7 +74,7 @@
     <h3>Interests</h3>
     <ul>
       {% for interest in me.interests %}
-        <li>{{ interest.icon | svgContents: "icon" }}{{ interest.title }}</li>
+        <li>{{ icon(interest.icon) }}{{ interest.title }}</li>
       {% endfor %}
     </ul>
   </div>
@@ -91,7 +94,7 @@
     </ul>
   </div>
   {% if resume.image %}
-  {% assign src = resume.image %}
-  {% assign alt = resume.name %}
-    <div class="thankyou">Thank you for your time {% image src, alt, "resume", "png" %}</div>
+  {% set src = resume.image.large %}
+  {% set alt = resume.name %}
+    <div class="thankyou">Thank you for your time <img src="{{ src }}" alt="{{ alt }}" loading="lazy" /></div>
   {% endif %}

@@ -39,13 +39,14 @@ permalink: "/book/{{ book.slug }}-{{ book.id }}/index.html"
         <p>{{ book.pagesRead }}/{{ book.pagesTotal }}</p>
       {% endif %}
 {% if book.url %}
-        <a href="{{ book.url }}">Get it here</a>
+        <p><a href="{{ book.url }}">Get it here</a></p>
       {% endif %}
       {% if book.asin %}
-        <a href="https://www.amazon.com/dp/{{ book.asin }}/">Get it here</a>
+        <p><a href="https://www.amazon.com/dp/{{ book.asin }}/">Get it here</a></p>
       {% endif %}
     </div>
     <article>
+      {{ book.content | safe }}
       <div class="subheader">
         {% if book.stars > 0 %}
           <div class="stars">

@@ -1,11 +1,6 @@
 
 const { fetchDatabase, notion } = require("./notionClient");
-const { AssetCache } = require("@11ty/eleventy-fetch");
-const { NotionToMarkdown } = require("notion-to-md");
-const MarkdownIt = require("markdown-it");
-
-const n2m = new NotionToMarkdown({ notionClient: notion });
-const md = new MarkdownIt();
+const { slugify, fetchPageContent, extractImages, optimizeImage, limitConcurrency } = require("../utils/notion-helpers");
 
 module.exports = async function () {
   const dbId = process.env.NOTION_DB_PROJECTS;
@@ -13,13 +8,7 @@ module.exports = async function () {
 
   const raw = await fetchDatabase(dbId);
 
-  const slugify = (str) => 
-  str
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
-
-  const mappedItems = await Promise.all(raw.map(async (item, index) => {
+  const mappedItems = await limitConcurrency(raw, async (item, index) => {
     const props = item.properties;
 
     const id = item.id;
@@ -32,33 +21,20 @@ module.exports = async function () {
     const githubUrl = props["Github URL"]?.url || null;
     const client = props["Client"]?.select?.name || "Personal";
     const order = props["Order"]?.number || null;    
-    const imagesProp = props["Images"];
-    let images = [];
-    if (imagesProp && imagesProp.files && imagesProp.files.length > 0) {
-      images = imagesProp.files.map(file => {
-        return {
-          url: file.file?.url || file.external?.url,
-          alt: title,
-          filename: file.name
-        };
-      });
-    }
-
-    const image = images.length > 0 ? images[0].url : null;
+    
+    const rawImages = extractImages(props["Images"], title);
+    const images = await Promise.all(rawImages.map(async (img) => {
+      const optimized = await optimizeImage(img.url, "project");
+      return {
+        ...img,
+        ...optimized
+      };
+    }));
+    
+    const image = images.length > 0 ? images[0] : null;
 
     // Fetch Content
-    const cacheKey = `project_content_${id}`;
-    const cache = new AssetCache(cacheKey);
-    let content = "";
-
-    if (cache.isCacheValid("1d")) {
-      content = cache.getCachedValue();
-    } else {
-      const mdblocks = await n2m.pageToMarkdown(id);
-      const mdString = n2m.toMarkdownString(mdblocks);
-      content = md.render(mdString.parent);
-      await cache.save(content, "json");
-    }
+    const content = await fetchPageContent(id, notion);
       
     return {
       id,
@@ -75,7 +51,7 @@ module.exports = async function () {
       order,
       content
     };
-  }));
+  }, 5);
 
   return mappedItems.sort((a, b) => {
     return (a.order || 0) - (b.order || 0);
