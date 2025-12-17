@@ -1,0 +1,21 @@
+---
+layout: base
+pagination:
+  data: posts
+  size: 1
+  alias: post
+permalink: "/posts/{{ post.slug }}/index.html"
+renderData:
+  title: "{{ post.title }}"
+---
+
+<article class="page post">
+  <div class="header">
+    <h1>{{ post.title }}</h1>
+    <time datetime="{{ post.date }}">{{ post.date | date("MMMM D, YYYY") }}</time>
+  </div>
+
+  <div class="content">
+    {{ post.content | safe }}
+  </div>
+</article>

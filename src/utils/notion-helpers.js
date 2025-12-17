@@ -21,14 +21,33 @@ const slugify = (str) => {
  * Fetches page content from Notion, converts to HTML, and caches it.
  * @param {string} id - Notion Page ID
  * @param {object} notionClient - Notion Client instance
+ * @param {string} lastEditedTime - ISO timestamp of when the page was last edited
  * @returns {Promise<string>} HTML content
  */
-const fetchPageContent = async (id, notionClient) => {
+const fetchPageContent = async (id, notionClient, lastEditedTime) => {
   const cacheKey = `content_${id}`;
   const cache = new AssetCache(cacheKey);
   
-  if (cache.isCacheValid("1d")) {
-    return cache.getCachedValue();
+  // If we have a cached value, check if it's still fresh based on lastEditedTime
+  if (cache.isCacheValid("1y")) { // Check if cache exists at all (long duration)
+    try {
+      const cachedData = cache.getCachedValue();
+      // If we have mapped the lastEditedTime and it matches, return cached content
+      // Note: AssetCache returns a Promise for getCachedValue() usually, but here 
+      // we need to be careful. eleventy-fetch's AssetCache behavior:
+      // if we save an object { timestamp, content }, we can retrieve it.
+      
+      // Let's assume we will save: { lastEditedTime, content }
+      const cachedObj = await cachedData;
+      
+      if (cachedObj && cachedObj.lastEditedTime === lastEditedTime) {
+        // Content hasn't changed!
+        return cachedObj.content;
+      }
+      console.log(`[Cache] Content stale for ${id} (Remote: ${lastEditedTime} vs Local: ${cachedObj?.lastEditedTime})`);
+    } catch (e) {
+      // Cache might be in old format or invalid, proceed to fetch
+    }
   }
 
   const n2m = new NotionToMarkdown({ notionClient: notionClient });
@@ -37,7 +56,14 @@ const fetchPageContent = async (id, notionClient) => {
   const content = mdString.parent ? md.render(mdString.parent) : "";
   
   if (content) {
-    await cache.save(content, "json");
+    // Save both content and timestamp
+    await cache.save({
+      lastEditedTime,
+      content
+    }, "json");
+  } else {
+      // Even if empty, strictly speaking we should probably cache it to avoid re-fetching empty pages constantly?
+      // But keeping existing logic of only caching if content exists for now to be safe.
   }
   
   return content;
@@ -117,6 +143,14 @@ const IMAGE_CONFIG = {
       { width: 500, height: 48, key: "large" }
     ],
     format: "png"
+  },
+  post: {
+    sizes: [
+      { width: 300, height: 200, key: "thumb" },
+      { width: 600, height: 400, key: "medium" },
+      { width: 1200, height: 800, key: "large" }
+    ],
+    format: "jpeg"
   }
 };
 

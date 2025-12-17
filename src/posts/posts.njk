@@ -1,0 +1,37 @@
+---
+layout: base
+title: "Posts"
+permalink: "/posts/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+pagination:
+  data: posts
+  size: 10
+  alias: postsList
+---
+
+<div class="page posts">
+  <ul>
+  {% for post in postsList %}
+    <li>
+      <a href="/posts/{{ post.slug }}">
+        <div>
+          <div class="title">{{ post.title }}</div>
+          <time datetime="{{ post.date }}">{{ post.date | date("MMMM D, YYYY") }}</time>
+        </div>
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+
+  {% if pagination.href.previous or pagination.href.next %}
+  <nav aria-labelledby="pagination">
+    <div class="pagination">
+      {% if pagination.href.previous %}
+        <a href="{{ pagination.href.previous }}">Previous</a>
+      {% endif %}
+      {% if pagination.href.next %}
+        <a href="{{ pagination.href.next }}">Next</a>
+      {% endif %}
+    </div>
+  </nav>
+  {% endif %}
+</div>

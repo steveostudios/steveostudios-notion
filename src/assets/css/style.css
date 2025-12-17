@@ -9,6 +9,8 @@
 @import url("projects.css");
 @import url("project-slider.css");
 @import url("resume.css");
+@import url("posts.css");
+@import url("analytics.css");
 
 :root {
   --primary-color: #e9a20a;

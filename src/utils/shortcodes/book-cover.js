@@ -24,7 +24,7 @@ module.exports = async function (book, showProgress = false) {
 >
   <div class="book-cover-box">
     <div class="book-cover-box-face">
-      <a href="/book/${book.slug}-${book.id}">
+      <a href="/book/${book.slug}">
         ${imageHtml}
       </a>
     </div>

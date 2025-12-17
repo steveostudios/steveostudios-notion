@@ -5,13 +5,11 @@ permalink: "/books/index.html"
 ---
 
 <div class="page books">
-  {% include "./_includes/partials/book-stats.njk" %}
-{% include "./_includes/partials/book-selector.njk" %}
+  {% include "./../_includes/partials/book-stats.njk" %}
+  {% include "./../_includes/partials/book-selector.njk" %}
   {% if collections.stats.currentlyReading.length > 0 %}
     <h3>
-      <div>
-        Currently Reading
-      </div>
+      <div>Currently Reading</div>
     </h3>
     <ul class="shelf">
       {% for book in collections.stats.currentlyReading %}

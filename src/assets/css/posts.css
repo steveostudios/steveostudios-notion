@@ -1,0 +1,125 @@
+.posts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.posts ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.posts li {
+  border-bottom: 1px solid var(--trim);
+}
+
+.posts li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 2rem 0;
+  color: var(--black);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  flex-direction: column;
+  line-height: 0.875;
+  font-size: 2em;
+}
+
+.posts li a .title {
+  font-size: 1rem;
+}
+
+.posts li a time {
+  font-weight: 300;
+  font-size: 1rem;
+  color: var(--dark-grey);
+}
+
+.posts li a svg {
+  width: 1rem;
+  height: 1rem;
+  fill: var(--primary-color);
+  margin-right: 1rem;
+}
+
+.posts .pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 400px;
+}
+
+.posts .pagination a {
+  font-size: 1.5rem;
+}
+
+.post .header {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.post h1 .date {
+  font-weight: normal;
+  font-size: 1rem;
+  color: var(--dark-grey);
+}
+
+.post h1 svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: var(--primary-color);
+  margin-right: 0.75rem;
+}
+
+.post h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.post p {
+  margin-top: 0;
+}
+
+
+.post table {
+  margin: 0 2rem;
+  margin-bottom: 2rem;
+  border-collapse: collapse;
+}
+
+.post table th {
+  font-weight: 700;
+}
+
+.post table td,
+.post table th {
+  border: 1px solid #999;
+  padding: 0.5rem 1rem;
+}
+@media (min-width: 768px) {
+  .posts li a {
+    flex-direction: row;
+  }
+}
+
+.post .content code {
+  background: var(--trim);
+}

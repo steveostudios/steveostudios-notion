@@ -1,0 +1,73 @@
+.layout.analytics {
+	display: flex;
+	gap: 2rem;
+	width: calc(100% - 4rem);
+	margin-bottom: 0;
+	margin: 0 auto;
+	font-size: 18px;
+	padding: 2rem;
+}
+
+.layout.analytics .page .left h4,
+.layout.analytics .page .right h4 {
+	font-size: 2rem;
+	margin: 0;
+	font-weight: 600;
+}
+
+.analytics .page.books {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	max-width: 1920px;
+	gap: 2rem;
+}
+
+.analytics .left {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	width: 1200px;
+}
+
+.analytics .right {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	width: calc(100% - 1100px);
+}
+
+.analytics .bookStats {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	min-width: 1100px;
+	width: 100%;
+	gap: 2rem;
+	height: 100%;
+	overflow-y: visible;
+}
+
+.analytics .main {
+	grid-column: main;
+}
+
+.analytics .goalProgress {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.analytics .bookStats .list td {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+.analytics .shelf {
+	display: flex;
+	flex: 1;
+	height: 100%;
+	width: 100%;
+}
+

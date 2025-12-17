@@ -18,7 +18,7 @@ const year = (year, value, x, y, h, position, scale, fontSizeScale) => {
             x="${x}" 
             y="${h + 5 * scale}" 
             font-size="${fontSize * 0.75}">
-        ${year}
+        '${year.toString().slice(-2)}
       </text>
     </g>
   `;

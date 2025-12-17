@@ -12,6 +12,7 @@ module.exports = async function () {
     const props = item.properties;
 
     const id = item.id;
+    const lastEditedTime = item.last_edited_time;
     const title = props["Title"]?.title?.[0]?.plain_text || "";
     const slug = props.Slug?.formula?.[0]?.string || slugify(props.Title?.title?.[0]?.plain_text) || "untitled";
     const frontEnd = props["Front End"]?.multi_select || null;
@@ -34,7 +35,7 @@ module.exports = async function () {
     const image = images.length > 0 ? images[0] : null;
 
     // Fetch Content
-    const content = await fetchPageContent(id, notion);
+    const content = await fetchPageContent(id, notion, lastEditedTime);
       
     return {
       id,

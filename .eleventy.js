@@ -1,10 +1,10 @@
 const dotenv = require("dotenv");
-const { bookStats }= require("./utils/bookStats.js")
+const { bookStats }= require("./src/utils/bookStats.js")
 const Image = require("@11ty/eleventy-img");
-const { goalProgress } = require("./utils/shortcodes/goal-progress");
-const bookCover = require("./utils/shortcodes/book-cover");
-const { lineGraph } = require("./utils/shortcodes/graph.js");
-const { numToOrdinal, numWithDelimiter } = require("./utils/filters/numbers.js");
+const { goalProgress } = require("./src/utils/shortcodes/goal-progress.js");
+const bookCover = require("./src/utils/shortcodes/book-cover.js");
+const { lineGraph } = require("./src/utils/shortcodes/graph.js");
+const { numToOrdinal, numWithDelimiter } = require("./src/utils/filters/numbers.js");
 dotenv.config();
 
 module.exports = function (eleventyConfig) {
@@ -14,6 +14,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addNunjucksShortcode("currentYear", function() {
     return new Date().getFullYear();
   });
+
+  // Layout Aliases
+  eleventyConfig.addLayoutAlias("base", "layouts/base.njk");
+  eleventyConfig.addLayoutAlias("resume", "layouts/resume.njk");
+  eleventyConfig.addLayoutAlias("analytics", "layouts/analytics.njk");
 
   // Collections
 	eleventyConfig.addCollection("stats", bookStats);
@@ -37,6 +42,17 @@ module.exports = function (eleventyConfig) {
   // Add number formatting filters
   eleventyConfig.addFilter("number_with_delimiter", numWithDelimiter);
   eleventyConfig.addFilter("to_ordinal", numToOrdinal);
+  
+  // Date filter
+  eleventyConfig.addFilter("date", (dateObj, format) => {
+    if (!dateObj) return "";
+    const date = new Date(dateObj);
+    return date.toLocaleDateString("en-US", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+    });
+  });
   
   // Images
   eleventyConfig.addNunjucksAsyncShortcode("image", async function(src, alt, sizes, format) {

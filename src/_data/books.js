@@ -6,12 +6,32 @@ module.exports = async function () {
   const dbId = process.env.NOTION_DB_BOOKS;
   if (!dbId) return [];
 
+async function run() {
+  const db = await notion.databases.retrieve({
+    database_id: dbId,
+  });
+
+  const props = db.properties;
+
+  const simplified = Object.entries(props).map(([name, value]) => ({
+    name,
+    id: value.id,
+    type: value.type,
+    config: value[value.type] ?? null,
+  }));
+
+  console.log(JSON.stringify(simplified, null, 2));
+}
+
+run().catch(console.error);
+
   const raw = await fetchDatabase(dbId);
 
   const mappedBooks = await limitConcurrency(raw, async (page, index) => {
     const props = page.properties;
 
     const id = page.id;
+    const lastEditedTime = page.last_edited_time;
     const title = props["Title"]?.title?.[0]?.plain_text || "";
     const subtitle = props["Subtitle"]?.rich_text?.[0]?.plain_text || "";
     const slug = props.Slug?.formula?.[0]?.string || slugify(props.Title?.title?.[0]?.plain_text) || "untitled";
@@ -35,7 +55,7 @@ module.exports = async function () {
     const coverImage = await optimizeImage(rawCoverImage, "book");
     
     // Fetch Content
-    const content = await fetchPageContent(id, notion);
+    const content = await fetchPageContent(id, notion, lastEditedTime);
     
     return {
       id,
@@ -62,6 +82,26 @@ module.exports = async function () {
     };
   }, 5);
 
-  return mappedBooks;
+  // Deduplicate slugs
+  const slugCounts = {};
+  const deduplicatedBooks = mappedBooks.map(book => {
+    let slug = book.slug;
+    if (slugCounts[slug]) {
+      slugCounts[slug]++;
+      slug = `${slug}-${slugCounts[slug]}`;
+    } else {
+      slugCounts[slug] = 1;
+    }
+    return { ...book, slug };
+  });
+
+  return deduplicatedBooks.sort((a, b) => {
+      // Sort by read date
+      if (a.dateFinish && b.dateFinish) {
+          return new Date(b.dateFinish) - new Date(a.dateFinish);
+      }
+      return 0; 
+  });
+
 };
 

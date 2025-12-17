@@ -10,8 +10,8 @@ const notion = new Client({ auth: process.env.NOTION_API_KEY });
 async function fetchDatabase(databaseId) {
   const cache = new AssetCache(`notion_db_${databaseId}`);
 
-  // Check if cache is valid (less than 1 day old)
-  if (cache.isCacheValid("1d")) {
+  // Check if cache is valid (less than 15 minutes old)
+  if (cache.isCacheValid("15m")) {
     console.log(`[Cache] Using cached data for database ${databaseId}`);
     return cache.getCachedValue();
   }

@@ -1,4 +1,4 @@
-const { bookStats } = require('./utils/bookStats.js');
+const { bookStats } = require('./src/utils/bookStats.js');
 
 // Mock collectionApi
 const mockBooks = [
