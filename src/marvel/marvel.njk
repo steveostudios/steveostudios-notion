@@ -1,0 +1,65 @@
+---
+layout: base
+title: "Marvel Movie Reviews"
+permalink: "/marvel/index.html"
+---
+
+<div class="page marvel-reviews">
+  <h3>Marvel Family Movie Reviews</h3>
+
+  {% if marvelMovies and marvelMovies.movies and marvelMovies.movies.length > 0 %}
+    <ul class="movie-list">
+      {% for movie in marvelMovies.movies %}
+        <li class="movie-card">
+          <div class="poster-wrap">
+            {% if movie.poster %}
+              <img src="{{ movie.poster }}" alt="{{ movie.title }} poster" class="poster" loading="lazy" />
+            {% else %}
+              <div class="poster-fallback">No poster</div>
+            {% endif %}
+          </div>
+
+          <div class="movie-content">
+            <div class="movie-header">
+              <h4>{{ movie.title }}</h4>
+              {% if movie.year %}
+                <span>{{ movie.year }}</span>
+              {% endif %}
+            </div>
+
+            <div class="movie-meta">
+              <div><strong>Movie Rating:</strong> {{ movie.movieRating or "TBD" }}</div>
+              <div><strong>IMDb:</strong> {{ movie.imdbRating or "TBD" }}</div>
+            </div>
+
+            <table class="family-table" aria-label="{{ movie.title }} family reviews">
+              <thead>
+                <tr>
+                  <th>Family Member</th>
+                  <th>Date Watched</th>
+                  <th>Rating (/10)</th>
+                </tr>
+              </thead>
+              <tbody>
+                {% for member in marvelMovies.members %}
+                  {% set memberReview = movie.reviews[member] %}
+                  <tr>
+                    <td>{{ member }}</td>
+                    <td>{{ memberReview.watched if memberReview else "" }}</td>
+                    <td>
+                      {% if memberReview and memberReview.rating %}
+                        {{ memberReview.rating }}
+                      {% endif %}
+                    </td>
+                  </tr>
+                {% endfor %}
+              </tbody>
+            </table>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  {% else %}
+    <p>Set `NOTION_DB_MARVEL_MOVIES` to load Marvel movie review data.</p>
+  {% endif %}
+</div>

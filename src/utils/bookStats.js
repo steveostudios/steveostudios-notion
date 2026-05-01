@@ -31,8 +31,8 @@ const bookStats = (collectionApi) => {
 		);
 
 	// Most
-	const mostBooks = [...yearStats].sort((a, b) => b.books - a.books)[0];
-	const mostPages = [...yearStats].sort((a, b) => b.pages - a.pages)[0];
+	const mostBooks = [...yearStats].sort((a, b) => b.books - a.books)[0] || { books: 0, year: null };
+	const mostPages = [...yearStats].sort((a, b) => b.pages - a.pages)[0] || { pages: 0, year: null };
 	const mostBooksBooks = mostBooks.books;
 	const mostBooksYear = mostBooks.year;
 	const mostPagesPages = mostPages.pages;
@@ -46,12 +46,14 @@ const bookStats = (collectionApi) => {
 	});
 	const thisYearBooks = thisYear.length;
 	const thisYearPages = thisYear.reduce((acc, cur) => acc + (cur.pageTotal || 0), 0);
+
+	const currentYearStats = yearStats.find((item) => item.year === now) || { books: 0, pages: 0 };
 	const thisYearBooksRank = yearStats.filter(
-		(year) => year.books >= yearStats.find((item) => item.year === now).books
+		(year) => year.books >= currentYearStats.books
 	).length;
 
 	const thisYearPagesRank = yearStats.filter(
-		(year) => year.pages >= yearStats.find((item) => item.year === now).pages
+		(year) => year.pages >= currentYearStats.pages
 	).length;
 
 	// Current

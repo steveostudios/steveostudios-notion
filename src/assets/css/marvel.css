@@ -1,0 +1,194 @@
+.page.marvel-reviews h3 {
+  margin-bottom: 1rem;
+}
+
+.marvel-reviews .movie-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.marvel-reviews .movie-card {
+  border: 1px solid var(--trim);
+  border-radius: 10px;
+  padding: 0.8rem;
+  background: #fff;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.8rem;
+  align-items: stretch;
+  min-height: 308px;
+  box-sizing: border-box;
+}
+
+.marvel-reviews .poster-wrap {
+  position: relative;
+  width: auto;
+  aspect-ratio: 72 / 108;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid var(--trim);
+  background: #eceff2;
+  flex-shrink: 0;
+}
+
+.marvel-reviews .poster {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.marvel-reviews .poster-fallback {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--dark-grey);
+  font-size: 0.8rem;
+}
+
+.marvel-reviews .movie-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.6rem;
+  align-items: baseline;
+}
+
+.marvel-reviews .movie-header h4 {
+  margin: 0;
+}
+
+.marvel-reviews .movie-meta {
+  margin: 0.5rem 0 0.6rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.marvel-reviews .family-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.marvel-reviews .family-table th,
+.marvel-reviews .family-table td {
+  border: 1px solid var(--trim);
+  padding: 0.35rem 0.45rem;
+  text-align: left;
+}
+
+.marvel-reviews .family-table th {
+  background: #eef2f7;
+}
+
+@media (max-width: 800px) {
+  .marvel-reviews .movie-card {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+
+  .marvel-reviews .poster-wrap {
+    width: min(144px, 40vw);
+    margin: 0 auto;
+    aspect-ratio: 72 / 108;
+    height: auto;
+  }
+}
+
+@media print {
+  @page {
+    size: landscape;
+    margin: 0.25in;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  main {
+    grid-template-rows: 1fr;
+  }
+
+  header,
+  footer,
+  .marvel-reviews h3 {
+    display: none;
+  }
+
+  .page.marvel-reviews {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .marvel-reviews .movie-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.08in;
+    align-content: start;
+    --print-card-height: 1.9in;
+  }
+
+  .marvel-reviews .movie-card {
+    border: 1px solid #888;
+    border-radius: 6px;
+    padding: 0.06in;
+    gap: 0.06in;
+    grid-template-columns: auto 1fr;
+    height: var(--print-card-height);
+    min-height: var(--print-card-height);
+    max-height: var(--print-card-height);
+    break-inside: avoid;
+    page-break-inside: avoid;
+    overflow: hidden;
+  }
+
+  .marvel-reviews .poster-wrap {
+    position: relative;
+    width: auto;
+    aspect-ratio: 72 / 108;
+    height: 100%;
+    border: 1px solid #888;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .marvel-reviews .movie-header h4 {
+    font-size: 10pt;
+    line-height: 1.2;
+  }
+
+  .marvel-reviews .movie-header span {
+    font-size: 8.5pt;
+  }
+
+  .marvel-reviews .movie-meta {
+    margin: 0.05in 0;
+    font-size: 8pt;
+    gap: 0.08in;
+  }
+
+  .marvel-reviews .family-table {
+    font-size: 7pt;
+  }
+
+  .marvel-reviews .family-table th,
+  .marvel-reviews .family-table td {
+    border: 1px solid #bcc4cf;
+    padding: 0.03in 0.04in;
+  }
+
+  .marvel-reviews .family-table th {
+    background: #f3f6fa;
+  }
+}

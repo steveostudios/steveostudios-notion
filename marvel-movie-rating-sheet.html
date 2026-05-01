@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marvel Family Movie Rating Sheet</title>
+    <style>
+      :root {
+        --border: #888;
+        --muted: #555;
+        --bg-light: #f7f7f7;
+        --header-bg: #e4eaf3;
+        --header-border: #9ba9bb;
+        --table-border: #bcc4cf;
+        --table-header-bg: #f3f6fa;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #111;
+        background: #fff;
+      }
+
+      .page {
+        width: 11in;
+        min-height: 8.5in;
+        padding: 0.35in;
+        margin: 0 auto;
+        page-break-after: always;
+        break-after: page;
+      }
+
+      .page:last-child {
+        page-break-after: auto;
+        break-after: auto;
+      }
+
+      .page-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        height: 100%;
+      }
+
+      .column {
+        display: grid;
+        grid-template-rows: repeat(4, 1fr);
+        gap: 10px;
+      }
+
+      .movie-cell {
+        border: 1.3px solid var(--border);
+        border-radius: 6px;
+        padding: 8px;
+        display: grid;
+      grid-template-columns: 108px 1fr;
+        column-gap: 8px;
+        background: #fff;
+        min-height: 0;
+      }
+
+      .poster-wrap {
+      width: 100%;
+      height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border: 1px solid #888;
+        border-radius: 4px;
+        background: #eee;
+      }
+
+      .poster {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+
+      .movie-info {
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 8px;
+        border: 1px solid var(--header-border);
+        background: var(--header-bg);
+        border-radius: 4px;
+        padding: 4px 6px;
+        margin-bottom: 4px;
+      }
+
+      .title {
+        font-size: 14px;
+        font-weight: 700;
+        color: #0f1720;
+        line-height: 1.2;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 100%;
+      }
+
+      .year {
+        font-size: 12px;
+        color: #213247;
+        font-weight: 600;
+        flex-shrink: 0;
+      }
+
+      .ratings-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+        background: var(--bg-light);
+        border: 1px solid #d7d7d7;
+        border-radius: 4px;
+        padding: 4px 6px;
+        font-size: 11px;
+        margin-bottom: 5px;
+      }
+
+      .family-table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 9px;
+        table-layout: fixed;
+      }
+
+      .family-table th,
+      .family-table td {
+        border: 1px solid var(--table-border);
+        padding: 2px 3px;
+        text-align: left;
+        vertical-align: middle;
+      }
+
+      .family-table thead th {
+        background: var(--table-header-bg);
+        font-size: 9px;
+      }
+
+      .col-name {
+        width: 28%;
+      }
+
+      .col-date {
+        width: 32%;
+      }
+
+      .col-score {
+        width: 40%;
+      }
+
+      .line {
+        display: inline-block;
+        min-width: 80%;
+        border-bottom: 1px solid #555;
+        height: 10px;
+        vertical-align: baseline;
+      }
+
+      .entered {
+        color: #111;
+        font-weight: 700;
+      }
+
+      @media print {
+        @page {
+          size: landscape;
+          margin: 0.25in;
+        }
+
+        body {
+          background: #fff;
+        }
+
+        .page {
+          margin: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="pages"></div>
+
+    <script>
+      const familyMembers = ["Lauren", "Steve", "Elliot", "Oliver", "Levi"];
+
+      // MCU films in release order from Iron Man onward.
+      const movies = [
+        { title: "Iron Man", year: 2008, movieRating: "PG-13", imdb: "7.9" },
+        {
+          title: "The Incredible Hulk",
+          year: 2008,
+          movieRating: "PG-13",
+          imdb: "6.6",
+        },
+        { title: "Iron Man 2", year: 2010, movieRating: "PG-13", imdb: "6.9" },
+        { title: "Thor", year: 2011, movieRating: "PG-13", imdb: "7.0" },
+        {
+          title: "Captain America: The First Avenger",
+          year: 2011,
+          movieRating: "PG-13",
+          imdb: "6.9",
+        },
+        {
+          title: "The Avengers",
+          year: 2012,
+          movieRating: "PG-13",
+          imdb: "8.0",
+        },
+        { title: "Iron Man 3", year: 2013, movieRating: "PG-13", imdb: "7.1" },
+        {
+          title: "Thor: The Dark World",
+          year: 2013,
+          movieRating: "PG-13",
+          imdb: "6.7",
+        },
+        {
+          title: "Captain America: The Winter Soldier",
+          year: 2014,
+          movieRating: "PG-13",
+          imdb: "7.7",
+        },
+        {
+          title: "Guardians of the Galaxy",
+          year: 2014,
+          movieRating: "PG-13",
+          imdb: "8.0",
+        },
+        {
+          title: "Avengers: Age of Ultron",
+          year: 2015,
+          movieRating: "PG-13",
+          imdb: "7.3",
+        },
+        { title: "Ant-Man", year: 2015, movieRating: "PG-13", imdb: "7.2" },
+        {
+          title: "Captain America: Civil War",
+          year: 2016,
+          movieRating: "PG-13",
+          imdb: "7.8",
+        },
+        {
+          title: "Doctor Strange",
+          year: 2016,
+          movieRating: "PG-13",
+          imdb: "7.5",
+        },
+        {
+          title: "Guardians of the Galaxy Vol. 2",
+          year: 2017,
+          movieRating: "PG-13",
+          imdb: "7.6",
+        },
+        {
+          title: "Spider-Man: Homecoming",
+          year: 2017,
+          movieRating: "PG-13",
+          imdb: "7.4",
+        },
+        {
+          title: "Thor: Ragnarok",
+          year: 2017,
+          movieRating: "PG-13",
+          imdb: "7.9",
+        },
+        {
+          title: "Black Panther",
+          year: 2018,
+          movieRating: "PG-13",
+          imdb: "7.3",
+        },
+        {
+          title: "Avengers: Infinity War",
+          year: 2018,
+          movieRating: "PG-13",
+          imdb: "8.4",
+        },
+        {
+          title: "Ant-Man and the Wasp",
+          year: 2018,
+          movieRating: "PG-13",
+          imdb: "7.0",
+        },
+        {
+          title: "Captain Marvel",
+          year: 2019,
+          movieRating: "PG-13",
+          imdb: "6.8",
+        },
+        {
+          title: "Avengers: Endgame",
+          year: 2019,
+          movieRating: "PG-13",
+          imdb: "8.4",
+        },
+        {
+          title: "Spider-Man: Far From Home",
+          year: 2019,
+          movieRating: "PG-13",
+          imdb: "7.4",
+        },
+        { title: "Black Widow", year: 2021, movieRating: "PG-13", imdb: "6.6" },
+        {
+          title: "Shang-Chi and the Legend of the Ten Rings",
+          year: 2021,
+          movieRating: "PG-13",
+          imdb: "7.3",
+        },
+        { title: "Eternals", year: 2021, movieRating: "PG-13", imdb: "6.3" },
+        {
+          title: "Spider-Man: No Way Home",
+          year: 2021,
+          movieRating: "PG-13",
+          imdb: "8.2",
+        },
+        {
+          title: "Doctor Strange in the Multiverse of Madness",
+          year: 2022,
+          movieRating: "PG-13",
+          imdb: "6.9",
+        },
+        {
+          title: "Thor: Love and Thunder",
+          year: 2022,
+          movieRating: "PG-13",
+          imdb: "6.2",
+        },
+        {
+          title: "Black Panther: Wakanda Forever",
+          year: 2022,
+          movieRating: "PG-13",
+          imdb: "6.6",
+        },
+        {
+          title: "Ant-Man and the Wasp: Quantumania",
+          year: 2023,
+          movieRating: "PG-13",
+          imdb: "6.0",
+        },
+        {
+          title: "Guardians of the Galaxy Vol. 3",
+          year: 2023,
+          movieRating: "PG-13",
+          imdb: "7.9",
+        },
+        { title: "The Marvels", year: 2023, movieRating: "PG-13", imdb: "5.6" },
+        {
+          title: "Deadpool & Wolverine",
+          year: 2024,
+          movieRating: "R",
+          imdb: "7.6",
+        },
+        {
+          title: "Captain America: Brave New World",
+          year: 2025,
+          movieRating: "PG-13",
+          imdb: "5.6",
+        },
+        {
+          title: "Thunderbolts*",
+          year: 2025,
+          movieRating: "PG-13",
+          imdb: "7.1",
+        },
+        {
+          title: "The Fantastic Four: First Steps",
+          year: 2025,
+          movieRating: "PG-13",
+          imdb: "6.8",
+        },
+        {
+          title: "Spider-Man: Brand New Day",
+          year: 2026,
+          movieRating: "TBD",
+          imdb: "TBD",
+        },
+        {
+          title: "Avengers: Doomsday",
+          year: 2026,
+          movieRating: "TBD",
+          imdb: "TBD",
+        },
+      ];
+
+      // Per-movie, per-person watch data for easy updates before reprinting.
+      const movieReviews = {
+        "Iron Man": {
+          Lauren: { date: "4/24/26", rating: "" },
+          Steve: { date: "4/24/26", rating: "8" },
+          Elliot: { date: "4/24/26", rating: "" },
+          Oliver: { date: "4/24/26", rating: "" },
+          Levi: { date: "4/24/26", rating: "" },
+        },
+        "The Incredible Hulk": {
+          Lauren: { date: "4/30/20", rating: "" },
+          Steve: { date: "4/30/20", rating: "5" },
+          Elliot: { date: "4/30/20", rating: "" },
+          Oliver: { date: "4/30/20", rating: "" },
+        },
+      };
+
+      function toPosterFileStem(title) {
+        return title
+          .replace(/&/g, " and ")
+          .replace(/[^a-zA-Z0-9 ]+/g, " ")
+          .trim()
+          .split(/\s+/)
+          .map(
+            (word) =>
+              word.charAt(0).toUpperCase() + word.slice(1).toLowerCase(),
+          )
+          .join("");
+      }
+
+      function posterUrl(title) {
+        return `assets/${toPosterFileStem(title)}.jpg`;
+      }
+
+      function fieldValue(value, suffix = "") {
+        if (!value) {
+          return `<span class="line"></span>${suffix}`;
+        }
+        return `<span class="entered">${value}</span>${suffix}`;
+      }
+
+      function familyRows(movieTitle) {
+        const reviewsForMovie = movieReviews[movieTitle] || {};
+        return familyMembers
+          .map(
+            (name) => `
+        <tr>
+          <td>${name}</td>
+          <td>${fieldValue(reviewsForMovie[name]?.date || "")}</td>
+          <td>${fieldValue(reviewsForMovie[name]?.rating || "", " /10")}</td>
+        </tr>
+      `,
+          )
+          .join("");
+      }
+
+      function movieCell(movie) {
+        return `
+        <article class="movie-cell">
+          <div class="poster-wrap">
+            <img class="poster" src="${posterUrl(movie.title)}" alt="${movie.title} poster" />
+          </div>
+          <div class="movie-info">
+            <div class="header">
+              <div class="title">${movie.title}</div>
+              <div class="year">${movie.year}</div>
+            </div>
+            <div class="ratings-row">
+              <div><strong>Movie Rating:</strong> ${movie.movieRating}</div>
+              <div><strong>IMDb:</strong> ${movie.imdb}</div>
+            </div>
+            <table class="family-table" aria-label="Family watch and score table">
+              <thead>
+                <tr>
+                  <th class="col-name">Person</th>
+                  <th class="col-date">Date Watched</th>
+                  <th class="col-score">Rating (/10)</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${familyRows(movie.title)}
+              </tbody>
+            </table>
+          </div>
+        </article>
+      `;
+      }
+
+      function render() {
+        const perPage = 8; // 4 left + 4 right
+        const pages = [];
+
+        for (let i = 0; i < movies.length; i += perPage) {
+          pages.push(movies.slice(i, i + perPage));
+        }
+
+        const html = pages
+          .map((chunk) => {
+            const left = chunk.slice(0, 4);
+            const right = chunk.slice(4, 8);
+            return `
+          <section class="page">
+            <div class="page-grid">
+              <div class="column">${left.map(movieCell).join("")}</div>
+              <div class="column">${right.map(movieCell).join("")}</div>
+            </div>
+          </section>
+        `;
+          })
+          .join("");
+
+        document.getElementById("pages").innerHTML = html;
+      }
+
+      render();
+    </script>
+  </body>
+</html>
