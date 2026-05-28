@@ -29,24 +29,17 @@ const fetchPageContent = async (id, notionClient, lastEditedTime) => {
   const cache = new AssetCache(cacheKey);
   
   // If we have a cached value, check if it's still fresh based on lastEditedTime
-  if (cache.isCacheValid("1y")) { // Check if cache exists at all (long duration)
+  if (cache.isCacheValid("1y")) {
     try {
-      const cachedData = cache.getCachedValue();
-      // If we have mapped the lastEditedTime and it matches, return cached content
-      // Note: AssetCache returns a Promise for getCachedValue() usually, but here 
-      // we need to be careful. eleventy-fetch's AssetCache behavior:
-      // if we save an object { timestamp, content }, we can retrieve it.
-      
-      // Let's assume we will save: { lastEditedTime, content }
-      const cachedObj = await cachedData;
-      
-      if (cachedObj && cachedObj.lastEditedTime === lastEditedTime) {
-        // Content hasn't changed!
+      const cachedObj = await cache.getCachedValue();
+      if (cachedObj?.lastEditedTime === lastEditedTime) {
         return cachedObj.content;
       }
-      console.log(`[Cache] Content stale for ${id} (Remote: ${lastEditedTime} vs Local: ${cachedObj?.lastEditedTime})`);
-    } catch (e) {
-      // Cache might be in old format or invalid, proceed to fetch
+      if (cachedObj?.lastEditedTime) {
+        console.log(`[Cache] Content stale for ${id}`);
+      }
+    } catch {
+      // Missing or legacy cache entry — fetch below
     }
   }
 
@@ -164,58 +157,79 @@ const IMAGE_CONFIG = {
 
 /**
  * Optimizes an image and returns URLs for specific sizes.
+ * When cacheId and lastEditedTime are provided, skips download/processing if the page has not changed.
+ * (Notion file URLs expire; cache by page revision, not by URL.)
  * @param {string} url - Image URL
- * @param {string} type - 'book', 'project', or 'resume'
+ * @param {string} type - 'book', 'project', 'resume', 'marvel', or 'post'
+ * @param {string} [lastEditedTime] - Notion page last_edited_time (ISO)
+ * @param {string} [cacheId] - Stable id (usually Notion page id, or `${pageId}_${index}` for galleries)
  * @returns {Promise<object|null>} Object with thumb, medium, large URLs
  */
-const optimizeImage = async (url, type) => {
+const optimizeImage = async (url, type, lastEditedTime, cacheId) => {
   if (!url) return null;
   const config = IMAGE_CONFIG[type];
   if (!config) return null;
 
+  const canUseRevisionCache = Boolean(lastEditedTime && cacheId);
+  const revisionCache = canUseRevisionCache
+    ? new AssetCache(`optimized_image_${type}_${cacheId}`)
+    : null;
+
+  if (revisionCache?.isCacheValid("1y")) {
+    try {
+      const cached = await revisionCache.getCachedValue();
+      if (cached?.lastEditedTime === lastEditedTime && cached?.sizes) {
+        return cached.sizes;
+      }
+      if (cached?.lastEditedTime !== lastEditedTime) {
+        console.log(`[Cache] Image stale for ${cacheId} (${type})`);
+      }
+    } catch {
+      // Missing or legacy cache entry — reprocess below
+    }
+  }
+
   try {
-    // Fetch the original image buffer
     const buffer = await EleventyFetch(url, {
       duration: "1d",
-      type: "buffer"
+      type: "buffer",
     });
 
     const result = {};
+    const stableName = slugify(String(cacheId || url.split("/").pop().split("?")[0] || "image")).slice(
+      0,
+      50
+    );
 
-    // Process each size
-    await Promise.all(config.sizes.map(async (size) => {
-      try {
-        // Resize and crop using sharp
-        const resizedBuffer = await sharp(buffer)
-          .resize(size.width, size.height, { fit: "cover", position: "center" })
-          .toBuffer();
+    await Promise.all(
+      config.sizes.map(async (size) => {
+        try {
+          const resizedBuffer = await sharp(buffer)
+            .resize(size.width, size.height, { fit: "cover", position: "center" })
+            .toBuffer();
 
-        // Save using eleventy-img
-        const metadata = await Image(resizedBuffer, {
-          widths: [size.width],
-          formats: [config.format],
-          outputDir: "./_site/assets/img/",
-          urlPath: "/assets/img/",
-          filenameFormat: function (id, src, width, format, options) {
-            // Generate a stable filename based on the original URL and size
-            const extension = format;
-            const name = slugify(url.split('/').pop().split('?')[0] || "image").substring(0, 50); // truncated name
-            // We need a unique hash for the content to avoid collisions if names are same
-            // But eleventy-img handles hashing if we don't provide filenameFormat. 
-            // However, since we are passing a buffer, we might want to be careful.
-            // Let's rely on eleventy-img's default hashing for buffer inputs if we can, 
-            // but we want to map it back to our key.
-            return `${id}-${width}w.${extension}`;
-          }
-        });
+          const metadata = await Image(resizedBuffer, {
+            widths: [size.width],
+            formats: [config.format],
+            outputDir: "./_site/assets/img/",
+            urlPath: "/assets/img/",
+            filenameFormat: function (_id, _src, width, format) {
+              return `${stableName}-${size.key}-${width}w.${format}`;
+            },
+          });
 
-        const entry = metadata[config.format][0];
-        result[size.key] = entry.url;
-      } catch (err) {
-        console.error(`Error processing size ${size.key} for ${type}:`, err);
-      }
-    }));
-    
+          const entry = metadata[config.format][0];
+          result[size.key] = entry.url;
+        } catch (err) {
+          console.error(`Error processing size ${size.key} for ${type}:`, err);
+        }
+      })
+    );
+
+    if (revisionCache && Object.keys(result).length > 0) {
+      await revisionCache.save({ lastEditedTime, sizes: result }, "json");
+    }
+
     return result;
   } catch (e) {
     console.error(`Error optimizing image (${type}): ${url}`, e);

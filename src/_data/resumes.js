@@ -19,8 +19,8 @@ module.exports = async function () {
     const active = props["Active"]?.checkbox || false;
     
     const rawImages = extractImages(props["Logo"], name);
-    const images = await Promise.all(rawImages.map(async (img) => {
-      const optimized = await optimizeImage(img.url, "resume");
+    const images = await Promise.all(rawImages.map(async (img, index) => {
+      const optimized = await optimizeImage(img.url, "resume", lastEditedTime, `${id}_${index}`);
       return {
         ...img,
         ...optimized

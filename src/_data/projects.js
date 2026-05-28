@@ -24,8 +24,8 @@ module.exports = async function () {
     const order = props["Order"]?.number || null;    
     
     const rawImages = extractImages(props["Images"], title);
-    const images = await Promise.all(rawImages.map(async (img) => {
-      const optimized = await optimizeImage(img.url, "project");
+    const images = await Promise.all(rawImages.map(async (img, index) => {
+      const optimized = await optimizeImage(img.url, "project", lastEditedTime, `${id}_${index}`);
       return {
         ...img,
         ...optimized

@@ -131,7 +131,7 @@ module.exports = async function () {
     const movieRating = extractText(props["Movie Rating"]);
     const year = extractText(props["Year"]);
     const rawPoster = extractPoster(props["Poster Image"] || props["Poster"]);
-    const optimizedPoster = await optimizeImage(rawPoster, "marvel");
+    const optimizedPoster = await optimizeImage(rawPoster, "marvel", page.last_edited_time, page.id);
     const poster =
       optimizedPoster?.medium || optimizedPoster?.thumb || optimizedPoster?.large || rawPoster;
     const order = Number(extractText(props["Order"])) || 0;

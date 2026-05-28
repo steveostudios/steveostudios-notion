@@ -10,13 +10,19 @@ const notion = new Client({ auth: process.env.NOTION_API_KEY });
 async function fetchDatabase(databaseId) {
   const cache = new AssetCache(`notion_db_${databaseId}`);
 
-  // Check if cache is valid (less than 15 minutes old)
-  if (cache.isCacheValid("15m")) {
-    console.log(`[Cache] Using cached data for database ${databaseId}`);
-    return cache.getCachedValue();
+  let previousPages = [];
+  if (cache.isCacheValid("1y")) {
+    try {
+      previousPages = await cache.getCachedValue();
+      if (!Array.isArray(previousPages)) previousPages = [];
+    } catch {
+      previousPages = [];
+    }
   }
 
-  console.log(`[Cache] Fetching fresh data for database ${databaseId}`);
+  const previousById = new Map(previousPages.map((page) => [page.id, page.last_edited_time]));
+
+  console.log(`[Notion] Querying database ${databaseId}`);
   const pages = [];
   let cursor = undefined;
 
@@ -29,6 +35,19 @@ async function fetchDatabase(databaseId) {
     pages.push(...response.results);
     cursor = response.has_more ? response.next_cursor : null;
   } while (cursor);
+
+  const currentIds = new Set(pages.map((page) => page.id));
+  let changed = 0;
+  for (const page of pages) {
+    if (previousById.get(page.id) !== page.last_edited_time) changed++;
+  }
+  const removed = previousPages.filter((page) => !currentIds.has(page.id)).length;
+
+  if (previousPages.length > 0) {
+    console.log(
+      `[Notion] DB ${databaseId}: ${pages.length} pages, ${changed} updated, ${removed} removed, ${pages.length - changed} unchanged`
+    );
+  }
 
   await cache.save(pages, "json");
   return pages;

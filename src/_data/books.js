@@ -6,25 +6,6 @@ module.exports = async function () {
   const dbId = process.env.NOTION_DB_BOOKS;
   if (!dbId) return [];
 
-async function run() {
-  const db = await notion.databases.retrieve({
-    database_id: dbId,
-  });
-
-  const props = db.properties;
-
-  const simplified = Object.entries(props).map(([name, value]) => ({
-    name,
-    id: value.id,
-    type: value.type,
-    config: value[value.type] ?? null,
-  }));
-
-  console.log(JSON.stringify(simplified, null, 2));
-}
-
-run().catch(console.error);
-
   const raw = await fetchDatabase(dbId);
 
   const mappedBooks = await limitConcurrency(raw, async (page, index) => {
@@ -52,7 +33,7 @@ run().catch(console.error);
     const own = props["Own"]?.checkbox || false;
       
     const rawCoverImage = extractCoverImage(page, props["Cover"]);
-    const coverImage = await optimizeImage(rawCoverImage, "book");
+    const coverImage = await optimizeImage(rawCoverImage, "book", lastEditedTime, id);
     
     // Fetch Content
     const content = await fetchPageContent(id, notion, lastEditedTime);
