@@ -1,4 +1,5 @@
 const { fetchDatabase } = require("./notionClient");
+const { optimizeImage, limitConcurrency } = require("../utils/notion-helpers");
 
 const BASE_FIELDS = new Set([
   "Title",
@@ -100,6 +101,22 @@ function getMemberField(propertyName) {
   return null;
 }
 
+/** Average of numeric family ratings; only meaningful when 2+ members rated. */
+function familyScoreFromReviews(reviews) {
+  const values = [];
+  for (const review of Object.values(reviews)) {
+    const raw = review?.rating;
+    if (raw == null || raw === "") continue;
+    const n = Number.parseFloat(String(raw).trim());
+    if (!Number.isFinite(n)) continue;
+    values.push(n);
+  }
+  if (values.length <= 1) return null;
+  const avg = values.reduce((a, b) => a + b, 0) / values.length;
+  const rounded = Math.round(avg * 10) / 10;
+  return Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(1);
+}
+
 module.exports = async function () {
   const dbId = process.env.NOTION_DB_MARVEL_MOVIES;
   if (!dbId) return { members: [], movies: [] };
@@ -107,13 +124,16 @@ module.exports = async function () {
   const raw = await fetchDatabase(dbId);
 
   const memberSet = new Set();
-  const movies = raw.map((page) => {
+  const movies = await limitConcurrency(raw, async (page) => {
     const props = page.properties || {};
     const title = extractText(props["Title"]);
     const imdbRating = extractText(props["IMDb Rating"] || props["IMDb"]);
     const movieRating = extractText(props["Movie Rating"]);
     const year = extractText(props["Year"]);
-    const poster = extractPoster(props["Poster Image"] || props["Poster"]);
+    const rawPoster = extractPoster(props["Poster Image"] || props["Poster"]);
+    const optimizedPoster = await optimizeImage(rawPoster, "marvel");
+    const poster =
+      optimizedPoster?.medium || optimizedPoster?.thumb || optimizedPoster?.large || rawPoster;
     const order = Number(extractText(props["Order"])) || 0;
     const reviews = {};
 
@@ -137,6 +157,8 @@ module.exports = async function () {
       }
     });
 
+    const familyScore = familyScoreFromReviews(reviews);
+
     return {
       title,
       imdbRating,
@@ -145,8 +167,9 @@ module.exports = async function () {
       poster,
       order,
       reviews,
+      familyScore,
     };
-  });
+  }, 5);
 
   movies.sort((a, b) => {
     if (a.order !== b.order) return a.order - b.order;

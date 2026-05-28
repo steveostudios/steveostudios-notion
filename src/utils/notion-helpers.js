@@ -128,6 +128,14 @@ const IMAGE_CONFIG = {
     ],
     format: "jpeg"
   },
+  marvel: {
+    sizes: [
+      { width: 144, height: 216, key: "thumb" },
+      { width: 288, height: 432, key: "medium" },
+      { width: 432, height: 648, key: "large" }
+    ],
+    format: "jpeg"
+  },
   project: { 
     sizes: [
       { width: 102, height: 56, key: "thumb" },

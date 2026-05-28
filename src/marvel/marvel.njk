@@ -29,7 +29,12 @@ permalink: "/marvel/index.html"
 
             <div class="movie-meta">
               <div><strong>Movie Rating:</strong> {{ movie.movieRating or "TBD" }}</div>
-              <div><strong>IMDb:</strong> {{ movie.imdbRating or "TBD" }}</div>
+              <div>
+                <strong>IMDb:</strong> {{ movie.imdbRating or "TBD" }}
+                {% if movie.familyScore %}
+                  · <strong>Family Score:</strong> {{ movie.familyScore }} /10
+                {% endif %}
+              </div>
             </div>
 
             <table class="family-table" aria-label="{{ movie.title }} family reviews">
