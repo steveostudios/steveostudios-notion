@@ -2,6 +2,86 @@
   margin-bottom: 1rem;
 }
 
+.marvel-stats {
+  margin-bottom: 1.25rem;
+  padding: 1rem;
+  border: 1px solid var(--trim);
+  border-radius: 10px;
+  background: #f8fafc;
+}
+
+.marvel-stats h4 {
+  margin: 0 0 0.75rem;
+}
+
+.marvel-stats__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: 0.9rem;
+  align-items: start;
+}
+
+.marvel-stats__member h5,
+.marvel-stats__family h5 {
+  margin: 0 0 0.4rem;
+  font-size: 0.95rem;
+}
+
+.marvel-stats__top-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 0.85rem;
+}
+
+.marvel-stats__top-list li {
+  margin-bottom: 0.25rem;
+}
+
+.marvel-stats__title {
+  display: block;
+}
+
+.marvel-stats__rating {
+  color: var(--dark-grey);
+  font-size: 0.8rem;
+}
+
+.marvel-stats__empty {
+  color: var(--dark-grey);
+  font-size: 0.85rem;
+  list-style: none;
+  margin-left: -1.1rem;
+}
+
+.marvel-stats__family-pick {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+}
+
+.marvel-stats__next-btn {
+  display: inline-block;
+  border: 1px solid var(--primary-color);
+  background: var(--primary-color);
+  color: var(--white);
+  border-radius: 6px;
+  padding: 0.45rem 0.7rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.marvel-stats__next-btn:hover {
+  filter: brightness(0.92);
+}
+
+.marvel-reviews .movie-card--next {
+  border: 3px solid var(--primary-color);
+  background: #fff8f0;
+  box-shadow:
+    0 0 0 2px rgba(233, 162, 10, 0.45),
+    0 4px 12px rgba(233, 162, 10, 0.2);
+}
+
 .marvel-reviews .movie-list {
   list-style: none;
   padding: 0;
@@ -121,7 +201,8 @@
 
   header,
   footer,
-  .marvel-reviews h3 {
+  .marvel-reviews h3,
+  .marvel-stats {
     display: none;
   }
 

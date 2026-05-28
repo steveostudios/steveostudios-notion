@@ -1,5 +1,6 @@
 const { fetchDatabase } = require("./notionClient");
-const { optimizeImage, limitConcurrency } = require("../utils/notion-helpers");
+const { optimizeImage, limitConcurrency, slugify } = require("../utils/notion-helpers");
+const { buildMarvelStats } = require("../utils/marvelStats");
 
 const BASE_FIELDS = new Set([
   "Title",
@@ -119,7 +120,7 @@ function familyScoreFromReviews(reviews) {
 
 module.exports = async function () {
   const dbId = process.env.NOTION_DB_MARVEL_MOVIES;
-  if (!dbId) return { members: [], movies: [] };
+  if (!dbId) return { members: [], movies: [], stats: null };
 
   const raw = await fetchDatabase(dbId);
 
@@ -161,6 +162,7 @@ module.exports = async function () {
 
     return {
       title,
+      slug: slugify(title) || "untitled",
       imdbRating,
       movieRating,
       year,
@@ -176,12 +178,27 @@ module.exports = async function () {
     return String(a.title).localeCompare(String(b.title));
   });
 
-  const extraMembers = Array.from(memberSet)
-    .filter((member) => !PREFERRED_MEMBER_ORDER.includes(member))
-    .sort((a, b) => a.localeCompare(b));
+  const slugCounts = {};
+  for (let i = 0; i < movies.length; i++) {
+    const base = movies[i].slug;
+    if (slugCounts[base]) {
+      slugCounts[base]++;
+      movies[i] = { ...movies[i], slug: `${base}-${slugCounts[base]}` };
+    } else {
+      slugCounts[base] = 1;
+    }
+  }
+
+  const members = [
+    ...PREFERRED_MEMBER_ORDER,
+    ...Array.from(memberSet)
+      .filter((member) => !PREFERRED_MEMBER_ORDER.includes(member))
+      .sort((a, b) => a.localeCompare(b)),
+  ];
 
   return {
-    members: [...PREFERRED_MEMBER_ORDER, ...extraMembers],
+    members,
     movies,
+    stats: buildMarvelStats(members, movies),
   };
 };
