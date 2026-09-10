@@ -1,0 +1,1258 @@
+[
+  {
+    "id": "2bcaec2d-56b7-8046-b77f-dd033f45bdf6",
+    "lastEditedTime": "2025-12-01T17:58:00.000Z",
+    "title": "Playlister",
+    "slug": "playlister",
+    "frontEnd": [
+      {
+        "id": "dd153bd2-242c-4909-9a38-48c22788abcf",
+        "name": "React",
+        "color": "gray"
+      }
+    ],
+    "backEnd": [
+      {
+        "id": "55fb8a20-63b9-437d-8b61-b192bc045ad4",
+        "name": "Postgres",
+        "color": "default"
+      },
+      {
+        "id": "9696d89f-1ba8-4e87-beca-f3647ae01ea5",
+        "name": "GraphQL",
+        "color": "yellow"
+      }
+    ],
+    "host": [],
+    "url": "https://playlister.app/",
+    "githubUrl": null,
+    "client": "Playlister",
+    "image": {
+      "alt": "Playlister",
+      "filename": "ah5nD7Z-YH-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-8046-b77f-dd033f45bdf6-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-8046-b77f-dd033f45bdf6-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-8046-b77f-dd033f45bdf6-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "Playlister",
+        "filename": "ah5nD7Z-YH-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8046-b77f-dd033f45bdf6-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8046-b77f-dd033f45bdf6-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8046-b77f-dd033f45bdf6-0-large-1440w.jpeg"
+      },
+      {
+        "alt": "Playlister",
+        "filename": "gkt7BAvHFC-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8046-b77f-dd033f45bdf6-1-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8046-b77f-dd033f45bdf6-1-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8046-b77f-dd033f45bdf6-1-large-1440w.jpeg"
+      },
+      {
+        "alt": "Playlister",
+        "filename": "_UDLHa4sxv-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8046-b77f-dd033f45bdf6-2-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8046-b77f-dd033f45bdf6-2-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8046-b77f-dd033f45bdf6-2-large-1440w.jpeg"
+      },
+      {
+        "alt": "Playlister",
+        "filename": "79D3Xgq-yd-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8046-b77f-dd033f45bdf6-3-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8046-b77f-dd033f45bdf6-3-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8046-b77f-dd033f45bdf6-3-large-1440w.jpeg"
+      }
+    ],
+    "order": 1,
+    "content": "<h2>Overview</h2>\n<p>Playlister makes a presentation software for churches that utilizes Apple TVs for simple user interface (a remote). The user's media is managed in the cloud, Apple TVs cache everything so it can work even offline.</p>\n<p>We're a small team, working on an amazing product that takes the burden off of ministries so they can teach and not worry about tech!</p>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-80dc-a01a-d6ca4f523a85",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "Sidekick",
+    "slug": "sidekick",
+    "frontEnd": [
+      {
+        "id": "dd153bd2-242c-4909-9a38-48c22788abcf",
+        "name": "React",
+        "color": "gray"
+      },
+      {
+        "id": "b16905cc-8f31-4da9-89cc-c0142502a0e5",
+        "name": "Redux",
+        "color": "default"
+      }
+    ],
+    "backEnd": [
+      {
+        "id": "34ff05eb-0621-423e-9355-4bfaa638e5bc",
+        "name": "NodeJS",
+        "color": "gray"
+      }
+    ],
+    "host": [
+      {
+        "id": "0c9665cf-7836-4ec8-89ed-794ff26636b1",
+        "name": "Electron",
+        "color": "purple"
+      }
+    ],
+    "url": null,
+    "githubUrl": null,
+    "client": "Download Youth Ministry",
+    "image": {
+      "alt": "Sidekick",
+      "filename": "O6ATBijMj9-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "Sidekick",
+        "filename": "O6ATBijMj9-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-0-large-1440w.jpeg"
+      },
+      {
+        "alt": "Sidekick",
+        "filename": "pK9Bd_CwGc-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-1-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-1-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-1-large-1440w.jpeg"
+      },
+      {
+        "alt": "Sidekick",
+        "filename": "qKjZWohus4-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-2-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-2-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-2-large-1440w.jpeg"
+      },
+      {
+        "alt": "Sidekick",
+        "filename": "6gIAYKPd_t-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-3-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-3-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-3-large-1440w.jpeg"
+      },
+      {
+        "alt": "Sidekick",
+        "filename": "8lcbwh8iqx-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-4-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-4-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80dc-a01a-d6ca4f523a85-4-large-1440w.jpeg"
+      }
+    ],
+    "order": 2,
+    "content": "<h2>Overview</h2>\n<p>Sidekick is a presentation software, similar to ProPresenter or Powerpoint, that allows you to play games in your service, like spin a wheel, play Family Feud, keep score, or pick a random (or not so random) kid. It's part of Download Youth Ministry's Gold Membership and standalone Sidekick membership. It's used in tons of churches every week.</p>\n<p>Files (games) can be exported, shared, and imported on different devices. They can even be sold on the DYM store. All files are stored locally, automatically saved, and rapidly accessible for off-the-cuff gameplay.</p>\n<h2>The Idea</h2>\n<p>Sidekick is the latest iteration in a line of projects that I've been working on, starting with a Flash app called Spin that Wheel. We've always wanted to make a presentation software that did the things you can't do with other apps.</p>\n<p>The overall design and architecture of the project had some tricky guidelines:</p>\n<ol>\n<li>The audience cannot know what you're doing, so there needed to be independent control and display windows.</li>\n<li>We wanted the app to work offline, incase you happen to be at camp or in a church basement.</li>\n<li>It has to require a login to determine if you have a valid membership.</li>\n<li>The UI has to be easy enough to train a volunteer that has never used Sidekick in a matter of minutes to feel confident.</li>\n<li>The games have to auto-save incase of the app crashing or switching quickly between games.</li>\n<li>Files (stored locally) had to work in newer versions of the app.</li>\n<li>We don't the screen size or aspect ratio of the projectors or TVs this is being played on, so we need to make it look decent on as many as possible.</li>\n</ol>\n<h2>Evolution</h2>\n<p>Sidekick's predecessor, DYM Games, was built with jQuery and state management was awful to deal with. We'd seen success with it, but with every additional builder and feature it seemed development time was increasing exponentially. On top of that, the most common feature request was that people wanted to switch back and forth between games.</p>\n<p>During Christmas break, 2017, I was playing around React. After a few hours, it became apparent that rebuilding DYM Games as a new app in React would allow us to add a ton of features faster! We were able to combine common code within builders, make the app more performant, create a library system, and iterate much faster</p>\n<h2>Version 1.0</h2>\n<p>Version 1.0 was launched July 26, 2018 (just over 6 months after that fateful Christmas break). It included 10 fully-customizable &quot;builders&quot;, which are like apps within the app.</p>\n<ul>\n<li>Boxes: A random box picker.</li>\n<li>Emoji Hunt: An Emoji slot machine.</li>\n<li>Wheel of Destiny: A completely customizable spinny-wheel.</li>\n<li>Pick Me: An easy people picker complete with odds!</li>\n<li>Leaderboard: Keep score with up to 10 teams.</li>\n<li>Survey Says: A Family Feud-style game builder.</li>\n<li>Countdown Maker: Customizable countdowns in seconds!</li>\n<li>Pixelate: Customizable &quot;Image guessing&quot; game without Photoshop!</li>\n<li>Trivia: Full-featured, multiple-choice game builder.</li>\n<li>Photo Fury: A fully-customizable, fast-paced, random image picker.</li>\n</ul>\n<p>It also included 45 built in games, a library system that allowed you switch between games quickly.</p>\n<h2>Behind the Scenes</h2>\n<p>Sidekick uses Electron so we can talk between a control interface to a display interface, to that the audience can't see behind the curtain. It uses React and Redux for state management. It uses the local filesystem to store settings and files. We created our own filetypes, which are zip files with media and JSON files, that can be exported and shared.</p>\n<p>Sidekick has a lot of and animation and graphic generation included, which means I used Greensock, CSS animations, filters, and a boatload of realtime generated SVGs. When necessary, Sidekick will actually export screenshots of screens and save out thumbnails in realtime to speed up the app.</p>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "DownloadYouthMinistry.com",
+    "slug": "downloadyouthministry-com",
+    "frontEnd": [
+      {
+        "id": "3769fc22-e7a8-48c2-95c0-3768d4362511",
+        "name": "ISML",
+        "color": "green"
+      },
+      {
+        "id": "a90d6a9a-080f-4675-9cf3-ab8db8f8bedf",
+        "name": "Javascript",
+        "color": "red"
+      }
+    ],
+    "backEnd": [
+      {
+        "id": "fe12c4c4-57c8-49c3-b068-08888633bbad",
+        "name": "Java",
+        "color": "blue"
+      },
+      {
+        "id": "2a189cdb-b3e0-4a03-a1f9-0b0a46153851",
+        "name": "Rhino JS",
+        "color": "purple"
+      }
+    ],
+    "host": [
+      {
+        "id": "48290434-4021-4052-9950-f1d283048653",
+        "name": "SalesForce Commerce Cloud",
+        "color": "yellow"
+      }
+    ],
+    "url": "https://downloadyouthministry.com/",
+    "githubUrl": null,
+    "client": "Download Youth Ministry",
+    "image": {
+      "alt": "DownloadYouthMinistry.com",
+      "filename": "_ZMz6NZhr0-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "DownloadYouthMinistry.com",
+        "filename": "_ZMz6NZhr0-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-0-large-1440w.jpeg"
+      },
+      {
+        "alt": "DownloadYouthMinistry.com",
+        "filename": "yOLeE9fZH7-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-1-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-1-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-1-large-1440w.jpeg"
+      },
+      {
+        "alt": "DownloadYouthMinistry.com",
+        "filename": "BxJNCW8Q4U-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-2-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-2-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-2-large-1440w.jpeg"
+      },
+      {
+        "alt": "DownloadYouthMinistry.com",
+        "filename": "OddAH-5gb_-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-3-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-3-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-3-large-1440w.jpeg"
+      },
+      {
+        "alt": "DownloadYouthMinistry.com",
+        "filename": "3NviGuTclA-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-4-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-4-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-4-large-1440w.jpeg"
+      },
+      {
+        "alt": "DownloadYouthMinistry.com",
+        "filename": "UOwsHV9Qjw-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-5-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-5-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-5-large-1440w.jpeg"
+      },
+      {
+        "alt": "DownloadYouthMinistry.com",
+        "filename": "ACczx5TFxZ-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-6-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-6-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80ef-aeb1-ea0ab095f6c2-6-large-1440w.jpeg"
+      }
+    ],
+    "order": 3,
+    "content": "<h2>Overview</h2>\n<p>Download Youth Ministry is an E-Commerce website that takes in product submissions from youth workers, edits them for distribution, then sells them to other youth workers. The author makes a percentage of the sales, which helps provide a passive income for many of our authors. We release dozens of resources a week. DYM also has a pretty incredible membership program that offers store credit, discounts in the store, and access to some pretty neat tools for youth workers (like <a href=\"https://steveostudios.com/projects/sidekick\">Sidekick</a>).</p>\n<h2>Behind the Scenes</h2>\n<p>Download Youth Ministry has been through some drastic iterations. I was part of the original MVP, when it was built on WooCommerce and Wordpress. I got to build the author dashboard, which helped authors know how well their resources were helping other youth workers. We also launched the membership program back on Wordpress.</p>\n<p>DYM's site then went through a phase in Magento, which I had pretty minimal involvement in. At the time I was focused on Newsletter, DYM Games, <a href=\"https://steveostudios.com/projects/leader-training-library\">Leader Training Library</a>, <a href=\"https://steveostudios.com/projects/sidekick\">Sidekick</a>, and our <a href=\"https://steveostudios.com/projects/pipeline\">Pipeline app</a>.</p>\n<p>In 2020 we rebuilt the entire site in SalesForce Commerce Cloud.</p>\n<h2>Involvement</h2>\n<p>My involvement started with only getting the API to work with our membership apps. After launch we had significant issues with what we were handed by our systems integrator and my role changed to diagnosing and fixing things that were poorly written. I mainly handled helping our new SI with troubleshooting and acting as a translator for the team, but also solved a few tickets as well.</p>\n<p>I had to quickly learn how about SalesForce and our integrations, then train our team on best practices. I wrote SOPs, documented data flows, recorded video tutorials, lead trainings and QA team members' work.</p>\n<p>Because our site was in such disarray, I helped diagnose, documented, and QA issues with bad data, broken features, and bugs so we could get the website fully operational. Being the only developer, I handled all content that wasn't capable with the built-in drag-n-drop components, managed credentials and security practices and helped our team find the best way to export data.</p>\n<p>Later I got to take a class on SFRA and got to work with our SI to write some features, fix bugs, and write custom drag-n-drop components for our marketing team to use.</p>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-80ee-a795-e19169d88a4d",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "Sidekick.tv",
+    "slug": "sidekick-tv",
+    "frontEnd": [],
+    "backEnd": [
+      {
+        "id": "a0937c8c-cca1-4663-ab98-b67565f2d06f",
+        "name": "Wordpress",
+        "color": "green"
+      }
+    ],
+    "host": [
+      {
+        "id": "7504f04b-0388-4a40-b68b-454ad5c03bb4",
+        "name": "Flywheel",
+        "color": "pink"
+      }
+    ],
+    "url": "https://sidekick.tv/",
+    "githubUrl": null,
+    "client": "Download Youth Ministry",
+    "image": {
+      "alt": "Sidekick.tv",
+      "filename": "Jd7N1FG5O4-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-80ee-a795-e19169d88a4d-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-80ee-a795-e19169d88a4d-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-80ee-a795-e19169d88a4d-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "Sidekick.tv",
+        "filename": "Jd7N1FG5O4-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80ee-a795-e19169d88a4d-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80ee-a795-e19169d88a4d-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80ee-a795-e19169d88a4d-0-large-1440w.jpeg"
+      },
+      {
+        "alt": "Sidekick.tv",
+        "filename": "NzordXz60u-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80ee-a795-e19169d88a4d-1-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80ee-a795-e19169d88a4d-1-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80ee-a795-e19169d88a4d-1-large-1440w.jpeg"
+      },
+      {
+        "alt": "Sidekick.tv",
+        "filename": "5OiaMu2qPS-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80ee-a795-e19169d88a4d-2-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80ee-a795-e19169d88a4d-2-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80ee-a795-e19169d88a4d-2-large-1440w.jpeg"
+      },
+      {
+        "alt": "Sidekick.tv",
+        "filename": "nh1NkSk7Hr-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80ee-a795-e19169d88a4d-3-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80ee-a795-e19169d88a4d-3-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80ee-a795-e19169d88a4d-3-large-1440w.jpeg"
+      }
+    ],
+    "order": 4,
+    "content": "<h2>Overview</h2>\n<p>This site is the landing page for <a href=\"https://steveostudios.com/projects/sidekick\">Sidekick</a>, the presentation app we built at DYM. It serves as the primary means to offer training, download links, as well as an API for notifications in the app itself.</p>\n<p>Fun fact, I recorded, edited, and am the voice you hear in all of the videos!</p>\n<h2>Behind the Scenes</h2>\n<p>The site is a Wordpress landing page hosted on FlyWheel. The pages on the front-end are used to educate the user on how to use the app. We used the built in blog features of Wordpress, along with a JSON API, to create posts that are consumed by Sidekick itself as a changelog/notification system. This proved really useful to give realtime notifications to the app, instead of having to push updates.</p>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-809b-8735-f23eae2b5881",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "Design System",
+    "slug": "design-system",
+    "frontEnd": [
+      {
+        "id": "dd153bd2-242c-4909-9a38-48c22788abcf",
+        "name": "React",
+        "color": "gray"
+      },
+      {
+        "id": "025ce386-b470-48a4-84c8-ee1c5cb30f49",
+        "name": "Storybook",
+        "color": "brown"
+      }
+    ],
+    "backEnd": [],
+    "host": [
+      {
+        "id": "21c57a09-0c57-4319-8258-c4b4afba5df3",
+        "name": "Netlify",
+        "color": "brown"
+      }
+    ],
+    "url": null,
+    "githubUrl": null,
+    "client": "Download Youth Ministry",
+    "image": {
+      "alt": "Design System",
+      "filename": "QeIEXbx8Nf-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-809b-8735-f23eae2b5881-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-809b-8735-f23eae2b5881-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-809b-8735-f23eae2b5881-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "Design System",
+        "filename": "QeIEXbx8Nf-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-809b-8735-f23eae2b5881-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-809b-8735-f23eae2b5881-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-809b-8735-f23eae2b5881-0-large-1440w.jpeg"
+      },
+      {
+        "alt": "Design System",
+        "filename": "i0ofMmNBgQ-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-809b-8735-f23eae2b5881-1-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-809b-8735-f23eae2b5881-1-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-809b-8735-f23eae2b5881-1-large-1440w.jpeg"
+      }
+    ],
+    "order": 5,
+    "content": "<h2>Overview</h2>\n<p>We've spun up several tools and have plans for some upcoming tools at DYM. Rather than reinvent the wheel every time, I decided to learn Storybook and create a design system. Storybook self-documents and has some fun UI features allowing you to test out React Components before you drop them into your project. I love how easy it is to put all of your code, documentation, and use-cases in the same place as the components themselves, because I am terrible at remembering to change everything!</p>\n<h2>Behind the Scenes</h2>\n<p>The system is based on <a href=\"https://storybook.js.org/\">Storybook</a>. The storybook portion is hosted on Netlify. When merging to <code>main</code> Netlify deploys a new version.</p>\n<p>There is a second &quot;output&quot; for the app, which is a package hosted on Github Packages. When running <code>auto</code>, it will bump the version number, update a changelog, and version control another release on Github. In other applications, update the version number to the latest and all projects will have an up-to-date design system!</p>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-80f9-a1f4-e5f6a76ad2a8",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "CIY App",
+    "slug": "ciy-app",
+    "frontEnd": [
+      {
+        "id": "dd153bd2-242c-4909-9a38-48c22788abcf",
+        "name": "React",
+        "color": "gray"
+      },
+      {
+        "id": "630cf8de-1b8c-4451-b38c-7e47fc2f8a4d",
+        "name": "React Router",
+        "color": "pink"
+      }
+    ],
+    "backEnd": [],
+    "host": [
+      {
+        "id": "21c57a09-0c57-4319-8258-c4b4afba5df3",
+        "name": "Netlify",
+        "color": "brown"
+      }
+    ],
+    "url": "https://app.ciy.com/",
+    "githubUrl": null,
+    "client": "CIY",
+    "image": {
+      "alt": "CIY App",
+      "filename": "pGrioYnJm2-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-80f9-a1f4-e5f6a76ad2a8-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-80f9-a1f4-e5f6a76ad2a8-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-80f9-a1f4-e5f6a76ad2a8-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "CIY App",
+        "filename": "pGrioYnJm2-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80f9-a1f4-e5f6a76ad2a8-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80f9-a1f4-e5f6a76ad2a8-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80f9-a1f4-e5f6a76ad2a8-0-large-1440w.jpeg"
+      },
+      {
+        "alt": "CIY App",
+        "filename": "shTWYFjjgw-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80f9-a1f4-e5f6a76ad2a8-1-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80f9-a1f4-e5f6a76ad2a8-1-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80f9-a1f4-e5f6a76ad2a8-1-large-1440w.jpeg"
+      }
+    ],
+    "order": 6,
+    "content": "<h2>Overview</h2>\n<p>CIY runs US and International conferences to call students to Christ and into a life of kingdom work through the church. I as asked to help create a platform for staff, volunteers and students to get up-to-date info while at the conference. It needs to be fast, editable on-site, and run as close to the user as possible, as some locations have limited connectivity.</p>\n<h2>Behind the Scenes</h2>\n<p>This is a React app that pulls in specific data from an API. Once it has the data it stores all of the event data locally so that the user doesn't necessarily need the internet (obviously it could be out-of-date, but still). The app is small, and completely customizable with a backend.</p>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-80ce-ba34-da15122ff812",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "Escape Your Phone",
+    "slug": "escape-your-phone",
+    "frontEnd": [
+      {
+        "id": "dd153bd2-242c-4909-9a38-48c22788abcf",
+        "name": "React",
+        "color": "gray"
+      },
+      {
+        "id": "630cf8de-1b8c-4451-b38c-7e47fc2f8a4d",
+        "name": "React Router",
+        "color": "pink"
+      },
+      {
+        "id": "d1bcce51-7216-46d0-80ef-a717043868b7",
+        "name": "Styled Components",
+        "color": "orange"
+      }
+    ],
+    "backEnd": [],
+    "host": [
+      {
+        "id": "21c57a09-0c57-4319-8258-c4b4afba5df3",
+        "name": "Netlify",
+        "color": "brown"
+      }
+    ],
+    "url": null,
+    "githubUrl": null,
+    "client": "Download Youth Ministry",
+    "image": {
+      "alt": "Escape Your Phone",
+      "filename": "2DxhqgHFXY-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-80ce-ba34-da15122ff812-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-80ce-ba34-da15122ff812-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-80ce-ba34-da15122ff812-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "Escape Your Phone",
+        "filename": "2DxhqgHFXY-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80ce-ba34-da15122ff812-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80ce-ba34-da15122ff812-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80ce-ba34-da15122ff812-0-large-1440w.jpeg"
+      },
+      {
+        "alt": "Escape Your Phone",
+        "filename": "MhmdUjlzdW-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80ce-ba34-da15122ff812-1-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80ce-ba34-da15122ff812-1-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80ce-ba34-da15122ff812-1-large-1440w.jpeg"
+      },
+      {
+        "alt": "Escape Your Phone",
+        "filename": "Zxvz9XLXKr-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80ce-ba34-da15122ff812-2-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80ce-ba34-da15122ff812-2-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80ce-ba34-da15122ff812-2-large-1440w.jpeg"
+      }
+    ],
+    "order": 7,
+    "content": "<h2>Overview</h2>\n<p>After the wild success of <a href=\"https://steveostudios.com/projects/escape-room-north-pole\">Escape the North Pole</a>, we at DYM set out to make another room. This one we wanted to be a little more evergreen instead of limited to a season.</p>\n<p>Like the other escape room, the idea is that this is played collaboratively via Zoom breakouts with your youth group. If you need a hint, you can go to the main Zoom room and ask the leader. In each room you will find clues to unlock screen allowing you to move to the next screen. When you reach the end, you get a secret phrase to tell your leader.</p>\n<p>There is no &quot;collecting items&quot;. Individuals who unlock a room can freely give their team a link to the newly unlocked room so they can continue to collaborate.</p>\n<p>For this one, we wanted the story to be that you were sucked into your phone and the evil voice-assistant wanted to trap in you in there. You have to use clues found in the &quot;apps&quot; to advance to the next screen.</p>\n<h2>Behind the Scenes</h2>\n<p>There are 6 &quot;pre-rooms&quot;, which have a video that have instructions and move the plot forward. There are 6 home screen (rooms) with apps filled with clues and red-herrings and puzzles. In order to keep all of this organized I needed to create a design style and organization system to handle the sheer quantity of content. I had to make username/password, pin-code, a slew of toggle &quot;settings&quot;, a snake game, and multi-question, timed quiz components. It was super fun!</p>\n<p>Some of the hardest parts were trying to responsively put a phone on the screen. This had to work on any device, which could also be a phone! This caused some weird scrolling behavior and issues with mobile Safari. I also struggled with a good pattern unlock. I tried several components I found online, but none worked in the weird phone-inception. I even tried writing my own and we ran out of time.</p>\n<p>It was really fun. Like the other one I got to help write the scripts, collaborate with the designers, and do all the code myself!</p>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-804d-ad0b-c8994376e36e",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "NDO Host",
+    "slug": "ndo-host",
+    "frontEnd": [
+      {
+        "id": "dd153bd2-242c-4909-9a38-48c22788abcf",
+        "name": "React",
+        "color": "gray"
+      },
+      {
+        "id": "630cf8de-1b8c-4451-b38c-7e47fc2f8a4d",
+        "name": "React Router",
+        "color": "pink"
+      }
+    ],
+    "backEnd": [],
+    "host": [
+      {
+        "id": "21c57a09-0c57-4319-8258-c4b4afba5df3",
+        "name": "Netlify",
+        "color": "brown"
+      }
+    ],
+    "url": "https://host.trainmyvolunteers.com/",
+    "githubUrl": "ttps://github.com/downloadyouthministry/ndo-hosts-app",
+    "client": "Download Youth Ministry",
+    "image": {
+      "alt": "NDO Host",
+      "filename": "ZZPtjNhtJ7-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-804d-ad0b-c8994376e36e-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-804d-ad0b-c8994376e36e-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-804d-ad0b-c8994376e36e-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "NDO Host",
+        "filename": "ZZPtjNhtJ7-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-804d-ad0b-c8994376e36e-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-804d-ad0b-c8994376e36e-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-804d-ad0b-c8994376e36e-0-large-1440w.jpeg"
+      },
+      {
+        "alt": "NDO Host",
+        "filename": "BRqfY8QwBZ-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-804d-ad0b-c8994376e36e-1-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-804d-ad0b-c8994376e36e-1-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-804d-ad0b-c8994376e36e-1-large-1440w.jpeg"
+      },
+      {
+        "alt": "NDO Host",
+        "filename": "svtrgzoztn-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-804d-ad0b-c8994376e36e-2-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-804d-ad0b-c8994376e36e-2-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-804d-ad0b-c8994376e36e-2-large-1440w.jpeg"
+      },
+      {
+        "alt": "NDO Host",
+        "filename": "FJ2R1S2w4R-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-804d-ad0b-c8994376e36e-3-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-804d-ad0b-c8994376e36e-3-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-804d-ad0b-c8994376e36e-3-large-1440w.jpeg"
+      }
+    ],
+    "order": 8,
+    "content": "<h2>Overview</h2>\n<p>We host a distributed conference every year at DYM. We produce the resources and 2.5 hour video teaching and provide them to host churches which they use to train their volunteers. This site is the secure backend that let's them download their resources.</p>\n<h2>Behind the Scenes</h2>\n<p>We needed this to work with several APIs so our team would have to do the minimal amount of repetitive work. The host information (and main database) was held in a Google Sheet to make it easy for our administrators to keep up to date. This would be used for some host data.</p>\n<p>Hosts can have other churches come to their church, which we use a service called <a href=\"https://www.brushfire.com/\">Brushfire</a> to handle those transactions. I set up a Lambda function on AWS to hit the Brushfire API several times a day to get a list of attendee churches and save it to a secure AWS bucket. This app would then read that data back to the host so they can see how many people the need to set chairs and provide meals for.</p>\n<p>Stylistically, this project had to look similar to the conference material and attendee landing page.</p>\n<p>The app is hosted on Netlify using their automatic deploy from Github.</p>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-806b-9f35-f9d4e374d00b",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "Steveostudios",
+    "slug": "steveostudios",
+    "frontEnd": [],
+    "backEnd": [
+      {
+        "id": "7e3cea17-5946-4c30-b9d7-fe27f0caf6b6",
+        "name": "Eleventy",
+        "color": "red"
+      },
+      {
+        "id": "83f0ac67-59dc-42fa-b191-7d9f58080552",
+        "name": "Liquid",
+        "color": "gray"
+      },
+      {
+        "id": "3c573da3-3415-447f-a5eb-223733bdcf13",
+        "name": "Markdown",
+        "color": "default"
+      },
+      {
+        "id": "f5d445ad-b249-41f0-8177-d2540db365b6",
+        "name": "JSON",
+        "color": "purple"
+      }
+    ],
+    "host": [
+      {
+        "id": "21c57a09-0c57-4319-8258-c4b4afba5df3",
+        "name": "Netlify",
+        "color": "brown"
+      }
+    ],
+    "url": "https://steveostudios.com/",
+    "githubUrl": "https://steveostudios.com/project/steveostudios/",
+    "client": "Personal",
+    "image": {
+      "alt": "Steveostudios",
+      "filename": "SbQfW5buzP-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-806b-9f35-f9d4e374d00b-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-806b-9f35-f9d4e374d00b-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-806b-9f35-f9d4e374d00b-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "Steveostudios",
+        "filename": "SbQfW5buzP-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-806b-9f35-f9d4e374d00b-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-806b-9f35-f9d4e374d00b-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-806b-9f35-f9d4e374d00b-0-large-1440w.jpeg"
+      },
+      {
+        "alt": "Steveostudios",
+        "filename": "mTZ_85XqkT-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-806b-9f35-f9d4e374d00b-1-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-806b-9f35-f9d4e374d00b-1-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-806b-9f35-f9d4e374d00b-1-large-1440w.jpeg"
+      },
+      {
+        "alt": "Steveostudios",
+        "filename": "rv_R7DO74F-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-806b-9f35-f9d4e374d00b-2-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-806b-9f35-f9d4e374d00b-2-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-806b-9f35-f9d4e374d00b-2-large-1440w.jpeg"
+      },
+      {
+        "alt": "Steveostudios",
+        "filename": "vjCf9R_Krf-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-806b-9f35-f9d4e374d00b-3-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-806b-9f35-f9d4e374d00b-3-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-806b-9f35-f9d4e374d00b-3-large-1440w.jpeg"
+      }
+    ],
+    "order": 9,
+    "content": "<h2>Overview</h2>\n<p>The site you're on right now!</p>\n<p>I've had some sort of portfolio site since 2003 or so. Boy, that feels weird to say! It's been built and rebuilt as I grow as a developer, as I discover new techniques I want to explore, and figure out what I want to tell the world.</p>\n<p>In the past, I've struggled with keeping things updated, much less adding new content! I've found a secret sauce, at least for now, that is easy to update and flexible!</p>\n<p>The site features posts going back to me learning Cinema 4D in 2010. I regularly update it with my reading progress (I like to read, what can I say?!). As well as this section, which is my best attempt at collecting some of the projects that I have worked on. There is even my <a href=\"https://steveostudios.com/resume\">resume</a>, if you're interested.</p>\n<h2>Behind the Scenes</h2>\n<p>This current iteration is built on Eleventy, hosted on Netlify. I like this because it's super fast and easy to manage. When I push to <code>main</code> my site us deployed within a couple minutes thanks to Netlify. It's static, fast, and secure.</p>\n<h2>Past iterations</h2>\n<ul>\n<li>Macromedia Flash</li>\n<li>Apple iWeb (Mobile Me)</li>\n<li>Wordpress</li>\n<li>Ghost</li>\n<li>Postach.io</li>\n<li>Wordpress (again)</li>\n<li>Gatsby</li>\n</ul>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-801b-af9d-c2e67f406562",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "Newsletter",
+    "slug": "newsletter",
+    "frontEnd": [
+      {
+        "id": "99ecaef7-25bd-4da1-9d43-b5fa1010bed8",
+        "name": "JQuery",
+        "color": "blue"
+      }
+    ],
+    "backEnd": [
+      {
+        "id": "34ff05eb-0621-423e-9355-4bfaa638e5bc",
+        "name": "NodeJS",
+        "color": "gray"
+      },
+      {
+        "id": "768e6715-3843-4e88-9158-ba6d91129864",
+        "name": "SQL",
+        "color": "green"
+      },
+      {
+        "id": "2231ec9e-937b-4b6f-b17f-1985be2cf6b2",
+        "name": "Express",
+        "color": "brown"
+      }
+    ],
+    "host": [
+      {
+        "id": "6848ebd6-5b2b-4cc3-b5b1-1073e0141c0a",
+        "name": "DigitalOcean",
+        "color": "green"
+      }
+    ],
+    "url": "https://newsletter.dymapps.com/",
+    "githubUrl": null,
+    "client": "Download Youth Ministry",
+    "image": {
+      "alt": "Newsletter",
+      "filename": "gmOHy8xpdA-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "Newsletter",
+        "filename": "gmOHy8xpdA-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-0-large-1440w.jpeg"
+      },
+      {
+        "alt": "Newsletter",
+        "filename": "9J32Rs3PJU-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-1-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-1-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-1-large-1440w.jpeg"
+      },
+      {
+        "alt": "Newsletter",
+        "filename": "p9TPaitBha-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-2-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-2-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-2-large-1440w.jpeg"
+      },
+      {
+        "alt": "Newsletter",
+        "filename": "vQC4AlBR7V-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-3-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-3-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-3-large-1440w.jpeg"
+      },
+      {
+        "alt": "Newsletter",
+        "filename": "JdfG-e5g5c-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-4-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-4-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-4-large-1440w.jpeg"
+      },
+      {
+        "alt": "Newsletter",
+        "filename": "huOI4h28kZ-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-5-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-5-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-801b-af9d-c2e67f406562-5-large-1440w.jpeg"
+      }
+    ],
+    "order": 10,
+    "content": "<h2>Overview</h2>\n<p>This was the first project I oversaw at DYM besides DYM Games. Before I got to DYM, they had a simple Flash app that you could input some info and it would spit out a printable PDF newsletter. We decided to create an online version where you could store. You can create up to 5 &quot;publications&quot; (like &quot;Middle School Ministry&quot;, and &quot;tech volunteers&quot;, and &quot;Parents&quot;, for example). Each publication can have unlimited newsletters. It has a drag-n-drop editor to layout your newsletter, pre-built articles, and a few themes. When you're done, you can email a link, post it to your website, or print it out. My favorite feature is that every publication has a &quot;featured&quot; URL. You can replace which newsletter is the featured, so you never have to regularly change out a link on your website!</p>\n<h2>Behind the Scenes</h2>\n<p>This app is built in Node JS, runs on SQL and hosted on DigitalOcean. The frontend is jQuery and a lot of love. It's been solid for 6 years with no upkeep.</p>\n<h2>Involvement</h2>\n<p>We had a gifted developer who was a student of mine do the development. I got to oversee the project with designs, architecture, and problem solving. For the last few years I have been the maintainer.</p>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-80e2-b32f-f7c09812e483",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "Pipeline",
+    "slug": "pipeline",
+    "frontEnd": [
+      {
+        "id": "dd153bd2-242c-4909-9a38-48c22788abcf",
+        "name": "React",
+        "color": "gray"
+      },
+      {
+        "id": "630cf8de-1b8c-4451-b38c-7e47fc2f8a4d",
+        "name": "React Router",
+        "color": "pink"
+      }
+    ],
+    "backEnd": [
+      {
+        "id": "2231ec9e-937b-4b6f-b17f-1985be2cf6b2",
+        "name": "Express",
+        "color": "brown"
+      },
+      {
+        "id": "34ff05eb-0621-423e-9355-4bfaa638e5bc",
+        "name": "NodeJS",
+        "color": "gray"
+      },
+      {
+        "id": "8bfbcdaa-81ba-4811-968c-b4e59dea8180",
+        "name": "MongoDB",
+        "color": "pink"
+      }
+    ],
+    "host": [
+      {
+        "id": "6848ebd6-5b2b-4cc3-b5b1-1073e0141c0a",
+        "name": "DigitalOcean",
+        "color": "green"
+      }
+    ],
+    "url": null,
+    "githubUrl": null,
+    "client": "Download Youth Ministry",
+    "image": {
+      "alt": "Pipeline",
+      "filename": "_tOZ-90phF-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-80e2-b32f-f7c09812e483-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-80e2-b32f-f7c09812e483-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-80e2-b32f-f7c09812e483-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "Pipeline",
+        "filename": "_tOZ-90phF-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80e2-b32f-f7c09812e483-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80e2-b32f-f7c09812e483-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80e2-b32f-f7c09812e483-0-large-1440w.jpeg"
+      },
+      {
+        "alt": "Pipeline",
+        "filename": "hudxVDgfO1-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80e2-b32f-f7c09812e483-1-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80e2-b32f-f7c09812e483-1-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80e2-b32f-f7c09812e483-1-large-1440w.jpeg"
+      },
+      {
+        "alt": "Pipeline",
+        "filename": "bPnjaP6SEh-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80e2-b32f-f7c09812e483-2-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80e2-b32f-f7c09812e483-2-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80e2-b32f-f7c09812e483-2-large-1440w.jpeg"
+      }
+    ],
+    "order": 11,
+    "content": "<h2>Overview</h2>\n<p>The core of Download Youth Ministry is resource submissions from youth workers. Every submission goes through a process where we edit, organize, offering feedback and design graphics for it. This app keeps track of the history, organization, and communication for each resource.</p>\n<p>Before we made Pipeline, our team was using a home-brew combination of tools: several Google Sheets to manage where things were in the process, Dropbox and Word files to hold resource data, Facebook and email for communication to other editors and authors, and every resource required hours of work to keep up with by hand!</p>\n<p>The Pipeline app we created holds all of the data for the resources in a database (instead of Word files!). The author submits directly to the application and editors can move resources from person to person. There is a chat for the editors to leave notes and an email channel for the admin to reach out to the author.</p>\n<h2>Behind the Scenes</h2>\n<p>Pipeline is built on React and tied to a Mongo database. In order to handle file management, we connect to Dropbox. When an author submits a resource via their own Dropbox, Pipeline copies that zip file to our own Dropbox. As the editors move resources down the line, Dropbox permissions are granted and revoked. The app also communicates with out middleware server to handle authentication and permissions.</p>\n<h2>Involvement</h2>\n<p>I collaborated with the Pipeline team to determine what they needed the tool to do and took that back to Figma to design the screens for the app. I helped the developer on the project work through ideas and issues. For the last few years I've overseen the app while it was in maintenance mode.</p>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-8001-9477-c0e1f7206ea3",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "Leader Training Library",
+    "slug": "leader-training-library",
+    "frontEnd": [],
+    "backEnd": [
+      {
+        "id": "a0937c8c-cca1-4663-ab98-b67565f2d06f",
+        "name": "Wordpress",
+        "color": "green"
+      }
+    ],
+    "host": [
+      {
+        "id": "7504f04b-0388-4a40-b68b-454ad5c03bb4",
+        "name": "Flywheel",
+        "color": "pink"
+      }
+    ],
+    "url": "https://leadertraining.dymapps.com/",
+    "githubUrl": null,
+    "client": "Download Youth Ministry",
+    "image": {
+      "alt": "Leader Training Library",
+      "filename": "nfp0oFkVKO-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-8001-9477-c0e1f7206ea3-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-8001-9477-c0e1f7206ea3-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-8001-9477-c0e1f7206ea3-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "Leader Training Library",
+        "filename": "nfp0oFkVKO-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8001-9477-c0e1f7206ea3-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8001-9477-c0e1f7206ea3-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8001-9477-c0e1f7206ea3-0-large-1440w.jpeg"
+      },
+      {
+        "alt": "Leader Training Library",
+        "filename": "5fgc3chLmV-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8001-9477-c0e1f7206ea3-1-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8001-9477-c0e1f7206ea3-1-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8001-9477-c0e1f7206ea3-1-large-1440w.jpeg"
+      },
+      {
+        "alt": "Leader Training Library",
+        "filename": "tLgmshM3dB-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8001-9477-c0e1f7206ea3-2-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8001-9477-c0e1f7206ea3-2-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8001-9477-c0e1f7206ea3-2-large-1440w.jpeg"
+      }
+    ],
+    "order": 12,
+    "content": "<h2>Overview</h2>\n<p>One of the really cool perks of being a member at DYM is access to the Leader Training Library. Accessible to any Silver and Gold members, you get access to over 40 10-minute long videos intended to train your volunteer leaders from some of the smartest minds in youth ministry. If you're not logged in or part of a lower membership, you only get a preview of each video.</p>\n<h2>Behind the Scenes</h2>\n<p>This app uses Wordpress at it's core. We use Advanced Custom Fields, custom post types, a custom login, and a plugin that connects with our API to determine at login your membership level. It's a simple.</p>\n<h2>Involvement</h2>\n<p>We only had a few weeks to build this product. I worked with a fellow developer and did a lot of the design work. I also had to convert a lot of the video, which meant that I got to learn FFMpeg and automated a lot of it from the command line.</p>\n<p>Since the original build I moved it from Digital Ocean to Flywheel and manage any maintenance for it.</p>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-809c-949b-c59d976857bd",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "Spin That Wheel",
+    "slug": "spin-that-wheel",
+    "frontEnd": [],
+    "backEnd": [
+      {
+        "id": "05141db7-7a01-4840-a290-3bba0bdfb56b",
+        "name": "ActionScript 3",
+        "color": "orange"
+      }
+    ],
+    "host": [
+      {
+        "id": "99a647d8-0448-4825-8e5e-c93b33f34b32",
+        "name": "Adobe Air",
+        "color": "gray"
+      }
+    ],
+    "url": null,
+    "githubUrl": null,
+    "client": "Digital Stache",
+    "image": {
+      "alt": "Spin That Wheel",
+      "filename": "8TRQx6G10u-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-809c-949b-c59d976857bd-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-809c-949b-c59d976857bd-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-809c-949b-c59d976857bd-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "Spin That Wheel",
+        "filename": "8TRQx6G10u-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-809c-949b-c59d976857bd-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-809c-949b-c59d976857bd-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-809c-949b-c59d976857bd-0-large-1440w.jpeg"
+      },
+      {
+        "alt": "Spin That Wheel",
+        "filename": "xS0wvxtSbx-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-809c-949b-c59d976857bd-1-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-809c-949b-c59d976857bd-1-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-809c-949b-c59d976857bd-1-large-1440w.jpeg"
+      },
+      {
+        "alt": "Spin That Wheel",
+        "filename": "kbDvEw7Mi_-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-809c-949b-c59d976857bd-2-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-809c-949b-c59d976857bd-2-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-809c-949b-c59d976857bd-2-large-1440w.jpeg"
+      }
+    ],
+    "order": 13,
+    "content": "<h2>Overview</h2>\n<p>In 2009 my buddy and I had the idea to build an app that would allow you to put a bunch of items on a wheel and it would spin and randomly land on something. In youth ministry this is a common bit--picking volunteers, giving out prizes or punishments, etc. However, we realized we couldn't afford a developer! So, I picked up a book on Adobe Flex (since I had some experience with Flash), and started reading. A few months later, we had a version 1.0 of Spin That Wheel!</p>\n<p>Spin That Wheel allowed for up to 15 items on the wheel that could be reorderded at any time. It allowed for you to have controls on one screen while outputing on a different screen (sounds like <a href=\"https://steveostudios.com/projects/sidekick\">Sidekick</a>, am I right?). You could set the spin duration and just click spin and it would randomly land on a space. It came with a title graphic, sounds, and even the ability to mock your contestants!</p>\n<p>Development on Spin That Wheel (and other apps we were developing) stopped when Steve Jobs announced that Flash would never be on the iPhone. We read the writing on the wall that if we were going to continue to make games for youth ministries we'd need to learn some proper coding languages and techniques.</p>\n<h2>Behind the Scenes</h2>\n<p>We started out distributing Spin That Wheel on DVD-ROM and later online downloads. To prevent piracy, we had a 25-character registration key, which was some random recipe I made up. I spent a long time on figuring out how to get the text to scale if the user typed a lot of text, or had a lot of pieces. The wheel was always landed randomly (unlike later apps where you could pick the prize if you wanted 😉). We did build in auto-updates, which was pretty cool. We only ended up doing 2 minor updates, but at least we didn't have to ship out new disks!</p>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-8025-b2b8-d0a7ce78db0f",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "Score Keep",
+    "slug": "score-keep",
+    "frontEnd": [],
+    "backEnd": [
+      {
+        "id": "05141db7-7a01-4840-a290-3bba0bdfb56b",
+        "name": "ActionScript 3",
+        "color": "orange"
+      }
+    ],
+    "host": [
+      {
+        "id": "99a647d8-0448-4825-8e5e-c93b33f34b32",
+        "name": "Adobe Air",
+        "color": "gray"
+      }
+    ],
+    "url": null,
+    "githubUrl": null,
+    "client": "Digital Stache",
+    "image": {
+      "alt": "Score Keep",
+      "filename": "ff42s89k8z-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-8025-b2b8-d0a7ce78db0f-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-8025-b2b8-d0a7ce78db0f-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-8025-b2b8-d0a7ce78db0f-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "Score Keep",
+        "filename": "ff42s89k8z-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8025-b2b8-d0a7ce78db0f-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8025-b2b8-d0a7ce78db0f-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8025-b2b8-d0a7ce78db0f-0-large-1440w.jpeg"
+      },
+      {
+        "alt": "Score Keep",
+        "filename": "U_jL1HwEWs-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8025-b2b8-d0a7ce78db0f-1-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8025-b2b8-d0a7ce78db0f-1-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8025-b2b8-d0a7ce78db0f-1-large-1440w.jpeg"
+      },
+      {
+        "alt": "Score Keep",
+        "filename": "QuZ7biQ1_2-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8025-b2b8-d0a7ce78db0f-2-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8025-b2b8-d0a7ce78db0f-2-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8025-b2b8-d0a7ce78db0f-2-large-1440w.jpeg"
+      }
+    ],
+    "order": 14,
+    "content": "<h2>Overview</h2>\n<p>After the success of <a href=\"https://steveostudios.com/projects/spin-that-wheel\">Spin The Wheel</a>, we decided to take our learning and create a second product. Another tool that we had been asked for in the past was a way to keep score. A tally system that is fast and easy to use, theme-able, and does the math (we, youth workers, hate math).</p>\n<p>Score Keep let you choose between a couple themes, name your teams, set a point value, and quickly add or subtract points. It even had a built in countdown for timed games.</p>\n<h2>Behind the Scenes</h2>\n<p>Like Spin That Wheel, Score Keep was developed in Adobe Flex and distributed on DVD-ROM and online. My favorite part about this project was it got me started thinking about how to manage multiple projects at the same time. I started trying to reuse components and design elements, and seeing systems and architect them together. The idea was that we could keep creating dozens of these tools that we needed in our own ministry.</p>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-80ec-8531-c1c471069a73",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "Ready, Set, Go!",
+    "slug": "ready-set-go",
+    "frontEnd": [],
+    "backEnd": [
+      {
+        "id": "05141db7-7a01-4840-a290-3bba0bdfb56b",
+        "name": "ActionScript 3",
+        "color": "orange"
+      }
+    ],
+    "host": [
+      {
+        "id": "99a647d8-0448-4825-8e5e-c93b33f34b32",
+        "name": "Adobe Air",
+        "color": "gray"
+      }
+    ],
+    "url": null,
+    "githubUrl": null,
+    "client": "Digital Stache",
+    "image": {
+      "alt": "Ready, Set, Go!",
+      "filename": "SLBnz36u42-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-80ec-8531-c1c471069a73-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-80ec-8531-c1c471069a73-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-80ec-8531-c1c471069a73-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "Ready, Set, Go!",
+        "filename": "SLBnz36u42-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80ec-8531-c1c471069a73-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80ec-8531-c1c471069a73-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80ec-8531-c1c471069a73-0-large-1440w.jpeg"
+      }
+    ],
+    "order": 15,
+    "content": "<h2>Overview</h2>\n<p>Ready, Set, Go! was our third and ended up being the final app we built at Digital Stache. It's a simple countdown maker. You can set the time and choose a theme. It had a few other tricks as well. Ready, Set, Go! was free because we wanted people to see how easy it was to use and try our other apps.</p>\n<h2>Behind the Scenes</h2>\n<p>Like <a href=\"https://steveostudios.com/projects/spin-that-wheel\">Spin That Wheel</a>, <a href=\"https://steveostudios.com/projects/score-keep\">Score Keep</a>, Ready, Set, Go! was developed in Adobe Flex and distributed on DVD-ROM and online. Being free, I commented out all of the registration code stuff, and I had already built the countdown bit for Score Keep. This was just a repackage that could hopefully help youth workers with a common task -- countdowns!</p>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-8035-b87a-cb771af821db",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "CIY App Admin v2",
+    "slug": "ciy-app-admin-v2",
+    "frontEnd": [
+      {
+        "id": "dd153bd2-242c-4909-9a38-48c22788abcf",
+        "name": "React",
+        "color": "gray"
+      },
+      {
+        "id": "630cf8de-1b8c-4451-b38c-7e47fc2f8a4d",
+        "name": "React Router",
+        "color": "pink"
+      }
+    ],
+    "backEnd": [
+      {
+        "id": "ab3f7938-64eb-48fb-a563-2b2b97c17030",
+        "name": "Firebase",
+        "color": "red"
+      }
+    ],
+    "host": [
+      {
+        "id": "21c57a09-0c57-4319-8258-c4b4afba5df3",
+        "name": "Netlify",
+        "color": "brown"
+      }
+    ],
+    "url": null,
+    "githubUrl": null,
+    "client": "CIY",
+    "image": {
+      "alt": "CIY App Admin v2",
+      "filename": "GenkGIVI2Z-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-8035-b87a-cb771af821db-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-8035-b87a-cb771af821db-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-8035-b87a-cb771af821db-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "CIY App Admin v2",
+        "filename": "GenkGIVI2Z-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8035-b87a-cb771af821db-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8035-b87a-cb771af821db-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8035-b87a-cb771af821db-0-large-1440w.jpeg"
+      }
+    ],
+    "order": 16,
+    "content": "<h2>Overview</h2>\n<p>CIY runs US and International conferences to call students to Christ and into a life of kingdom work through the church. I as asked to help create a platform for staff, volunteers and students to get up-to-date info while at the conference. It needs to be fast, editable on-site, and run as close to the user as possible, as some locations have limited connectivity.</p>\n<p>Version 2 is a custom admin panel for <a href=\"https://steveostudios.com/projects/ciy-app\">CIY App</a>, built from the ground-up!</p>\n<h2>Behind the Scenes</h2>\n<p>We ran into issues with Wordpress being slow for so many users hitting the site at once. Advanced Custom Fields, while great, wasn't scalable in this use case. Time for a new solution!</p>\n<p>V2 is completely rewritten from the learnings of previous version. It's fast and lightweight, using Firebase as it's database, and the data structure is lean (no-crazy WP lookups!). The UI and form fields are custom for this project as well. Once the data is saved, it is packaged as a JSON file and host off the app so the admin doesn't experience slow load times at peak times, and the server isn't handling any builds for users.</p>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-8049-a336-e6a2b6e2947a",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "Data Converter",
+    "slug": "data-converter",
+    "frontEnd": [
+      {
+        "id": "dd153bd2-242c-4909-9a38-48c22788abcf",
+        "name": "React",
+        "color": "gray"
+      },
+      {
+        "id": "630cf8de-1b8c-4451-b38c-7e47fc2f8a4d",
+        "name": "React Router",
+        "color": "pink"
+      }
+    ],
+    "backEnd": [],
+    "host": [
+      {
+        "id": "21c57a09-0c57-4319-8258-c4b4afba5df3",
+        "name": "Netlify",
+        "color": "brown"
+      }
+    ],
+    "url": "https://dataconverter.dymapps.com/",
+    "githubUrl": "https://github.com/downloadyouthministry/data-convert",
+    "client": "Download Youth Ministry",
+    "image": {
+      "alt": "Data Converter",
+      "filename": "BpqWYcH319-1440-1.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "Data Converter",
+        "filename": "BpqWYcH319-1440-1.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-0-large-1440w.jpeg"
+      },
+      {
+        "alt": "Data Converter",
+        "filename": "Zumhv2RuRB-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-1-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-1-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-1-large-1440w.jpeg"
+      },
+      {
+        "alt": "Data Converter",
+        "filename": "BpqWYcH319-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-2-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-2-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-2-large-1440w.jpeg"
+      },
+      {
+        "alt": "Data Converter",
+        "filename": "NCRzFiFAxC-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-3-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-3-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-3-large-1440w.jpeg"
+      },
+      {
+        "alt": "Data Converter",
+        "filename": "EeGiweVb6S-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-4-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-4-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8049-a336-e6a2b6e2947a-4-large-1440w.jpeg"
+      }
+    ],
+    "order": 17,
+    "content": "<h2>Overview</h2>\n<p>Data Converter is an internal tool I created to help our team perform routine data parsing and conversions. It's really a catch all for a few different tools that need to be distributed but don't deserve their own domain. All of the parsing work is run locally in the browser, as to prohibit transferring sensitive data to a server.</p>\n<p>The project static pages, running React and React Router. The I use a few dependancies to make the nuts and bolts work (<code>export-to-csv</code>, <code>fast-xml-parser</code>, <code>file-saver</code>, <code>json-2-csv</code>, <code>bible-passage-reference-parser</code> to name a few.) It also uses the <a href=\"https://steveostudios.com/projects/design-system/\">DYM Design System</a>, brought in as a Github Package. It's hosted on Netlify.</p>\n<h2>Customers</h2>\n<p>The customer data export from SalesForce Commerce Cloud is in XML and custom attributes are hard to spread. With this tool our team can drop in an XML file and it will parse and spread the file. With the UI they can choose which fields, then export as a CSV, which is much friendlier for tools like Excel.</p>\n<h2>Orders</h2>\n<p>The Orders tool is similar to the Customer export. Orders out of SalesForce Commerce Cloud is in XML. The Orders UI allows our team to choose the data they want and export to a CSV.</p>\n<h2>Bible Verse Converter</h2>\n<p>This tool allows our team to paste in blocks of text, like copy/pasted from a sermon. It will look for scripture references and encode them into a format that we use on the backend of our store to attach to products. We haven't built out the function yet, but the idea is that we can build a search tool in SalesForce so users can search for products by passage.</p>\n<h2>.URL</h2>\n<p>This really basic app will create <code>.url</code> files, which we put into products at DYM. When <code>.url</code> files are clicked they open up the user's preferred browser to that URL. They are the only format compatible with both Mac and PC. Creating them can be a nuisance. This tool generates them quickly with no mistakes.</p>\n<h2>Prorate Calculator</h2>\n<p>Certain DYM Membership upgrades are able to be prorated if the customer emails us. This tool allows our customer support team to select start and upgrade dates and will calculate the proration amount and generate a support message that they can copy/paste to the customer.</p>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-80a5-868c-c550fdfd92c8",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "Summer Events Jam",
+    "slug": "summer-events-jam",
+    "frontEnd": [],
+    "backEnd": [
+      {
+        "id": "a0937c8c-cca1-4663-ab98-b67565f2d06f",
+        "name": "Wordpress",
+        "color": "green"
+      }
+    ],
+    "host": [
+      {
+        "id": "7504f04b-0388-4a40-b68b-454ad5c03bb4",
+        "name": "Flywheel",
+        "color": "pink"
+      }
+    ],
+    "url": "https://ideas.dym.today/",
+    "githubUrl": null,
+    "client": "Download Youth Ministry",
+    "image": {
+      "alt": "Summer Events Jam",
+      "filename": "FdtDO61Vqw-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-80a5-868c-c550fdfd92c8-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-80a5-868c-c550fdfd92c8-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-80a5-868c-c550fdfd92c8-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "Summer Events Jam",
+        "filename": "FdtDO61Vqw-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80a5-868c-c550fdfd92c8-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80a5-868c-c550fdfd92c8-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80a5-868c-c550fdfd92c8-0-large-1440w.jpeg"
+      },
+      {
+        "alt": "Summer Events Jam",
+        "filename": "HbCwra3g61-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80a5-868c-c550fdfd92c8-1-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80a5-868c-c550fdfd92c8-1-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80a5-868c-c550fdfd92c8-1-large-1440w.jpeg"
+      },
+      {
+        "alt": "Summer Events Jam",
+        "filename": "nbQquxsB7_-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-80a5-868c-c550fdfd92c8-2-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-80a5-868c-c550fdfd92c8-2-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-80a5-868c-c550fdfd92c8-2-large-1440w.jpeg"
+      }
+    ],
+    "order": 18,
+    "content": "<h2>Overview</h2>\n<p>We did a test during the sunmmer of 2021 to see what youth workers see how youth workers would submit their ideas and whether or not offering them for free would work. We wanted to know how many people would be interested in submitting, what kinds of ideas we would get, and how we could filter the submissions with contextual data. Ultimately we got some good feedback but the idea didn't really take off.</p>\n<h2>Behind the Scenes</h2>\n<p>This uses Wordpress, but because we wanted to collect additional context and data, we ended up using Advanced Customn Fields, WS Form so anyone can submit post ideas, and Search &amp; Filter to do the advanced filtering.</p>\n"
+  },
+  {
+    "id": "2bcaec2d-56b7-8029-b986-f7ee65491e91",
+    "lastEditedTime": "2025-12-01T17:59:00.000Z",
+    "title": "CIY App Admin",
+    "slug": "ciy-app-admin",
+    "frontEnd": [
+      {
+        "id": "914fa863-ca99-43ec-a300-28749af004d3",
+        "name": "Wordpress",
+        "color": "purple"
+      },
+      {
+        "id": "05f05e47-4e4d-4b36-9dd2-0527587c3c90",
+        "name": "Advanced Custom Fields",
+        "color": "yellow"
+      }
+    ],
+    "backEnd": [
+      {
+        "id": "a0937c8c-cca1-4663-ab98-b67565f2d06f",
+        "name": "Wordpress",
+        "color": "green"
+      }
+    ],
+    "host": [
+      {
+        "id": "7504f04b-0388-4a40-b68b-454ad5c03bb4",
+        "name": "Flywheel",
+        "color": "pink"
+      }
+    ],
+    "url": null,
+    "githubUrl": null,
+    "client": "CIY",
+    "image": {
+      "alt": "CIY App Admin",
+      "filename": "D4ZH3jLC88-1440.jpg",
+      "thumb": "/assets/img/notion/2bcaec2d-56b7-8029-b986-f7ee65491e91-0-thumb-102w.jpeg",
+      "medium": "/assets/img/notion/2bcaec2d-56b7-8029-b986-f7ee65491e91-0-medium-366w.jpeg",
+      "large": "/assets/img/notion/2bcaec2d-56b7-8029-b986-f7ee65491e91-0-large-1440w.jpeg"
+    },
+    "images": [
+      {
+        "alt": "CIY App Admin",
+        "filename": "D4ZH3jLC88-1440.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8029-b986-f7ee65491e91-0-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8029-b986-f7ee65491e91-0-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8029-b986-f7ee65491e91-0-large-1440w.jpeg"
+      },
+      {
+        "alt": "CIY App Admin",
+        "filename": "ciujPOXHWe-1440-1.jpg",
+        "thumb": "/assets/img/notion/2bcaec2d-56b7-8029-b986-f7ee65491e91-1-thumb-102w.jpeg",
+        "medium": "/assets/img/notion/2bcaec2d-56b7-8029-b986-f7ee65491e91-1-medium-366w.jpeg",
+        "large": "/assets/img/notion/2bcaec2d-56b7-8029-b986-f7ee65491e91-1-large-1440w.jpeg"
+      }
+    ],
+    "order": 19,
+    "content": "<h2>Overview</h2>\n<p>CIY runs US and International conferences to call students to Christ and into a life of kingdom work through the church. I as asked to help create a platform for staff, volunteers and students to get up-to-date info while at the conference. It needs to be fast, editable on-site, and run as close to the user as possible, as some locations have limited connectivity.</p>\n<p>This is the custom admin panel for <a href=\"https://steveostudios.com/projects/ciy-app\">CIY App</a>.</p>\n<h2>Behind the Scenes</h2>\n<p>This runs a headless instance of Wordpress with Advanced Custom Fields that allows for full customization. Once the data is saved, it's cached and ready for requests.</p>\n"
+  }
+]

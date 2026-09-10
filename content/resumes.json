@@ -1,0 +1,149 @@
+[
+  {
+    "id": "2c5aec2d-56b7-80ef-a9a1-f131150af182",
+    "lastEditedTime": "2025-12-22T18:36:00.000Z",
+    "name": "Netlify",
+    "slug": "netlify",
+    "bio": "I love creating tools, spaces, and experiences that communicate the help people do their jobs effortlessly. I am passionate about the teaching, empowering, and being part of a greater whole. I believe that people are at their best when they are given the tools, freedom, and inspiration. I enjoy thinking deeply about problems, the thrill of product design, and creating sustainable systems.",
+    "active": false,
+    "image": {
+      "alt": "Netlify",
+      "filename": "Netlify.png",
+      "large": "/assets/img/notion/2c5aec2d-56b7-80ef-a9a1-f131150af182-0-large-500w.png"
+    },
+    "images": [
+      {
+        "alt": "Netlify",
+        "filename": "Netlify.png",
+        "large": "/assets/img/notion/2c5aec2d-56b7-80ef-a9a1-f131150af182-0-large-500w.png"
+      }
+    ],
+    "content": ""
+  },
+  {
+    "id": "2c5aec2d-56b7-8065-95c9-fa9174c3512a",
+    "lastEditedTime": "2025-12-22T18:36:00.000Z",
+    "name": "1Password",
+    "slug": "1password",
+    "bio": "I love creating tools, spaces, and experiences that communicate the Gospel clearly. I am passionate about the power of discipleship. I believe that church services can be fun, inviting, and that the message sticks better if people feel loved, welcomed, and connected. I enjoy thinking deeply about problems, the thrill of live production, and creating sustainable systems.",
+    "active": false,
+    "image": {
+      "alt": "1Password",
+      "filename": "1Pass.png",
+      "large": "/assets/img/notion/2c5aec2d-56b7-8065-95c9-fa9174c3512a-0-large-500w.png"
+    },
+    "images": [
+      {
+        "alt": "1Password",
+        "filename": "1Pass.png",
+        "large": "/assets/img/notion/2c5aec2d-56b7-8065-95c9-fa9174c3512a-0-large-500w.png"
+      }
+    ],
+    "content": ""
+  },
+  {
+    "id": "2c5aec2d-56b7-8034-a292-db7536ef48f2",
+    "lastEditedTime": "2025-12-22T18:37:00.000Z",
+    "name": "Figma",
+    "slug": "figma",
+    "bio": "I love creating tools, spaces, and experiences that communicate the help people do their jobs effortlessly. I am passionate about the teaching, empowering, and being part of a greater whole. I believe that people are at their best when they are given the tools, freedom, and inspiration. I enjoy thinking deeply about problems, the thrill of product design, and creating sustainable systems.",
+    "active": false,
+    "image": {
+      "alt": "Figma",
+      "filename": "Figma.png",
+      "large": "/assets/img/notion/2c5aec2d-56b7-8034-a292-db7536ef48f2-0-large-500w.png"
+    },
+    "images": [
+      {
+        "alt": "Figma",
+        "filename": "Figma.png",
+        "large": "/assets/img/notion/2c5aec2d-56b7-8034-a292-db7536ef48f2-0-large-500w.png"
+      }
+    ],
+    "content": ""
+  },
+  {
+    "id": "2c5aec2d-56b7-801a-b1d5-dbfb59e85667",
+    "lastEditedTime": "2025-12-22T18:37:00.000Z",
+    "name": "Planning Center Online",
+    "slug": "planning-center-online",
+    "bio": "I love creating tools, spaces, and experiences that communicate the Gospel clearly. I am passionate about the power of discipleship. I believe that church services can be fun, inviting, and that the message sticks better if people feel loved, welcomed, and connected. I enjoy thinking deeply about problems, the thrill of live production, and creating sustainable systems.",
+    "active": true,
+    "image": {
+      "alt": "Planning Center Online",
+      "filename": "Planning Center.png",
+      "large": "/assets/img/notion/2c5aec2d-56b7-801a-b1d5-dbfb59e85667-0-large-500w.png"
+    },
+    "images": [
+      {
+        "alt": "Planning Center Online",
+        "filename": "Planning Center.png",
+        "large": "/assets/img/notion/2c5aec2d-56b7-801a-b1d5-dbfb59e85667-0-large-500w.png"
+      }
+    ],
+    "content": ""
+  },
+  {
+    "id": "2c5aec2d-56b7-8023-8b52-fbef7313a0f1",
+    "lastEditedTime": "2025-12-22T18:37:00.000Z",
+    "name": "Spotify",
+    "slug": "spotify",
+    "bio": "",
+    "active": false,
+    "image": {
+      "alt": "Spotify",
+      "filename": "Spotify.png",
+      "large": "/assets/img/notion/2c5aec2d-56b7-8023-8b52-fbef7313a0f1-0-large-500w.png"
+    },
+    "images": [
+      {
+        "alt": "Spotify",
+        "filename": "Spotify.png",
+        "large": "/assets/img/notion/2c5aec2d-56b7-8023-8b52-fbef7313a0f1-0-large-500w.png"
+      }
+    ],
+    "content": ""
+  },
+  {
+    "id": "2c5aec2d-56b7-80f9-8b79-cee05e8a7a38",
+    "lastEditedTime": "2025-12-22T18:37:00.000Z",
+    "name": "Playlister",
+    "slug": "playlister",
+    "bio": "",
+    "active": true,
+    "image": {
+      "alt": "Playlister",
+      "filename": "Playlister.png",
+      "large": "/assets/img/notion/2c5aec2d-56b7-80f9-8b79-cee05e8a7a38-0-large-500w.png"
+    },
+    "images": [
+      {
+        "alt": "Playlister",
+        "filename": "Playlister.png",
+        "large": "/assets/img/notion/2c5aec2d-56b7-80f9-8b79-cee05e8a7a38-0-large-500w.png"
+      }
+    ],
+    "content": ""
+  },
+  {
+    "id": "2c5aec2d-56b7-8004-89a1-d741e6472c3c",
+    "lastEditedTime": "2025-12-22T18:37:00.000Z",
+    "name": "Switcher Studio",
+    "slug": "switcher-studio",
+    "bio": "I love creating tools, spaces, and experiences that communicate the Gospel clearly. I am passionate about the power of discipleship. I believe that church services can be fun, inviting, and that the message sticks better if people feel loved, welcomed, and connected. I enjoy thinking deeply about problems, the thrill of live production, and creating sustainable systems.",
+    "active": false,
+    "image": {
+      "alt": "Switcher Studio",
+      "filename": "Switcher.png",
+      "large": "/assets/img/notion/2c5aec2d-56b7-8004-89a1-d741e6472c3c-0-large-500w.png"
+    },
+    "images": [
+      {
+        "alt": "Switcher Studio",
+        "filename": "Switcher.png",
+        "large": "/assets/img/notion/2c5aec2d-56b7-8004-89a1-d741e6472c3c-0-large-500w.png"
+      }
+    ],
+    "content": ""
+  }
+]

@@ -1,0 +1,10 @@
+# Build config lives here rather than only in the Netlify UI.
+# The build reads committed JSON under content/ and makes no network calls,
+# so none of the NOTION_* variables are needed at deploy time.
+
+[build]
+  command = "npm run build"
+  publish = "_site"
+
+[build.environment]
+  NODE_VERSION = "22"
