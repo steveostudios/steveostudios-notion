@@ -97,14 +97,18 @@ function getMemberField(propertyName) {
   return null;
 }
 
-/** Average of numeric family ratings; only meaningful when 2+ members rated. */
+/**
+ * Average of numeric family ratings; only meaningful when 2+ members rated.
+ * A 0 means the person never finished the film, so it is not an opinion and is
+ * left out rather than allowed to drag the average down.
+ */
 function familyScoreFromReviews(reviews) {
   const values = [];
   for (const review of Object.values(reviews)) {
     const raw = review?.rating;
     if (raw == null || raw === "") continue;
     const n = Number.parseFloat(String(raw).trim());
-    if (!Number.isFinite(n)) continue;
+    if (!Number.isFinite(n) || n <= 0) continue;
     values.push(n);
   }
   if (values.length <= 1) return null;
@@ -133,13 +137,24 @@ module.exports = {
       if (!memberField) return;
 
       const { member, field } = memberField;
-      if (!reviews[member]) reviews[member] = { watched: "", rating: "" };
+      if (!reviews[member]) reviews[member] = { watched: "", watchedISO: "", rating: "" };
       const extracted = extractText(propValue);
-      reviews[member][field] = field === "watched" ? formatWatchedDate(extracted) : extracted;
+
+      if (field === "watched") {
+        // `watched` is the MM-DD-YY display string. Keep the raw ISO value too,
+        // because the display format sorts by month before year.
+        reviews[member].watched = formatWatchedDate(extracted);
+        reviews[member].watchedISO = /^\d{4}-\d{2}-\d{2}$/.test(extracted) ? extracted : "";
+      } else {
+        reviews[member][field] = extracted;
+      }
     });
 
     Object.values(reviews).forEach((review) => {
-      if (!review.watched) review.rating = "";
+      if (!review.watched) {
+        review.rating = "";
+        review.watchedISO = "";
+      }
     });
 
     return {

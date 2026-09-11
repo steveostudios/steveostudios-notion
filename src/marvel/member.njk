@@ -1,0 +1,176 @@
+---
+layout: base
+pagination:
+  data: marvelMovies.byMember
+  size: 1
+  alias: member
+permalink: "/marvel/{{ member.slug }}/index.html"
+eleventyComputed:
+  title: "{{ member.name }}'s Marvel Ratings"
+---
+
+<div class="page marvel-member">
+  <nav class="marvel-member__back">
+    <a href="/marvel/">&larr; All Marvel reviews</a>
+  </nav>
+
+  <h3>{{ member.name }}</h3>
+
+  <ul class="marvel-member__people">
+    {% for person in marvelMovies.byMember %}
+      <li>
+        {% if person.slug == member.slug %}
+          <span aria-current="page">{{ person.name }}</span>
+        {% else %}
+          <a href="{{ person.url }}">{{ person.name }}</a>
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <section class="marvel-member__summary" aria-label="{{ member.name }} summary">
+    <div class="marvel-member__next">
+      <h4>Next to rate</h4>
+      {% if member.nextToRate %}
+        <div class="marvel-member__next-body">
+          {% if member.nextToRate.poster %}
+            <img src="{{ member.nextToRate.poster }}" alt="{{ member.nextToRate.title }} poster" loading="lazy" />
+          {% endif %}
+          <div>
+            <a class="marvel-member__next-title" href="/marvel/#movie-{{ member.nextToRate.slug }}">{{ member.nextToRate.title }}</a>
+            {% if member.nextToRate.year %}<div class="marvel-member__muted">{{ member.nextToRate.year }}</div>{% endif %}
+            <div class="marvel-member__muted">{{ member.remaining }} still to rate</div>
+          </div>
+        </div>
+      {% else %}
+        <p class="marvel-member__muted">Every movie rated. Nothing left.</p>
+      {% endif %}
+    </div>
+
+    <dl class="marvel-member__figures">
+      <div><dt>Rated</dt><dd>{{ member.ratedCount }}<span> / {{ marvelMovies.movies.length }}</span></dd></div>
+      <div><dt>Average</dt><dd>{{ member.averageRating or "&mdash;" | safe }}<span> /10</span></dd></div>
+      {% if member.highest %}
+        <div><dt>Highest</dt><dd class="marvel-member__pick">{{ member.highest.title }}<span> {{ member.highest.rating }}/10</span></dd></div>
+      {% endif %}
+      {% if member.lowest %}
+        <div><dt>Lowest</dt><dd class="marvel-member__pick">{{ member.lowest.title }}<span> {{ member.lowest.rating }}/10</span></dd></div>
+      {% endif %}
+    </dl>
+  </section>
+
+  <h4 class="marvel-member__seen-heading">Seen {{ member.watchedCount }}</h4>
+
+  {% if member.watchedCount > 0 %}
+    <div class="marvel-member__table-wrap">
+    <table class="marvel-member__table" data-sortable>
+      <thead>
+        <tr>
+          <th scope="col" class="marvel-member__badge-col" title="{{ member.name }}'s top and bottom three">Mine</th>
+          <th scope="col" class="marvel-member__badge-col" title="The family's all-time favourite and least favourite">Family</th>
+          <th scope="col" data-key="title"><button type="button">Movie</button></th>
+          <th scope="col" data-key="year" data-type="number"><button type="button">Year</button></th>
+          <th scope="col" data-key="watched" data-type="text" aria-sort="descending"><button type="button">Watched</button></th>
+          <th scope="col" data-key="rating" data-type="number"><button type="button">Rating</button></th>
+          <th scope="col" data-key="family" data-type="number"><button type="button">Avg</button></th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in member.watched %}
+          <tr{% if row.unfinished %} class="marvel-member__row--unfinished"{% endif %}>
+            <td class="marvel-member__badge-col">
+              {% if row.personalBadge %}
+                {% if row.personalBadge.kind == "top" %}
+                  <span class="marvel-badge marvel-badge--top">⭐<b>{{ row.personalBadge.rank }}</b><span class="visually-hidden">{{ member.name }}'s number {{ row.personalBadge.rank }} favourite</span></span>
+                {% else %}
+                  <span class="marvel-badge marvel-badge--bottom">🍅<b>{{ row.personalBadge.rank }}</b><span class="visually-hidden">{{ member.name }}'s number {{ row.personalBadge.rank }} least favourite</span></span>
+                {% endif %}
+              {% endif %}
+            </td>
+            <td class="marvel-member__badge-col">
+              {% if row.familyBadge == "best" %}
+                <span class="marvel-badge marvel-badge--trophy">🏆<span class="visually-hidden">Family all-time favourite</span></span>
+              {% elif row.familyBadge == "worst" %}
+                <span class="marvel-badge marvel-badge--bottom">🍅<span class="visually-hidden">Family all-time least favourite</span></span>
+              {% endif %}
+            </td>
+            <td data-key="title" data-value="{{ row.title }}">
+              <a href="/marvel/#movie-{{ row.slug }}">{{ row.title }}</a>
+            </td>
+            <td data-key="year" data-value="{{ row.year }}">{{ row.year }}</td>
+            <td data-key="watched" data-value="{{ row.watchedISO }}">{{ row.watched }}</td>
+            <td data-key="rating" data-value="{{ row.ratingNumber }}"{% if row.unfinished %} title="Started, never finished"{% endif %}>{{ row.rating or "&mdash;" | safe }}</td>
+            <td data-key="family" data-value="{{ row.familyNumber }}">{{ row.familyScore or "&mdash;" | safe }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    </div>
+
+    <p class="marvel-member__legend">
+      <span>⭐ {{ member.name }}'s top three</span>
+      <span>🍅 bottom three</span>
+      <span>🏆 family favourite</span>
+      <span>🍅 family least favourite</span>
+      {% if member.unfinishedCount %}<span>&mdash; started, never finished</span>{% endif %}
+    </p>
+  {% else %}
+    <p class="marvel-member__muted">{{ member.name }} has not watched anything yet.</p>
+  {% endif %}
+</div>
+
+<script>
+  (function () {
+    var table = document.querySelector("[data-sortable]");
+    if (!table) return;
+
+    var body = table.tBodies[0];
+    var headers = Array.prototype.slice.call(table.querySelectorAll("th[data-key]"));
+
+    function sortBy(key, type, direction) {
+      var rows = Array.prototype.slice.call(body.rows);
+      var factor = direction === "ascending" ? 1 : -1;
+
+      rows.sort(function (a, b) {
+        var av = a.querySelector('[data-key="' + key + '"]').getAttribute("data-value") || "";
+        var bv = b.querySelector('[data-key="' + key + '"]').getAttribute("data-value") || "";
+
+        if (type === "number") {
+          var an = parseFloat(av);
+          var bn = parseFloat(bv);
+          var aMissing = isNaN(an);
+          var bMissing = isNaN(bn);
+          // Blanks always sit at the bottom, whichever way the column is sorted.
+          if (aMissing || bMissing) return aMissing && bMissing ? 0 : aMissing ? 1 : -1;
+          return (an - bn) * factor;
+        }
+
+        if (!av || !bv) return av === bv ? 0 : av ? -1 : 1;
+        return av.localeCompare(bv) * factor;
+      });
+
+      rows.forEach(function (row) { body.appendChild(row); });
+
+      headers.forEach(function (header) {
+        if (header.getAttribute("data-key") === key) header.setAttribute("aria-sort", direction);
+        else header.removeAttribute("aria-sort");
+      });
+    }
+
+    headers.forEach(function (header) {
+      var trigger = header.querySelector("button");
+      if (!trigger) return;
+      trigger.addEventListener("click", function () {
+        var key = header.getAttribute("data-key");
+        var type = header.getAttribute("data-type") || "text";
+        var current = header.getAttribute("aria-sort");
+        // First click on a new column shows the most interesting end first:
+        // newest dates and highest scores, but titles A to Z.
+        var next = current === "descending" ? "ascending"
+          : current === "ascending" ? "descending"
+          : type === "number" || key === "watched" ? "descending" : "ascending";
+        sortBy(key, type, next);
+      });
+    });
+  })();
+</script>

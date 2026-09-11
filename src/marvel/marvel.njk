@@ -12,11 +12,12 @@ permalink: "/marvel/index.html"
       <section class="marvel-stats" aria-label="Marvel stats">
         <h4>Marvel Stats</h4>
         <div class="marvel-stats__grid">
-          {% for member in marvelMovies.members %}
+          {% for person in marvelMovies.byMember %}
             <div class="marvel-stats__member">
-              <h5>{{ member }}</h5>
+              <h5><a class="marvel-stats__member-link" href="{{ person.url }}">{{ person.name }}</a></h5>
+              <p class="marvel-stats__member-meta">{{ person.ratedCount }} rated{% if person.averageRating %} · avg {{ person.averageRating }}{% endif %}</p>
               <ol class="marvel-stats__top-list">
-                {% for pick in marvelMovies.stats.memberTopMovies[member] %}
+                {% for pick in marvelMovies.stats.memberTopMovies[person.name] %}
                   <li>
                     <span class="marvel-stats__title">{{ pick.title }}</span>
                     <span class="marvel-stats__rating">{{ pick.rating }}/10</span>

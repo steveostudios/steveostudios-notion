@@ -273,3 +273,345 @@
     background: #f3f6fa;
   }
 }
+
+/* --- Member names on the stats grid link through to their own page --- */
+
+.marvel-stats__member-link {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.marvel-stats__member-link:hover,
+.marvel-stats__member-link:focus-visible {
+  text-decoration: underline;
+}
+
+.marvel-stats__member-meta {
+  margin: -0.2rem 0 0.4rem;
+  font-size: 0.78rem;
+  color: var(--dark-grey);
+}
+
+/* --- Per-member page --- */
+
+.page.marvel-member {
+  /* The site uses content-box, so keep the gutter inside the 1200px cap
+     rather than adding 2rem to the page width. */
+  box-sizing: border-box;
+  padding: 0 1rem;
+}
+
+.marvel-member__back {
+  margin-bottom: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.marvel-member__back a {
+  color: var(--dark-grey);
+  text-decoration: none;
+}
+
+.marvel-member__back a:hover {
+  color: var(--black);
+}
+
+.marvel-member h3 {
+  margin: 0 0 0.6rem;
+}
+
+.marvel-member__people {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  margin: 0 0 1.25rem;
+  padding: 0;
+}
+
+.marvel-member__people a,
+.marvel-member__people span {
+  display: block;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid var(--trim);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: var(--dark-grey);
+}
+
+.marvel-member__people a:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.marvel-member__people [aria-current="page"] {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--white);
+  font-weight: 500;
+}
+
+.marvel-member__summary {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: start;
+  margin-bottom: 1.75rem;
+}
+
+.marvel-member__next,
+.marvel-member__figures {
+  border: 1px solid var(--trim);
+  border-radius: 10px;
+  background: #f8fafc;
+  padding: 1rem;
+}
+
+.marvel-member__next h4 {
+  margin: 0 0 0.6rem;
+  font-size: 0.95rem;
+}
+
+.marvel-member__next-body {
+  display: flex;
+  gap: 0.85rem;
+  align-items: flex-start;
+}
+
+.marvel-member__next-body img {
+  width: 72px;
+  height: auto;
+  border-radius: 6px;
+  flex: none;
+}
+
+.marvel-member__next-title {
+  font-weight: 700;
+  color: var(--black);
+  text-decoration: none;
+  line-height: 1.25;
+  display: block;
+}
+
+.marvel-member__next-title:hover {
+  color: var(--blue);
+}
+
+.marvel-member__muted {
+  color: var(--dark-grey);
+  font-size: 0.82rem;
+  margin: 0.2rem 0 0;
+}
+
+.marvel-member__figures {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+  gap: 0.75rem 1rem;
+  margin: 0;
+}
+
+.marvel-member__figures dt {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--dark-grey);
+}
+
+.marvel-member__figures dd {
+  margin: 0.15rem 0 0;
+  font-size: 1.35rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.marvel-member__figures dd span {
+  font-size: 0.78rem;
+  font-weight: 300;
+  color: var(--dark-grey);
+}
+
+.marvel-member__figures dd.marvel-member__pick {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.marvel-member__figures dd.marvel-member__pick span {
+  display: block;
+}
+
+.marvel-member__seen-heading {
+  margin: 0 0 0.6rem;
+}
+
+.marvel-member__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+
+.marvel-member__table th,
+.marvel-member__table td {
+  text-align: left;
+  padding: 0.5rem 0.6rem;
+  border-bottom: 1px solid var(--trim);
+  vertical-align: top;
+}
+
+.marvel-member__table thead th {
+  padding: 0;
+  border-bottom: 2px solid var(--trim);
+  white-space: nowrap;
+}
+
+.marvel-member__table thead button {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: 0;
+  padding: 0.5rem 0.6rem;
+  font: inherit;
+  font-weight: 700;
+  color: var(--dark-grey);
+  cursor: pointer;
+}
+
+.marvel-member__table thead button:hover {
+  color: var(--black);
+}
+
+.marvel-member__table thead button::after {
+  content: "\2195";
+  opacity: 0.35;
+  margin-left: 0.35rem;
+  font-weight: 300;
+}
+
+.marvel-member__table th[aria-sort] button {
+  color: var(--black);
+}
+
+.marvel-member__table th[aria-sort="ascending"] button::after {
+  content: "\2191";
+  opacity: 1;
+  color: var(--primary-color);
+}
+
+.marvel-member__table th[aria-sort="descending"] button::after {
+  content: "\2193";
+  opacity: 1;
+  color: var(--primary-color);
+}
+
+.marvel-member__table td a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.marvel-member__table td a:hover {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+.marvel-member__table tbody tr:hover {
+  background: #f8fafc;
+}
+
+@media (max-width: 40rem) {
+  .marvel-member__summary {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .marvel-member__table {
+    font-size: 0.8rem;
+  }
+
+  .marvel-member__table th,
+  .marvel-member__table td,
+  .marvel-member__table thead button {
+    padding: 0.45rem 0.3rem;
+  }
+
+  .marvel-member__table thead th {
+    white-space: normal;
+  }
+
+  .marvel-member__table th.marvel-member__badge-col,
+  .marvel-member__table td.marvel-member__badge-col {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
+}
+
+/* --- Superlative badges in the member table --- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.marvel-member__table th.marvel-member__badge-col {
+  padding: 0.5rem 0.35rem;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--dark-grey);
+  width: 1%;
+}
+
+.marvel-member__table td.marvel-member__badge-col {
+  padding-left: 0.35rem;
+  padding-right: 0.35rem;
+  width: 1%;
+  white-space: nowrap;
+}
+
+.marvel-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.1rem;
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+.marvel-badge b {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--dark-grey);
+}
+
+.marvel-badge--top b {
+  color: var(--primary-color);
+}
+
+.marvel-member__row--unfinished td {
+  color: var(--dark-grey);
+}
+
+.marvel-member__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem 1rem;
+  margin: 0.6rem 0 0;
+  font-size: 0.75rem;
+  color: var(--dark-grey);
+}
+
+/* Narrow screens scroll the table itself rather than widening the whole page.
+   The viewport-based cap is what actually clamps it: no ancestor here has a
+   definite width, and overflow-x alone cannot scroll against an auto width. */
+.marvel-member__table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: calc(100vw - 2rem);
+}
+
+.marvel-member__table-wrap .marvel-member__table {
+  width: 100%;
+}

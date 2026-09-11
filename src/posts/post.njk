@@ -5,7 +5,7 @@ pagination:
   size: 1
   alias: post
 permalink: "/posts/{{ post.slug }}/index.html"
-renderData:
+eleventyComputed:
   title: "{{ post.title }}"
 ---
 

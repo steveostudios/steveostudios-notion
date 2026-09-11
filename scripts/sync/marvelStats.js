@@ -1,6 +1,7 @@
+/** A 0 means unfinished, so it does not count as a rating anywhere. */
 function parseRating(rating) {
   const n = Number.parseFloat(String(rating ?? "").trim());
-  return Number.isFinite(n) ? n : null;
+  return Number.isFinite(n) && n > 0 ? n : null;
 }
 
 function movieHasAnyWatch(movie, members) {
