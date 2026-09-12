@@ -555,7 +555,7 @@
     },
     {
       "id": "353aec2d-56b7-81fb-a471-df753e0e2a72",
-      "lastEditedTime": "2026-09-01T23:31:00.000Z",
+      "lastEditedTime": "2026-09-12T01:41:00.000Z",
       "title": "Doctor Strange",
       "slug": "doctor-strange",
       "imdbRating": "7.5",
@@ -568,19 +568,19 @@
       "order": 14,
       "reviews": {
         "Elliot": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-01-26",
+          "watchedISO": "2026-09-01",
+          "rating": "7.2"
         },
         "Levi": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-01-26",
+          "watchedISO": "2026-09-01",
+          "rating": "9.7"
         },
         "Lauren": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-01-26",
+          "watchedISO": "2026-09-01",
+          "rating": "7.1"
         },
         "Steve": {
           "watched": "09-01-26",
@@ -588,16 +588,16 @@
           "rating": "8"
         },
         "Oliver": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-01-26",
+          "watchedISO": "2026-09-01",
+          "rating": "9.3"
         }
       },
-      "familyScore": null
+      "familyScore": "8.3"
     },
     {
       "id": "353aec2d-56b7-8198-972a-e33c88a69837",
-      "lastEditedTime": "2026-09-11T13:55:00.000Z",
+      "lastEditedTime": "2026-09-12T01:40:00.000Z",
       "title": "Guardians of the Galaxy Vol. 2",
       "slug": "guardians-of-the-galaxy-vol-2",
       "imdbRating": "7.6",
@@ -610,19 +610,19 @@
       "order": 15,
       "reviews": {
         "Elliot": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-07-26",
+          "watchedISO": "2026-09-07",
+          "rating": "6"
         },
         "Levi": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-07-26",
+          "watchedISO": "2026-09-07",
+          "rating": "9.8"
         },
         "Lauren": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-07-26",
+          "watchedISO": "2026-09-07",
+          "rating": "6.7"
         },
         "Steve": {
           "watched": "09-07-26",
@@ -630,16 +630,16 @@
           "rating": "7.5"
         },
         "Oliver": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-07-26",
+          "watchedISO": "2026-09-07",
+          "rating": "8.5"
         }
       },
-      "familyScore": null
+      "familyScore": "7.7"
     },
     {
       "id": "353aec2d-56b7-81d9-ac95-ebcacc8d43f6",
-      "lastEditedTime": "2026-08-21T20:12:00.000Z",
+      "lastEditedTime": "2026-09-12T01:38:00.000Z",
       "title": "Spider-Man: Homecoming",
       "slug": "spider-man-homecoming",
       "imdbRating": "7.4",
@@ -652,32 +652,32 @@
       "order": 16,
       "reviews": {
         "Elliot": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-11-26",
+          "watchedISO": "2026-09-11",
+          "rating": "9.1"
         },
         "Levi": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-11-26",
+          "watchedISO": "2026-09-11",
+          "rating": "10"
         },
         "Lauren": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-11-26",
+          "watchedISO": "2026-09-11",
+          "rating": "6.7"
         },
         "Steve": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-11-26",
+          "watchedISO": "2026-09-11",
+          "rating": "7"
         },
         "Oliver": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-11-26",
+          "watchedISO": "2026-09-11",
+          "rating": "9.9"
         }
       },
-      "familyScore": null
+      "familyScore": "8.5"
     },
     {
       "id": "353aec2d-56b7-818e-9e07-f015b2454722",
@@ -1690,12 +1690,12 @@
           "rating": "10"
         },
         {
-          "title": "Guardians of the Galaxy",
-          "rating": "9.8"
+          "title": "Spider-Man: Homecoming",
+          "rating": "9.9"
         },
         {
-          "title": "Captain America: Civil War",
-          "rating": "9.6"
+          "title": "Guardians of the Galaxy",
+          "rating": "9.8"
         }
       ],
       "Levi": [
@@ -1704,12 +1704,12 @@
           "rating": "10"
         },
         {
-          "title": "Iron Man 3",
-          "rating": "9.8"
+          "title": "Spider-Man: Homecoming",
+          "rating": "10"
         },
         {
-          "title": "Captain America: The Winter Soldier",
-          "rating": "9.7"
+          "title": "Guardians of the Galaxy Vol. 2",
+          "rating": "9.8"
         }
       ]
     },
@@ -1717,7 +1717,7 @@
       "title": "Guardians of the Galaxy",
       "rating": "8.9"
     },
-    "nextMovieSlug": "spider-man-homecoming",
-    "nextMovieTitle": "Spider-Man: Homecoming"
+    "nextMovieSlug": "thor-ragnarok",
+    "nextMovieTitle": "Thor: Ragnarok"
   }
 }
