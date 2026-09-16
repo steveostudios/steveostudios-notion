@@ -336,7 +336,7 @@
   },
   {
     "id": "39aaec2d-56b7-81a5-8bb6-f9280843dc8f",
-    "lastEditedTime": "2026-09-02T18:23:00.000Z",
+    "lastEditedTime": "2026-09-16T13:20:00.000Z",
     "title": "The Explicit Gospel",
     "subtitle": "",
     "slug": "the-explicit-gospel",
@@ -348,10 +348,10 @@
       }
     ],
     "pageTotal": 240,
-    "pagesRead": 20,
+    "pagesRead": 31,
     "minutesTotal": null,
     "miniutesRead": null,
-    "progress": 0.083333333333,
+    "progress": 0.129166666667,
     "format": "HARDCOVER",
     "dateStart": "2026-09-02T04:00:00.000+00:00",
     "dateFinish": null,
@@ -457,35 +457,35 @@
     "content": ""
   },
   {
-    "id": "387aec2d-56b7-81b6-9b82-d8d28cbc4e9c",
-    "lastEditedTime": "2026-07-22T02:38:00.000Z",
-    "title": "The End of the Affair",
-    "subtitle": "",
-    "slug": "the-end-of-the-affair",
+    "id": "387aec2d-56b7-818d-90d6-fffaaa67722c",
+    "lastEditedTime": "2026-09-16T13:19:00.000Z",
+    "title": "Train Dreams",
+    "subtitle": "A Novella",
+    "slug": "train-dreams",
     "authors": [
       {
-        "id": "1623cd02-6782-4397-b0b9-79fab081263f",
-        "name": "Graham Greene",
-        "color": "orange"
+        "id": "d23eaa99-a461-4f18-8dc2-eff42486dd5d",
+        "name": "Denis Johnson",
+        "color": "default"
       }
     ],
-    "pageTotal": 160,
-    "pagesRead": 160,
+    "pageTotal": 116,
+    "pagesRead": 116,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
     "format": "PAPERBACK",
-    "dateStart": "2026-07-07T04:00:00.000+00:00",
-    "dateFinish": "2026-07-21",
-    "stars": 5,
+    "dateStart": "2026-09-13T04:00:00.000+00:00",
+    "dateFinish": "2026-09-15T04:00:00.000+00:00",
+    "stars": 4,
     "asin": "",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/387aec2d-56b7-81b6-9b82-d8d28cbc4e9c-large-260w.jpeg"
+      "large": "/assets/img/notion/387aec2d-56b7-818d-90d6-fffaaa67722c-large-260w.jpeg"
     },
     "fiction": true,
-    "own": true,
+    "own": false,
     "content": ""
   },
   {
@@ -553,38 +553,6 @@
     "content": ""
   },
   {
-    "id": "387aec2d-56b7-818d-90d6-fffaaa67722c",
-    "lastEditedTime": "2026-09-14T19:30:00.000Z",
-    "title": "Train Dreams",
-    "subtitle": "A Novella",
-    "slug": "train-dreams",
-    "authors": [
-      {
-        "id": "d23eaa99-a461-4f18-8dc2-eff42486dd5d",
-        "name": "Denis Johnson",
-        "color": "default"
-      }
-    ],
-    "pageTotal": 116,
-    "pagesRead": 88,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 0.758620689655,
-    "format": "PAPERBACK",
-    "dateStart": "2026-09-13T04:00:00.000+00:00",
-    "dateFinish": null,
-    "stars": null,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/387aec2d-56b7-818d-90d6-fffaaa67722c-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": false,
-    "content": ""
-  },
-  {
     "id": "387aec2d-56b7-811f-a20e-d7eeae7369d1",
     "lastEditedTime": "2026-06-22T09:29:00.000Z",
     "title": "Lily of the Field and the Bird of the Air",
@@ -619,6 +587,38 @@
     },
     "fiction": false,
     "own": false,
+    "content": ""
+  },
+  {
+    "id": "387aec2d-56b7-81b6-9b82-d8d28cbc4e9c",
+    "lastEditedTime": "2026-07-22T02:38:00.000Z",
+    "title": "The End of the Affair",
+    "subtitle": "",
+    "slug": "the-end-of-the-affair",
+    "authors": [
+      {
+        "id": "1623cd02-6782-4397-b0b9-79fab081263f",
+        "name": "Graham Greene",
+        "color": "orange"
+      }
+    ],
+    "pageTotal": 160,
+    "pagesRead": 160,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2026-07-07T04:00:00.000+00:00",
+    "dateFinish": "2026-07-21",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/387aec2d-56b7-81b6-9b82-d8d28cbc4e9c-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": true,
     "content": ""
   },
   {
@@ -7657,7 +7657,7 @@
   },
   {
     "id": "364aec2d-56b7-8184-9d48-dbddaad5a3d5",
-    "lastEditedTime": "2026-09-04T14:10:00.000Z",
+    "lastEditedTime": "2026-09-16T13:19:00.000Z",
     "title": "The Coddling of the American Mind",
     "subtitle": "How Good Intentions and Bad Ideas Are Setting Up a Generation for Failure",
     "slug": "the-coddling-of-the-american-mind",
@@ -7669,10 +7669,10 @@
       }
     ],
     "pageTotal": 338,
-    "pagesRead": 10,
+    "pagesRead": 44,
     "minutesTotal": null,
     "miniutesRead": null,
-    "progress": 0.029585798817,
+    "progress": 0.130177514793,
     "format": "HARDCOVER",
     "dateStart": "2026-09-04T04:00:00.000+00:00",
     "dateFinish": null,
