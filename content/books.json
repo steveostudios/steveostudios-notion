@@ -1,5 +1,99 @@
 [
   {
+    "id": "3e9aec2d-56b7-8000-a5c7-e3923413109b",
+    "lastEditedTime": "2026-09-28T16:06:00.000Z",
+    "title": "The Two Towers",
+    "subtitle": "",
+    "slug": "the-two-towers",
+    "authors": [
+      {
+        "id": "7204d868-77b6-49cd-9874-4ade6b170201",
+        "name": "J.R.R. Tolkien",
+        "color": "brown"
+      }
+    ],
+    "pageTotal": null,
+    "pagesRead": null,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 0,
+    "format": "PAPERBACK",
+    "dateStart": "2026-09-20",
+    "dateFinish": null,
+    "stars": null,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": null,
+    "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "3e9aec2d-56b7-80f1-89cb-ec02620e36b0",
+    "lastEditedTime": "2026-09-28T16:03:00.000Z",
+    "title": "City Spies",
+    "subtitle": "",
+    "slug": "city-spies",
+    "authors": [
+      {
+        "id": "23a1a78c-2d53-495c-8284-9937b1cd14b5",
+        "name": "James Ponti",
+        "color": "default"
+      }
+    ],
+    "pageTotal": 378,
+    "pagesRead": null,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 0,
+    "format": "AUDIO",
+    "dateStart": "2026-09-27",
+    "dateFinish": null,
+    "stars": null,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/3e9aec2d-56b7-80f1-89cb-ec02620e36b0-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "387aec2d-56b7-818d-90d6-fffaaa67722c",
+    "lastEditedTime": "2026-09-16T13:19:00.000Z",
+    "title": "Train Dreams",
+    "subtitle": "A Novella",
+    "slug": "train-dreams",
+    "authors": [
+      {
+        "id": "d23eaa99-a461-4f18-8dc2-eff42486dd5d",
+        "name": "Denis Johnson",
+        "color": "default"
+      }
+    ],
+    "pageTotal": 116,
+    "pagesRead": 116,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2026-09-13T04:00:00.000+00:00",
+    "dateFinish": "2026-09-15T04:00:00.000+00:00",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/387aec2d-56b7-818d-90d6-fffaaa67722c-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "39aaec2d-56b7-8164-aa4d-df39e7c8506a",
     "lastEditedTime": "2026-09-04T13:20:00.000Z",
     "title": "Real-life Discipleship",
@@ -229,6 +323,38 @@
     "content": ""
   },
   {
+    "id": "39aaec2d-56b7-81e0-9c6b-ef06efdfa092",
+    "lastEditedTime": "2026-08-07T13:05:00.000Z",
+    "title": "Thou Shalt Not Be a Jerk",
+    "subtitle": "A Christian's Guide to Engaging Politics",
+    "slug": "thou-shalt-not-be-a-jerk",
+    "authors": [
+      {
+        "id": "725a2502-90a2-4bfb-90c2-fadd8a25d9b8",
+        "name": "Eugene Cho",
+        "color": "orange"
+      }
+    ],
+    "pageTotal": 272,
+    "pagesRead": 272,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2026-07-17T04:00:00.000+00:00",
+    "dateFinish": "2026-08-07T04:00:00.000+00:00",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/39aaec2d-56b7-81e0-9c6b-ef06efdfa092-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "3b4aec2d-56b7-812c-af52-d1b09f2cc161",
     "lastEditedTime": "2026-08-07T13:06:00.000Z",
     "title": "Bastille Vs. the Evil Librarians",
@@ -297,38 +423,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/39aaec2d-56b7-816a-aa08-c58754b38e85-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "39aaec2d-56b7-81e0-9c6b-ef06efdfa092",
-    "lastEditedTime": "2026-08-07T13:05:00.000Z",
-    "title": "Thou Shalt Not Be a Jerk",
-    "subtitle": "A Christian's Guide to Engaging Politics",
-    "slug": "thou-shalt-not-be-a-jerk",
-    "authors": [
-      {
-        "id": "725a2502-90a2-4bfb-90c2-fadd8a25d9b8",
-        "name": "Eugene Cho",
-        "color": "orange"
-      }
-    ],
-    "pageTotal": 272,
-    "pagesRead": 272,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2026-07-17T04:00:00.000+00:00",
-    "dateFinish": "2026-08-07T04:00:00.000+00:00",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/39aaec2d-56b7-81e0-9c6b-ef06efdfa092-large-260w.jpeg"
     },
     "fiction": false,
     "own": false,
@@ -453,38 +547,6 @@
       "large": "/assets/img/notion/39aaec2d-56b7-81af-975e-d4d32da9fafc-large-260w.jpeg"
     },
     "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "387aec2d-56b7-818d-90d6-fffaaa67722c",
-    "lastEditedTime": "2026-09-16T13:19:00.000Z",
-    "title": "Train Dreams",
-    "subtitle": "A Novella",
-    "slug": "train-dreams",
-    "authors": [
-      {
-        "id": "d23eaa99-a461-4f18-8dc2-eff42486dd5d",
-        "name": "Denis Johnson",
-        "color": "default"
-      }
-    ],
-    "pageTotal": 116,
-    "pagesRead": 116,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2026-09-13T04:00:00.000+00:00",
-    "dateFinish": "2026-09-15T04:00:00.000+00:00",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/387aec2d-56b7-818d-90d6-fffaaa67722c-large-260w.jpeg"
-    },
-    "fiction": true,
     "own": false,
     "content": ""
   },
@@ -1037,38 +1099,6 @@
     "content": ""
   },
   {
-    "id": "351aec2d-56b7-8023-b612-e78394348270",
-    "lastEditedTime": "2026-05-04T09:44:00.000Z",
-    "title": "The Turn of the Screw",
-    "subtitle": "",
-    "slug": "the-turn-of-the-screw",
-    "authors": [
-      {
-        "id": "31ee079e-1df9-428b-b66a-2211d8e93702",
-        "name": "Henry James",
-        "color": "red"
-      }
-    ],
-    "pageTotal": 261,
-    "pagesRead": null,
-    "minutesTotal": 313,
-    "miniutesRead": 313,
-    "progress": 1,
-    "format": "AUDIO",
-    "dateStart": "2026-04-29",
-    "dateFinish": "2026-05-03T04:00:00.000+00:00",
-    "stars": 4,
-    "asin": "B074J2JHLQ",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/351aec2d-56b7-8023-b612-e78394348270-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": false,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-8076-9ef1-f817b9224108",
     "lastEditedTime": "2026-02-20T21:33:00.000Z",
     "title": "Exiles",
@@ -1468,38 +1498,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80d4-834b-f2cc0fbe3e0e",
-    "lastEditedTime": "2025-12-15T18:26:00.000Z",
-    "title": "The Most Dangerous Game",
-    "subtitle": "",
-    "slug": "the-most-dangerous-game",
-    "authors": [
-      {
-        "id": "eZ}Z",
-        "name": "Richard Connell",
-        "color": "red"
-      }
-    ],
-    "pageTotal": 29,
-    "pagesRead": null,
-    "minutesTotal": 65,
-    "miniutesRead": 65,
-    "progress": 1,
-    "format": "AUDIO",
-    "dateStart": "2025-05-29",
-    "dateFinish": "2025-05-29",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80d4-834b-f2cc0fbe3e0e-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": false,
-    "content": "<p>I remember reading this in High School and was fascinated/terrified by the idea. It’s well told, heart-pounding, and the ending is perfect.</p>\n"
-  },
-  {
     "id": "2b2aec2d-56b7-8094-a095-e4740a817e6e",
     "lastEditedTime": "2025-11-26T20:47:00.000Z",
     "title": "The Secret of Chimneys",
@@ -1625,38 +1623,6 @@
     },
     "fiction": false,
     "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80ef-be95-e720e9aa883c",
-    "lastEditedTime": "2025-11-26T20:47:00.000Z",
-    "title": "The Man Who was Thursday, A Nightmare",
-    "subtitle": "",
-    "slug": "the-man-who-was-thursday-a-nightmare",
-    "authors": [
-      {
-        "id": "|lEq",
-        "name": "G.K Chesterton",
-        "color": "green"
-      }
-    ],
-    "pageTotal": 180,
-    "pagesRead": null,
-    "minutesTotal": 195,
-    "miniutesRead": 195,
-    "progress": 1,
-    "format": "AUDIO",
-    "dateStart": "2025-03-19",
-    "dateFinish": "2025-03-21",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80ef-be95-e720e9aa883c-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": false,
     "content": ""
   },
   {
@@ -2697,6 +2663,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-8013-a29c-f01adcbd0eef",
+    "lastEditedTime": "2025-12-11T14:03:00.000Z",
+    "title": "Let Us Follow Him",
+    "subtitle": "",
+    "slug": "let-us-follow-him",
+    "authors": [
+      {
+        "id": "?eI~",
+        "name": "Henryk Sienkiewicz",
+        "color": "purple"
+      }
+    ],
+    "pageTotal": 102,
+    "pagesRead": 102,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2023-09-13",
+    "dateFinish": "2023-09-13",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8013-a29c-f01adcbd0eef-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": true,
+    "content": "<p>This book is neat! First of all, the book was translated in 1897 and the copy I read was an original! Second, the book is a fictional account of Roman officials who encounter Jesus as he's being crucified. It was a super interesting way to view the scene. Short, easy, and very thought provoking.</p>\n"
+  },
+  {
     "id": "2b2aec2d-56b7-80db-b74d-f5616cca82fd",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Crossing the Chasm",
@@ -3272,6 +3270,107 @@
     "url": "https://www.amazon.com/Brothers-We-Are-Not-Professionals/dp/1433678829/ref=sr_1_1?gclid=Cj0KCQjw5rbsBRCFARIsAGEYRwfPvDmU8RZQ6vd54DMZQQljqkls7SrGDyRxY4tquX6YKL7ogsDbPIAaAsMsEALw_wcB&hvadid=241658431181&hvdev=c&hvlocphy=9052432&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=4861461604014654878&hvtargid=kwd-131506102&hydadcr=8294_10376136&keywords=brothers+we+are+not+professionals&qid=1569594051&sr=8-1",
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-80c7-990b-edc2ce46bcb3-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-808e-9d2d-f81efe9780a9",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Empowered",
+    "subtitle": "Ordinary People, Extraordinary Products",
+    "slug": "empowered",
+    "authors": [
+      {
+        "id": "OXUd",
+        "name": "Marty Cagan",
+        "color": "pink"
+      },
+      {
+        "id": "EGdc",
+        "name": "Chris Jones",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 416,
+    "pagesRead": 416,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2021-01-04",
+    "dateFinish": "2021-06-10",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-808e-9d2d-f81efe9780a9-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80b6-8978-f469db075fc5",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Design is a Job",
+    "subtitle": "",
+    "slug": "design-is-a-job",
+    "authors": [
+      {
+        "id": "aVKU",
+        "name": "Mike Monteiro",
+        "color": "orange"
+      }
+    ],
+    "pageTotal": 137,
+    "pagesRead": 137,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2021-04-27",
+    "dateFinish": "2021-05-06",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80b6-8978-f469db075fc5-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8063-8dfa-d9fc9d23a03f",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Mobile First",
+    "subtitle": "",
+    "slug": "mobile-first",
+    "authors": [
+      {
+        "id": "C[yY",
+        "name": "Luke Wroblewski",
+        "color": "default"
+      }
+    ],
+    "pageTotal": 130,
+    "pagesRead": 130,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2021-04-22",
+    "dateFinish": "2021-04-26",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8063-8dfa-d9fc9d23a03f-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -5041,6 +5140,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-8060-8fc3-eec4680330bf",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Love Your God with All Your Mind",
+    "subtitle": "The Role of Reason in the Life of the Soul",
+    "slug": "love-your-god-with-all-your-mind",
+    "authors": [
+      {
+        "id": ":pXQ",
+        "name": "J.P. Moreland",
+        "color": "green"
+      }
+    ],
+    "pageTotal": 304,
+    "pagesRead": 304,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2005-03-08",
+    "dateFinish": "2005-03-08",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8060-8fc3-eec4680330bf-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-8032-999f-e90c1f630f4a",
     "lastEditedTime": "2025-11-26T20:48:00.000Z",
     "title": "Obsessed",
@@ -5265,6 +5396,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-802e-b0e9-edcb96226c34",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "God.com",
+    "subtitle": "Extreme Intimacy with an Interactive God",
+    "slug": "god-com",
+    "authors": [
+      {
+        "id": "HmkC",
+        "name": "James Alexander Langteaux",
+        "color": "blue"
+      }
+    ],
+    "pageTotal": 208,
+    "pagesRead": 208,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2004-02-20",
+    "dateFinish": "2004-02-20",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-802e-b0e9-edcb96226c34-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-8079-a7c6-dfe2d80cdc41",
     "lastEditedTime": "2025-11-26T20:47:00.000Z",
     "title": "When Bad Christians Happen to Good People",
@@ -5329,102 +5492,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-800d-9bdb-f3dd4476884d",
-    "lastEditedTime": "2026-08-07T18:17:00.000Z",
-    "title": "The Unseen Realm",
-    "subtitle": "Recovering the Supernatural Worldview of the Bible",
-    "slug": "the-unseen-realm",
-    "authors": [
-      {
-        "id": "un?Q",
-        "name": "Michael S. Heiser",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 368,
-    "pagesRead": 201,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 0.546195652174,
-    "format": "HARDCOVER",
-    "dateStart": "2024-09-08",
-    "dateFinish": null,
-    "stars": null,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-800d-9bdb-f3dd4476884d-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8060-8fc3-eec4680330bf",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Love Your God with All Your Mind",
-    "subtitle": "The Role of Reason in the Life of the Soul",
-    "slug": "love-your-god-with-all-your-mind",
-    "authors": [
-      {
-        "id": ":pXQ",
-        "name": "J.P. Moreland",
-        "color": "green"
-      }
-    ],
-    "pageTotal": 304,
-    "pagesRead": 304,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2005-03-08",
-    "dateFinish": "2005-03-08",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8060-8fc3-eec4680330bf-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-802e-b0e9-edcb96226c34",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "God.com",
-    "subtitle": "Extreme Intimacy with an Interactive God",
-    "slug": "god-com",
-    "authors": [
-      {
-        "id": "HmkC",
-        "name": "James Alexander Langteaux",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 208,
-    "pagesRead": 208,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2004-02-20",
-    "dateFinish": "2004-02-20",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-802e-b0e9-edcb96226c34-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-809e-90af-e8ea478978e1",
     "lastEditedTime": "2025-11-26T20:48:00.000Z",
     "title": "Black",
@@ -5453,6 +5520,38 @@
       "large": "/assets/img/notion/2b2aec2d-56b7-809e-90af-e8ea478978e1-large-260w.jpeg"
     },
     "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-800d-9bdb-f3dd4476884d",
+    "lastEditedTime": "2026-08-07T18:17:00.000Z",
+    "title": "The Unseen Realm",
+    "subtitle": "Recovering the Supernatural Worldview of the Bible",
+    "slug": "the-unseen-realm",
+    "authors": [
+      {
+        "id": "un?Q",
+        "name": "Michael S. Heiser",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 368,
+    "pagesRead": 201,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 0.546195652174,
+    "format": "HARDCOVER",
+    "dateStart": "2024-09-08",
+    "dateFinish": null,
+    "stars": null,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-800d-9bdb-f3dd4476884d-large-260w.jpeg"
+    },
+    "fiction": false,
     "own": false,
     "content": ""
   },
@@ -6139,6 +6238,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-80d4-834b-f2cc0fbe3e0e",
+    "lastEditedTime": "2025-12-15T18:26:00.000Z",
+    "title": "The Most Dangerous Game",
+    "subtitle": "",
+    "slug": "the-most-dangerous-game",
+    "authors": [
+      {
+        "id": "eZ}Z",
+        "name": "Richard Connell",
+        "color": "red"
+      }
+    ],
+    "pageTotal": 29,
+    "pagesRead": null,
+    "minutesTotal": 65,
+    "miniutesRead": 65,
+    "progress": 1,
+    "format": "AUDIO",
+    "dateStart": "2025-05-29",
+    "dateFinish": "2025-05-29",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80d4-834b-f2cc0fbe3e0e-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
+    "content": "<p>I remember reading this in High School and was fascinated/terrified by the idea. It’s well told, heart-pounding, and the ending is perfect.</p>\n"
+  },
+  {
     "id": "2b2aec2d-56b7-80af-bd4b-dca5c047facd",
     "lastEditedTime": "2025-11-26T20:47:00.000Z",
     "title": "The Sign of Four",
@@ -6232,6 +6363,38 @@
     },
     "fiction": true,
     "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80ef-be95-e720e9aa883c",
+    "lastEditedTime": "2025-11-26T20:47:00.000Z",
+    "title": "The Man Who was Thursday, A Nightmare",
+    "subtitle": "",
+    "slug": "the-man-who-was-thursday-a-nightmare",
+    "authors": [
+      {
+        "id": "|lEq",
+        "name": "G.K Chesterton",
+        "color": "green"
+      }
+    ],
+    "pageTotal": 180,
+    "pagesRead": null,
+    "minutesTotal": 195,
+    "miniutesRead": 195,
+    "progress": 1,
+    "format": "AUDIO",
+    "dateStart": "2025-03-19",
+    "dateFinish": "2025-03-21",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80ef-be95-e720e9aa883c-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
     "content": ""
   },
   {
@@ -6900,38 +7063,6 @@
     "content": "<p>This was a fun read. I have been using GraphQL for a while but am not really good at it. This book takes you through the basics to build a small photo app. It features uploading, authentication, hooking up to MongoDB, Apollo and Express, and subscriptions. I would recommend to anyone trying interested in GraphQL.</p>\n"
   },
   {
-    "id": "2b2aec2d-56b7-8013-a29c-f01adcbd0eef",
-    "lastEditedTime": "2025-12-11T14:03:00.000Z",
-    "title": "Let Us Follow Him",
-    "subtitle": "",
-    "slug": "let-us-follow-him",
-    "authors": [
-      {
-        "id": "?eI~",
-        "name": "Henryk Sienkiewicz",
-        "color": "purple"
-      }
-    ],
-    "pageTotal": 102,
-    "pagesRead": 102,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2023-09-13",
-    "dateFinish": "2023-09-13",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8013-a29c-f01adcbd0eef-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": true,
-    "content": "<p>This book is neat! First of all, the book was translated in 1897 and the copy I read was an original! Second, the book is a fictional account of Roman officials who encounter Jesus as he's being crucified. It was a super interesting way to view the scene. Short, easy, and very thought provoking.</p>\n"
-  },
-  {
     "id": "2b2aec2d-56b7-8044-b456-d0845837e7bd",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Recursion",
@@ -7251,43 +7382,6 @@
     "url": "https://www.amazon.com/Radical-Candor-KIM-SCOTT/dp/1509845380/ref=sr_1_6?crid=35LTOYU6HA6MH&dchild=1&keywords=radical+candor&qid=1623729589&sprefix=radical+can%2Caps%2C278&sr=8-6",
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-80a9-bb86-d08b69f9256c-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-808e-9d2d-f81efe9780a9",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Empowered",
-    "subtitle": "Ordinary People, Extraordinary Products",
-    "slug": "empowered",
-    "authors": [
-      {
-        "id": "OXUd",
-        "name": "Marty Cagan",
-        "color": "pink"
-      },
-      {
-        "id": "EGdc",
-        "name": "Chris Jones",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 416,
-    "pagesRead": 416,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2021-01-04",
-    "dateFinish": "2021-06-10",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-808e-9d2d-f81efe9780a9-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -7688,6 +7782,38 @@
     "content": ""
   },
   {
+    "id": "351aec2d-56b7-8023-b612-e78394348270",
+    "lastEditedTime": "2026-05-04T09:44:00.000Z",
+    "title": "The Turn of the Screw",
+    "subtitle": "",
+    "slug": "the-turn-of-the-screw",
+    "authors": [
+      {
+        "id": "31ee079e-1df9-428b-b66a-2211d8e93702",
+        "name": "Henry James",
+        "color": "red"
+      }
+    ],
+    "pageTotal": 261,
+    "pagesRead": null,
+    "minutesTotal": 313,
+    "miniutesRead": 313,
+    "progress": 1,
+    "format": "AUDIO",
+    "dateStart": "2026-04-29",
+    "dateFinish": "2026-05-03T04:00:00.000+00:00",
+    "stars": 4,
+    "asin": "B074J2JHLQ",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/351aec2d-56b7-8023-b612-e78394348270-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "34faec2d-56b7-809a-b230-dc3c2a2b2be6",
     "lastEditedTime": "2026-04-27T09:33:00.000Z",
     "title": "Scrolling Ourselves to Death",
@@ -8012,43 +8138,6 @@
     "content": ""
   },
   {
-    "id": "2edaec2d-56b7-8109-bbbd-cd50aa4c44c1",
-    "lastEditedTime": "2026-04-16T20:52:00.000Z",
-    "title": "Faithmapping",
-    "subtitle": "A Gospel Atlas for Your Spiritual Journey",
-    "slug": "faithmapping",
-    "authors": [
-      {
-        "id": "eba2ed55-4863-4530-bf6a-0a8f47640d1c",
-        "name": "Daniel Montgomery",
-        "color": "pink"
-      },
-      {
-        "id": "5c842963-2d8a-4399-9623-3637d5fb3e76",
-        "name": "Mike Cosper",
-        "color": "purple"
-      }
-    ],
-    "pageTotal": 232,
-    "pagesRead": 232,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2026-03-13",
-    "dateFinish": "2026-04-16T04:00:00.000+00:00",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2edaec2d-56b7-8109-bbbd-cd50aa4c44c1-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "33faec2d-56b7-8027-8825-ed0cc754bd88",
     "lastEditedTime": "2026-04-23T12:22:00.000Z",
     "title": "Stiff",
@@ -8171,6 +8260,43 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/325aec2d-56b7-8121-86bd-e910a3b5b83b-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2edaec2d-56b7-8109-bbbd-cd50aa4c44c1",
+    "lastEditedTime": "2026-04-16T20:52:00.000Z",
+    "title": "Faithmapping",
+    "subtitle": "A Gospel Atlas for Your Spiritual Journey",
+    "slug": "faithmapping",
+    "authors": [
+      {
+        "id": "eba2ed55-4863-4530-bf6a-0a8f47640d1c",
+        "name": "Daniel Montgomery",
+        "color": "pink"
+      },
+      {
+        "id": "5c842963-2d8a-4399-9623-3637d5fb3e76",
+        "name": "Mike Cosper",
+        "color": "purple"
+      }
+    ],
+    "pageTotal": 232,
+    "pagesRead": 232,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2026-03-13",
+    "dateFinish": "2026-04-16T04:00:00.000+00:00",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2edaec2d-56b7-8109-bbbd-cd50aa4c44c1-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -8762,38 +8888,6 @@
     "content": ""
   },
   {
-    "id": "2ccaec2d-56b7-810a-b4ae-d473e5ee2096",
-    "lastEditedTime": "2026-01-02T15:15:00.000Z",
-    "title": "When: the Scientific Secrets of Perfect Timing",
-    "subtitle": "",
-    "slug": "when-the-scientific-secrets-of-perfect-timing",
-    "authors": [
-      {
-        "id": "v@OT",
-        "name": "Daniel H. Pink",
-        "color": "default"
-      }
-    ],
-    "pageTotal": 272,
-    "pagesRead": 272,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2025-12-19T05:00:00.000+00:00",
-    "dateFinish": "2026-01-02T05:00:00.000+00:00",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2ccaec2d-56b7-810a-b4ae-d473e5ee2096-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
     "id": "2ccaec2d-56b7-80ad-83d4-c6fe0abf338c",
     "lastEditedTime": "2025-12-29T03:15:00.000Z",
     "title": "The Defector",
@@ -8852,6 +8946,38 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2ccaec2d-56b7-8115-8a3d-f83e62dea1ad-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2ccaec2d-56b7-810a-b4ae-d473e5ee2096",
+    "lastEditedTime": "2026-01-02T15:15:00.000Z",
+    "title": "When: the Scientific Secrets of Perfect Timing",
+    "subtitle": "",
+    "slug": "when-the-scientific-secrets-of-perfect-timing",
+    "authors": [
+      {
+        "id": "v@OT",
+        "name": "Daniel H. Pink",
+        "color": "default"
+      }
+    ],
+    "pageTotal": 272,
+    "pagesRead": 272,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2025-12-19T05:00:00.000+00:00",
+    "dateFinish": "2026-01-02T05:00:00.000+00:00",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2ccaec2d-56b7-810a-b4ae-d473e5ee2096-large-260w.jpeg"
     },
     "fiction": false,
     "own": false,
@@ -10066,70 +10192,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-8083-8dae-ee38a79c3b9e-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80b6-8978-f469db075fc5",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Design is a Job",
-    "subtitle": "",
-    "slug": "design-is-a-job",
-    "authors": [
-      {
-        "id": "aVKU",
-        "name": "Mike Monteiro",
-        "color": "orange"
-      }
-    ],
-    "pageTotal": 137,
-    "pagesRead": 137,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2021-04-27",
-    "dateFinish": "2021-05-06",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80b6-8978-f469db075fc5-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8063-8dfa-d9fc9d23a03f",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Mobile First",
-    "subtitle": "",
-    "slug": "mobile-first",
-    "authors": [
-      {
-        "id": "C[yY",
-        "name": "Luke Wroblewski",
-        "color": "default"
-      }
-    ],
-    "pageTotal": 130,
-    "pagesRead": 130,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2021-04-22",
-    "dateFinish": "2021-04-26",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8063-8dfa-d9fc9d23a03f-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -11362,38 +11424,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80f9-9f37-d6b7becff0c0",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Love That Goes the Distance",
-    "subtitle": "",
-    "slug": "love-that-goes-the-distance",
-    "authors": [
-      {
-        "id": "wzSm",
-        "name": "Jud Wilhite",
-        "color": "default"
-      }
-    ],
-    "pageTotal": 144,
-    "pagesRead": 144,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2003-07-01",
-    "dateFinish": "2003-07-01",
-    "stars": 3,
-    "asin": "0801064643",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80f9-9f37-d6b7becff0c0-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-80d4-b26b-c2b723823fb3",
     "lastEditedTime": "2025-12-10T18:44:00.000Z",
     "title": "Come, Let Us Reason",
@@ -11522,38 +11552,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80d6-989e-e0c39027cf11",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "To Hell with the Hustle",
-    "subtitle": "",
-    "slug": "to-hell-with-the-hustle",
-    "authors": [
-      {
-        "id": "epEA",
-        "name": "Jefferson Bethke",
-        "color": "green"
-      }
-    ],
-    "pageTotal": 197,
-    "pagesRead": 197,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2025-06-20",
-    "dateFinish": "2025-06-26",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80d6-989e-e0c39027cf11-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-80ac-ad8a-ce183ad2e3a8",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Kingdom Values",
@@ -11580,38 +11578,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-80ac-ad8a-ce183ad2e3a8-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8087-baaf-ca3181dda581",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Everybody, Always",
-    "subtitle": "Becoming Love in a World Full of Setbacks and Difficult People",
-    "slug": "everybody-always",
-    "authors": [
-      {
-        "id": "xNM\\",
-        "name": "Bob Goff",
-        "color": "brown"
-      }
-    ],
-    "pageTotal": 240,
-    "pagesRead": 240,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2024-11-15",
-    "dateFinish": "2024-11-20",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8087-baaf-ca3181dda581-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -12704,6 +12670,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-80d6-989e-e0c39027cf11",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "To Hell with the Hustle",
+    "subtitle": "",
+    "slug": "to-hell-with-the-hustle",
+    "authors": [
+      {
+        "id": "epEA",
+        "name": "Jefferson Bethke",
+        "color": "green"
+      }
+    ],
+    "pageTotal": 197,
+    "pagesRead": 197,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2025-06-20",
+    "dateFinish": "2025-06-26",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80d6-989e-e0c39027cf11-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-8017-aefd-e402f9d4b505",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Practicing the Way",
@@ -12764,6 +12762,38 @@
       "large": "/assets/img/notion/2b2aec2d-56b7-80f2-a281-e340b6232210-large-260w.jpeg"
     },
     "fiction": true,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8087-baaf-ca3181dda581",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Everybody, Always",
+    "subtitle": "Becoming Love in a World Full of Setbacks and Difficult People",
+    "slug": "everybody-always",
+    "authors": [
+      {
+        "id": "xNM\\",
+        "name": "Bob Goff",
+        "color": "brown"
+      }
+    ],
+    "pageTotal": 240,
+    "pagesRead": 240,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2024-11-15",
+    "dateFinish": "2024-11-20",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8087-baaf-ca3181dda581-large-260w.jpeg"
+    },
+    "fiction": false,
     "own": true,
     "content": ""
   },
@@ -13414,70 +13444,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-802e-b0e4-ea48a361ea25",
-    "lastEditedTime": "2025-12-11T14:00:00.000Z",
-    "title": "The Martian",
-    "subtitle": "A Novel",
-    "slug": "the-martian",
-    "authors": [
-      {
-        "id": "Oj|F",
-        "name": "Andy Weir",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 387,
-    "pagesRead": 387,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2022-10-19",
-    "dateFinish": "2022-10-23",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-802e-b0e4-ea48a361ea25-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": true,
-    "content": "<p>Even though I have seen the movie twice (and loved it) I thought I would give this a try.</p>\n<p>A storm on Mars forces Mark Watney's team to abandon their mission and head back to Earth. In the chaos of the storm, Mark id blown away and his team presumes he's dead and leaves. He wakes up, injured and alone on Mars with no way to contact his team or Earth. He has to figure out how to survive and see if there is any way to make it back home.</p>\n<p>The book is brilliant! Mark is witty and sarcastic. It was such a good ride. I literally could not put this book down.</p>\n"
-  },
-  {
-    "id": "2b2aec2d-56b7-8092-9b08-e64838795512",
-    "lastEditedTime": "2025-12-11T14:07:00.000Z",
-    "title": "The Google Story",
-    "subtitle": "Inside the Hottest Business, Media and Technology Success of Our Time",
-    "slug": "the-google-story",
-    "authors": [
-      {
-        "id": "ojn|",
-        "name": "David A. Vise",
-        "color": "green"
-      }
-    ],
-    "pageTotal": 326,
-    "pagesRead": 326,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2017-05-31",
-    "dateFinish": "2021-08-24",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": "https://www.amazon.com/Google-Story-David-Vise/dp/055380457X/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1629213436&sr=1-1",
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8092-9b08-e64838795512-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": "<p>I just finished <em>The Google Story</em> by David A. Vise.</p>\n<p>It’s the biography of Google. It’s fun to hear about a couple of guys with a dream, a felt need, inventing something from scratch, and it paying off.</p>\n<p>I really appreciate that they were even able to recognize that they couldn’t or shouldn’t even run their own company -- they realized that they wanted to innovate and play. So, they hired a CEO and a company around them so they could be themselves. I love how Google was able to see the long game of revenue and play that out with their vision. I love how they were able to stick to their core values of “don’t be evil” and “having a healthy disregard for the impossible” (at least in their own minds).</p>\n<p>I especially love how Google treats everything as an experiment and things stick that work, and they shed what doesn’t. It was a fun book. I remember hearing about Google in maybe 1998. I, like others, was using Alta Vista, Ask Jeeves, and Yahoo!. But, I admired Google’s algorithm and their simplicity, and like others early on, switched. Its a fun story of innovation, dreaming big dreams, and putting everything you have into something you love.</p>\n"
-  },
-  {
     "id": "2b2aec2d-56b7-80a4-9b15-f1da8f636f49",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "The Way of the Dragon or the Way of the Lamb",
@@ -13669,6 +13635,38 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-807c-bac2-e39e61070325-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80f9-9f37-d6b7becff0c0",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Love That Goes the Distance",
+    "subtitle": "",
+    "slug": "love-that-goes-the-distance",
+    "authors": [
+      {
+        "id": "wzSm",
+        "name": "Jud Wilhite",
+        "color": "default"
+      }
+    ],
+    "pageTotal": 144,
+    "pagesRead": 144,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2003-07-01",
+    "dateFinish": "2003-07-01",
+    "stars": 3,
+    "asin": "0801064643",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80f9-9f37-d6b7becff0c0-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -14739,6 +14737,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-8008-8498-e5d09220488c",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Your First Two Years in Youth Ministry",
+    "subtitle": "A personal and practical guide to starting right",
+    "slug": "your-first-two-years-in-youth-ministry",
+    "authors": [
+      {
+        "id": "Sftl",
+        "name": "Doug Fields",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 304,
+    "pagesRead": 304,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2008-05-01",
+    "dateFinish": "2008-05-01",
+    "stars": 5,
+    "asin": "031024045X",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8008-8498-e5d09220488c-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-8097-97fc-e2be9f424420",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "More Ready Than You Realize",
@@ -14963,64 +14993,32 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-8043-8717-c1e0d1ea53e7",
+    "id": "2b2aec2d-56b7-802f-9134-c18c70da598c",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Miracles",
-    "subtitle": "",
-    "slug": "miracles",
+    "title": "The Case for a Creator",
+    "subtitle": "A Journalist Investigates Scientific Evidence That Points Toward God",
+    "slug": "the-case-for-a-creator",
     "authors": [
       {
-        "id": "o_@B",
-        "name": "C.S. Lewis",
-        "color": "default"
+        "id": "XErQ",
+        "name": "Lee Strobel",
+        "color": "blue"
       }
     ],
-    "pageTotal": 294,
-    "pagesRead": 294,
+    "pageTotal": 368,
+    "pagesRead": 368,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
     "format": "PAPERBACK",
-    "dateStart": "2004-05-10",
-    "dateFinish": "2004-05-10",
-    "stars": 3,
+    "dateStart": "2005-02-12",
+    "dateFinish": "2005-02-12",
+    "stars": 5,
     "asin": "",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8043-8717-c1e0d1ea53e7-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8001-8712-d6c3d0b44354",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Problem of Pain",
-    "subtitle": "",
-    "slug": "the-problem-of-pain",
-    "authors": [
-      {
-        "id": "o_@B",
-        "name": "C.S. Lewis",
-        "color": "default"
-      }
-    ],
-    "pageTotal": 176,
-    "pagesRead": 176,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2004-04-20",
-    "dateFinish": "2004-04-20",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8001-8712-d6c3d0b44354-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-802f-9134-c18c70da598c-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -16605,6 +16603,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-802e-b0e4-ea48a361ea25",
+    "lastEditedTime": "2025-12-11T14:00:00.000Z",
+    "title": "The Martian",
+    "subtitle": "A Novel",
+    "slug": "the-martian",
+    "authors": [
+      {
+        "id": "Oj|F",
+        "name": "Andy Weir",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 387,
+    "pagesRead": 387,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2022-10-19",
+    "dateFinish": "2022-10-23",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-802e-b0e4-ea48a361ea25-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": true,
+    "content": "<p>Even though I have seen the movie twice (and loved it) I thought I would give this a try.</p>\n<p>A storm on Mars forces Mark Watney's team to abandon their mission and head back to Earth. In the chaos of the storm, Mark id blown away and his team presumes he's dead and leaves. He wakes up, injured and alone on Mars with no way to contact his team or Earth. He has to figure out how to survive and see if there is any way to make it back home.</p>\n<p>The book is brilliant! Mark is witty and sarcastic. It was such a good ride. I literally could not put this book down.</p>\n"
+  },
+  {
     "id": "2b2aec2d-56b7-801a-b2ca-eefa9bb98c76",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Do androids dream of electric sheep?",
@@ -16731,6 +16761,38 @@
     "fiction": false,
     "own": true,
     "content": "<p>I just finished <em>Things to Make and Do in the Fourth Dimension</em> by Matt Parker. Yea, it's a math book. Yea, I read it for fun. And this book is fun.</p>\n<p>I know Matt Parker from his <a href=\"https://www.youtube.com/user/standupmaths\">Youtube channel</a> and podcasts (including <a href=\"https://aproblemsquared.libsyn.com/\">A Problem Squared</a>).</p>\n<p>I like the way that he thinks and teaches, but was skeptical about a &quot;math book&quot;. My experience with math is it's a set of tools or algorithms to solve problems. What I learned with this book is that view is incomplete and naive.</p>\n<p>Matt was able to tell the history behind the problems that mathematicians were trying to solve, and why. He showed how math is a story and history. How it is still incomplete. How our finite brains still struggle with concepts even today. How math can be fun. He also did it with his comedic flare.</p>\n<p>The earlier chapters covered digits, bases, numbers, geometry, and primes. This was fun because it showed how maths got started and how practical it started out as.</p>\n<p>The middle dealt with computers and algorithms, which was fun to connect to computer science and programming. I nerded-out there.</p>\n<p>The later chapters dealt with higher dimensions, knots, infinity. Frankly, I struggled with these. I think that my brain just struggles to comprehend some of the ideas here... which was Matt's point! These things are hard because they are relatively new concepts and out brains have a hard time with these concepts. But it was fun to think about!</p>\n<p>This was a fun book. I would recommend!</p>\n"
+  },
+  {
+    "id": "2b2aec2d-56b7-8092-9b08-e64838795512",
+    "lastEditedTime": "2025-12-11T14:07:00.000Z",
+    "title": "The Google Story",
+    "subtitle": "Inside the Hottest Business, Media and Technology Success of Our Time",
+    "slug": "the-google-story",
+    "authors": [
+      {
+        "id": "ojn|",
+        "name": "David A. Vise",
+        "color": "green"
+      }
+    ],
+    "pageTotal": 326,
+    "pagesRead": 326,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2017-05-31",
+    "dateFinish": "2021-08-24",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": "https://www.amazon.com/Google-Story-David-Vise/dp/055380457X/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1629213436&sr=1-1",
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8092-9b08-e64838795512-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": "<p>I just finished <em>The Google Story</em> by David A. Vise.</p>\n<p>It’s the biography of Google. It’s fun to hear about a couple of guys with a dream, a felt need, inventing something from scratch, and it paying off.</p>\n<p>I really appreciate that they were even able to recognize that they couldn’t or shouldn’t even run their own company -- they realized that they wanted to innovate and play. So, they hired a CEO and a company around them so they could be themselves. I love how Google was able to see the long game of revenue and play that out with their vision. I love how they were able to stick to their core values of “don’t be evil” and “having a healthy disregard for the impossible” (at least in their own minds).</p>\n<p>I especially love how Google treats everything as an experiment and things stick that work, and they shed what doesn’t. It was a fun book. I remember hearing about Google in maybe 1998. I, like others, was using Alta Vista, Ask Jeeves, and Yahoo!. But, I admired Google’s algorithm and their simplicity, and like others early on, switched. Its a fun story of innovation, dreaming big dreams, and putting everything you have into something you love.</p>\n"
   },
   {
     "id": "2b2aec2d-56b7-8017-a19f-f7aaa525358c",
@@ -17025,38 +17087,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-80b8-b7ee-f1570f060561-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8008-8498-e5d09220488c",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Your First Two Years in Youth Ministry",
-    "subtitle": "A personal and practical guide to starting right",
-    "slug": "your-first-two-years-in-youth-ministry",
-    "authors": [
-      {
-        "id": "Sftl",
-        "name": "Doug Fields",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 304,
-    "pagesRead": 304,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2008-05-01",
-    "dateFinish": "2008-05-01",
-    "stars": 5,
-    "asin": "031024045X",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8008-8498-e5d09220488c-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -17511,38 +17541,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-802f-9134-c18c70da598c",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Case for a Creator",
-    "subtitle": "A Journalist Investigates Scientific Evidence That Points Toward God",
-    "slug": "the-case-for-a-creator",
-    "authors": [
-      {
-        "id": "XErQ",
-        "name": "Lee Strobel",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 368,
-    "pagesRead": 368,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2005-02-12",
-    "dateFinish": "2005-02-12",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-802f-9134-c18c70da598c-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-80b5-842b-ef25b076cabc",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "The Filmmaker's Handbook",
@@ -17697,6 +17695,70 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-804c-9e21-f30ccd0fba43-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8043-8717-c1e0d1ea53e7",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Miracles",
+    "subtitle": "",
+    "slug": "miracles",
+    "authors": [
+      {
+        "id": "o_@B",
+        "name": "C.S. Lewis",
+        "color": "default"
+      }
+    ],
+    "pageTotal": 294,
+    "pagesRead": 294,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2004-05-10",
+    "dateFinish": "2004-05-10",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8043-8717-c1e0d1ea53e7-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8001-8712-d6c3d0b44354",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "The Problem of Pain",
+    "subtitle": "",
+    "slug": "the-problem-of-pain",
+    "authors": [
+      {
+        "id": "o_@B",
+        "name": "C.S. Lewis",
+        "color": "default"
+      }
+    ],
+    "pageTotal": 176,
+    "pagesRead": 176,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2004-04-20",
+    "dateFinish": "2004-04-20",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8001-8712-d6c3d0b44354-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,

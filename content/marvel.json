@@ -681,7 +681,7 @@
     },
     {
       "id": "353aec2d-56b7-818e-9e07-f015b2454722",
-      "lastEditedTime": "2026-08-21T20:12:00.000Z",
+      "lastEditedTime": "2026-09-28T17:41:00.000Z",
       "title": "Thor: Ragnarok",
       "slug": "thor-ragnarok",
       "imdbRating": "7.9",
@@ -694,19 +694,19 @@
       "order": 17,
       "reviews": {
         "Elliot": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-27-26",
+          "watchedISO": "2026-09-27",
+          "rating": "8"
         },
         "Levi": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-27-26",
+          "watchedISO": "2026-09-27",
+          "rating": "8.7"
         },
         "Lauren": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-27-26",
+          "watchedISO": "2026-09-27",
+          "rating": "6.2"
         },
         "Steve": {
           "watched": "",
@@ -714,12 +714,12 @@
           "rating": ""
         },
         "Oliver": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-27-26",
+          "watchedISO": "2026-09-27",
+          "rating": "9.8"
         }
       },
-      "familyScore": null
+      "familyScore": "8.2"
     },
     {
       "id": "353aec2d-56b7-8130-922f-efa750fa4e20",
@@ -1717,7 +1717,7 @@
       "title": "Guardians of the Galaxy",
       "rating": "8.9"
     },
-    "nextMovieSlug": "thor-ragnarok",
-    "nextMovieTitle": "Thor: Ragnarok"
+    "nextMovieSlug": "black-panther",
+    "nextMovieTitle": "Black Panther"
   }
 }
