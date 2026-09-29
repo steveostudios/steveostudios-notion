@@ -1,7 +1,7 @@
 [
   {
     "id": "3e9aec2d-56b7-8000-a5c7-e3923413109b",
-    "lastEditedTime": "2026-09-28T16:06:00.000Z",
+    "lastEditedTime": "2026-09-28T21:04:00.000Z",
     "title": "The Two Towers",
     "subtitle": "",
     "slug": "the-two-towers",
@@ -12,11 +12,11 @@
         "color": "brown"
       }
     ],
-    "pageTotal": null,
-    "pagesRead": null,
+    "pageTotal": 352,
+    "pagesRead": 60,
     "minutesTotal": null,
     "miniutesRead": null,
-    "progress": 0,
+    "progress": 0.170454545455,
     "format": "PAPERBACK",
     "dateStart": "2026-09-20",
     "dateFinish": null,
@@ -24,14 +24,16 @@
     "asin": "",
     "isbn": "",
     "url": null,
-    "coverImage": null,
+    "coverImage": {
+      "large": "/assets/img/notion/3e9aec2d-56b7-8000-a5c7-e3923413109b-large-260w.jpeg"
+    },
     "fiction": true,
     "own": false,
     "content": ""
   },
   {
     "id": "3e9aec2d-56b7-80f1-89cb-ec02620e36b0",
-    "lastEditedTime": "2026-09-28T16:03:00.000Z",
+    "lastEditedTime": "2026-09-28T22:15:00.000Z",
     "title": "City Spies",
     "subtitle": "",
     "slug": "city-spies",
@@ -44,9 +46,9 @@
     ],
     "pageTotal": 378,
     "pagesRead": null,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 0,
+    "minutesTotal": 365,
+    "miniutesRead": 280,
+    "progress": 0.767123287671,
     "format": "AUDIO",
     "dateStart": "2026-09-27",
     "dateFinish": null,
@@ -430,7 +432,7 @@
   },
   {
     "id": "39aaec2d-56b7-81a5-8bb6-f9280843dc8f",
-    "lastEditedTime": "2026-09-17T14:19:00.000Z",
+    "lastEditedTime": "2026-09-28T21:05:00.000Z",
     "title": "The Explicit Gospel",
     "subtitle": "",
     "slug": "the-explicit-gospel",
@@ -442,10 +444,10 @@
       }
     ],
     "pageTotal": 240,
-    "pagesRead": 52,
+    "pagesRead": 101,
     "minutesTotal": null,
     "miniutesRead": null,
-    "progress": 0.216666666667,
+    "progress": 0.420833333333,
     "format": "HARDCOVER",
     "dateStart": "2026-09-02T04:00:00.000+00:00",
     "dateFinish": null,
@@ -7985,7 +7987,7 @@
   },
   {
     "id": "344aec2d-56b7-81a8-a974-f739d724af6d",
-    "lastEditedTime": "2026-06-07T02:31:00.000Z",
+    "lastEditedTime": "2026-09-28T21:05:00.000Z",
     "title": "The Fellowship of the Ring",
     "subtitle": "",
     "slug": "the-fellowship-of-the-ring",
