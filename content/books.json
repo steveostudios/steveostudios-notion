@@ -1,5 +1,37 @@
 [
   {
+    "id": "3ecaec2d-56b7-8014-8b5b-cdd2e8b59546",
+    "lastEditedTime": "2026-10-01T18:17:00.000Z",
+    "title": "The Prisoner of Cell 25",
+    "subtitle": "",
+    "slug": "the-prisoner-of-cell-25",
+    "authors": [
+      {
+        "id": "2f96725a-a962-4d94-8cea-46718fe1cde2",
+        "name": "Richard Paul Evans",
+        "color": "yellow"
+      }
+    ],
+    "pageTotal": 336,
+    "pagesRead": null,
+    "minutesTotal": 558,
+    "miniutesRead": 180,
+    "progress": 0.322580645161,
+    "format": "AUDIO",
+    "dateStart": "2026-09-30",
+    "dateFinish": null,
+    "stars": null,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/3ecaec2d-56b7-8014-8b5b-cdd2e8b59546-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "3e9aec2d-56b7-8000-a5c7-e3923413109b",
     "lastEditedTime": "2026-09-28T21:04:00.000Z",
     "title": "The Two Towers",
@@ -33,7 +65,7 @@
   },
   {
     "id": "3e9aec2d-56b7-80f1-89cb-ec02620e36b0",
-    "lastEditedTime": "2026-09-28T22:15:00.000Z",
+    "lastEditedTime": "2026-09-30T19:30:00.000Z",
     "title": "City Spies",
     "subtitle": "",
     "slug": "city-spies",
@@ -47,12 +79,12 @@
     "pageTotal": 378,
     "pagesRead": null,
     "minutesTotal": 365,
-    "miniutesRead": 280,
-    "progress": 0.767123287671,
+    "miniutesRead": 365,
+    "progress": 1,
     "format": "AUDIO",
     "dateStart": "2026-09-27",
-    "dateFinish": null,
-    "stars": null,
+    "dateFinish": "2026-09-29",
+    "stars": 3,
     "asin": "",
     "isbn": "",
     "url": null,
@@ -1069,38 +1101,6 @@
     "content": ""
   },
   {
-    "id": "353aec2d-56b7-8129-ad31-d41d51d6b683",
-    "lastEditedTime": "2026-05-18T01:26:00.000Z",
-    "title": "One Nation Under Gods",
-    "subtitle": "A History of the Mormon Church",
-    "slug": "one-nation-under-gods",
-    "authors": [
-      {
-        "id": "b4e54863-5a5d-4530-a4a5-4f3c27835fe8",
-        "name": "Richard Abanes",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 656,
-    "pagesRead": 656,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2026-05-04T04:00:00.000+00:00",
-    "dateFinish": "2026-05-16T04:00:00.000+00:00",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/353aec2d-56b7-8129-ad31-d41d51d6b683-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-8076-9ef1-f817b9224108",
     "lastEditedTime": "2026-02-20T21:33:00.000Z",
     "title": "Exiles",
@@ -1133,64 +1133,96 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80c2-b051-eda8830ef600",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Bait of Satan",
-    "subtitle": "Your Response Determines Your Future",
-    "slug": "the-bait-of-satan",
+    "id": "2b2aec2d-56b7-809c-bb88-ff1e113b5a3b",
+    "lastEditedTime": "2026-01-06T15:16:00.000Z",
+    "title": "The Legend of the Monk and the Merchant",
+    "subtitle": "Twelve Keys to Successful Living",
+    "slug": "the-legend-of-the-monk-and-the-merchant",
     "authors": [
       {
-        "id": "P_e|",
-        "name": "John Bevere",
-        "color": "orange"
+        "id": "Ht\\I",
+        "name": "Terry Felber",
+        "color": "pink"
       }
     ],
-    "pageTotal": 191,
-    "pagesRead": 191,
+    "pageTotal": 145,
+    "pagesRead": 145,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2025-09-19",
-    "dateFinish": "2025-10-01",
-    "stars": 5,
+    "format": "HARDCOVER",
+    "dateStart": "2026-01-02T05:00:00.000+00:00",
+    "dateFinish": "2026-01-06T05:00:00.000+00:00",
+    "stars": 3,
     "asin": "",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80c2-b051-eda8830ef600-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-809c-bb88-ff1e113b5a3b-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-802a-b137-cedb4c9363de",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Voice of the Heart",
-    "subtitle": "A Call to Full Living",
-    "slug": "the-voice-of-the-heart",
+    "id": "2b2aec2d-56b7-8042-b0dc-c04e8eff6d30",
+    "lastEditedTime": "2026-01-02T14:46:00.000Z",
+    "title": "The Tech-wise Family",
+    "subtitle": "Everyday Steps for Putting Technology in Its Proper Place",
+    "slug": "the-tech-wise-family",
     "authors": [
       {
-        "id": "jHtF",
-        "name": "Chip Dodd",
-        "color": "default"
+        "id": "d_pA",
+        "name": "Andy Crouch",
+        "color": "blue"
       }
     ],
-    "pageTotal": 165,
-    "pagesRead": 165,
+    "pageTotal": 221,
+    "pagesRead": 221,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2025-09-14",
-    "dateFinish": "2025-09-25",
+    "format": "HARDCOVER",
+    "dateStart": "2025-12-05",
+    "dateFinish": "2026-01-02T05:00:00.000+00:00",
+    "stars": 5,
+    "asin": "[\"B01M1SDHYT\"]",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8042-b0dc-c04e8eff6d30-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-809a-b9a2-d318201d1891",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Leading Without Power",
+    "subtitle": "Finding Hope in Serving Community",
+    "slug": "leading-without-power",
+    "authors": [
+      {
+        "id": "TaIg",
+        "name": "Max De Pree",
+        "color": "blue"
+      }
+    ],
+    "pageTotal": 192,
+    "pagesRead": 192,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2025-09-26",
+    "dateFinish": "2025-10-03",
     "stars": 3,
     "asin": "",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-802a-b137-cedb4c9363de-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-809a-b9a2-d318201d1891-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -1389,53 +1421,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-801e-9781-f5cc2dd691be",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Flip the Script",
-    "subtitle": "Disrupting Tradition for the Sake of the Next Generation",
-    "slug": "flip-the-script",
-    "authors": [
-      {
-        "id": "R[NC",
-        "name": "Chuck Peters",
-        "color": "blue"
-      },
-      {
-        "id": "@s^I",
-        "name": "Jana Magruder",
-        "color": "red"
-      },
-      {
-        "id": "||kv",
-        "name": "Stephanie Salvatore",
-        "color": "default"
-      },
-      {
-        "id": "T@\\z",
-        "name": "Lifeway Kids",
-        "color": "red"
-      }
-    ],
-    "pageTotal": 128,
-    "pagesRead": 128,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2025-06-12",
-    "dateFinish": "2025-06-25",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-801e-9781-f5cc2dd691be-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-8055-99ba-f2a54fb51531",
     "lastEditedTime": "2025-11-26T20:48:00.000Z",
     "title": "Poirot Investigates",
@@ -1529,38 +1514,6 @@
     },
     "fiction": true,
     "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8069-8aa6-d8fa0330d211",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Until Unity",
-    "subtitle": "",
-    "slug": "until-unity",
-    "authors": [
-      {
-        "id": "dpxv",
-        "name": "Francis Chan",
-        "color": "red"
-      }
-    ],
-    "pageTotal": 220,
-    "pagesRead": 220,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2025-04-20",
-    "dateFinish": "2025-04-24",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8069-8aa6-d8fa0330d211-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
     "content": ""
   },
   {
@@ -1724,6 +1677,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-80ac-ad8a-ce183ad2e3a8",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Kingdom Values",
+    "subtitle": "Character Over Chaos",
+    "slug": "kingdom-values",
+    "authors": [
+      {
+        "id": "`ZcD",
+        "name": "Tony Evans",
+        "color": "yellow"
+      }
+    ],
+    "pageTotal": 202,
+    "pagesRead": 202,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2025-02-13",
+    "dateFinish": "2025-02-22",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80ac-ad8a-ce183ad2e3a8-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-8066-8dc0-d7a5a47d0b11",
     "lastEditedTime": "2025-11-26T20:47:00.000Z",
     "title": "The Lost World",
@@ -1750,70 +1735,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-8066-8dc0-d7a5a47d0b11-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-809b-9c2f-e01567a7e2d1",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Land of My Sojourn",
-    "subtitle": "The Landscape of a Faith Lost and Found",
-    "slug": "land-of-my-sojourn",
-    "authors": [
-      {
-        "id": "5c842963-2d8a-4399-9623-3637d5fb3e76",
-        "name": "Mike Cosper",
-        "color": "purple"
-      }
-    ],
-    "pageTotal": 168,
-    "pagesRead": 168,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2025-01-22",
-    "dateFinish": "2025-01-29",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-809b-9c2f-e01567a7e2d1-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80ff-9026-f61e0b95ba06",
-    "lastEditedTime": "2025-11-26T20:47:00.000Z",
-    "title": "Twenty Thousand Leagues Under the Sea",
-    "subtitle": "",
-    "slug": "twenty-thousand-leagues-under-the-sea",
-    "authors": [
-      {
-        "id": "c^k>",
-        "name": "Jules Verne",
-        "color": "yellow"
-      }
-    ],
-    "pageTotal": 384,
-    "pagesRead": null,
-    "minutesTotal": 703,
-    "miniutesRead": 703,
-    "progress": 1,
-    "format": "AUDIO",
-    "dateStart": "2025-01-17",
-    "dateFinish": "2025-01-21",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80ff-9026-f61e0b95ba06-large-260w.jpeg"
     },
     "fiction": true,
     "own": false,
@@ -1849,38 +1770,6 @@
     },
     "fiction": true,
     "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80b7-828d-dd1858571db7",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "What Radical Husbands Do",
-    "subtitle": "12 Steps to Win and Keep Your Wife's Heart",
-    "slug": "what-radical-husbands-do",
-    "authors": [
-      {
-        "id": "h?CI",
-        "name": "Regi Campbell",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 136,
-    "pagesRead": 136,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2024-12-29",
-    "dateFinish": "2025-01-03",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80b7-828d-dd1858571db7-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
     "content": ""
   },
   {
@@ -1948,38 +1837,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80cc-8b82-c1a4aeb33689",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Free at Last",
-    "subtitle": "Experiencing True Freedom Through Your Identity in Christ",
-    "slug": "free-at-last",
-    "authors": [
-      {
-        "id": "ZXxV",
-        "name": "Anthony T. Evans",
-        "color": "default"
-      }
-    ],
-    "pageTotal": 209,
-    "pagesRead": 209,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2024-10-21",
-    "dateFinish": "2024-10-27",
-    "stars": 4,
-    "asin": "[\"\"]",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80cc-8b82-c1a4aeb33689-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-80ce-9636-d54755270db2",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "The Freedom of Self-Forgetfulness",
@@ -2012,32 +1869,32 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-806b-a0ad-fdc2524959c3",
+    "id": "2b2aec2d-56b7-80e8-8c2a-e127c531c38a",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Good and Beautiful God",
-    "subtitle": "Falling in Love with the God Jesus Knows",
-    "slug": "the-good-and-beautiful-god",
+    "title": "Rediscovering Israel",
+    "subtitle": "A Fresh Look at God's Story in Its Historical and Cultural Contexts",
+    "slug": "rediscovering-israel",
     "authors": [
       {
-        "id": "uz}q",
-        "name": "James Bryan Smith",
-        "color": "yellow"
+        "id": "rqXc",
+        "name": "Kristi McLelland",
+        "color": "blue"
       }
     ],
-    "pageTotal": 232,
-    "pagesRead": 232,
+    "pageTotal": 255,
+    "pagesRead": 255,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
     "format": "HARDCOVER",
-    "dateStart": "2024-09-26",
-    "dateFinish": "2024-10-10",
-    "stars": 5,
+    "dateStart": "2024-09-16",
+    "dateFinish": "2024-09-26",
+    "stars": 4,
     "asin": "",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-806b-a0ad-fdc2524959c3-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-80e8-8c2a-e127c531c38a-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -2072,48 +1929,6 @@
       "large": "/assets/img/notion/2b2aec2d-56b7-8001-b726-c69d94a79040-large-260w.jpeg"
     },
     "fiction": true,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80a2-ad83-c45d314af06e",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Kubernetes : Up and Running",
-    "subtitle": "Dive into the Future of Infrastructure",
-    "slug": "kubernetes-up-and-running",
-    "authors": [
-      {
-        "id": "_t|V",
-        "name": "Brendan Burns",
-        "color": "gray"
-      },
-      {
-        "id": "SqRp",
-        "name": "Joe Beda",
-        "color": "gray"
-      },
-      {
-        "id": "UQqi",
-        "name": "Kelsey Hightower",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 326,
-    "pagesRead": 326,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2024-08-15",
-    "dateFinish": "2024-09-06",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80a2-ad83-c45d314af06e-large-260w.jpeg"
-    },
-    "fiction": false,
     "own": true,
     "content": ""
   },
@@ -2192,43 +2007,43 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-807a-8920-e0e0db0655a8",
+    "id": "2b2aec2d-56b7-8060-8b32-d2a635d78889",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "4 Chair Discipling",
-    "subtitle": "Growing a Movement of Disciple-makers",
-    "slug": "4-chair-discipling",
+    "title": "A Short History of Nearly Everything",
+    "subtitle": "",
+    "slug": "a-short-history-of-nearly-everything",
     "authors": [
       {
-        "id": "a2f56715-a3ac-4066-a2da-15142ec67b82",
-        "name": "Dann Spader",
-        "color": "yellow"
+        "id": "NyrX",
+        "name": "Bill Bryson",
+        "color": "blue"
       }
     ],
-    "pageTotal": 160,
-    "pagesRead": 160,
-    "minutesTotal": null,
-    "miniutesRead": null,
+    "pageTotal": 544,
+    "pagesRead": null,
+    "minutesTotal": 1093,
+    "miniutesRead": 1093,
     "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2024-08-10",
-    "dateFinish": "2024-08-20",
+    "format": "AUDIO",
+    "dateStart": "2024-08-01",
+    "dateFinish": "2024-08-08",
     "stars": 4,
-    "asin": "[\"0802412076\"]",
+    "asin": "",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-807a-8920-e0e0db0655a8-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-8060-8b32-d2a635d78889-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-802a-b534-c8a3b85eb51a",
+    "id": "2b2aec2d-56b7-807a-a402-c33e6e44a8df",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Before Amen",
-    "subtitle": "The Power of a Simple Prayer",
-    "slug": "before-amen",
+    "title": "Anxious for Nothing",
+    "subtitle": "Finding Calm in a Chaotic World",
+    "slug": "anxious-for-nothing",
     "authors": [
       {
         "id": "b=b`",
@@ -2236,22 +2051,86 @@
         "color": "gray"
       }
     ],
-    "pageTotal": 168,
-    "pagesRead": 168,
+    "pageTotal": 222,
+    "pagesRead": 222,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
     "format": "HARDCOVER",
-    "dateStart": "2024-07-24",
-    "dateFinish": "2024-07-25",
+    "dateStart": "2024-07-25",
+    "dateFinish": "2024-07-28",
     "stars": 3,
     "asin": "",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-802a-b534-c8a3b85eb51a-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-807a-a402-c33e6e44a8df-large-260w.jpeg"
     },
     "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80d3-ae63-ece1e32e296e",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Death's End",
+    "subtitle": "",
+    "slug": "death-s-end",
+    "authors": [
+      {
+        "id": "OiV=",
+        "name": "Cixin Liu",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 604,
+    "pagesRead": null,
+    "minutesTotal": 1731,
+    "miniutesRead": 1731,
+    "progress": 1,
+    "format": "AUDIO",
+    "dateStart": "2024-07-02",
+    "dateFinish": "2024-07-09",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80d3-ae63-ece1e32e296e-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80be-8521-d93ee6d016b9",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "The Dark Forest",
+    "subtitle": "",
+    "slug": "the-dark-forest",
+    "authors": [
+      {
+        "id": "<t@p",
+        "name": "Cixin Lui",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 512,
+    "pagesRead": null,
+    "minutesTotal": 1356,
+    "miniutesRead": 1356,
+    "progress": 1,
+    "format": "AUDIO",
+    "dateStart": "2024-06-25",
+    "dateFinish": "2024-07-02",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80be-8521-d93ee6d016b9-large-260w.jpeg"
+    },
+    "fiction": true,
     "own": true,
     "content": ""
   },
@@ -2384,96 +2263,32 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-8059-8c9b-c1a9f7e4513b",
+    "id": "2b2aec2d-56b7-80f7-9d2a-c22ec418785d",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Grace from the Cross",
-    "subtitle": "",
-    "slug": "grace-from-the-cross",
+    "title": "Faith Among the Faithless",
+    "subtitle": "Learning from Esther How to Live in a World Gone Mad",
+    "slug": "faith-among-the-faithless",
     "authors": [
       {
-        "id": "esCr",
-        "name": "Kyle Idleman",
-        "color": "brown"
+        "id": "5c842963-2d8a-4399-9623-3637d5fb3e76",
+        "name": "Mike Cosper",
+        "color": "purple"
       }
     ],
-    "pageTotal": 80,
-    "pagesRead": 80,
+    "pageTotal": 208,
+    "pagesRead": 208,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
     "format": "PAPERBACK",
-    "dateStart": "2024-03-02",
-    "dateFinish": "2024-03-04",
-    "stars": 2,
-    "asin": "[\"0801093643\"]",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8059-8c9b-c1a9f7e4513b-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-808e-af00-f73c2144b2d1",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Armada",
-    "subtitle": "",
-    "slug": "armada",
-    "authors": [
-      {
-        "id": "CHAb",
-        "name": "Ernest Cline",
-        "color": "red"
-      }
-    ],
-    "pageTotal": 355,
-    "pagesRead": 355,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2024-01-30",
-    "dateFinish": "2024-02-14",
-    "stars": 3,
+    "dateStart": "2024-02-26",
+    "dateFinish": "2024-03-02",
+    "stars": 5,
     "asin": "",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-808e-af00-f73c2144b2d1-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8076-a575-ca71982f86df",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Letters to the Church",
-    "subtitle": "",
-    "slug": "letters-to-the-church",
-    "authors": [
-      {
-        "id": "dpxv",
-        "name": "Francis Chan",
-        "color": "red"
-      }
-    ],
-    "pageTotal": 224,
-    "pagesRead": 224,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2023-10-23",
-    "dateFinish": "2024-02-01",
-    "stars": 5,
-    "asin": "[\"0830776583\"]",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8076-a575-ca71982f86df-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-80f7-9d2a-c22ec418785d-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -2512,53 +2327,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-8059-853c-ee3d34c18986",
-    "lastEditedTime": "2025-12-11T14:18:00.000Z",
-    "title": "The Goal - Graphic Novel",
-    "subtitle": "A Business Graphic Novel",
-    "slug": "the-goal-graphic-novel",
-    "authors": [
-      {
-        "id": "\\HyI",
-        "name": "Eliyahu M. Goldratt",
-        "color": "orange"
-      },
-      {
-        "id": "O}tS",
-        "name": "Jeff Cox",
-        "color": "pink"
-      },
-      {
-        "id": "Y?qv",
-        "name": "Ensemble cast",
-        "color": "default"
-      },
-      {
-        "id": "hM<K",
-        "name": "Dwight Jon Zimmerman",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 143,
-    "pagesRead": 143,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2024-01-03",
-    "dateFinish": "2024-01-07",
-    "stars": 2,
-    "asin": "[\"0884272079\"]",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8059-853c-ee3d34c18986-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": true,
-    "content": "<p>Honestly the story is good. I recommend reading the book, not this graphic novel. The style isn't great, the narrative has a ton of holes. Some blocks look like they have been Xeroxed!</p>\n<p>That said, the Theory of Constraints is illuminating and reading this after the original was a good refresher.</p>\n"
-  },
-  {
     "id": "2b2aec2d-56b7-8068-88d2-c5aef136a3c2",
     "lastEditedTime": "2025-11-26T20:48:00.000Z",
     "title": "Pines",
@@ -2591,46 +2359,36 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-8032-8ace-ebac6041924a",
-    "lastEditedTime": "2025-12-11T14:03:00.000Z",
-    "title": "Watchmen",
+    "id": "2b2aec2d-56b7-80aa-b372-d07c839e4c39",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "The Infinite Game",
     "subtitle": "",
-    "slug": "watchmen",
+    "slug": "the-infinite-game",
     "authors": [
       {
-        "id": "G;^k",
-        "name": "Alan Moore",
-        "color": "pink"
-      },
-      {
-        "id": "sXS:",
-        "name": "Dave Gibbons",
-        "color": "pink"
-      },
-      {
-        "id": "Qpgs",
-        "name": "John Higgins",
-        "color": "green"
+        "id": "qaMi",
+        "name": "Simon Sinek",
+        "color": "yellow"
       }
     ],
-    "pageTotal": 413,
-    "pagesRead": 413,
+    "pageTotal": 251,
+    "pagesRead": 251,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
     "format": "HARDCOVER",
-    "dateStart": "2023-10-13",
-    "dateFinish": "2023-10-31",
+    "dateStart": "2023-11-11",
+    "dateFinish": "2023-12-12",
     "stars": 4,
-    "asin": "1401238963",
+    "asin": "",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8032-8ace-ebac6041924a-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-80aa-b372-d07c839e4c39-large-260w.jpeg"
     },
-    "fiction": true,
-    "own": false,
-    "content": "<p>It was a fun read. I went into it knowing nothing of the story. Not normally a graphic novel reader, I was surprised how political and edgy the content was. There was almost no “super hero-y” stuff. I liked it.</p>\n"
+    "fiction": false,
+    "own": true,
+    "content": ""
   },
   {
     "id": "2b2aec2d-56b7-8084-ba98-f2bc075945e9",
@@ -2665,80 +2423,48 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-8013-a29c-f01adcbd0eef",
-    "lastEditedTime": "2025-12-11T14:03:00.000Z",
-    "title": "Let Us Follow Him",
-    "subtitle": "",
-    "slug": "let-us-follow-him",
-    "authors": [
-      {
-        "id": "?eI~",
-        "name": "Henryk Sienkiewicz",
-        "color": "purple"
-      }
-    ],
-    "pageTotal": 102,
-    "pagesRead": 102,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2023-09-13",
-    "dateFinish": "2023-09-13",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8013-a29c-f01adcbd0eef-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": true,
-    "content": "<p>This book is neat! First of all, the book was translated in 1897 and the copy I read was an original! Second, the book is a fictional account of Roman officials who encounter Jesus as he's being crucified. It was a super interesting way to view the scene. Short, easy, and very thought provoking.</p>\n"
-  },
-  {
-    "id": "2b2aec2d-56b7-80db-b74d-f5616cca82fd",
+    "id": "2b2aec2d-56b7-805c-96f2-f6f642a0b63e",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Crossing the Chasm",
-    "subtitle": "Marketing and Selling Technology Products to Mainstream Customers",
-    "slug": "crossing-the-chasm",
+    "title": "Don't Give Up",
+    "subtitle": "Faith that Gives You the Confidence to Keep Believing and the Courage to Keep Going",
+    "slug": "don-t-give-up",
     "authors": [
       {
-        "id": "\\bR;",
-        "name": "Geoffrey A. Moore",
-        "color": "orange"
+        "id": "esCr",
+        "name": "Kyle Idleman",
+        "color": "brown"
       }
     ],
-    "pageTotal": 223,
-    "pagesRead": 223,
+    "pageTotal": 240,
+    "pagesRead": 240,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2023-04-04",
-    "dateFinish": "2023-06-25",
-    "stars": 3,
-    "asin": "0062292986",
+    "format": "PAPERBACK",
+    "dateStart": "2023-08-31",
+    "dateFinish": "2023-09-11",
+    "stars": 4,
+    "asin": "0801019427",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80db-b74d-f5616cca82fd-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-805c-96f2-f6f642a0b63e-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80a1-acb5-d9845d52a108",
+    "id": "2b2aec2d-56b7-8032-8dca-d2a0da207209",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Recapturing the Wonder",
-    "subtitle": "Transcendent Faith in a Disenchanted World",
-    "slug": "recapturing-the-wonder",
+    "title": "To Live is Christ to Die is Gain",
+    "subtitle": "",
+    "slug": "to-live-is-christ-to-die-is-gain",
     "authors": [
       {
-        "id": "5c842963-2d8a-4399-9623-3637d5fb3e76",
-        "name": "Mike Cosper",
-        "color": "purple"
+        "id": "HVvi",
+        "name": "Matt Chandler",
+        "color": "blue"
       }
     ],
     "pageTotal": 224,
@@ -2747,14 +2473,46 @@
     "miniutesRead": null,
     "progress": 1,
     "format": "PAPERBACK",
-    "dateStart": "2023-06-18",
-    "dateFinish": "2023-06-23",
-    "stars": 5,
-    "asin": "0830845062",
+    "dateStart": "2023-07-26",
+    "dateFinish": "2023-08-03",
+    "stars": 3,
+    "asin": "078141217X",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80a1-acb5-d9845d52a108-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-8032-8dca-d2a0da207209-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8049-aad9-e73079bc6f74",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Grace is Greater",
+    "subtitle": "",
+    "slug": "grace-is-greater",
+    "authors": [
+      {
+        "id": "esCr",
+        "name": "Kyle Idleman",
+        "color": "brown"
+      }
+    ],
+    "pageTotal": 192,
+    "pagesRead": 192,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2023-07-17",
+    "dateFinish": "2023-07-20",
+    "stars": 3,
+    "asin": "0801019419",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8049-aad9-e73079bc6f74-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -2793,96 +2551,32 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-8029-9183-f7723a2fe5f3",
+    "id": "2b2aec2d-56b7-800b-a995-ca3dbb6b421f",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "A Beautiful Constraint",
-    "subtitle": "How to Transform Your Limitations into Advantages, and Why It's Everyone's Business",
-    "slug": "a-beautiful-constraint",
+    "title": "Book Called You",
+    "subtitle": "Understanding the Enneagram from a Grace-filled, Biblical Perspective",
+    "slug": "book-called-you",
     "authors": [
       {
-        "id": "903d5fbb-33f9-405d-9a07-97bc9cda8a6c",
-        "name": "Adam Morgan",
-        "color": "orange"
+        "id": "m@e|",
+        "name": "Matthew Stephen Brown",
+        "color": "blue"
       }
     ],
-    "pageTotal": 277,
-    "pagesRead": 277,
+    "pageTotal": 202,
+    "pagesRead": 202,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2023-01-12",
-    "dateFinish": "2023-03-20",
+    "format": "PAPERBACK",
+    "dateStart": "2022-12-14",
+    "dateFinish": "2023-01-02",
     "stars": 2,
-    "asin": "1118899016",
+    "asin": "B08QZX73ZZ",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8029-9183-f7723a2fe5f3-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8033-a269-ebdc27d90777",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Dark Matter",
-    "subtitle": "",
-    "slug": "dark-matter",
-    "authors": [
-      {
-        "id": "~VzN",
-        "name": "Blake Crouch",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 352,
-    "pagesRead": 352,
-    "minutesTotal": 608,
-    "miniutesRead": 608,
-    "progress": 1,
-    "format": "AUDIO",
-    "dateStart": "2023-03-07",
-    "dateFinish": "2023-03-10",
-    "stars": 5,
-    "asin": "B01CUKUN90",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8033-a269-ebdc27d90777-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-802b-b91e-e270cc560277",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Man's Search for Meaning",
-    "subtitle": "",
-    "slug": "man-s-search-for-meaning",
-    "authors": [
-      {
-        "id": "V>uo",
-        "name": "Viktor E. Frankl",
-        "color": "brown"
-      }
-    ],
-    "pageTotal": 165,
-    "pagesRead": 165,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2023-01-12",
-    "dateFinish": "2023-01-19",
-    "stars": 5,
-    "asin": "0807060100",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-802b-b91e-e270cc560277-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-800b-a995-ca3dbb6b421f-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -2921,6 +2615,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-80a8-a45e-e5fbcf601ef3",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Aha",
+    "subtitle": "Awakening, Honesty, Action: the God Moment That Changes Everything",
+    "slug": "aha",
+    "authors": [
+      {
+        "id": "esCr",
+        "name": "Kyle Idleman",
+        "color": "brown"
+      }
+    ],
+    "pageTotal": 218,
+    "pagesRead": 218,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2022-12-03",
+    "dateFinish": "2022-12-09",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80a8-a45e-e5fbcf601ef3-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-80ff-b9a3-de111024f116",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "The Referral Engine",
@@ -2953,80 +2679,117 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80f8-af89-f51118d23e35",
+    "id": "2b2aec2d-56b7-8045-b864-d45de314c41c",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Inspired",
-    "subtitle": "",
-    "slug": "inspired",
+    "title": "The Five Dysfunctions of a Team",
+    "subtitle": "a leadership fable",
+    "slug": "the-five-dysfunctions-of-a-team",
     "authors": [
       {
-        "id": "OXUd",
-        "name": "Marty Cagan",
-        "color": "pink"
+        "id": "I^qU",
+        "name": "Patrick Lencioni",
+        "color": "yellow"
       }
     ],
-    "pageTotal": 368,
-    "pagesRead": 368,
+    "pageTotal": 229,
+    "pagesRead": 229,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
     "format": "HARDCOVER",
-    "dateStart": "2022-09-25",
-    "dateFinish": "2022-10-19",
+    "dateStart": "2022-10-26",
+    "dateFinish": "2022-10-30",
     "stars": 4,
     "asin": "",
     "isbn": "",
-    "url": "https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507",
+    "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80f8-af89-f51118d23e35-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-8045-b864-d45de314c41c-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80c3-bb5e-d6c74609c6f1",
+    "id": "2b2aec2d-56b7-809f-8178-e609f51d6ad1",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Fix Your Eyes",
-    "subtitle": "How Our Study of God Shapes Our Worship of Him",
-    "slug": "fix-your-eyes",
+    "title": "Erasing Hell",
+    "subtitle": "",
+    "slug": "erasing-hell",
     "authors": [
       {
-        "id": "`sgy",
-        "name": "Any Gannett",
-        "color": "yellow"
+        "id": "dpxv",
+        "name": "Francis Chan",
+        "color": "red"
+      },
+      {
+        "id": "Qv>p",
+        "name": "Preston Sprinkle",
+        "color": "blue"
       }
     ],
-    "pageTotal": 240,
-    "pagesRead": 240,
-    "minutesTotal": 434,
-    "miniutesRead": 434,
+    "pageTotal": 208,
+    "pagesRead": 208,
+    "minutesTotal": null,
+    "miniutesRead": null,
     "progress": 1,
-    "format": "AUDIO",
-    "dateStart": "2022-09-27",
-    "dateFinish": "2022-10-06",
+    "format": "PAPERBACK",
+    "dateStart": "2022-09-22",
+    "dateFinish": "2022-09-26",
     "stars": 5,
     "asin": "",
     "isbn": "",
-    "url": "https://www.amazon.com/Fix-Your-Eyes-Shapes-Worship/dp/1087730546",
+    "url": "https://www.amazon.com/Erasing-Hell-About-Eternity-Things/dp/0781407257",
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80c3-bb5e-d6c74609c6f1-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-809f-8178-e609f51d6ad1-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-8009-9329-c649ec7ad3d5",
+    "id": "2b2aec2d-56b7-8023-966e-dc891befa473",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "One at a Time",
-    "subtitle": "The Unexpected Way God Wants to Use You to Change the World",
-    "slug": "one-at-a-time",
+    "title": "Atomic Habits",
+    "subtitle": "An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+    "slug": "atomic-habits",
     "authors": [
       {
-        "id": "esCr",
-        "name": "Kyle Idleman",
-        "color": "brown"
+        "id": "~X@T",
+        "name": "James Clear",
+        "color": "yellow"
+      }
+    ],
+    "pageTotal": 320,
+    "pagesRead": 320,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2022-09-07",
+    "dateFinish": "2022-09-22",
+    "stars": 4,
+    "asin": "0735211299",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8023-966e-dc891befa473-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80b8-8093-e1c4c9c4c2d9",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Rest and War",
+    "subtitle": "Rhythms of a Well-Fought Life",
+    "slug": "rest-and-war",
+    "authors": [
+      {
+        "id": "rQt[",
+        "name": "Ben Stuart",
+        "color": "blue"
       }
     ],
     "pageTotal": 256,
@@ -3035,14 +2798,14 @@
     "miniutesRead": null,
     "progress": 1,
     "format": "PAPERBACK",
-    "dateStart": "2022-09-11",
-    "dateFinish": "2022-09-19",
+    "dateStart": "2022-08-10",
+    "dateFinish": "2022-08-16",
     "stars": 4,
     "asin": "",
     "isbn": "",
-    "url": "https://www.amazon.com/One-Time-Unexpected-Wants-Change/dp/0801094917",
+    "url": "https://www.amazon.com/dp/0785248315?psc=1&ref=ppx_yo2ov_dt_b_product_details",
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8009-9329-c649ec7ad3d5-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-80b8-8093-e1c4c9c4c2d9-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -3077,70 +2840,6 @@
       "large": "/assets/img/notion/2b2aec2d-56b7-80c6-b2e9-ed85c0417d70-large-260w.jpeg"
     },
     "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8013-b724-f2844d46cbc8",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Creativity, Inc.",
-    "subtitle": "Overcoming the Unseen Forces That Stand in the Way of True Inspiration",
-    "slug": "creativity-inc",
-    "authors": [
-      {
-        "id": "koLd",
-        "name": "Ed Catmull",
-        "color": "orange"
-      }
-    ],
-    "pageTotal": 368,
-    "pagesRead": 368,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2022-07-12",
-    "dateFinish": "2022-07-22",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": "https://www.amazon.com/Creativity-Inc-Overcoming-Unseen-Inspiration/dp/0812993012",
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8013-b724-f2844d46cbc8-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8071-aae7-da859da6d7a2",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Goal",
-    "subtitle": "A Process of Ongoing Improvement",
-    "slug": "the-goal",
-    "authors": [
-      {
-        "id": "\\HyI",
-        "name": "Eliyahu M. Goldratt",
-        "color": "orange"
-      }
-    ],
-    "pageTotal": 274,
-    "pagesRead": 274,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2021-10-29",
-    "dateFinish": "2021-11-04",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8071-aae7-da859da6d7a2-large-260w.jpeg"
-    },
-    "fiction": true,
     "own": true,
     "content": ""
   },
@@ -3214,107 +2913,6 @@
     "content": "<p>I just finished <em>Freakonomics: A Rogue Economist Explores the Hidden Side of Everything</em> by Steven D. Levitt and Stephen J. Dubner.</p>\n<p>A fun and quirky book. I’ve listened to interviews from the Freakonomics guys before and I really admire their creativity when it comes to interpreting insights from data. The book feels a little dated (It was written in 2005, this second edition was published in 2011. Everything seems that way if it was written pre-2016!), but the stories hold up. The book dives into theories on how things are connected when they seemingly shouldn’t be. It uses data from some unlikely sources and it’s fun to see how they interpret the data to suppor their theories. For example:</p>\n<ul>\n<li>How school teachers in Chicago and sumo wrestlers in Japan are both in systems that encourage and even benefit from cheating.</li>\n<li>How the KKK and real-estate agents both use information, secrecy, and jargon to help themselves and exclude others.</li>\n<li>Why there is a disparagement in drug dealers income levels (some are millionaires but most still live with their moms).</li>\n<li>How the 40% crime drop in the 90's may not have been caused by the war on drugs, policing, policies, or the economy (hint: It might be caused by <em>Rowe vs Wade</em>!)</li>\n<li>What makes a great parent, and what doesn’t seem to matter.</li>\n<li>Does a person’s first name determine their future economic status? It was pretty crazy.</li>\n</ul>\n<p>The authors admit, even relish in the fact that there is no unifying theme of the book, just observations of data about our world and the weird way it seems to work.</p>\n"
   },
   {
-    "id": "2b2aec2d-56b7-80b4-a538-dff1333acfa1",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Lean Product Playbook",
-    "subtitle": "How to Innovate with Minimum Viable Products and Rapid Customer Feedback",
-    "slug": "the-lean-product-playbook",
-    "authors": [
-      {
-        "id": "d_w<",
-        "name": "Dan Olsen",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 336,
-    "pagesRead": 336,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2021-06-28",
-    "dateFinish": "2021-07-20",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": "https://www.amazon.com/Lean-Product-Playbook-Innovate-Products/dp/1118960874/ref=asc_df_1118960874/?tag=hyprod-20&linkCode=df0&hvadid=312111907622&hvpos=&hvnetw=g&hvrand=14703172276164071782&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1017825&hvtargid=pla-434197569733&psc=1",
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80b4-a538-dff1333acfa1-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80c7-990b-edc2ce46bcb3",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Brothers, We Are Not Professionals",
-    "subtitle": "A Plea to Pastors for Radical Ministry",
-    "slug": "brothers-we-are-not-professionals",
-    "authors": [
-      {
-        "id": "{@lb",
-        "name": "John Piper",
-        "color": "yellow"
-      }
-    ],
-    "pageTotal": 286,
-    "pagesRead": 286,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2019-09-13",
-    "dateFinish": "2021-06-12",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": "https://www.amazon.com/Brothers-We-Are-Not-Professionals/dp/1433678829/ref=sr_1_1?gclid=Cj0KCQjw5rbsBRCFARIsAGEYRwfPvDmU8RZQ6vd54DMZQQljqkls7SrGDyRxY4tquX6YKL7ogsDbPIAaAsMsEALw_wcB&hvadid=241658431181&hvdev=c&hvlocphy=9052432&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=4861461604014654878&hvtargid=kwd-131506102&hydadcr=8294_10376136&keywords=brothers+we+are+not+professionals&qid=1569594051&sr=8-1",
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80c7-990b-edc2ce46bcb3-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-808e-9d2d-f81efe9780a9",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Empowered",
-    "subtitle": "Ordinary People, Extraordinary Products",
-    "slug": "empowered",
-    "authors": [
-      {
-        "id": "OXUd",
-        "name": "Marty Cagan",
-        "color": "pink"
-      },
-      {
-        "id": "EGdc",
-        "name": "Chris Jones",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 416,
-    "pagesRead": 416,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2021-01-04",
-    "dateFinish": "2021-06-10",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-808e-9d2d-f81efe9780a9-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-80b6-8978-f469db075fc5",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Design is a Job",
@@ -3379,38 +2977,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-803c-a974-f6b88d6a25cf",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Elements of Content Strategy",
-    "subtitle": "",
-    "slug": "the-elements-of-content-strategy",
-    "authors": [
-      {
-        "id": "F`dn",
-        "name": "Erin Kissane",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 81,
-    "pagesRead": 81,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2021-02-17",
-    "dateFinish": "2021-03-11",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-803c-a974-f6b88d6a25cf-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-80b0-b175-e8cdc7b80b29",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Secrets of the JavaScript Ninja",
@@ -3448,211 +3014,68 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-8004-bc92-c4f6afe1bc36",
+    "id": "2b2aec2d-56b7-803e-b012-ce6df644f1f7",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Atomic Design",
+    "title": "Coders",
     "subtitle": "",
-    "slug": "atomic-design",
+    "slug": "coders",
     "authors": [
       {
-        "id": "~A^f",
-        "name": "Brad Frost",
-        "color": "green"
-      }
-    ],
-    "pageTotal": 285,
-    "pagesRead": 285,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "EBOOK",
-    "dateStart": "2020-08-28",
-    "dateFinish": "2020-09-07",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": "https://atomicdesign.bradfrost.com",
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8004-bc92-c4f6afe1bc36-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80c6-bcc2-e2d5c5990d0b",
-    "lastEditedTime": "2025-12-11T13:35:00.000Z",
-    "title": "The Road Back To You",
-    "subtitle": "An Enneagram Journey to Self-Discovery",
-    "slug": "the-road-back-to-you",
-    "authors": [
-      {
-        "id": "B<c=",
-        "name": "Ian Morgan Cron",
+        "id": "OLe}",
+        "name": "Clive Thompson",
         "color": "gray"
-      },
-      {
-        "id": "eUlt",
-        "name": "Suzanne Stabile",
-        "color": "red"
       }
     ],
-    "pageTotal": 240,
-    "pagesRead": 240,
+    "pageTotal": 448,
+    "pagesRead": 448,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
     "format": "HARDCOVER",
-    "dateStart": "2018-11-27",
-    "dateFinish": "2018-11-30",
+    "dateStart": "2020-06-05",
+    "dateFinish": "2020-06-30",
     "stars": 4,
     "asin": "",
     "isbn": "",
-    "url": "https://www.amazon.com/Road-Back-You-Enneagram-Self-Discovery/dp/0830846190/ref=as_li_ss_tl?ie=UTF8&qid=1543860912&sr=8-3&keywords=the+road+back+to+you&linkCode=ll1&tag=steveostudi0c-20&linkId=409b18dc228d5de0a227b1215679d077&language=en_US",
+    "url": "https://www.amazon.com/Coders-Making-Tribe-Remaking-World/dp/0735220565/",
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80c6-bcc2-e2d5c5990d0b-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-803e-b012-ce6df644f1f7-large-260w.jpeg"
     },
     "fiction": false,
-    "own": false,
-    "content": "<p>I'm a 9w1. Super insightful. It has truly changed the way I communicate and empathize with my wife (she read it too) and my co-workers. It was very revealing, and I learned so much about my own personality.</p>\n"
+    "own": true,
+    "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-809c-884d-f3a5b57f8817",
-    "lastEditedTime": "2025-12-11T13:16:00.000Z",
-    "title": "Remote",
+    "id": "2b2aec2d-56b7-809d-8deb-c55be9b63e4a",
+    "lastEditedTime": "2025-12-11T13:31:00.000Z",
+    "title": "On Web Typography",
     "subtitle": "",
-    "slug": "remote",
+    "slug": "on-web-typography",
     "authors": [
       {
-        "id": "HAw^",
-        "name": "Jason Fried",
-        "color": "pink"
-      },
-      {
-        "id": "bPni",
-        "name": "David Heinemeier Hansson",
+        "id": "kt^A",
+        "name": "Jason Santa Maria",
         "color": "gray"
       }
     ],
-    "pageTotal": 258,
-    "pagesRead": 258,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2018-05-28",
-    "dateFinish": "2018-07-24",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": "https://www.amazon.com/gp/product/0804137501/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=&linkId=8a406edc2fe9394925c4e61b826ebf96",
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-809c-884d-f3a5b57f8817-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": "<p>Kinda all fluff and dreams. The authors spend a LOT of time just talking about all of the benefits of remote work, trying to sell you to let your team work remote. I was expecting this book to be a lot more about the practicals on <em>how to work remote</em>! If you are looking to convince a manager to let you work remote.</p>\n"
-  },
-  {
-    "id": "2b2aec2d-56b7-803f-8ad7-dfd75d410be1",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Responsive Web Design",
-    "subtitle": "",
-    "slug": "responsive-web-design",
-    "authors": [
-      {
-        "id": "Xcz@",
-        "name": "Ethan Marcotte",
-        "color": "green"
-      }
-    ],
-    "pageTotal": 153,
-    "pagesRead": 153,
+    "pageTotal": 142,
+    "pagesRead": 142,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
     "format": "PAPERBACK",
-    "dateStart": "2017-07-03",
-    "dateFinish": "2017-07-03",
-    "stars": 3,
+    "dateStart": "2018-08-15",
+    "dateFinish": "2018-12-15",
+    "stars": 4,
     "asin": "",
     "isbn": "",
-    "url": "https://abookapart.com/products/responsive-web-design",
+    "url": "https://abookapart.com/products/on-web-typography",
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-803f-8ad7-dfd75d410be1-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-809d-8deb-c55be9b63e4a-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8081-b63a-c816be5a63fc",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "CSS3 for Web Designers",
-    "subtitle": "",
-    "slug": "css3-for-web-designers",
-    "authors": [
-      {
-        "id": "`JNA",
-        "name": "Dan Cederholm",
-        "color": "default"
-      }
-    ],
-    "pageTotal": 139,
-    "pagesRead": 139,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2017-07-03",
-    "dateFinish": "2017-07-03",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": "https://abookapart.com/products/css3-for-web-designers",
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8081-b63a-c816be5a63fc-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-803e-b4d3-fbfce5f6f02d",
-    "lastEditedTime": "2025-12-11T13:14:00.000Z",
-    "title": "HTML5 for Web Designers",
-    "subtitle": "",
-    "slug": "html5-for-web-designers",
-    "authors": [
-      {
-        "id": "{^BD",
-        "name": "Jeremy Keith",
-        "color": "default"
-      },
-      {
-        "id": "?QHE",
-        "name": "Rachel Andrew",
-        "color": "default"
-      }
-    ],
-    "pageTotal": 92,
-    "pagesRead": 92,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2017-07-03",
-    "dateFinish": "2017-07-03",
-    "stars": 2,
-    "asin": "",
-    "isbn": "",
-    "url": "https://abookapart.com/products/1e-html5-for-web-designers",
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-803e-b4d3-fbfce5f6f02d-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": "<p>Super basic. If you need an introduction to HTML, this is the book for you!</p>\n"
+    "content": "<p>This is the book I wanted years ago. It tells you how to pick out fonts, pair fonts, and make your information readable and legible to your users.</p>\n"
   },
   {
     "id": "2b2aec2d-56b7-80ed-a012-ef6be481b998",
@@ -3681,70 +3104,6 @@
     "url": "https://abookapart.com/products/designing-for-emotion",
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-80ed-a012-ef6be481b998-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80f1-934b-c10004b44564",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Drive",
-    "subtitle": "The Surprising Truth About What Motivates Us",
-    "slug": "drive",
-    "authors": [
-      {
-        "id": "v@OT",
-        "name": "Daniel H. Pink",
-        "color": "default"
-      }
-    ],
-    "pageTotal": 288,
-    "pagesRead": 288,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2012-04-02",
-    "dateFinish": "2012-04-02",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80f1-934b-c10004b44564-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80eb-9d3d-d93d03d2bc09",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Refuel",
-    "subtitle": "An Uncomplicated Guide to Connecting with God",
-    "slug": "refuel",
-    "authors": [
-      {
-        "id": "Sftl",
-        "name": "Doug Fields",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 144,
-    "pagesRead": 144,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2011-11-29",
-    "dateFinish": "2011-11-29",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80eb-9d3d-d93d03d2bc09-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -3783,32 +3142,32 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80d5-a711-d283e56b21e9",
+    "id": "2b2aec2d-56b7-8041-89c5-d92362dcce6c",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Eat this book",
-    "subtitle": "A Conversation in the Art of Spiritual Reading",
-    "slug": "eat-this-book",
+    "title": "Me, Myself & Bob",
+    "subtitle": "A True Story about God, Dreams, and Talking Vegetables",
+    "slug": "me-myself-bob",
     "authors": [
       {
-        "id": "}DU?",
-        "name": "Eugene Peterson",
-        "color": "purple"
+        "id": "SeK;",
+        "name": "Phil Vischer",
+        "color": "orange"
       }
     ],
-    "pageTotal": 200,
-    "pagesRead": 200,
+    "pageTotal": 272,
+    "pagesRead": 272,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
     "format": "HARDCOVER",
-    "dateStart": "2010-05-04",
-    "dateFinish": "2010-05-04",
-    "stars": 4,
+    "dateStart": "2011-02-11",
+    "dateFinish": "2011-02-11",
+    "stars": 5,
     "asin": "",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80d5-a711-d283e56b21e9-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-8041-89c5-d92362dcce6c-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -3841,43 +3200,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-80ee-920a-d7f0c1fe9dd5-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-801e-ad61-ea80b75424d5",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Everybody Wants to Go to Heaven, but Nobody Wants to Die",
-    "subtitle": "Or the Eschatology of Bluegrass",
-    "slug": "everybody-wants-to-go-to-heaven-but-nobody-wants-to-die",
-    "authors": [
-      {
-        "id": "wluy",
-        "name": "David Crowder",
-        "color": "red"
-      },
-      {
-        "id": "Yav`",
-        "name": "Mike Hogan",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 271,
-    "pagesRead": 271,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2008-09-11",
-    "dateFinish": "2008-09-11",
-    "stars": 4,
-    "asin": "0977748006",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-801e-ad61-ea80b75424d5-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -3953,38 +3275,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-8095-8336-c93ec729054c",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Four Loves",
-    "subtitle": "",
-    "slug": "the-four-loves",
-    "authors": [
-      {
-        "id": "o_@B",
-        "name": "C.S. Lewis",
-        "color": "default"
-      }
-    ],
-    "pageTotal": 192,
-    "pagesRead": 192,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2008-03-01",
-    "dateFinish": "2008-03-01",
-    "stars": 4,
-    "asin": "0062565397",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8095-8336-c93ec729054c-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-8098-8b6e-e57b1a66ade5",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Don't Waste Your Life",
@@ -4011,38 +3301,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-8098-8b6e-e57b1a66ade5-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80ae-b092-d07f4dea967d",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "(RE) Understanding Prayer",
-    "subtitle": "A Fresh Approach to Conversation With God",
-    "slug": "re-understanding-prayer",
-    "authors": [
-      {
-        "id": "5fa463d2-12a7-4f6c-a574-0066a13ffb7f",
-        "name": "Kyle Lake",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 181,
-    "pagesRead": 181,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2007-10-30",
-    "dateFinish": "2007-10-30",
-    "stars": 5,
-    "asin": "0976364263",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80ae-b092-d07f4dea967d-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -4077,6 +3335,70 @@
       "large": "/assets/img/notion/2b2aec2d-56b7-80a1-a34b-f38eeeae3ebf-large-260w.jpeg"
     },
     "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80e7-91d3-fb1caf2ca9d1",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Out of the Silent Planet",
+    "subtitle": "The Space Trilogy, #1",
+    "slug": "out-of-the-silent-planet",
+    "authors": [
+      {
+        "id": "o_@B",
+        "name": "C.S. Lewis",
+        "color": "default"
+      }
+    ],
+    "pageTotal": 160,
+    "pagesRead": 160,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2007-05-20",
+    "dateFinish": "2007-05-20",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80e7-91d3-fb1caf2ca9d1-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80ed-b2fa-db1db16eccec",
+    "lastEditedTime": "2025-11-26T20:48:00.000Z",
+    "title": "House",
+    "subtitle": "",
+    "slug": "house",
+    "authors": [
+      {
+        "id": "kORC",
+        "name": "Frank E. Peretti",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 386,
+    "pagesRead": 386,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2007-05-20",
+    "dateFinish": "2007-05-20",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80ed-b2fa-db1db16eccec-large-260w.jpeg"
+    },
+    "fiction": true,
     "own": false,
     "content": ""
   },
@@ -4241,195 +3563,35 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80bb-b6eb-cb936e70d589",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Foundations of the Christian Religion",
-    "subtitle": "",
-    "slug": "foundations-of-the-christian-religion",
+    "id": "2b2aec2d-56b7-80ec-95ce-c63cc008f87c",
+    "lastEditedTime": "2025-11-26T20:48:00.000Z",
+    "title": "The Barbarian Way",
+    "subtitle": "Unleash the Untamed Faith Within",
+    "slug": "the-barbarian-way",
     "authors": [
       {
-        "id": "{bUX",
-        "name": "Blaise Pascal",
+        "id": "TFcC",
+        "name": "Erwin Raphael McManus",
         "color": "brown"
       }
     ],
-    "pageTotal": 123,
-    "pagesRead": 123,
+    "pageTotal": 148,
+    "pagesRead": 148,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2007-01-10",
-    "dateFinish": "2007-01-10",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80bb-b6eb-cb936e70d589-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80ca-954a-dafc9553be36",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Orthodoxy",
-    "subtitle": "",
-    "slug": "orthodoxy",
-    "authors": [
-      {
-        "id": "]IDv",
-        "name": "G.K. Chesterton",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 114,
-    "pagesRead": 114,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2007-01-10",
-    "dateFinish": "2007-01-10",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80ca-954a-dafc9553be36-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80d2-a536-eb535ebd29ac",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Selections from the Spurgeon Archive",
-    "subtitle": "",
-    "slug": "selections-from-the-spurgeon-archive",
-    "authors": [
-      {
-        "id": "=FL^",
-        "name": "Charles Spurgeon",
-        "color": "brown"
-      }
-    ],
-    "pageTotal": 124,
-    "pagesRead": 124,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2007-01-10",
-    "dateFinish": "2007-01-10",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80d2-a536-eb535ebd29ac-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-807d-a860-c75a84e192aa",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "A Plain Account of Christian Perfection",
-    "subtitle": "",
-    "slug": "a-plain-account-of-christian-perfection",
-    "authors": [
-      {
-        "id": "TtRk",
-        "name": "John Wesley",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 150,
-    "pagesRead": 150,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2007-01-10",
-    "dateFinish": "2007-01-10",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-807d-a860-c75a84e192aa-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80ac-94b2-ff800840abdd",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Imitation of Christ",
-    "subtitle": "",
-    "slug": "the-imitation-of-christ",
-    "authors": [
-      {
-        "id": "Cx\\k",
-        "name": "Thomas a Kempis",
-        "color": "orange"
-      }
-    ],
-    "pageTotal": 74,
-    "pagesRead": 74,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2007-01-10",
-    "dateFinish": "2007-01-10",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80ac-94b2-ff800840abdd-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80ca-a5c5-f371a70b4e4a",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Handbook on Faith, Hope and Love",
-    "subtitle": "",
-    "slug": "handbook-on-faith-hope-and-love",
-    "authors": [
-      {
-        "id": "zYp|",
-        "name": "Saint Augustine",
-        "color": "orange"
-      }
-    ],
-    "pageTotal": 75,
-    "pagesRead": 75,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2007-01-10",
-    "dateFinish": "2007-01-10",
+    "format": "HARDCOVER",
+    "dateStart": "2007-01-26",
+    "dateFinish": "2007-01-26",
     "stars": 3,
     "asin": "",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80ca-a5c5-f371a70b4e4a-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-80ec-95ce-c63cc008f87c-large-260w.jpeg"
     },
     "fiction": false,
-    "own": true,
+    "own": false,
     "content": ""
   },
   {
@@ -4491,38 +3653,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-80d1-9066-c0ea42fd57b8-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80f5-8887-c029f6ba88be",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Red Moon Rising",
-    "subtitle": "How 24-7 Prayer Is Awakening a Generation",
-    "slug": "red-moon-rising",
-    "authors": [
-      {
-        "id": "V@G[",
-        "name": "Pete Greig",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 196,
-    "pagesRead": 196,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2006-09-30",
-    "dateFinish": "2006-09-30",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80f5-8887-c029f6ba88be-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -4593,38 +3723,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80d4-82c2-d73a11652b29",
-    "lastEditedTime": "2025-11-26T20:48:00.000Z",
-    "title": "It's a hell of a life, but not a bad living",
-    "subtitle": "",
-    "slug": "it-s-a-hell-of-a-life-but-not-a-bad-living",
-    "authors": [
-      {
-        "id": "T`pa",
-        "name": "Edward Dmytryk",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 310,
-    "pagesRead": 310,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2006-03-07",
-    "dateFinish": "2006-03-07",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80d4-82c2-d73a11652b29-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-8002-a7e9-d27f161d5dde",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "The Pilgrim's Progress",
@@ -4689,38 +3787,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-8059-97b7-d67ed53ada93",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Writer's Journey",
-    "subtitle": "Mythic Structure for Writers",
-    "slug": "the-writer-s-journey",
-    "authors": [
-      {
-        "id": "KeaS",
-        "name": "Christopher Vogler",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 325,
-    "pagesRead": 325,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2006-01-24",
-    "dateFinish": "2006-01-24",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8059-97b7-d67ed53ada93-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-8082-8d10-d8b0106053a2",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "In the Blink of an Eye",
@@ -4753,67 +3819,45 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-8069-8c80-edba99999292",
-    "lastEditedTime": "2025-11-26T20:48:00.000Z",
-    "title": "How Movies Helped Save My Soul",
-    "subtitle": "Finding Spiritual Fingerprints in Culturally Significant Films",
-    "slug": "how-movies-helped-save-my-soul",
+    "id": "2b2aec2d-56b7-8042-a005-db1a888287f3",
+    "lastEditedTime": "2025-11-26T20:47:00.000Z",
+    "title": "Will the Real Jesus Please Stand Up?",
+    "subtitle": "A Debate between William Lane Craig & John Dominic Crossan",
+    "slug": "will-the-real-jesus-please-stand-up",
     "authors": [
       {
-        "id": "r`[r",
-        "name": "Gareth Higgins",
-        "color": "pink"
+        "id": "w}F`",
+        "name": "William Lane Craig",
+        "color": "brown"
+      },
+      {
+        "id": "XIwt",
+        "name": "John Dominic Crossan",
+        "color": "purple"
+      },
+      {
+        "id": "S^wn",
+        "name": "Paul Copan",
+        "color": "red"
       }
     ],
-    "pageTotal": 256,
-    "pagesRead": 256,
+    "pageTotal": 188,
+    "pagesRead": 188,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
     "format": "PAPERBACK",
-    "dateStart": "2005-12-27",
-    "dateFinish": "2005-12-27",
-    "stars": 2,
+    "dateStart": "2006-01-23",
+    "dateFinish": "2006-01-23",
+    "stars": 3,
     "asin": "",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8069-8c80-edba99999292-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-8042-a005-db1a888287f3-large-260w.jpeg"
     },
     "fiction": false,
     "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8091-9090-d9c0ba502a0c",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Vision And The Vow",
-    "subtitle": "Re-Discovering Life and Grace",
-    "slug": "the-vision-and-the-vow",
-    "authors": [
-      {
-        "id": "V@G[",
-        "name": "Pete Greig",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 288,
-    "pagesRead": 288,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2005-12-24",
-    "dateFinish": "2005-12-24",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8091-9090-d9c0ba502a0c-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
     "content": ""
   },
   {
@@ -4849,160 +3893,32 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-8006-9aee-dc458994047e",
-    "lastEditedTime": "2025-11-26T20:47:00.000Z",
-    "title": "Understanding God's Will",
-    "subtitle": "How to Hack the Equation Without Formulas",
-    "slug": "understanding-god-s-will",
+    "id": "2b2aec2d-56b7-800f-b729-ecd5f74ec9ee",
+    "lastEditedTime": "2025-11-26T20:48:00.000Z",
+    "title": "Blue Like Jazz",
+    "subtitle": "Nonreligious Thoughts on Christian Spirituality",
+    "slug": "blue-like-jazz",
     "authors": [
       {
-        "id": "5fa463d2-12a7-4f6c-a574-0066a13ffb7f",
-        "name": "Kyle Lake",
-        "color": "pink"
+        "id": "DGM{",
+        "name": "Donald Miller",
+        "color": "gray"
       }
     ],
-    "pageTotal": 181,
-    "pagesRead": 181,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2005-06-16",
-    "dateFinish": "2005-06-16",
-    "stars": 5,
-    "asin": "0976364263",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8006-9aee-dc458994047e-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80f4-9276-c1c2d08b3f45",
-    "lastEditedTime": "2025-11-26T20:47:00.000Z",
-    "title": "The Coffeehouse Gospel",
-    "subtitle": "Sharing Your Faith Through Everyday Conversation",
-    "slug": "the-coffeehouse-gospel",
-    "authors": [
-      {
-        "id": "Tzk@",
-        "name": "Matthew Paul Turner",
-        "color": "brown"
-      }
-    ],
-    "pageTotal": 157,
-    "pagesRead": 157,
+    "pageTotal": 256,
+    "pagesRead": 256,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
     "format": "PAPERBACK",
     "dateStart": "2005-06-06",
     "dateFinish": "2005-06-06",
-    "stars": 3,
-    "asin": "",
+    "stars": 5,
+    "asin": "0785263705",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80f4-9276-c1c2d08b3f45-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8078-884b-fa34b69be7bf",
-    "lastEditedTime": "2025-11-26T20:48:00.000Z",
-    "title": "Nightmare Academy",
-    "subtitle": "Veritas Project, #2",
-    "slug": "nightmare-academy",
-    "authors": [
-      {
-        "id": "kORC",
-        "name": "Frank E. Peretti",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 311,
-    "pagesRead": 311,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2005-05-26",
-    "dateFinish": "2005-05-26",
-    "stars": 2,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8078-884b-fa34b69be7bf-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8097-b584-d229f18da998",
-    "lastEditedTime": "2025-11-26T20:48:00.000Z",
-    "title": "Hangman's Curse",
-    "subtitle": "Veritas Project, #1",
-    "slug": "hangman-s-curse",
-    "authors": [
-      {
-        "id": "kORC",
-        "name": "Frank E. Peretti",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 281,
-    "pagesRead": 281,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2005-05-26",
-    "dateFinish": "2005-05-26",
-    "stars": 2,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8097-b584-d229f18da998-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80d6-b89e-f98d6b0a1d3d",
-    "lastEditedTime": "2025-11-26T20:47:00.000Z",
-    "title": "The Wounded Spirit",
-    "subtitle": "",
-    "slug": "the-wounded-spirit",
-    "authors": [
-      {
-        "id": "kORC",
-        "name": "Frank E. Peretti",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 80,
-    "pagesRead": 80,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2005-05-26",
-    "dateFinish": "2005-05-26",
-    "stars": 2,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80d6-b89e-f98d6b0a1d3d-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-800f-b729-ecd5f74ec9ee-large-260w.jpeg"
     },
     "fiction": false,
     "own": false,
@@ -5046,38 +3962,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80c5-9524-d045dbc5bb9d",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Historical Reliability of the Gospels",
-    "subtitle": "",
-    "slug": "the-historical-reliability-of-the-gospels",
-    "authors": [
-      {
-        "id": "_USk",
-        "name": "Craig L. Blomberg",
-        "color": "default"
-      }
-    ],
-    "pageTotal": 416,
-    "pagesRead": 416,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2005-04-22",
-    "dateFinish": "2005-04-22",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80c5-9524-d045dbc5bb9d-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-8030-b05e-c6842c17a32f",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Scaling the Secular City",
@@ -5107,38 +3991,6 @@
     },
     "fiction": false,
     "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8041-ae79-c369639d1dbb",
-    "lastEditedTime": "2025-11-26T20:48:00.000Z",
-    "title": "Come Thirsty",
-    "subtitle": "No Heart Too Dry for His Touch",
-    "slug": "come-thirsty",
-    "authors": [
-      {
-        "id": "b=b`",
-        "name": "Max Lucado",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 240,
-    "pagesRead": 240,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2005-04-09",
-    "dateFinish": "2005-04-09",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8041-ae79-c369639d1dbb-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
     "content": ""
   },
   {
@@ -5202,166 +4054,6 @@
       "large": "/assets/img/notion/2b2aec2d-56b7-8032-999f-e90c1f630f4a-large-260w.jpeg"
     },
     "fiction": true,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8030-9f6e-dc13e967b04d",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Film Directing Shot by Shot",
-    "subtitle": "Visualizing from Concept to Screen",
-    "slug": "film-directing-shot-by-shot",
-    "authors": [
-      {
-        "id": "Mw`?",
-        "name": "Steven D. Katz",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 400,
-    "pagesRead": 400,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2005-01-17",
-    "dateFinish": "2005-01-17",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8030-9f6e-dc13e967b04d-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8078-8548-cf91a95c08f6",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Traveling Light",
-    "subtitle": "Releasing the Burdens You Were Never Intended to Bear",
-    "slug": "traveling-light",
-    "authors": [
-      {
-        "id": "b=b`",
-        "name": "Max Lucado",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 220,
-    "pagesRead": 220,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2005-01-01",
-    "dateFinish": "2005-01-02",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8078-8548-cf91a95c08f6-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8091-863a-c7edc9415fc2",
-    "lastEditedTime": "2025-11-26T20:47:00.000Z",
-    "title": "Thunder of Heaven (The Heaven Trilogy, #3)",
-    "subtitle": "",
-    "slug": "thunder-of-heaven-the-heaven-trilogy-3",
-    "authors": [
-      {
-        "id": "=PMl",
-        "name": "Ted Dekker",
-        "color": "brown"
-      }
-    ],
-    "pageTotal": 512,
-    "pagesRead": 512,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2004-10-11",
-    "dateFinish": "2004-10-11",
-    "stars": 3,
-    "asin": "0849945178",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8091-863a-c7edc9415fc2-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8084-b028-ef8701f7927b",
-    "lastEditedTime": "2025-11-26T20:47:00.000Z",
-    "title": "Thr3e",
-    "subtitle": "",
-    "slug": "thr3e",
-    "authors": [
-      {
-        "id": "=PMl",
-        "name": "Ted Dekker",
-        "color": "brown"
-      }
-    ],
-    "pageTotal": 400,
-    "pagesRead": 400,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2004-10-11",
-    "dateFinish": "2004-10-11",
-    "stars": 3,
-    "asin": "0849945127",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8084-b028-ef8701f7927b-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-809c-ab73-ec7c9da6a673",
-    "lastEditedTime": "2025-11-26T20:48:00.000Z",
-    "title": "Next Door Savior",
-    "subtitle": "Near Enough to Touch, Strong Enough to Trust",
-    "slug": "next-door-savior",
-    "authors": [
-      {
-        "id": "b=b`",
-        "name": "Max Lucado",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 240,
-    "pagesRead": 240,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2004-04-20",
-    "dateFinish": "2004-04-20",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-809c-ab73-ec7c9da6a673-large-260w.jpeg"
-    },
-    "fiction": false,
     "own": false,
     "content": ""
   },
@@ -6602,6 +5294,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-80ff-9026-f61e0b95ba06",
+    "lastEditedTime": "2025-11-26T20:47:00.000Z",
+    "title": "Twenty Thousand Leagues Under the Sea",
+    "subtitle": "",
+    "slug": "twenty-thousand-leagues-under-the-sea",
+    "authors": [
+      {
+        "id": "c^k>",
+        "name": "Jules Verne",
+        "color": "yellow"
+      }
+    ],
+    "pageTotal": 384,
+    "pagesRead": null,
+    "minutesTotal": 703,
+    "miniutesRead": 703,
+    "progress": 1,
+    "format": "AUDIO",
+    "dateStart": "2025-01-17",
+    "dateFinish": "2025-01-21",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80ff-9026-f61e0b95ba06-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-80e0-b37a-e817ea3916ab",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Postgresql : Up and Running",
@@ -7257,43 +5981,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-809c-8473-c86414111c17",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Extreme Ownership",
-    "subtitle": "How U.S. Navy Seals LEAD and WIN",
-    "slug": "extreme-ownership",
-    "authors": [
-      {
-        "id": "g={t",
-        "name": "Jocko Willink",
-        "color": "brown"
-      },
-      {
-        "id": "i>qC",
-        "name": "Leif Babin",
-        "color": "yellow"
-      }
-    ],
-    "pageTotal": 384,
-    "pagesRead": 384,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2022-05-24",
-    "dateFinish": "2022-06-17",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": "https://www.amazon.com/Extreme-Ownership-U-S-Navy-SEALs-dp-1250183863/dp/1250183863/ref=dp_ob_image_bk",
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-809c-8473-c86414111c17-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-80e2-a963-f6a46b0a726f",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Love Does",
@@ -7784,6 +6471,38 @@
     "content": ""
   },
   {
+    "id": "353aec2d-56b7-8129-ad31-d41d51d6b683",
+    "lastEditedTime": "2026-05-18T01:26:00.000Z",
+    "title": "One Nation Under Gods",
+    "subtitle": "A History of the Mormon Church",
+    "slug": "one-nation-under-gods",
+    "authors": [
+      {
+        "id": "b4e54863-5a5d-4530-a4a5-4f3c27835fe8",
+        "name": "Richard Abanes",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 656,
+    "pagesRead": 656,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2026-05-04T04:00:00.000+00:00",
+    "dateFinish": "2026-05-16T04:00:00.000+00:00",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/353aec2d-56b7-8129-ad31-d41d51d6b683-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "351aec2d-56b7-8023-b612-e78394348270",
     "lastEditedTime": "2026-05-04T09:44:00.000Z",
     "title": "The Turn of the Screw",
@@ -7911,43 +6630,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2d5aec2d-56b7-814f-9175-e463e3ca6a8f-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2edaec2d-56b7-81ba-9722-fb16e0838c82",
-    "lastEditedTime": "2026-07-07T13:10:00.000Z",
-    "title": "Why Do I Do What I Don't Want to Do?",
-    "subtitle": "Replace Deadly Vices with Life-giving Virtues",
-    "slug": "why-do-i-do-what-i-don-t-want-to-do",
-    "authors": [
-      {
-        "id": "8d546aae-1f35-48a2-abb9-9c56d3b38406",
-        "name": "Jonathan \"JP\" Pokluda",
-        "color": "pink"
-      },
-      {
-        "id": "1e84c5ee-b180-4c2f-96ed-9fd85d68570f",
-        "name": "Jon Green",
-        "color": "default"
-      }
-    ],
-    "pageTotal": 217,
-    "pagesRead": 217,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2026-06-29T04:00:00.000+00:00",
-    "dateFinish": "2026-07-07T04:00:00.000+00:00",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2edaec2d-56b7-81ba-9722-fb16e0838c82-large-260w.jpeg"
     },
     "fiction": false,
     "own": false,
@@ -8230,6 +6912,43 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/336aec2d-56b7-81f1-b27a-e39b6cfa2fc8-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2edaec2d-56b7-81ba-9722-fb16e0838c82",
+    "lastEditedTime": "2026-07-07T13:10:00.000Z",
+    "title": "Why Do I Do What I Don't Want to Do?",
+    "subtitle": "Replace Deadly Vices with Life-giving Virtues",
+    "slug": "why-do-i-do-what-i-don-t-want-to-do",
+    "authors": [
+      {
+        "id": "8d546aae-1f35-48a2-abb9-9c56d3b38406",
+        "name": "Jonathan \"JP\" Pokluda",
+        "color": "pink"
+      },
+      {
+        "id": "1e84c5ee-b180-4c2f-96ed-9fd85d68570f",
+        "name": "Jon Green",
+        "color": "default"
+      }
+    ],
+    "pageTotal": 217,
+    "pagesRead": 217,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2026-06-29T04:00:00.000+00:00",
+    "dateFinish": "2026-07-07T04:00:00.000+00:00",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2edaec2d-56b7-81ba-9722-fb16e0838c82-large-260w.jpeg"
     },
     "fiction": false,
     "own": false,
@@ -10845,38 +9564,6 @@
     "content": "<p>Perfect! Totally explains and gives the code to make a website offline with Service Workers. Brilliantly done!</p>\n"
   },
   {
-    "id": "2b2aec2d-56b7-809d-8deb-c55be9b63e4a",
-    "lastEditedTime": "2025-12-11T13:31:00.000Z",
-    "title": "On Web Typography",
-    "subtitle": "",
-    "slug": "on-web-typography",
-    "authors": [
-      {
-        "id": "kt^A",
-        "name": "Jason Santa Maria",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 142,
-    "pagesRead": 142,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2018-08-15",
-    "dateFinish": "2018-12-15",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": "https://abookapart.com/products/on-web-typography",
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-809d-8deb-c55be9b63e4a-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": "<p>This is the book I wanted years ago. It tells you how to pick out fonts, pair fonts, and make your information readable and legible to your users.</p>\n"
-  },
-  {
     "id": "2b2aec2d-56b7-8059-b539-ed20a37d6bb9",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Webfont Handbook",
@@ -11362,67 +10049,35 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-8026-b704-de8da8dc43dc",
-    "lastEditedTime": "2025-11-26T20:48:00.000Z",
-    "title": "Blink - Dekker",
+    "id": "2b2aec2d-56b7-80f9-9f37-d6b7becff0c0",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Love That Goes the Distance",
     "subtitle": "",
-    "slug": "blink-dekker",
+    "slug": "love-that-goes-the-distance",
     "authors": [
       {
-        "id": "=PMl",
-        "name": "Ted Dekker",
-        "color": "brown"
+        "id": "wzSm",
+        "name": "Jud Wilhite",
+        "color": "default"
       }
     ],
-    "pageTotal": 400,
-    "pagesRead": 400,
+    "pageTotal": 144,
+    "pagesRead": 144,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
     "format": "PAPERBACK",
-    "dateStart": "2004-01-23",
-    "dateFinish": "2004-01-23",
+    "dateStart": "2003-07-01",
+    "dateFinish": "2003-07-01",
     "stars": 3,
-    "asin": "084994371X",
+    "asin": "0801064643",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8026-b704-de8da8dc43dc-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8029-a359-ea6496155c88",
-    "lastEditedTime": "2025-11-26T20:47:00.000Z",
-    "title": "The Case for Christ",
-    "subtitle": "",
-    "slug": "the-case-for-christ",
-    "authors": [
-      {
-        "id": "XErQ",
-        "name": "Lee Strobel",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 336,
-    "pagesRead": 336,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2003-08-07",
-    "dateFinish": "2003-08-07",
-    "stars": 5,
-    "asin": "0310345863",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8029-a359-ea6496155c88-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-80f9-9f37-d6b7becff0c0-large-260w.jpeg"
     },
     "fiction": false,
-    "own": false,
+    "own": true,
     "content": ""
   },
   {
@@ -11458,843 +10113,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-809c-bb88-ff1e113b5a3b",
-    "lastEditedTime": "2026-01-06T15:16:00.000Z",
-    "title": "The Legend of the Monk and the Merchant",
-    "subtitle": "Twelve Keys to Successful Living",
-    "slug": "the-legend-of-the-monk-and-the-merchant",
-    "authors": [
-      {
-        "id": "Ht\\I",
-        "name": "Terry Felber",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 145,
-    "pagesRead": 145,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2026-01-02T05:00:00.000+00:00",
-    "dateFinish": "2026-01-06T05:00:00.000+00:00",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-809c-bb88-ff1e113b5a3b-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8042-b0dc-c04e8eff6d30",
-    "lastEditedTime": "2026-01-02T14:46:00.000Z",
-    "title": "The Tech-wise Family",
-    "subtitle": "Everyday Steps for Putting Technology in Its Proper Place",
-    "slug": "the-tech-wise-family",
-    "authors": [
-      {
-        "id": "d_pA",
-        "name": "Andy Crouch",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 221,
-    "pagesRead": 221,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2025-12-05",
-    "dateFinish": "2026-01-02T05:00:00.000+00:00",
-    "stars": 5,
-    "asin": "[\"B01M1SDHYT\"]",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8042-b0dc-c04e8eff6d30-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-809a-b9a2-d318201d1891",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Leading Without Power",
-    "subtitle": "Finding Hope in Serving Community",
-    "slug": "leading-without-power",
-    "authors": [
-      {
-        "id": "TaIg",
-        "name": "Max De Pree",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 192,
-    "pagesRead": 192,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2025-09-26",
-    "dateFinish": "2025-10-03",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-809a-b9a2-d318201d1891-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80ac-ad8a-ce183ad2e3a8",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Kingdom Values",
-    "subtitle": "Character Over Chaos",
-    "slug": "kingdom-values",
-    "authors": [
-      {
-        "id": "`ZcD",
-        "name": "Tony Evans",
-        "color": "yellow"
-      }
-    ],
-    "pageTotal": 202,
-    "pagesRead": 202,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2025-02-13",
-    "dateFinish": "2025-02-22",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80ac-ad8a-ce183ad2e3a8-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80e8-8c2a-e127c531c38a",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Rediscovering Israel",
-    "subtitle": "A Fresh Look at God's Story in Its Historical and Cultural Contexts",
-    "slug": "rediscovering-israel",
-    "authors": [
-      {
-        "id": "rqXc",
-        "name": "Kristi McLelland",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 255,
-    "pagesRead": 255,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2024-09-16",
-    "dateFinish": "2024-09-26",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80e8-8c2a-e127c531c38a-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8060-8b32-d2a635d78889",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "A Short History of Nearly Everything",
-    "subtitle": "",
-    "slug": "a-short-history-of-nearly-everything",
-    "authors": [
-      {
-        "id": "NyrX",
-        "name": "Bill Bryson",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 544,
-    "pagesRead": null,
-    "minutesTotal": 1093,
-    "miniutesRead": 1093,
-    "progress": 1,
-    "format": "AUDIO",
-    "dateStart": "2024-08-01",
-    "dateFinish": "2024-08-08",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8060-8b32-d2a635d78889-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-807a-a402-c33e6e44a8df",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Anxious for Nothing",
-    "subtitle": "Finding Calm in a Chaotic World",
-    "slug": "anxious-for-nothing",
-    "authors": [
-      {
-        "id": "b=b`",
-        "name": "Max Lucado",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 222,
-    "pagesRead": 222,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2024-07-25",
-    "dateFinish": "2024-07-28",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-807a-a402-c33e6e44a8df-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80d3-ae63-ece1e32e296e",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Death's End",
-    "subtitle": "",
-    "slug": "death-s-end",
-    "authors": [
-      {
-        "id": "OiV=",
-        "name": "Cixin Liu",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 604,
-    "pagesRead": null,
-    "minutesTotal": 1731,
-    "miniutesRead": 1731,
-    "progress": 1,
-    "format": "AUDIO",
-    "dateStart": "2024-07-02",
-    "dateFinish": "2024-07-09",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80d3-ae63-ece1e32e296e-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80be-8521-d93ee6d016b9",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Dark Forest",
-    "subtitle": "",
-    "slug": "the-dark-forest",
-    "authors": [
-      {
-        "id": "<t@p",
-        "name": "Cixin Lui",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 512,
-    "pagesRead": null,
-    "minutesTotal": 1356,
-    "miniutesRead": 1356,
-    "progress": 1,
-    "format": "AUDIO",
-    "dateStart": "2024-06-25",
-    "dateFinish": "2024-07-02",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80be-8521-d93ee6d016b9-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80f7-9d2a-c22ec418785d",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Faith Among the Faithless",
-    "subtitle": "Learning from Esther How to Live in a World Gone Mad",
-    "slug": "faith-among-the-faithless",
-    "authors": [
-      {
-        "id": "5c842963-2d8a-4399-9623-3637d5fb3e76",
-        "name": "Mike Cosper",
-        "color": "purple"
-      }
-    ],
-    "pageTotal": 208,
-    "pagesRead": 208,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2024-02-26",
-    "dateFinish": "2024-03-02",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80f7-9d2a-c22ec418785d-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80aa-b372-d07c839e4c39",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Infinite Game",
-    "subtitle": "",
-    "slug": "the-infinite-game",
-    "authors": [
-      {
-        "id": "qaMi",
-        "name": "Simon Sinek",
-        "color": "yellow"
-      }
-    ],
-    "pageTotal": 251,
-    "pagesRead": 251,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2023-11-11",
-    "dateFinish": "2023-12-12",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80aa-b372-d07c839e4c39-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-805c-96f2-f6f642a0b63e",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Don't Give Up",
-    "subtitle": "Faith that Gives You the Confidence to Keep Believing and the Courage to Keep Going",
-    "slug": "don-t-give-up",
-    "authors": [
-      {
-        "id": "esCr",
-        "name": "Kyle Idleman",
-        "color": "brown"
-      }
-    ],
-    "pageTotal": 240,
-    "pagesRead": 240,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2023-08-31",
-    "dateFinish": "2023-09-11",
-    "stars": 4,
-    "asin": "0801019427",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-805c-96f2-f6f642a0b63e-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-809d-9aa9-e6c769407d62",
-    "lastEditedTime": "2025-12-11T14:00:00.000Z",
-    "title": "Empowering Leadership",
-    "subtitle": "How a Leadership Development Culture Builds Better Leaders Faster",
-    "slug": "empowering-leadership",
-    "authors": [
-      {
-        "id": "r>MB",
-        "name": "Michael Fletcher",
-        "color": "brown"
-      }
-    ],
-    "pageTotal": 224,
-    "pagesRead": 224,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2023-08-06",
-    "dateFinish": "2023-08-12",
-    "stars": 5,
-    "asin": "0718093763",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-809d-9aa9-e6c769407d62-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": "<p>Empowering Leadership sounds like a great way to recruit and keep volunteers by shoulder-tapping and giving them leadership responsibility. My experience with ministry is that you make a call from stage, pleading your need. You get maybe 1% that sign up, may 10% of those show up for the informational meeting. 1 year from now you have one or two from that cohort. Fletcher's methodology, practiced and refined at his church offers a counter-voice that seems not only to keep and maintain volunteers, but prove that volunteering is a calling, not just filling spots.</p>\n"
-  },
-  {
-    "id": "2b2aec2d-56b7-8032-8dca-d2a0da207209",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "To Live is Christ to Die is Gain",
-    "subtitle": "",
-    "slug": "to-live-is-christ-to-die-is-gain",
-    "authors": [
-      {
-        "id": "HVvi",
-        "name": "Matt Chandler",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 224,
-    "pagesRead": 224,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2023-07-26",
-    "dateFinish": "2023-08-03",
-    "stars": 3,
-    "asin": "078141217X",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8032-8dca-d2a0da207209-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8049-aad9-e73079bc6f74",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Grace is Greater",
-    "subtitle": "",
-    "slug": "grace-is-greater",
-    "authors": [
-      {
-        "id": "esCr",
-        "name": "Kyle Idleman",
-        "color": "brown"
-      }
-    ],
-    "pageTotal": 192,
-    "pagesRead": 192,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2023-07-17",
-    "dateFinish": "2023-07-20",
-    "stars": 3,
-    "asin": "0801019419",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8049-aad9-e73079bc6f74-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-800b-a995-ca3dbb6b421f",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Book Called You",
-    "subtitle": "Understanding the Enneagram from a Grace-filled, Biblical Perspective",
-    "slug": "book-called-you",
-    "authors": [
-      {
-        "id": "m@e|",
-        "name": "Matthew Stephen Brown",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 202,
-    "pagesRead": 202,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2022-12-14",
-    "dateFinish": "2023-01-02",
-    "stars": 2,
-    "asin": "B08QZX73ZZ",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-800b-a995-ca3dbb6b421f-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80a8-a45e-e5fbcf601ef3",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Aha",
-    "subtitle": "Awakening, Honesty, Action: the God Moment That Changes Everything",
-    "slug": "aha",
-    "authors": [
-      {
-        "id": "esCr",
-        "name": "Kyle Idleman",
-        "color": "brown"
-      }
-    ],
-    "pageTotal": 218,
-    "pagesRead": 218,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2022-12-03",
-    "dateFinish": "2022-12-09",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80a8-a45e-e5fbcf601ef3-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8045-b864-d45de314c41c",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Five Dysfunctions of a Team",
-    "subtitle": "a leadership fable",
-    "slug": "the-five-dysfunctions-of-a-team",
-    "authors": [
-      {
-        "id": "I^qU",
-        "name": "Patrick Lencioni",
-        "color": "yellow"
-      }
-    ],
-    "pageTotal": 229,
-    "pagesRead": 229,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2022-10-26",
-    "dateFinish": "2022-10-30",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8045-b864-d45de314c41c-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-809f-8178-e609f51d6ad1",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Erasing Hell",
-    "subtitle": "",
-    "slug": "erasing-hell",
-    "authors": [
-      {
-        "id": "dpxv",
-        "name": "Francis Chan",
-        "color": "red"
-      },
-      {
-        "id": "Qv>p",
-        "name": "Preston Sprinkle",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 208,
-    "pagesRead": 208,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2022-09-22",
-    "dateFinish": "2022-09-26",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": "https://www.amazon.com/Erasing-Hell-About-Eternity-Things/dp/0781407257",
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-809f-8178-e609f51d6ad1-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8023-966e-dc891befa473",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Atomic Habits",
-    "subtitle": "An Easy & Proven Way to Build Good Habits & Break Bad Ones",
-    "slug": "atomic-habits",
-    "authors": [
-      {
-        "id": "~X@T",
-        "name": "James Clear",
-        "color": "yellow"
-      }
-    ],
-    "pageTotal": 320,
-    "pagesRead": 320,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2022-09-07",
-    "dateFinish": "2022-09-22",
-    "stars": 4,
-    "asin": "0735211299",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8023-966e-dc891befa473-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80b8-8093-e1c4c9c4c2d9",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Rest and War",
-    "subtitle": "Rhythms of a Well-Fought Life",
-    "slug": "rest-and-war",
-    "authors": [
-      {
-        "id": "rQt[",
-        "name": "Ben Stuart",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 256,
-    "pagesRead": 256,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2022-08-10",
-    "dateFinish": "2022-08-16",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": "https://www.amazon.com/dp/0785248315?psc=1&ref=ppx_yo2ov_dt_b_product_details",
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80b8-8093-e1c4c9c4c2d9-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-803e-b012-ce6df644f1f7",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Coders",
-    "subtitle": "",
-    "slug": "coders",
-    "authors": [
-      {
-        "id": "OLe}",
-        "name": "Clive Thompson",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 448,
-    "pagesRead": 448,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2020-06-05",
-    "dateFinish": "2020-06-30",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": "https://www.amazon.com/Coders-Making-Tribe-Remaking-World/dp/0735220565/",
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-803e-b012-ce6df644f1f7-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8041-89c5-d92362dcce6c",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Me, Myself & Bob",
-    "subtitle": "A True Story about God, Dreams, and Talking Vegetables",
-    "slug": "me-myself-bob",
-    "authors": [
-      {
-        "id": "SeK;",
-        "name": "Phil Vischer",
-        "color": "orange"
-      }
-    ],
-    "pageTotal": 272,
-    "pagesRead": 272,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2011-02-11",
-    "dateFinish": "2011-02-11",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8041-89c5-d92362dcce6c-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80e7-91d3-fb1caf2ca9d1",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Out of the Silent Planet",
-    "subtitle": "The Space Trilogy, #1",
-    "slug": "out-of-the-silent-planet",
-    "authors": [
-      {
-        "id": "o_@B",
-        "name": "C.S. Lewis",
-        "color": "default"
-      }
-    ],
-    "pageTotal": 160,
-    "pagesRead": 160,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2007-05-20",
-    "dateFinish": "2007-05-20",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80e7-91d3-fb1caf2ca9d1-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80ed-b2fa-db1db16eccec",
-    "lastEditedTime": "2025-11-26T20:48:00.000Z",
-    "title": "House",
-    "subtitle": "",
-    "slug": "house",
-    "authors": [
-      {
-        "id": "kORC",
-        "name": "Frank E. Peretti",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 386,
-    "pagesRead": 386,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2007-05-20",
-    "dateFinish": "2007-05-20",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80ed-b2fa-db1db16eccec-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80ec-95ce-c63cc008f87c",
-    "lastEditedTime": "2025-11-26T20:48:00.000Z",
-    "title": "The Barbarian Way",
-    "subtitle": "Unleash the Untamed Faith Within",
-    "slug": "the-barbarian-way",
-    "authors": [
-      {
-        "id": "TFcC",
-        "name": "Erwin Raphael McManus",
-        "color": "brown"
-      }
-    ],
-    "pageTotal": 148,
-    "pagesRead": 148,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2007-01-26",
-    "dateFinish": "2007-01-26",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80ec-95ce-c63cc008f87c-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-809f-ab62-dc9a97342a79",
     "lastEditedTime": "2025-11-26T20:47:00.000Z",
     "title": "Through Painted Deserts",
@@ -12321,80 +10139,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-809f-ab62-dc9a97342a79-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8042-a005-db1a888287f3",
-    "lastEditedTime": "2025-11-26T20:47:00.000Z",
-    "title": "Will the Real Jesus Please Stand Up?",
-    "subtitle": "A Debate between William Lane Craig & John Dominic Crossan",
-    "slug": "will-the-real-jesus-please-stand-up",
-    "authors": [
-      {
-        "id": "w}F`",
-        "name": "William Lane Craig",
-        "color": "brown"
-      },
-      {
-        "id": "XIwt",
-        "name": "John Dominic Crossan",
-        "color": "purple"
-      },
-      {
-        "id": "S^wn",
-        "name": "Paul Copan",
-        "color": "red"
-      }
-    ],
-    "pageTotal": 188,
-    "pagesRead": 188,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2006-01-23",
-    "dateFinish": "2006-01-23",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8042-a005-db1a888287f3-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-800f-b729-ecd5f74ec9ee",
-    "lastEditedTime": "2025-11-26T20:48:00.000Z",
-    "title": "Blue Like Jazz",
-    "subtitle": "Nonreligious Thoughts on Christian Spirituality",
-    "slug": "blue-like-jazz",
-    "authors": [
-      {
-        "id": "DGM{",
-        "name": "Donald Miller",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 256,
-    "pagesRead": 256,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2005-06-06",
-    "dateFinish": "2005-06-06",
-    "stars": 5,
-    "asin": "0785263705",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-800f-b729-ecd5f74ec9ee-large-260w.jpeg"
     },
     "fiction": false,
     "own": false,
@@ -12603,6 +10347,70 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-80c2-b051-eda8830ef600",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "The Bait of Satan",
+    "subtitle": "Your Response Determines Your Future",
+    "slug": "the-bait-of-satan",
+    "authors": [
+      {
+        "id": "P_e|",
+        "name": "John Bevere",
+        "color": "orange"
+      }
+    ],
+    "pageTotal": 191,
+    "pagesRead": 191,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2025-09-19",
+    "dateFinish": "2025-10-01",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80c2-b051-eda8830ef600-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-802a-b137-cedb4c9363de",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "The Voice of the Heart",
+    "subtitle": "A Call to Full Living",
+    "slug": "the-voice-of-the-heart",
+    "authors": [
+      {
+        "id": "jHtF",
+        "name": "Chip Dodd",
+        "color": "default"
+      }
+    ],
+    "pageTotal": 165,
+    "pagesRead": 165,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2025-09-14",
+    "dateFinish": "2025-09-25",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-802a-b137-cedb4c9363de-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-807b-bd7e-e81812f479d3",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Power of Moments",
@@ -12704,6 +10512,85 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-801e-9781-f5cc2dd691be",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Flip the Script",
+    "subtitle": "Disrupting Tradition for the Sake of the Next Generation",
+    "slug": "flip-the-script",
+    "authors": [
+      {
+        "id": "R[NC",
+        "name": "Chuck Peters",
+        "color": "blue"
+      },
+      {
+        "id": "@s^I",
+        "name": "Jana Magruder",
+        "color": "red"
+      },
+      {
+        "id": "||kv",
+        "name": "Stephanie Salvatore",
+        "color": "default"
+      },
+      {
+        "id": "T@\\z",
+        "name": "Lifeway Kids",
+        "color": "red"
+      }
+    ],
+    "pageTotal": 128,
+    "pagesRead": 128,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2025-06-12",
+    "dateFinish": "2025-06-25",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-801e-9781-f5cc2dd691be-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8069-8aa6-d8fa0330d211",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Until Unity",
+    "subtitle": "",
+    "slug": "until-unity",
+    "authors": [
+      {
+        "id": "dpxv",
+        "name": "Francis Chan",
+        "color": "red"
+      }
+    ],
+    "pageTotal": 220,
+    "pagesRead": 220,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2025-04-20",
+    "dateFinish": "2025-04-24",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8069-8aa6-d8fa0330d211-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-8017-aefd-e402f9d4b505",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Practicing the Way",
@@ -12764,6 +10651,70 @@
       "large": "/assets/img/notion/2b2aec2d-56b7-80f2-a281-e340b6232210-large-260w.jpeg"
     },
     "fiction": true,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-809b-9c2f-e01567a7e2d1",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Land of My Sojourn",
+    "subtitle": "The Landscape of a Faith Lost and Found",
+    "slug": "land-of-my-sojourn",
+    "authors": [
+      {
+        "id": "5c842963-2d8a-4399-9623-3637d5fb3e76",
+        "name": "Mike Cosper",
+        "color": "purple"
+      }
+    ],
+    "pageTotal": 168,
+    "pagesRead": 168,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2025-01-22",
+    "dateFinish": "2025-01-29",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-809b-9c2f-e01567a7e2d1-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80b7-828d-dd1858571db7",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "What Radical Husbands Do",
+    "subtitle": "12 Steps to Win and Keep Your Wife's Heart",
+    "slug": "what-radical-husbands-do",
+    "authors": [
+      {
+        "id": "h?CI",
+        "name": "Regi Campbell",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 136,
+    "pagesRead": 136,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2024-12-29",
+    "dateFinish": "2025-01-03",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80b7-828d-dd1858571db7-large-260w.jpeg"
+    },
+    "fiction": false,
     "own": true,
     "content": ""
   },
@@ -12832,6 +10783,112 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-80cc-8b82-c1a4aeb33689",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Free at Last",
+    "subtitle": "Experiencing True Freedom Through Your Identity in Christ",
+    "slug": "free-at-last",
+    "authors": [
+      {
+        "id": "ZXxV",
+        "name": "Anthony T. Evans",
+        "color": "default"
+      }
+    ],
+    "pageTotal": 209,
+    "pagesRead": 209,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2024-10-21",
+    "dateFinish": "2024-10-27",
+    "stars": 4,
+    "asin": "[\"\"]",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80cc-8b82-c1a4aeb33689-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-806b-a0ad-fdc2524959c3",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "The Good and Beautiful God",
+    "subtitle": "Falling in Love with the God Jesus Knows",
+    "slug": "the-good-and-beautiful-god",
+    "authors": [
+      {
+        "id": "uz}q",
+        "name": "James Bryan Smith",
+        "color": "yellow"
+      }
+    ],
+    "pageTotal": 232,
+    "pagesRead": 232,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2024-09-26",
+    "dateFinish": "2024-10-10",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-806b-a0ad-fdc2524959c3-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80a2-ad83-c45d314af06e",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Kubernetes : Up and Running",
+    "subtitle": "Dive into the Future of Infrastructure",
+    "slug": "kubernetes-up-and-running",
+    "authors": [
+      {
+        "id": "_t|V",
+        "name": "Brendan Burns",
+        "color": "gray"
+      },
+      {
+        "id": "SqRp",
+        "name": "Joe Beda",
+        "color": "gray"
+      },
+      {
+        "id": "UQqi",
+        "name": "Kelsey Hightower",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 326,
+    "pagesRead": 326,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2024-08-15",
+    "dateFinish": "2024-09-06",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80a2-ad83-c45d314af06e-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-80c3-acb9-c214ce52f17f",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Narrow Path",
@@ -12864,6 +10921,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-807a-8920-e0e0db0655a8",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "4 Chair Discipling",
+    "subtitle": "Growing a Movement of Disciple-makers",
+    "slug": "4-chair-discipling",
+    "authors": [
+      {
+        "id": "a2f56715-a3ac-4066-a2da-15142ec67b82",
+        "name": "Dann Spader",
+        "color": "yellow"
+      }
+    ],
+    "pageTotal": 160,
+    "pagesRead": 160,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2024-08-10",
+    "dateFinish": "2024-08-20",
+    "stars": 4,
+    "asin": "[\"0802412076\"]",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-807a-8920-e0e0db0655a8-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-80f8-ad57-c88af197e987",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Javascript",
@@ -12890,6 +10979,38 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-80f8-ad57-c88af197e987-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-802a-b534-c8a3b85eb51a",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Before Amen",
+    "subtitle": "The Power of a Simple Prayer",
+    "slug": "before-amen",
+    "authors": [
+      {
+        "id": "b=b`",
+        "name": "Max Lucado",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 168,
+    "pagesRead": 168,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2024-07-24",
+    "dateFinish": "2024-07-25",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-802a-b534-c8a3b85eb51a-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -13029,6 +11150,149 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-8059-8c9b-c1a9f7e4513b",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Grace from the Cross",
+    "subtitle": "",
+    "slug": "grace-from-the-cross",
+    "authors": [
+      {
+        "id": "esCr",
+        "name": "Kyle Idleman",
+        "color": "brown"
+      }
+    ],
+    "pageTotal": 80,
+    "pagesRead": 80,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2024-03-02",
+    "dateFinish": "2024-03-04",
+    "stars": 2,
+    "asin": "[\"0801093643\"]",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8059-8c9b-c1a9f7e4513b-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-808e-af00-f73c2144b2d1",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Armada",
+    "subtitle": "",
+    "slug": "armada",
+    "authors": [
+      {
+        "id": "CHAb",
+        "name": "Ernest Cline",
+        "color": "red"
+      }
+    ],
+    "pageTotal": 355,
+    "pagesRead": 355,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2024-01-30",
+    "dateFinish": "2024-02-14",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-808e-af00-f73c2144b2d1-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8076-a575-ca71982f86df",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Letters to the Church",
+    "subtitle": "",
+    "slug": "letters-to-the-church",
+    "authors": [
+      {
+        "id": "dpxv",
+        "name": "Francis Chan",
+        "color": "red"
+      }
+    ],
+    "pageTotal": 224,
+    "pagesRead": 224,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2023-10-23",
+    "dateFinish": "2024-02-01",
+    "stars": 5,
+    "asin": "[\"0830776583\"]",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8076-a575-ca71982f86df-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8059-853c-ee3d34c18986",
+    "lastEditedTime": "2025-12-11T14:18:00.000Z",
+    "title": "The Goal - Graphic Novel",
+    "subtitle": "A Business Graphic Novel",
+    "slug": "the-goal-graphic-novel",
+    "authors": [
+      {
+        "id": "\\HyI",
+        "name": "Eliyahu M. Goldratt",
+        "color": "orange"
+      },
+      {
+        "id": "O}tS",
+        "name": "Jeff Cox",
+        "color": "pink"
+      },
+      {
+        "id": "Y?qv",
+        "name": "Ensemble cast",
+        "color": "default"
+      },
+      {
+        "id": "hM<K",
+        "name": "Dwight Jon Zimmerman",
+        "color": "blue"
+      }
+    ],
+    "pageTotal": 143,
+    "pagesRead": 143,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2024-01-03",
+    "dateFinish": "2024-01-07",
+    "stars": 2,
+    "asin": "[\"0884272079\"]",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8059-853c-ee3d34c18986-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": true,
+    "content": "<p>Honestly the story is good. I recommend reading the book, not this graphic novel. The style isn't great, the narrative has a ton of holes. Some blocks look like they have been Xeroxed!</p>\n<p>That said, the Theory of Constraints is illuminating and reading this after the original was a good refresher.</p>\n"
+  },
+  {
     "id": "2b2aec2d-56b7-809f-b65a-d20e79276690",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Chapterhouse",
@@ -13111,6 +11375,48 @@
     "fiction": true,
     "own": true,
     "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8032-8ace-ebac6041924a",
+    "lastEditedTime": "2025-12-11T14:03:00.000Z",
+    "title": "Watchmen",
+    "subtitle": "",
+    "slug": "watchmen",
+    "authors": [
+      {
+        "id": "G;^k",
+        "name": "Alan Moore",
+        "color": "pink"
+      },
+      {
+        "id": "sXS:",
+        "name": "Dave Gibbons",
+        "color": "pink"
+      },
+      {
+        "id": "Qpgs",
+        "name": "John Higgins",
+        "color": "green"
+      }
+    ],
+    "pageTotal": 413,
+    "pagesRead": 413,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2023-10-13",
+    "dateFinish": "2023-10-31",
+    "stars": 4,
+    "asin": "1401238963",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8032-8ace-ebac6041924a-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
+    "content": "<p>It was a fun read. I went into it knowing nothing of the story. Not normally a graphic novel reader, I was surprised how political and edgy the content was. There was almost no “super hero-y” stuff. I liked it.</p>\n"
   },
   {
     "id": "2b2aec2d-56b7-8026-ba90-ce3f0be442cf",
@@ -13197,6 +11503,38 @@
     "content": "<p>This was a good introduction to SVG. Honestly, I have been using SVG for quite some time so most of this was a refresher. Being that it was written in 2002, there were lots of very old references. Chrome didn't exists, SVG support in browsers was bleak. The book has PERL and Java examples to generate SVGs. The appendices include introductions to XML and CSS. Finally, the book repeatedly mentions upcoming changes in SVG 2.0 that will fix some things, which, as of the day of this writing, is still being worked on.</p>\n"
   },
   {
+    "id": "2b2aec2d-56b7-8013-a29c-f01adcbd0eef",
+    "lastEditedTime": "2025-12-11T14:03:00.000Z",
+    "title": "Let Us Follow Him",
+    "subtitle": "",
+    "slug": "let-us-follow-him",
+    "authors": [
+      {
+        "id": "?eI~",
+        "name": "Henryk Sienkiewicz",
+        "color": "purple"
+      }
+    ],
+    "pageTotal": 102,
+    "pagesRead": 102,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2023-09-13",
+    "dateFinish": "2023-09-13",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8013-a29c-f01adcbd0eef-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": true,
+    "content": "<p>This book is neat! First of all, the book was translated in 1897 and the copy I read was an original! Second, the book is a fictional account of Roman officials who encounter Jesus as he's being crucified. It was a super interesting way to view the scene. Short, easy, and very thought provoking.</p>\n"
+  },
+  {
     "id": "2b2aec2d-56b7-80f2-b3d2-c98f63abf39a",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "God Emperor of Dune",
@@ -13247,6 +11585,38 @@
     "fiction": true,
     "own": true,
     "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-809d-9aa9-e6c769407d62",
+    "lastEditedTime": "2025-12-11T14:00:00.000Z",
+    "title": "Empowering Leadership",
+    "subtitle": "How a Leadership Development Culture Builds Better Leaders Faster",
+    "slug": "empowering-leadership",
+    "authors": [
+      {
+        "id": "r>MB",
+        "name": "Michael Fletcher",
+        "color": "brown"
+      }
+    ],
+    "pageTotal": 224,
+    "pagesRead": 224,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2023-08-06",
+    "dateFinish": "2023-08-12",
+    "stars": 5,
+    "asin": "0718093763",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-809d-9aa9-e6c769407d62-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": "<p>Empowering Leadership sounds like a great way to recruit and keep volunteers by shoulder-tapping and giving them leadership responsibility. My experience with ministry is that you make a call from stage, pleading your need. You get maybe 1% that sign up, may 10% of those show up for the informational meeting. 1 year from now you have one or two from that cohort. Fletcher's methodology, practiced and refined at his church offers a counter-voice that seems not only to keep and maintain volunteers, but prove that volunteering is a calling, not just filling spots.</p>\n"
   },
   {
     "id": "2b2aec2d-56b7-803d-a1f6-eb7463ea42b8",
@@ -13318,6 +11688,70 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-80db-b74d-f5616cca82fd",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Crossing the Chasm",
+    "subtitle": "Marketing and Selling Technology Products to Mainstream Customers",
+    "slug": "crossing-the-chasm",
+    "authors": [
+      {
+        "id": "\\bR;",
+        "name": "Geoffrey A. Moore",
+        "color": "orange"
+      }
+    ],
+    "pageTotal": 223,
+    "pagesRead": 223,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2023-04-04",
+    "dateFinish": "2023-06-25",
+    "stars": 3,
+    "asin": "0062292986",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80db-b74d-f5616cca82fd-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80a1-acb5-d9845d52a108",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Recapturing the Wonder",
+    "subtitle": "Transcendent Faith in a Disenchanted World",
+    "slug": "recapturing-the-wonder",
+    "authors": [
+      {
+        "id": "5c842963-2d8a-4399-9623-3637d5fb3e76",
+        "name": "Mike Cosper",
+        "color": "purple"
+      }
+    ],
+    "pageTotal": 224,
+    "pagesRead": 224,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2023-06-18",
+    "dateFinish": "2023-06-23",
+    "stars": 5,
+    "asin": "0830845062",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80a1-acb5-d9845d52a108-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-80ab-96f8-d9fedb3d488f",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Upgrade",
@@ -13382,6 +11816,102 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-8029-9183-f7723a2fe5f3",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "A Beautiful Constraint",
+    "subtitle": "How to Transform Your Limitations into Advantages, and Why It's Everyone's Business",
+    "slug": "a-beautiful-constraint",
+    "authors": [
+      {
+        "id": "903d5fbb-33f9-405d-9a07-97bc9cda8a6c",
+        "name": "Adam Morgan",
+        "color": "orange"
+      }
+    ],
+    "pageTotal": 277,
+    "pagesRead": 277,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2023-01-12",
+    "dateFinish": "2023-03-20",
+    "stars": 2,
+    "asin": "1118899016",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8029-9183-f7723a2fe5f3-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8033-a269-ebdc27d90777",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Dark Matter",
+    "subtitle": "",
+    "slug": "dark-matter",
+    "authors": [
+      {
+        "id": "~VzN",
+        "name": "Blake Crouch",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 352,
+    "pagesRead": 352,
+    "minutesTotal": 608,
+    "miniutesRead": 608,
+    "progress": 1,
+    "format": "AUDIO",
+    "dateStart": "2023-03-07",
+    "dateFinish": "2023-03-10",
+    "stars": 5,
+    "asin": "B01CUKUN90",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8033-a269-ebdc27d90777-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-802b-b91e-e270cc560277",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Man's Search for Meaning",
+    "subtitle": "",
+    "slug": "man-s-search-for-meaning",
+    "authors": [
+      {
+        "id": "V>uo",
+        "name": "Viktor E. Frankl",
+        "color": "brown"
+      }
+    ],
+    "pageTotal": 165,
+    "pagesRead": 165,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2023-01-12",
+    "dateFinish": "2023-01-19",
+    "stars": 5,
+    "asin": "0807060100",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-802b-b91e-e270cc560277-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-8038-ab2f-dc91522ee24d",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Project Hail Mary",
@@ -13414,34 +11944,300 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80c2-93ff-d0bff6169b89",
+    "id": "2b2aec2d-56b7-80f8-af89-f51118d23e35",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Artemis",
+    "title": "Inspired",
     "subtitle": "",
-    "slug": "artemis",
+    "slug": "inspired",
     "authors": [
       {
-        "id": "Oj|F",
-        "name": "Andy Weir",
-        "color": "gray"
+        "id": "OXUd",
+        "name": "Marty Cagan",
+        "color": "pink"
       }
     ],
-    "pageTotal": 305,
-    "pagesRead": 305,
+    "pageTotal": 368,
+    "pagesRead": 368,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
     "format": "HARDCOVER",
-    "dateStart": "2022-11-06",
-    "dateFinish": "2022-11-10",
-    "stars": 2,
-    "asin": "0553448129",
+    "dateStart": "2022-09-25",
+    "dateFinish": "2022-10-19",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": "https://www.amazon.com/INSPIRED-Create-Tech-Products-Customers/dp/1119387507",
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80f8-af89-f51118d23e35-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80c3-bb5e-d6c74609c6f1",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Fix Your Eyes",
+    "subtitle": "How Our Study of God Shapes Our Worship of Him",
+    "slug": "fix-your-eyes",
+    "authors": [
+      {
+        "id": "`sgy",
+        "name": "Any Gannett",
+        "color": "yellow"
+      }
+    ],
+    "pageTotal": 240,
+    "pagesRead": 240,
+    "minutesTotal": 434,
+    "miniutesRead": 434,
+    "progress": 1,
+    "format": "AUDIO",
+    "dateStart": "2022-09-27",
+    "dateFinish": "2022-10-06",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": "https://www.amazon.com/Fix-Your-Eyes-Shapes-Worship/dp/1087730546",
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80c3-bb5e-d6c74609c6f1-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8009-9329-c649ec7ad3d5",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "One at a Time",
+    "subtitle": "The Unexpected Way God Wants to Use You to Change the World",
+    "slug": "one-at-a-time",
+    "authors": [
+      {
+        "id": "esCr",
+        "name": "Kyle Idleman",
+        "color": "brown"
+      }
+    ],
+    "pageTotal": 256,
+    "pagesRead": 256,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2022-09-11",
+    "dateFinish": "2022-09-19",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": "https://www.amazon.com/One-Time-Unexpected-Wants-Change/dp/0801094917",
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8009-9329-c649ec7ad3d5-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8013-b724-f2844d46cbc8",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Creativity, Inc.",
+    "subtitle": "Overcoming the Unseen Forces That Stand in the Way of True Inspiration",
+    "slug": "creativity-inc",
+    "authors": [
+      {
+        "id": "koLd",
+        "name": "Ed Catmull",
+        "color": "orange"
+      }
+    ],
+    "pageTotal": 368,
+    "pagesRead": 368,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2022-07-12",
+    "dateFinish": "2022-07-22",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": "https://www.amazon.com/Creativity-Inc-Overcoming-Unseen-Inspiration/dp/0812993012",
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8013-b724-f2844d46cbc8-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-809c-8473-c86414111c17",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Extreme Ownership",
+    "subtitle": "How U.S. Navy Seals LEAD and WIN",
+    "slug": "extreme-ownership",
+    "authors": [
+      {
+        "id": "g={t",
+        "name": "Jocko Willink",
+        "color": "brown"
+      },
+      {
+        "id": "i>qC",
+        "name": "Leif Babin",
+        "color": "yellow"
+      }
+    ],
+    "pageTotal": 384,
+    "pagesRead": 384,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2022-05-24",
+    "dateFinish": "2022-06-17",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": "https://www.amazon.com/Extreme-Ownership-U-S-Navy-SEALs-dp-1250183863/dp/1250183863/ref=dp_ob_image_bk",
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-809c-8473-c86414111c17-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8071-aae7-da859da6d7a2",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "The Goal",
+    "subtitle": "A Process of Ongoing Improvement",
+    "slug": "the-goal",
+    "authors": [
+      {
+        "id": "\\HyI",
+        "name": "Eliyahu M. Goldratt",
+        "color": "orange"
+      }
+    ],
+    "pageTotal": 274,
+    "pagesRead": 274,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2021-10-29",
+    "dateFinish": "2021-11-04",
+    "stars": 3,
+    "asin": "",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80c2-93ff-d0bff6169b89-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-8071-aae7-da859da6d7a2-large-260w.jpeg"
     },
     "fiction": true,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80b4-a538-dff1333acfa1",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "The Lean Product Playbook",
+    "subtitle": "How to Innovate with Minimum Viable Products and Rapid Customer Feedback",
+    "slug": "the-lean-product-playbook",
+    "authors": [
+      {
+        "id": "d_w<",
+        "name": "Dan Olsen",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 336,
+    "pagesRead": 336,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2021-06-28",
+    "dateFinish": "2021-07-20",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": "https://www.amazon.com/Lean-Product-Playbook-Innovate-Products/dp/1118960874/ref=asc_df_1118960874/?tag=hyprod-20&linkCode=df0&hvadid=312111907622&hvpos=&hvnetw=g&hvrand=14703172276164071782&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1017825&hvtargid=pla-434197569733&psc=1",
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80b4-a538-dff1333acfa1-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80c7-990b-edc2ce46bcb3",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Brothers, We Are Not Professionals",
+    "subtitle": "A Plea to Pastors for Radical Ministry",
+    "slug": "brothers-we-are-not-professionals",
+    "authors": [
+      {
+        "id": "{@lb",
+        "name": "John Piper",
+        "color": "yellow"
+      }
+    ],
+    "pageTotal": 286,
+    "pagesRead": 286,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2019-09-13",
+    "dateFinish": "2021-06-12",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": "https://www.amazon.com/Brothers-We-Are-Not-Professionals/dp/1433678829/ref=sr_1_1?gclid=Cj0KCQjw5rbsBRCFARIsAGEYRwfPvDmU8RZQ6vd54DMZQQljqkls7SrGDyRxY4tquX6YKL7ogsDbPIAaAsMsEALw_wcB&hvadid=241658431181&hvdev=c&hvlocphy=9052432&hvnetw=g&hvpos=1t1&hvqmt=e&hvrand=4861461604014654878&hvtargid=kwd-131506102&hydadcr=8294_10376136&keywords=brothers+we+are+not+professionals&qid=1569594051&sr=8-1",
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80c7-990b-edc2ce46bcb3-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-808e-9d2d-f81efe9780a9",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Empowered",
+    "subtitle": "Ordinary People, Extraordinary Products",
+    "slug": "empowered",
+    "authors": [
+      {
+        "id": "OXUd",
+        "name": "Marty Cagan",
+        "color": "pink"
+      },
+      {
+        "id": "EGdc",
+        "name": "Chris Jones",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 416,
+    "pagesRead": 416,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2021-01-04",
+    "dateFinish": "2021-06-10",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-808e-9d2d-f81efe9780a9-large-260w.jpeg"
+    },
+    "fiction": false,
     "own": true,
     "content": ""
   },
@@ -13481,6 +12277,144 @@
     "fiction": false,
     "own": true,
     "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-803c-a974-f6b88d6a25cf",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "The Elements of Content Strategy",
+    "subtitle": "",
+    "slug": "the-elements-of-content-strategy",
+    "authors": [
+      {
+        "id": "F`dn",
+        "name": "Erin Kissane",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 81,
+    "pagesRead": 81,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2021-02-17",
+    "dateFinish": "2021-03-11",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-803c-a974-f6b88d6a25cf-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8004-bc92-c4f6afe1bc36",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Atomic Design",
+    "subtitle": "",
+    "slug": "atomic-design",
+    "authors": [
+      {
+        "id": "~A^f",
+        "name": "Brad Frost",
+        "color": "green"
+      }
+    ],
+    "pageTotal": 285,
+    "pagesRead": 285,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "EBOOK",
+    "dateStart": "2020-08-28",
+    "dateFinish": "2020-09-07",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": "https://atomicdesign.bradfrost.com",
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8004-bc92-c4f6afe1bc36-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80c6-bcc2-e2d5c5990d0b",
+    "lastEditedTime": "2025-12-11T13:35:00.000Z",
+    "title": "The Road Back To You",
+    "subtitle": "An Enneagram Journey to Self-Discovery",
+    "slug": "the-road-back-to-you",
+    "authors": [
+      {
+        "id": "B<c=",
+        "name": "Ian Morgan Cron",
+        "color": "gray"
+      },
+      {
+        "id": "eUlt",
+        "name": "Suzanne Stabile",
+        "color": "red"
+      }
+    ],
+    "pageTotal": 240,
+    "pagesRead": 240,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2018-11-27",
+    "dateFinish": "2018-11-30",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": "https://www.amazon.com/Road-Back-You-Enneagram-Self-Discovery/dp/0830846190/ref=as_li_ss_tl?ie=UTF8&qid=1543860912&sr=8-3&keywords=the+road+back+to+you&linkCode=ll1&tag=steveostudi0c-20&linkId=409b18dc228d5de0a227b1215679d077&language=en_US",
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80c6-bcc2-e2d5c5990d0b-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": "<p>I'm a 9w1. Super insightful. It has truly changed the way I communicate and empathize with my wife (she read it too) and my co-workers. It was very revealing, and I learned so much about my own personality.</p>\n"
+  },
+  {
+    "id": "2b2aec2d-56b7-809c-884d-f3a5b57f8817",
+    "lastEditedTime": "2025-12-11T13:16:00.000Z",
+    "title": "Remote",
+    "subtitle": "",
+    "slug": "remote",
+    "authors": [
+      {
+        "id": "HAw^",
+        "name": "Jason Fried",
+        "color": "pink"
+      },
+      {
+        "id": "bPni",
+        "name": "David Heinemeier Hansson",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 258,
+    "pagesRead": 258,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2018-05-28",
+    "dateFinish": "2018-07-24",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": "https://www.amazon.com/gp/product/0804137501/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=&linkId=8a406edc2fe9394925c4e61b826ebf96",
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-809c-884d-f3a5b57f8817-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": "<p>Kinda all fluff and dreams. The authors spend a LOT of time just talking about all of the benefits of remote work, trying to sell you to let your team work remote. I was expecting this book to be a lot more about the practicals on <em>how to work remote</em>! If you are looking to convince a manager to let you work remote.</p>\n"
   },
   {
     "id": "2b2aec2d-56b7-80f9-9238-c8a8ac60d006",
@@ -13547,6 +12481,304 @@
     "content": "<p>This isn't a knock on the book itself. Honestly, if I had read this when it first came out (2010) it would have been an easy 5! It's very practical, and super informative. However, many of the practices are outdated. For me, this book was more about fundamentals and a historical take on the Javascript performance.</p>\n"
   },
   {
+    "id": "2b2aec2d-56b7-803f-8ad7-dfd75d410be1",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Responsive Web Design",
+    "subtitle": "",
+    "slug": "responsive-web-design",
+    "authors": [
+      {
+        "id": "Xcz@",
+        "name": "Ethan Marcotte",
+        "color": "green"
+      }
+    ],
+    "pageTotal": 153,
+    "pagesRead": 153,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2017-07-03",
+    "dateFinish": "2017-07-03",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": "https://abookapart.com/products/responsive-web-design",
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-803f-8ad7-dfd75d410be1-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8081-b63a-c816be5a63fc",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "CSS3 for Web Designers",
+    "subtitle": "",
+    "slug": "css3-for-web-designers",
+    "authors": [
+      {
+        "id": "`JNA",
+        "name": "Dan Cederholm",
+        "color": "default"
+      }
+    ],
+    "pageTotal": 139,
+    "pagesRead": 139,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2017-07-03",
+    "dateFinish": "2017-07-03",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": "https://abookapart.com/products/css3-for-web-designers",
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8081-b63a-c816be5a63fc-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-803e-b4d3-fbfce5f6f02d",
+    "lastEditedTime": "2025-12-11T13:14:00.000Z",
+    "title": "HTML5 for Web Designers",
+    "subtitle": "",
+    "slug": "html5-for-web-designers",
+    "authors": [
+      {
+        "id": "{^BD",
+        "name": "Jeremy Keith",
+        "color": "default"
+      },
+      {
+        "id": "?QHE",
+        "name": "Rachel Andrew",
+        "color": "default"
+      }
+    ],
+    "pageTotal": 92,
+    "pagesRead": 92,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2017-07-03",
+    "dateFinish": "2017-07-03",
+    "stars": 2,
+    "asin": "",
+    "isbn": "",
+    "url": "https://abookapart.com/products/1e-html5-for-web-designers",
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-803e-b4d3-fbfce5f6f02d-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": "<p>Super basic. If you need an introduction to HTML, this is the book for you!</p>\n"
+  },
+  {
+    "id": "2b2aec2d-56b7-80f1-934b-c10004b44564",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Drive",
+    "subtitle": "The Surprising Truth About What Motivates Us",
+    "slug": "drive",
+    "authors": [
+      {
+        "id": "v@OT",
+        "name": "Daniel H. Pink",
+        "color": "default"
+      }
+    ],
+    "pageTotal": 288,
+    "pagesRead": 288,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2012-04-02",
+    "dateFinish": "2012-04-02",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80f1-934b-c10004b44564-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80eb-9d3d-d93d03d2bc09",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Refuel",
+    "subtitle": "An Uncomplicated Guide to Connecting with God",
+    "slug": "refuel",
+    "authors": [
+      {
+        "id": "Sftl",
+        "name": "Doug Fields",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 144,
+    "pagesRead": 144,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2011-11-29",
+    "dateFinish": "2011-11-29",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80eb-9d3d-d93d03d2bc09-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80d5-a711-d283e56b21e9",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Eat this book",
+    "subtitle": "A Conversation in the Art of Spiritual Reading",
+    "slug": "eat-this-book",
+    "authors": [
+      {
+        "id": "}DU?",
+        "name": "Eugene Peterson",
+        "color": "purple"
+      }
+    ],
+    "pageTotal": 200,
+    "pagesRead": 200,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2010-05-04",
+    "dateFinish": "2010-05-04",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80d5-a711-d283e56b21e9-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-801e-ad61-ea80b75424d5",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Everybody Wants to Go to Heaven, but Nobody Wants to Die",
+    "subtitle": "Or the Eschatology of Bluegrass",
+    "slug": "everybody-wants-to-go-to-heaven-but-nobody-wants-to-die",
+    "authors": [
+      {
+        "id": "wluy",
+        "name": "David Crowder",
+        "color": "red"
+      },
+      {
+        "id": "Yav`",
+        "name": "Mike Hogan",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 271,
+    "pagesRead": 271,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2008-09-11",
+    "dateFinish": "2008-09-11",
+    "stars": 4,
+    "asin": "0977748006",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-801e-ad61-ea80b75424d5-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8095-8336-c93ec729054c",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "The Four Loves",
+    "subtitle": "",
+    "slug": "the-four-loves",
+    "authors": [
+      {
+        "id": "o_@B",
+        "name": "C.S. Lewis",
+        "color": "default"
+      }
+    ],
+    "pageTotal": 192,
+    "pagesRead": 192,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2008-03-01",
+    "dateFinish": "2008-03-01",
+    "stars": 4,
+    "asin": "0062565397",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8095-8336-c93ec729054c-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80ae-b092-d07f4dea967d",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "(RE) Understanding Prayer",
+    "subtitle": "A Fresh Approach to Conversation With God",
+    "slug": "re-understanding-prayer",
+    "authors": [
+      {
+        "id": "5fa463d2-12a7-4f6c-a574-0066a13ffb7f",
+        "name": "Kyle Lake",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 181,
+    "pagesRead": 181,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2007-10-30",
+    "dateFinish": "2007-10-30",
+    "stars": 5,
+    "asin": "0976364263",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80ae-b092-d07f4dea967d-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-807d-ba3d-e37746a2e4ba",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "That Hideous Strength",
@@ -13611,6 +12843,518 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-80bb-b6eb-cb936e70d589",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Foundations of the Christian Religion",
+    "subtitle": "",
+    "slug": "foundations-of-the-christian-religion",
+    "authors": [
+      {
+        "id": "{bUX",
+        "name": "Blaise Pascal",
+        "color": "brown"
+      }
+    ],
+    "pageTotal": 123,
+    "pagesRead": 123,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2007-01-10",
+    "dateFinish": "2007-01-10",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80bb-b6eb-cb936e70d589-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80ca-954a-dafc9553be36",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Orthodoxy",
+    "subtitle": "",
+    "slug": "orthodoxy",
+    "authors": [
+      {
+        "id": "]IDv",
+        "name": "G.K. Chesterton",
+        "color": "blue"
+      }
+    ],
+    "pageTotal": 114,
+    "pagesRead": 114,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2007-01-10",
+    "dateFinish": "2007-01-10",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80ca-954a-dafc9553be36-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80d2-a536-eb535ebd29ac",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Selections from the Spurgeon Archive",
+    "subtitle": "",
+    "slug": "selections-from-the-spurgeon-archive",
+    "authors": [
+      {
+        "id": "=FL^",
+        "name": "Charles Spurgeon",
+        "color": "brown"
+      }
+    ],
+    "pageTotal": 124,
+    "pagesRead": 124,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2007-01-10",
+    "dateFinish": "2007-01-10",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80d2-a536-eb535ebd29ac-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-807d-a860-c75a84e192aa",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "A Plain Account of Christian Perfection",
+    "subtitle": "",
+    "slug": "a-plain-account-of-christian-perfection",
+    "authors": [
+      {
+        "id": "TtRk",
+        "name": "John Wesley",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 150,
+    "pagesRead": 150,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2007-01-10",
+    "dateFinish": "2007-01-10",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-807d-a860-c75a84e192aa-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80ac-94b2-ff800840abdd",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "The Imitation of Christ",
+    "subtitle": "",
+    "slug": "the-imitation-of-christ",
+    "authors": [
+      {
+        "id": "Cx\\k",
+        "name": "Thomas a Kempis",
+        "color": "orange"
+      }
+    ],
+    "pageTotal": 74,
+    "pagesRead": 74,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2007-01-10",
+    "dateFinish": "2007-01-10",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80ac-94b2-ff800840abdd-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80ca-a5c5-f371a70b4e4a",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Handbook on Faith, Hope and Love",
+    "subtitle": "",
+    "slug": "handbook-on-faith-hope-and-love",
+    "authors": [
+      {
+        "id": "zYp|",
+        "name": "Saint Augustine",
+        "color": "orange"
+      }
+    ],
+    "pageTotal": 75,
+    "pagesRead": 75,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2007-01-10",
+    "dateFinish": "2007-01-10",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80ca-a5c5-f371a70b4e4a-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80f5-8887-c029f6ba88be",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Red Moon Rising",
+    "subtitle": "How 24-7 Prayer Is Awakening a Generation",
+    "slug": "red-moon-rising",
+    "authors": [
+      {
+        "id": "V@G[",
+        "name": "Pete Greig",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 196,
+    "pagesRead": 196,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2006-09-30",
+    "dateFinish": "2006-09-30",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80f5-8887-c029f6ba88be-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80d4-82c2-d73a11652b29",
+    "lastEditedTime": "2025-11-26T20:48:00.000Z",
+    "title": "It's a hell of a life, but not a bad living",
+    "subtitle": "",
+    "slug": "it-s-a-hell-of-a-life-but-not-a-bad-living",
+    "authors": [
+      {
+        "id": "T`pa",
+        "name": "Edward Dmytryk",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 310,
+    "pagesRead": 310,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2006-03-07",
+    "dateFinish": "2006-03-07",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80d4-82c2-d73a11652b29-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8059-97b7-d67ed53ada93",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "The Writer's Journey",
+    "subtitle": "Mythic Structure for Writers",
+    "slug": "the-writer-s-journey",
+    "authors": [
+      {
+        "id": "KeaS",
+        "name": "Christopher Vogler",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 325,
+    "pagesRead": 325,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2006-01-24",
+    "dateFinish": "2006-01-24",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8059-97b7-d67ed53ada93-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8069-8c80-edba99999292",
+    "lastEditedTime": "2025-11-26T20:48:00.000Z",
+    "title": "How Movies Helped Save My Soul",
+    "subtitle": "Finding Spiritual Fingerprints in Culturally Significant Films",
+    "slug": "how-movies-helped-save-my-soul",
+    "authors": [
+      {
+        "id": "r`[r",
+        "name": "Gareth Higgins",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 256,
+    "pagesRead": 256,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2005-12-27",
+    "dateFinish": "2005-12-27",
+    "stars": 2,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8069-8c80-edba99999292-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8091-9090-d9c0ba502a0c",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "The Vision And The Vow",
+    "subtitle": "Re-Discovering Life and Grace",
+    "slug": "the-vision-and-the-vow",
+    "authors": [
+      {
+        "id": "V@G[",
+        "name": "Pete Greig",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 288,
+    "pagesRead": 288,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2005-12-24",
+    "dateFinish": "2005-12-24",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8091-9090-d9c0ba502a0c-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8006-9aee-dc458994047e",
+    "lastEditedTime": "2025-11-26T20:47:00.000Z",
+    "title": "Understanding God's Will",
+    "subtitle": "How to Hack the Equation Without Formulas",
+    "slug": "understanding-god-s-will",
+    "authors": [
+      {
+        "id": "5fa463d2-12a7-4f6c-a574-0066a13ffb7f",
+        "name": "Kyle Lake",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 181,
+    "pagesRead": 181,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2005-06-16",
+    "dateFinish": "2005-06-16",
+    "stars": 5,
+    "asin": "0976364263",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8006-9aee-dc458994047e-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80f4-9276-c1c2d08b3f45",
+    "lastEditedTime": "2025-11-26T20:47:00.000Z",
+    "title": "The Coffeehouse Gospel",
+    "subtitle": "Sharing Your Faith Through Everyday Conversation",
+    "slug": "the-coffeehouse-gospel",
+    "authors": [
+      {
+        "id": "Tzk@",
+        "name": "Matthew Paul Turner",
+        "color": "brown"
+      }
+    ],
+    "pageTotal": 157,
+    "pagesRead": 157,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2005-06-06",
+    "dateFinish": "2005-06-06",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80f4-9276-c1c2d08b3f45-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8078-884b-fa34b69be7bf",
+    "lastEditedTime": "2025-11-26T20:48:00.000Z",
+    "title": "Nightmare Academy",
+    "subtitle": "Veritas Project, #2",
+    "slug": "nightmare-academy",
+    "authors": [
+      {
+        "id": "kORC",
+        "name": "Frank E. Peretti",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 311,
+    "pagesRead": 311,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2005-05-26",
+    "dateFinish": "2005-05-26",
+    "stars": 2,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8078-884b-fa34b69be7bf-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8097-b584-d229f18da998",
+    "lastEditedTime": "2025-11-26T20:48:00.000Z",
+    "title": "Hangman's Curse",
+    "subtitle": "Veritas Project, #1",
+    "slug": "hangman-s-curse",
+    "authors": [
+      {
+        "id": "kORC",
+        "name": "Frank E. Peretti",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 281,
+    "pagesRead": 281,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2005-05-26",
+    "dateFinish": "2005-05-26",
+    "stars": 2,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8097-b584-d229f18da998-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80d6-b89e-f98d6b0a1d3d",
+    "lastEditedTime": "2025-11-26T20:47:00.000Z",
+    "title": "The Wounded Spirit",
+    "subtitle": "",
+    "slug": "the-wounded-spirit",
+    "authors": [
+      {
+        "id": "kORC",
+        "name": "Frank E. Peretti",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 80,
+    "pagesRead": 80,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2005-05-26",
+    "dateFinish": "2005-05-26",
+    "stars": 2,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80d6-b89e-f98d6b0a1d3d-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-807c-bac2-e39e61070325",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Darwin's Black Box",
@@ -13643,35 +13387,291 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80f9-9f37-d6b7becff0c0",
+    "id": "2b2aec2d-56b7-80c5-9524-d045dbc5bb9d",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Love That Goes the Distance",
+    "title": "The Historical Reliability of the Gospels",
     "subtitle": "",
-    "slug": "love-that-goes-the-distance",
+    "slug": "the-historical-reliability-of-the-gospels",
     "authors": [
       {
-        "id": "wzSm",
-        "name": "Jud Wilhite",
+        "id": "_USk",
+        "name": "Craig L. Blomberg",
         "color": "default"
       }
     ],
-    "pageTotal": 144,
-    "pagesRead": 144,
+    "pageTotal": 416,
+    "pagesRead": 416,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
     "format": "PAPERBACK",
-    "dateStart": "2003-07-01",
-    "dateFinish": "2003-07-01",
-    "stars": 3,
-    "asin": "0801064643",
+    "dateStart": "2005-04-22",
+    "dateFinish": "2005-04-22",
+    "stars": 4,
+    "asin": "",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80f9-9f37-d6b7becff0c0-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-80c5-9524-d045dbc5bb9d-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8041-ae79-c369639d1dbb",
+    "lastEditedTime": "2025-11-26T20:48:00.000Z",
+    "title": "Come Thirsty",
+    "subtitle": "No Heart Too Dry for His Touch",
+    "slug": "come-thirsty",
+    "authors": [
+      {
+        "id": "b=b`",
+        "name": "Max Lucado",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 240,
+    "pagesRead": 240,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2005-04-09",
+    "dateFinish": "2005-04-09",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8041-ae79-c369639d1dbb-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8030-9f6e-dc13e967b04d",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Film Directing Shot by Shot",
+    "subtitle": "Visualizing from Concept to Screen",
+    "slug": "film-directing-shot-by-shot",
+    "authors": [
+      {
+        "id": "Mw`?",
+        "name": "Steven D. Katz",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 400,
+    "pagesRead": 400,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2005-01-17",
+    "dateFinish": "2005-01-17",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8030-9f6e-dc13e967b04d-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8078-8548-cf91a95c08f6",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Traveling Light",
+    "subtitle": "Releasing the Burdens You Were Never Intended to Bear",
+    "slug": "traveling-light",
+    "authors": [
+      {
+        "id": "b=b`",
+        "name": "Max Lucado",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 220,
+    "pagesRead": 220,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2005-01-01",
+    "dateFinish": "2005-01-02",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8078-8548-cf91a95c08f6-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8091-863a-c7edc9415fc2",
+    "lastEditedTime": "2025-11-26T20:47:00.000Z",
+    "title": "Thunder of Heaven (The Heaven Trilogy, #3)",
+    "subtitle": "",
+    "slug": "thunder-of-heaven-the-heaven-trilogy-3",
+    "authors": [
+      {
+        "id": "=PMl",
+        "name": "Ted Dekker",
+        "color": "brown"
+      }
+    ],
+    "pageTotal": 512,
+    "pagesRead": 512,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2004-10-11",
+    "dateFinish": "2004-10-11",
+    "stars": 3,
+    "asin": "0849945178",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8091-863a-c7edc9415fc2-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8084-b028-ef8701f7927b",
+    "lastEditedTime": "2025-11-26T20:47:00.000Z",
+    "title": "Thr3e",
+    "subtitle": "",
+    "slug": "thr3e",
+    "authors": [
+      {
+        "id": "=PMl",
+        "name": "Ted Dekker",
+        "color": "brown"
+      }
+    ],
+    "pageTotal": 400,
+    "pagesRead": 400,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2004-10-11",
+    "dateFinish": "2004-10-11",
+    "stars": 3,
+    "asin": "0849945127",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8084-b028-ef8701f7927b-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-809c-ab73-ec7c9da6a673",
+    "lastEditedTime": "2025-11-26T20:48:00.000Z",
+    "title": "Next Door Savior",
+    "subtitle": "Near Enough to Touch, Strong Enough to Trust",
+    "slug": "next-door-savior",
+    "authors": [
+      {
+        "id": "b=b`",
+        "name": "Max Lucado",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 240,
+    "pagesRead": 240,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2004-04-20",
+    "dateFinish": "2004-04-20",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-809c-ab73-ec7c9da6a673-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8026-b704-de8da8dc43dc",
+    "lastEditedTime": "2025-11-26T20:48:00.000Z",
+    "title": "Blink - Dekker",
+    "subtitle": "",
+    "slug": "blink-dekker",
+    "authors": [
+      {
+        "id": "=PMl",
+        "name": "Ted Dekker",
+        "color": "brown"
+      }
+    ],
+    "pageTotal": 400,
+    "pagesRead": 400,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2004-01-23",
+    "dateFinish": "2004-01-23",
+    "stars": 3,
+    "asin": "084994371X",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8026-b704-de8da8dc43dc-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8029-a359-ea6496155c88",
+    "lastEditedTime": "2025-11-26T20:47:00.000Z",
+    "title": "The Case for Christ",
+    "subtitle": "",
+    "slug": "the-case-for-christ",
+    "authors": [
+      {
+        "id": "XErQ",
+        "name": "Lee Strobel",
+        "color": "blue"
+      }
+    ],
+    "pageTotal": 336,
+    "pagesRead": 336,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2003-08-07",
+    "dateFinish": "2003-08-07",
+    "stars": 5,
+    "asin": "0310345863",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8029-a359-ea6496155c88-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
     "content": ""
   },
   {
@@ -14389,38 +14389,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80a2-89e6-dfd11bb1410f",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Divine Conspiracy",
-    "subtitle": "Discovering Our Hidden Life in God",
-    "slug": "the-divine-conspiracy",
-    "authors": [
-      {
-        "id": "Yx{x",
-        "name": "Dallas Willard",
-        "color": "purple"
-      }
-    ],
-    "pageTotal": 428,
-    "pagesRead": 428,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2021-09-12",
-    "dateFinish": "2022-07-13",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80a2-89e6-dfd11bb1410f-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-804e-a6a2-d7951e7f9e50",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Practical Object-Oriented Design",
@@ -15021,6 +14989,38 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-802f-9134-c18c70da598c-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-800b-8444-c5be78199c36",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "The Life You've Always Wanted",
+    "subtitle": "Spiritual Disciplines for Ordinary People",
+    "slug": "the-life-you-ve-always-wanted",
+    "authors": [
+      {
+        "id": "UFXu",
+        "name": "John Ortberg",
+        "color": "blue"
+      }
+    ],
+    "pageTotal": 272,
+    "pagesRead": 272,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2004-06-23",
+    "dateFinish": "2004-06-23",
+    "stars": 2,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-800b-8444-c5be78199c36-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -16541,6 +16541,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-80c2-93ff-d0bff6169b89",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Artemis",
+    "subtitle": "",
+    "slug": "artemis",
+    "authors": [
+      {
+        "id": "Oj|F",
+        "name": "Andy Weir",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 305,
+    "pagesRead": 305,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2022-11-06",
+    "dateFinish": "2022-11-10",
+    "stars": 2,
+    "asin": "0553448129",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80c2-93ff-d0bff6169b89-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-80b9-8e82-c62bc425d034",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Not a Fan",
@@ -16727,6 +16759,38 @@
     "url": "https://www.amazon.com/Finding-Gods-Life-My-Will/dp/0525652817",
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-80d4-a8d7-d5d37fe2f281-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80a2-89e6-dfd11bb1410f",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "The Divine Conspiracy",
+    "subtitle": "Discovering Our Hidden Life in God",
+    "slug": "the-divine-conspiracy",
+    "authors": [
+      {
+        "id": "Yx{x",
+        "name": "Dallas Willard",
+        "color": "purple"
+      }
+    ],
+    "pageTotal": 428,
+    "pagesRead": 428,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2021-09-12",
+    "dateFinish": "2022-07-13",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80a2-89e6-dfd11bb1410f-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -17633,38 +17697,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-80e3-8145-d8ff9bc0f1dd-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-800b-8444-c5be78199c36",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Life You've Always Wanted",
-    "subtitle": "Spiritual Disciplines for Ordinary People",
-    "slug": "the-life-you-ve-always-wanted",
-    "authors": [
-      {
-        "id": "UFXu",
-        "name": "John Ortberg",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 272,
-    "pagesRead": 272,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2004-06-23",
-    "dateFinish": "2004-06-23",
-    "stars": 2,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-800b-8444-c5be78199c36-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,

@@ -387,7 +387,7 @@
     },
     {
       "id": "353aec2d-56b7-8169-84c5-fc3fbec34e88",
-      "lastEditedTime": "2026-07-30T22:05:00.000Z",
+      "lastEditedTime": "2026-09-30T23:57:00.000Z",
       "title": "Guardians of the Galaxy",
       "slug": "guardians-of-the-galaxy",
       "imdbRating": "8.0",
@@ -412,7 +412,7 @@
         "Lauren": {
           "watched": "07-20-26",
           "watchedISO": "2026-07-20",
-          "rating": "0"
+          "rating": "7"
         },
         "Steve": {
           "watched": "07-20-26",
@@ -425,7 +425,7 @@
           "rating": "9.8"
         }
       },
-      "familyScore": "8.9"
+      "familyScore": "8.5"
     },
     {
       "id": "353aec2d-56b7-814d-a8bc-cdaea34d1191",
@@ -723,7 +723,7 @@
     },
     {
       "id": "353aec2d-56b7-8130-922f-efa750fa4e20",
-      "lastEditedTime": "2026-08-21T20:12:00.000Z",
+      "lastEditedTime": "2026-09-30T23:56:00.000Z",
       "title": "Black Panther",
       "slug": "black-panther",
       "imdbRating": "7.3",
@@ -736,32 +736,32 @@
       "order": 18,
       "reviews": {
         "Elliot": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-30-26",
+          "watchedISO": "2026-09-30",
+          "rating": "8.8"
         },
         "Levi": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-30-26",
+          "watchedISO": "2026-09-30",
+          "rating": "9.9"
         },
         "Lauren": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-30-26",
+          "watchedISO": "2026-09-30",
+          "rating": "7.8"
         },
         "Steve": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-30-26",
+          "watchedISO": "2026-09-30",
+          "rating": "8.8"
         },
         "Oliver": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "09-30-26",
+          "watchedISO": "2026-09-30",
+          "rating": "8.2"
         }
       },
-      "familyScore": null
+      "familyScore": "8.7"
     },
     {
       "id": "353aec2d-56b7-8111-ae9b-d1e4e6a85f7a",
@@ -1644,29 +1644,29 @@
     "memberTopMovies": {
       "Lauren": [
         {
+          "title": "Black Panther",
+          "rating": "7.8"
+        },
+        {
           "title": "Captain America: The Winter Soldier",
           "rating": "7.3"
         },
         {
           "title": "Avengers: Age of Ultron",
           "rating": "7.2"
-        },
-        {
-          "title": "The Avengers",
-          "rating": "7.2"
         }
       ],
       "Steve": [
+        {
+          "title": "Black Panther",
+          "rating": "8.8"
+        },
         {
           "title": "Iron Man 3",
           "rating": "8.5"
         },
         {
           "title": "Doctor Strange",
-          "rating": "8"
-        },
-        {
-          "title": "Iron Man",
           "rating": "8"
         }
       ],
@@ -1708,16 +1708,16 @@
           "rating": "10"
         },
         {
-          "title": "Guardians of the Galaxy Vol. 2",
-          "rating": "9.8"
+          "title": "Black Panther",
+          "rating": "9.9"
         }
       ]
     },
     "topFamilyMovie": {
-      "title": "Guardians of the Galaxy",
-      "rating": "8.9"
+      "title": "Captain America: Civil War",
+      "rating": "8.7"
     },
-    "nextMovieSlug": "black-panther",
-    "nextMovieTitle": "Black Panther"
+    "nextMovieSlug": "avengers-infinity-war",
+    "nextMovieTitle": "Avengers: Infinity War"
   }
 }
