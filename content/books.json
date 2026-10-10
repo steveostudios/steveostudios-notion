@@ -1,5 +1,29 @@
 [
   {
+    "id": "3f5aec2d-56b7-807f-8f77-e13a9c1032e1",
+    "lastEditedTime": "2026-10-10T15:25:00.000Z",
+    "title": "The Mysterious Benedict Society: ",
+    "subtitle": "",
+    "slug": "the-mysterious-benedict-society",
+    "authors": [],
+    "pageTotal": null,
+    "pagesRead": null,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 0,
+    "format": "PAPERBACK",
+    "dateStart": "2026-10-10",
+    "dateFinish": null,
+    "stars": null,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": null,
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "3f4aec2d-56b7-80a7-88e2-c137caf6dab1",
     "lastEditedTime": "2026-10-09T18:23:00.000Z",
     "title": "East of Eden",
@@ -389,38 +413,6 @@
     "content": ""
   },
   {
-    "id": "39aaec2d-56b7-81e0-9c6b-ef06efdfa092",
-    "lastEditedTime": "2026-08-07T13:05:00.000Z",
-    "title": "Thou Shalt Not Be a Jerk",
-    "subtitle": "A Christian's Guide to Engaging Politics",
-    "slug": "thou-shalt-not-be-a-jerk",
-    "authors": [
-      {
-        "id": "725a2502-90a2-4bfb-90c2-fadd8a25d9b8",
-        "name": "Eugene Cho",
-        "color": "orange"
-      }
-    ],
-    "pageTotal": 272,
-    "pagesRead": 272,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2026-07-17T04:00:00.000+00:00",
-    "dateFinish": "2026-08-07T04:00:00.000+00:00",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/39aaec2d-56b7-81e0-9c6b-ef06efdfa092-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
     "id": "3b4aec2d-56b7-812c-af52-d1b09f2cc161",
     "lastEditedTime": "2026-08-07T13:06:00.000Z",
     "title": "Bastille Vs. the Evil Librarians",
@@ -495,8 +487,40 @@
     "content": ""
   },
   {
+    "id": "39aaec2d-56b7-81e0-9c6b-ef06efdfa092",
+    "lastEditedTime": "2026-08-07T13:05:00.000Z",
+    "title": "Thou Shalt Not Be a Jerk",
+    "subtitle": "A Christian's Guide to Engaging Politics",
+    "slug": "thou-shalt-not-be-a-jerk",
+    "authors": [
+      {
+        "id": "725a2502-90a2-4bfb-90c2-fadd8a25d9b8",
+        "name": "Eugene Cho",
+        "color": "orange"
+      }
+    ],
+    "pageTotal": 272,
+    "pagesRead": 272,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2026-07-17T04:00:00.000+00:00",
+    "dateFinish": "2026-08-07T04:00:00.000+00:00",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/39aaec2d-56b7-81e0-9c6b-ef06efdfa092-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "39aaec2d-56b7-81a5-8bb6-f9280843dc8f",
-    "lastEditedTime": "2026-10-08T20:59:00.000Z",
+    "lastEditedTime": "2026-10-09T20:35:00.000Z",
     "title": "The Explicit Gospel",
     "subtitle": "",
     "slug": "the-explicit-gospel",
@@ -508,10 +532,10 @@
       }
     ],
     "pageTotal": 240,
-    "pagesRead": 134,
+    "pagesRead": 154,
     "minutesTotal": null,
     "miniutesRead": null,
-    "progress": 0.558333333333,
+    "progress": 0.641666666667,
     "format": "HARDCOVER",
     "dateStart": "2026-09-02T04:00:00.000+00:00",
     "dateFinish": null,
@@ -617,6 +641,38 @@
     "content": ""
   },
   {
+    "id": "387aec2d-56b7-81b6-9b82-d8d28cbc4e9c",
+    "lastEditedTime": "2026-07-22T02:38:00.000Z",
+    "title": "The End of the Affair",
+    "subtitle": "",
+    "slug": "the-end-of-the-affair",
+    "authors": [
+      {
+        "id": "1623cd02-6782-4397-b0b9-79fab081263f",
+        "name": "Graham Greene",
+        "color": "orange"
+      }
+    ],
+    "pageTotal": 160,
+    "pagesRead": 160,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2026-07-07T04:00:00.000+00:00",
+    "dateFinish": "2026-07-21",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/387aec2d-56b7-81b6-9b82-d8d28cbc4e9c-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "397aec2d-56b7-8144-8d4f-cfed40edc78a",
     "lastEditedTime": "2026-07-20T10:22:00.000Z",
     "title": "The Perfect Weapon",
@@ -715,38 +771,6 @@
     },
     "fiction": false,
     "own": false,
-    "content": ""
-  },
-  {
-    "id": "387aec2d-56b7-81b6-9b82-d8d28cbc4e9c",
-    "lastEditedTime": "2026-07-22T02:38:00.000Z",
-    "title": "The End of the Affair",
-    "subtitle": "",
-    "slug": "the-end-of-the-affair",
-    "authors": [
-      {
-        "id": "1623cd02-6782-4397-b0b9-79fab081263f",
-        "name": "Graham Greene",
-        "color": "orange"
-      }
-    ],
-    "pageTotal": 160,
-    "pagesRead": 160,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2026-07-07T04:00:00.000+00:00",
-    "dateFinish": "2026-07-21",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/387aec2d-56b7-81b6-9b82-d8d28cbc4e9c-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": true,
     "content": ""
   },
   {
@@ -1133,6 +1157,38 @@
     "content": ""
   },
   {
+    "id": "2d5aec2d-56b7-814f-9175-e463e3ca6a8f",
+    "lastEditedTime": "2026-07-17T14:31:00.000Z",
+    "title": "Beloved",
+    "subtitle": "",
+    "slug": "beloved",
+    "authors": [
+      {
+        "id": "dpxv",
+        "name": "Francis Chan",
+        "color": "red"
+      }
+    ],
+    "pageTotal": 160,
+    "pagesRead": 160,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2026-07-08T04:00:00.000+00:00",
+    "dateFinish": "2026-07-17T04:00:00.000+00:00",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2d5aec2d-56b7-814f-9175-e463e3ca6a8f-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "2edaec2d-56b7-81ba-9722-fb16e0838c82",
     "lastEditedTime": "2026-07-07T13:10:00.000Z",
     "title": "Why Do I Do What I Don't Want to Do?",
@@ -1166,38 +1222,6 @@
       "large": "/assets/img/notion/2edaec2d-56b7-81ba-9722-fb16e0838c82-large-260w.jpeg"
     },
     "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "33faec2d-56b7-8094-9d4e-e23e50c667ef",
-    "lastEditedTime": "2026-06-15T15:32:00.000Z",
-    "title": "Alcatraz vs ",
-    "subtitle": "",
-    "slug": "alcatraz-vs-3",
-    "authors": [
-      {
-        "id": "7e4333c1-405f-412b-a8a0-e6b5ba903929",
-        "name": "Brandon Sanderson",
-        "color": "yellow"
-      }
-    ],
-    "pageTotal": 322,
-    "pagesRead": null,
-    "minutesTotal": 344,
-    "miniutesRead": 344,
-    "progress": 1,
-    "format": "AUDIO",
-    "dateStart": "2026-04-11",
-    "dateFinish": "2026-06-12",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/33faec2d-56b7-8094-9d4e-e23e50c667ef-large-260w.jpeg"
-    },
-    "fiction": true,
     "own": false,
     "content": ""
   },
@@ -1399,6 +1423,38 @@
     "content": ""
   },
   {
+    "id": "33faec2d-56b7-8094-9d4e-e23e50c667ef",
+    "lastEditedTime": "2026-06-15T15:32:00.000Z",
+    "title": "Alcatraz vs ",
+    "subtitle": "",
+    "slug": "alcatraz-vs-3",
+    "authors": [
+      {
+        "id": "7e4333c1-405f-412b-a8a0-e6b5ba903929",
+        "name": "Brandon Sanderson",
+        "color": "yellow"
+      }
+    ],
+    "pageTotal": 322,
+    "pagesRead": null,
+    "minutesTotal": 344,
+    "miniutesRead": 344,
+    "progress": 1,
+    "format": "AUDIO",
+    "dateStart": "2026-04-11",
+    "dateFinish": "2026-06-12",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/33faec2d-56b7-8094-9d4e-e23e50c667ef-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "344aec2d-56b7-81a8-a974-f739d724af6d",
     "lastEditedTime": "2026-09-28T21:05:00.000Z",
     "title": "The Fellowship of the Ring",
@@ -1483,6 +1539,38 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/34baec2d-56b7-8104-a00d-dcc2e334095f-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2d5aec2d-56b7-819b-808c-d25bb407c9b5",
+    "lastEditedTime": "2026-04-29T16:42:00.000Z",
+    "title": "Dopamine Nation",
+    "subtitle": "Finding Balance in the Age of Indulgence",
+    "slug": "dopamine-nation",
+    "authors": [
+      {
+        "id": "444fddd5-6a9b-4664-9c91-2ce199aa7213",
+        "name": "Anna Lembke",
+        "color": "orange"
+      }
+    ],
+    "pageTotal": 304,
+    "pagesRead": 304,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2026-04-20T04:00:00.000+00:00",
+    "dateFinish": "2026-04-29T04:00:00.000+00:00",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2d5aec2d-56b7-819b-808c-d25bb407c9b5-large-260w.jpeg"
     },
     "fiction": false,
     "own": false,
@@ -1686,70 +1774,6 @@
     "content": ""
   },
   {
-    "id": "2d5aec2d-56b7-814f-9175-e463e3ca6a8f",
-    "lastEditedTime": "2026-07-17T14:31:00.000Z",
-    "title": "Beloved",
-    "subtitle": "",
-    "slug": "beloved",
-    "authors": [
-      {
-        "id": "dpxv",
-        "name": "Francis Chan",
-        "color": "red"
-      }
-    ],
-    "pageTotal": 160,
-    "pagesRead": 160,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2026-07-08T04:00:00.000+00:00",
-    "dateFinish": "2026-07-17T04:00:00.000+00:00",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2d5aec2d-56b7-814f-9175-e463e3ca6a8f-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2d5aec2d-56b7-819b-808c-d25bb407c9b5",
-    "lastEditedTime": "2026-04-29T16:42:00.000Z",
-    "title": "Dopamine Nation",
-    "subtitle": "Finding Balance in the Age of Indulgence",
-    "slug": "dopamine-nation",
-    "authors": [
-      {
-        "id": "444fddd5-6a9b-4664-9c91-2ce199aa7213",
-        "name": "Anna Lembke",
-        "color": "orange"
-      }
-    ],
-    "pageTotal": 304,
-    "pagesRead": 304,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2026-04-20T04:00:00.000+00:00",
-    "dateFinish": "2026-04-29T04:00:00.000+00:00",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2d5aec2d-56b7-819b-808c-d25bb407c9b5-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
     "id": "334aec2d-56b7-81f2-aa91-cfdfd3d6c531",
     "lastEditedTime": "2026-04-11T02:14:00.000Z",
     "title": "Small and the Mighty",
@@ -1779,38 +1803,6 @@
     },
     "fiction": false,
     "own": false,
-    "content": ""
-  },
-  {
-    "id": "2ccaec2d-56b7-80ee-8dd1-d7da73491f3f",
-    "lastEditedTime": "2026-04-09T22:18:00.000Z",
-    "title": "America’s Spirit",
-    "subtitle": "A History of Bourbon, the People Who Pioneered it and its Rise from the Ashes of Prohibition, Flavor Basics and Classic Cocktail Recipes",
-    "slug": "america-s-spirit",
-    "authors": [
-      {
-        "id": "7ef8ef9e-79fa-43bc-bef9-549b16af9d00",
-        "name": "Robert R. Mohr",
-        "color": "brown"
-      }
-    ],
-    "pageTotal": 178,
-    "pagesRead": 178,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2026-02-19",
-    "dateFinish": "2026-04-09",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2ccaec2d-56b7-80ee-8dd1-d7da73491f3f-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
     "content": ""
   },
   {
@@ -2335,6 +2327,38 @@
     "content": ""
   },
   {
+    "id": "2ccaec2d-56b7-80ee-8dd1-d7da73491f3f",
+    "lastEditedTime": "2026-04-09T22:18:00.000Z",
+    "title": "America’s Spirit",
+    "subtitle": "A History of Bourbon, the People Who Pioneered it and its Rise from the Ashes of Prohibition, Flavor Basics and Classic Cocktail Recipes",
+    "slug": "america-s-spirit",
+    "authors": [
+      {
+        "id": "7ef8ef9e-79fa-43bc-bef9-549b16af9d00",
+        "name": "Robert R. Mohr",
+        "color": "brown"
+      }
+    ],
+    "pageTotal": 178,
+    "pagesRead": 178,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2026-02-19",
+    "dateFinish": "2026-04-09",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2ccaec2d-56b7-80ee-8dd1-d7da73491f3f-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2ccaec2d-56b7-8160-b4f3-cea4b3e4a124",
     "lastEditedTime": "2026-03-11T14:18:00.000Z",
     "title": "Originals: How Non-conformists Move the World",
@@ -2361,38 +2385,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2ccaec2d-56b7-8160-b4f3-cea4b3e4a124-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2ccaec2d-56b7-8115-8a3d-f83e62dea1ad",
-    "lastEditedTime": "2025-12-17T16:51:00.000Z",
-    "title": "Celebration of Discipline, Special Anniversary Edition",
-    "subtitle": "The Path to Spiritual Growth",
-    "slug": "celebration-of-discipline-special-anniversary-edition",
-    "authors": [
-      {
-        "id": "2050bb6f-7c64-462e-8047-9d98573880f8",
-        "name": "Richard J. Foster",
-        "color": "brown"
-      }
-    ],
-    "pageTotal": 288,
-    "pagesRead": null,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 0,
-    "format": "HARDCOVER",
-    "dateStart": null,
-    "dateFinish": null,
-    "stars": null,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2ccaec2d-56b7-8115-8a3d-f83e62dea1ad-large-260w.jpeg"
     },
     "fiction": false,
     "own": false,
@@ -2523,6 +2515,38 @@
       "large": "/assets/img/notion/2ccaec2d-56b7-80ad-83d4-c6fe0abf338c-large-260w.jpeg"
     },
     "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2ccaec2d-56b7-8115-8a3d-f83e62dea1ad",
+    "lastEditedTime": "2025-12-17T16:51:00.000Z",
+    "title": "Celebration of Discipline, Special Anniversary Edition",
+    "subtitle": "The Path to Spiritual Growth",
+    "slug": "celebration-of-discipline-special-anniversary-edition",
+    "authors": [
+      {
+        "id": "2050bb6f-7c64-462e-8047-9d98573880f8",
+        "name": "Richard J. Foster",
+        "color": "brown"
+      }
+    ],
+    "pageTotal": 288,
+    "pagesRead": null,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 0,
+    "format": "HARDCOVER",
+    "dateStart": null,
+    "dateFinish": null,
+    "stars": null,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2ccaec2d-56b7-8115-8a3d-f83e62dea1ad-large-260w.jpeg"
+    },
+    "fiction": false,
     "own": false,
     "content": ""
   },
@@ -2908,38 +2932,6 @@
     },
     "fiction": true,
     "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8094-a095-e4740a817e6e",
-    "lastEditedTime": "2025-11-26T20:47:00.000Z",
-    "title": "The Secret of Chimneys",
-    "subtitle": "",
-    "slug": "the-secret-of-chimneys",
-    "authors": [
-      {
-        "id": "u>ig",
-        "name": "Agatha Christie",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 336,
-    "pagesRead": null,
-    "minutesTotal": 283,
-    "miniutesRead": 283,
-    "progress": 1,
-    "format": "AUDIO",
-    "dateStart": "2025-05-13",
-    "dateFinish": "2025-05-16",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8094-a095-e4740a817e6e-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": false,
     "content": ""
   },
   {
@@ -3817,38 +3809,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80f7-9d2a-c22ec418785d",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Faith Among the Faithless",
-    "subtitle": "Learning from Esther How to Live in a World Gone Mad",
-    "slug": "faith-among-the-faithless",
-    "authors": [
-      {
-        "id": "5c842963-2d8a-4399-9623-3637d5fb3e76",
-        "name": "Mike Cosper",
-        "color": "purple"
-      }
-    ],
-    "pageTotal": 208,
-    "pagesRead": 208,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2024-02-26",
-    "dateFinish": "2024-03-02",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80f7-9d2a-c22ec418785d-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-806a-94fc-e13c8cf9751b",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Wireframing for Everyone",
@@ -4626,6 +4586,38 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-8023-966e-dc891befa473-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8009-9329-c649ec7ad3d5",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "One at a Time",
+    "subtitle": "The Unexpected Way God Wants to Use You to Change the World",
+    "slug": "one-at-a-time",
+    "authors": [
+      {
+        "id": "esCr",
+        "name": "Kyle Idleman",
+        "color": "brown"
+      }
+    ],
+    "pageTotal": 256,
+    "pagesRead": 256,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2022-09-11",
+    "dateFinish": "2022-09-19",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": "https://www.amazon.com/One-Time-Unexpected-Wants-Change/dp/0801094917",
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8009-9329-c649ec7ad3d5-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -7173,6 +7165,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-809f-ab62-dc9a97342a79",
+    "lastEditedTime": "2025-11-26T20:47:00.000Z",
+    "title": "Through Painted Deserts",
+    "subtitle": "Light, God, and Beauty on the Open Road",
+    "slug": "through-painted-deserts",
+    "authors": [
+      {
+        "id": "DGM{",
+        "name": "Donald Miller",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 256,
+    "pagesRead": 256,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2006-04-29",
+    "dateFinish": "2006-04-29",
+    "stars": 5,
+    "asin": "0785209824",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-809f-ab62-dc9a97342a79-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-8002-a7e9-d27f161d5dde",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "The Pilgrim's Progress",
@@ -7337,38 +7361,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-8007-bbc1-ea6455d62623-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-800f-b729-ecd5f74ec9ee",
-    "lastEditedTime": "2025-11-26T20:48:00.000Z",
-    "title": "Blue Like Jazz",
-    "subtitle": "Nonreligious Thoughts on Christian Spirituality",
-    "slug": "blue-like-jazz",
-    "authors": [
-      {
-        "id": "DGM{",
-        "name": "Donald Miller",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 256,
-    "pagesRead": 256,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2005-06-06",
-    "dateFinish": "2005-06-06",
-    "stars": 5,
-    "asin": "0785263705",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-800f-b729-ecd5f74ec9ee-large-260w.jpeg"
     },
     "fiction": false,
     "own": false,
@@ -7895,38 +7887,6 @@
     "fiction": false,
     "own": true,
     "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8038-9ebf-de28d45887e1",
-    "lastEditedTime": "2025-12-19T16:11:00.000Z",
-    "title": "Going Infinite",
-    "subtitle": "The Rise and Fall of a New Tycoon",
-    "slug": "going-infinite",
-    "authors": [
-      {
-        "id": "Eb|h",
-        "name": "Michael Lewis",
-        "color": "orange"
-      }
-    ],
-    "pageTotal": 254,
-    "pagesRead": 254,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2025-12-11",
-    "dateFinish": "2025-12-19T05:00:00.000+00:00",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8038-9ebf-de28d45887e1-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": "<p>This was a fast and fun read. I’ve also read <em>Number Go Up</em>, which chronicles the rise and fall of FTX and Sam Bankman-Freid. That book was more of a primer about crypto and the industry through the eyes of FTX. This book dives more into (Lewis’ interpretation of) Sam’s mind, the Effective Altruists movement, and the child-like behavior that led to the demise of FTX. He has interviews with the employees, lawyers, psychologist, and friends of Sam so you get a closer look at how it all went down.</p>\n"
   },
   {
     "id": "2b2aec2d-56b7-80b1-8cce-e74e0abee314",
@@ -8507,6 +8467,38 @@
     },
     "fiction": false,
     "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8094-a095-e4740a817e6e",
+    "lastEditedTime": "2025-11-26T20:47:00.000Z",
+    "title": "The Secret of Chimneys",
+    "subtitle": "",
+    "slug": "the-secret-of-chimneys",
+    "authors": [
+      {
+        "id": "u>ig",
+        "name": "Agatha Christie",
+        "color": "blue"
+      }
+    ],
+    "pageTotal": 336,
+    "pagesRead": null,
+    "minutesTotal": 283,
+    "miniutesRead": 283,
+    "progress": 1,
+    "format": "AUDIO",
+    "dateStart": "2025-05-13",
+    "dateFinish": "2025-05-16",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8094-a095-e4740a817e6e-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
     "content": ""
   },
   {
@@ -10113,11 +10105,11 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-809f-ab62-dc9a97342a79",
-    "lastEditedTime": "2025-11-26T20:47:00.000Z",
-    "title": "Through Painted Deserts",
-    "subtitle": "Light, God, and Beauty on the Open Road",
-    "slug": "through-painted-deserts",
+    "id": "2b2aec2d-56b7-800f-b729-ecd5f74ec9ee",
+    "lastEditedTime": "2025-11-26T20:48:00.000Z",
+    "title": "Blue Like Jazz",
+    "subtitle": "Nonreligious Thoughts on Christian Spirituality",
+    "slug": "blue-like-jazz",
     "authors": [
       {
         "id": "DGM{",
@@ -10131,14 +10123,14 @@
     "miniutesRead": null,
     "progress": 1,
     "format": "PAPERBACK",
-    "dateStart": "2006-04-29",
-    "dateFinish": "2006-04-29",
+    "dateStart": "2005-06-06",
+    "dateFinish": "2005-06-06",
     "stars": 5,
-    "asin": "0785209824",
+    "asin": "0785263705",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-809f-ab62-dc9a97342a79-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-800f-b729-ecd5f74ec9ee-large-260w.jpeg"
     },
     "fiction": false,
     "own": false,
@@ -10347,6 +10339,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-8038-9ebf-de28d45887e1",
+    "lastEditedTime": "2025-12-19T16:11:00.000Z",
+    "title": "Going Infinite",
+    "subtitle": "The Rise and Fall of a New Tycoon",
+    "slug": "going-infinite",
+    "authors": [
+      {
+        "id": "Eb|h",
+        "name": "Michael Lewis",
+        "color": "orange"
+      }
+    ],
+    "pageTotal": 254,
+    "pagesRead": 254,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2025-12-11",
+    "dateFinish": "2025-12-19T05:00:00.000+00:00",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8038-9ebf-de28d45887e1-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": "<p>This was a fast and fun read. I’ve also read <em>Number Go Up</em>, which chronicles the rise and fall of FTX and Sam Bankman-Freid. That book was more of a primer about crypto and the industry through the eyes of FTX. This book dives more into (Lewis’ interpretation of) Sam’s mind, the Effective Altruists movement, and the child-like behavior that led to the demise of FTX. He has interviews with the employees, lawyers, psychologist, and friends of Sam so you get a closer look at how it all went down.</p>\n"
+  },
+  {
     "id": "2b2aec2d-56b7-80c2-b051-eda8830ef600",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "The Bait of Satan",
@@ -10405,43 +10429,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-802a-b137-cedb4c9363de-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-807b-bd7e-e81812f479d3",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Power of Moments",
-    "subtitle": "Why Certain Experiences Have Extraordinary Impact",
-    "slug": "power-of-moments",
-    "authors": [
-      {
-        "id": "rz\\s",
-        "name": "Chip Heath",
-        "color": "gray"
-      },
-      {
-        "id": "Vnhj",
-        "name": "Dan Heath",
-        "color": "red"
-      }
-    ],
-    "pageTotal": 320,
-    "pagesRead": 320,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2025-07-12",
-    "dateFinish": "2025-07-23",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-807b-bd7e-e81812f479d3-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -11208,6 +11195,38 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-80b5-9534-ea6182d9ab59-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80f7-9d2a-c22ec418785d",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Faith Among the Faithless",
+    "subtitle": "Learning from Esther How to Live in a World Gone Mad",
+    "slug": "faith-among-the-faithless",
+    "authors": [
+      {
+        "id": "5c842963-2d8a-4399-9623-3637d5fb3e76",
+        "name": "Mike Cosper",
+        "color": "purple"
+      }
+    ],
+    "pageTotal": 208,
+    "pagesRead": 208,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2024-02-26",
+    "dateFinish": "2024-03-02",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80f7-9d2a-c22ec418785d-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -12002,38 +12021,6 @@
     "url": "https://www.amazon.com/Fix-Your-Eyes-Shapes-Worship/dp/1087730546",
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-80c3-bb5e-d6c74609c6f1-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8009-9329-c649ec7ad3d5",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "One at a Time",
-    "subtitle": "The Unexpected Way God Wants to Use You to Change the World",
-    "slug": "one-at-a-time",
-    "authors": [
-      {
-        "id": "esCr",
-        "name": "Kyle Idleman",
-        "color": "brown"
-      }
-    ],
-    "pageTotal": 256,
-    "pagesRead": 256,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2022-09-11",
-    "dateFinish": "2022-09-19",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": "https://www.amazon.com/One-Time-Unexpected-Wants-Change/dp/0801094917",
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8009-9329-c649ec7ad3d5-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -14808,6 +14795,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-804e-b345-c7bd8936b11b",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "The Church on the Other Side",
+    "subtitle": "Doing Ministry in the Postmodern Matrix",
+    "slug": "the-church-on-the-other-side",
+    "authors": [
+      {
+        "id": "BB^J",
+        "name": "Brian D. McLaren",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 224,
+    "pagesRead": 224,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2006-05-10",
+    "dateFinish": "2006-05-10",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-804e-b345-c7bd8936b11b-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-8025-9f6b-ff22ad0b227c",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "On Directing Film",
@@ -15157,6 +15176,43 @@
     },
     "fiction": true,
     "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-807b-bd7e-e81812f479d3",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Power of Moments",
+    "subtitle": "Why Certain Experiences Have Extraordinary Impact",
+    "slug": "power-of-moments",
+    "authors": [
+      {
+        "id": "rz\\s",
+        "name": "Chip Heath",
+        "color": "gray"
+      },
+      {
+        "id": "Vnhj",
+        "name": "Dan Heath",
+        "color": "red"
+      }
+    ],
+    "pageTotal": 320,
+    "pagesRead": 320,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2025-07-12",
+    "dateFinish": "2025-07-23",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-807b-bd7e-e81812f479d3-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
     "content": ""
   },
   {
@@ -15580,7 +15636,7 @@
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "The Mysterious Benedict Society",
     "subtitle": "",
-    "slug": "the-mysterious-benedict-society",
+    "slug": "the-mysterious-benedict-society-2",
     "authors": [
       {
         "id": "|<bP",
@@ -17313,38 +17369,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-8096-8cf2-c62429d73a90-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-804e-b345-c7bd8936b11b",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Church on the Other Side",
-    "subtitle": "Doing Ministry in the Postmodern Matrix",
-    "slug": "the-church-on-the-other-side",
-    "authors": [
-      {
-        "id": "BB^J",
-        "name": "Brian D. McLaren",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 224,
-    "pagesRead": 224,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2006-05-10",
-    "dateFinish": "2006-05-10",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-804e-b345-c7bd8936b11b-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
