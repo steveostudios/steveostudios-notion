@@ -1,31 +1,44 @@
 [
   {
     "id": "3f5aec2d-56b7-807f-8f77-e13a9c1032e1",
-    "lastEditedTime": "2026-10-10T15:25:00.000Z",
-    "title": "The Mysterious Benedict Society: ",
+    "lastEditedTime": "2026-10-11T03:08:00.000Z",
+    "title": "The Mysterious Benedict Society and the Perilous Journey",
     "subtitle": "",
-    "slug": "the-mysterious-benedict-society",
-    "authors": [],
-    "pageTotal": null,
+    "slug": "the-mysterious-benedict-society-and-the-perilous-journey",
+    "authors": [
+      {
+        "id": "|<bP",
+        "name": "Trenton Lee Stewart",
+        "color": "brown"
+      },
+      {
+        "id": "3ccc208f-6bb2-49f3-8eca-99a4c9dc00df",
+        "name": "Diana Sudyka",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 503,
     "pagesRead": null,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 0,
-    "format": "PAPERBACK",
+    "minutesTotal": 780,
+    "miniutesRead": 201,
+    "progress": 0.257692307692,
+    "format": "AUDIO",
     "dateStart": "2026-10-10",
     "dateFinish": null,
     "stars": null,
     "asin": "",
     "isbn": "",
     "url": null,
-    "coverImage": null,
-    "fiction": false,
+    "coverImage": {
+      "large": "/assets/img/notion/3f5aec2d-56b7-807f-8f77-e13a9c1032e1-large-260w.jpeg"
+    },
+    "fiction": true,
     "own": false,
     "content": ""
   },
   {
     "id": "3f4aec2d-56b7-80a7-88e2-c137caf6dab1",
-    "lastEditedTime": "2026-10-09T18:23:00.000Z",
+    "lastEditedTime": "2026-10-11T03:07:00.000Z",
     "title": "East of Eden",
     "subtitle": "",
     "slug": "east-of-eden",
@@ -39,8 +52,8 @@
     "pageTotal": 601,
     "pagesRead": null,
     "minutesTotal": 1523,
-    "miniutesRead": 350,
-    "progress": 0.229809586343,
+    "miniutesRead": 556,
+    "progress": 0.365068942876,
     "format": "AUDIO",
     "dateStart": "2026-10-04",
     "dateFinish": null,
