@@ -765,7 +765,7 @@
     },
     {
       "id": "353aec2d-56b7-8111-ae9b-d1e4e6a85f7a",
-      "lastEditedTime": "2026-10-13T19:06:00.000Z",
+      "lastEditedTime": "2026-10-14T01:12:00.000Z",
       "title": "Avengers: Infinity War",
       "slug": "avengers-infinity-war",
       "imdbRating": "8.4",
@@ -785,12 +785,12 @@
         "Levi": {
           "watched": "10-09-26",
           "watchedISO": "2026-10-09",
-          "rating": ""
+          "rating": "9.2"
         },
         "Lauren": {
           "watched": "10-09-26",
           "watchedISO": "2026-10-09",
-          "rating": ""
+          "rating": "7.3"
         },
         "Steve": {
           "watched": "10-09-26",
@@ -800,14 +800,14 @@
         "Oliver": {
           "watched": "10-09-26",
           "watchedISO": "2026-10-09",
-          "rating": ""
+          "rating": "7.5"
         }
       },
-      "familyScore": null
+      "familyScore": "8.1"
     },
     {
       "id": "353aec2d-56b7-815a-8a61-c001b459dba7",
-      "lastEditedTime": "2026-10-13T19:00:00.000Z",
+      "lastEditedTime": "2026-10-14T01:12:00.000Z",
       "title": "Ant-Man and the Wasp",
       "slug": "ant-man-and-the-wasp",
       "imdbRating": "7.0",
@@ -827,12 +827,12 @@
         "Levi": {
           "watched": "10-11-26",
           "watchedISO": "2026-10-11",
-          "rating": ""
+          "rating": "8.6"
         },
         "Lauren": {
           "watched": "10-11-26",
           "watchedISO": "2026-10-11",
-          "rating": ""
+          "rating": "6.49"
         },
         "Steve": {
           "watched": "10-11-26",
@@ -842,14 +842,14 @@
         "Oliver": {
           "watched": "10-11-26",
           "watchedISO": "2026-10-11",
-          "rating": ""
+          "rating": "9.5"
         }
       },
-      "familyScore": null
+      "familyScore": "8"
     },
     {
       "id": "353aec2d-56b7-810b-8f75-e0b847e6275b",
-      "lastEditedTime": "2026-10-13T19:00:00.000Z",
+      "lastEditedTime": "2026-10-14T01:17:00.000Z",
       "title": "Captain Marvel",
       "slug": "captain-marvel",
       "imdbRating": "6.8",
@@ -869,29 +869,29 @@
         "Levi": {
           "watched": "10-11-26",
           "watchedISO": "2026-10-11",
-          "rating": ""
+          "rating": "7"
         },
         "Lauren": {
           "watched": "10-11-26",
           "watchedISO": "2026-10-11",
-          "rating": ""
+          "rating": "6.3"
         },
         "Steve": {
           "watched": "10-11-26",
           "watchedISO": "2026-10-11",
-          "rating": "7.2"
+          "rating": "6.9"
         },
         "Oliver": {
           "watched": "10-11-26",
           "watchedISO": "2026-10-11",
-          "rating": ""
+          "rating": "10"
         }
       },
-      "familyScore": null
+      "familyScore": "7.6"
     },
     {
       "id": "353aec2d-56b7-813d-aba4-fa1c4381a8aa",
-      "lastEditedTime": "2026-08-21T20:12:00.000Z",
+      "lastEditedTime": "2026-10-14T01:18:00.000Z",
       "title": "Avengers: Endgame",
       "slug": "avengers-endgame",
       "imdbRating": "8.4",
@@ -904,32 +904,32 @@
       "order": 22,
       "reviews": {
         "Elliot": {
-          "watched": "",
-          "watchedISO": "",
+          "watched": "10-13-26",
+          "watchedISO": "2026-10-13",
           "rating": ""
         },
         "Levi": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "10-13-26",
+          "watchedISO": "2026-10-13",
+          "rating": "9.8"
         },
         "Lauren": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "10-13-26",
+          "watchedISO": "2026-10-13",
+          "rating": "7.2"
         },
         "Steve": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "10-13-26",
+          "watchedISO": "2026-10-13",
+          "rating": "8"
         },
         "Oliver": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "10-13-26",
+          "watchedISO": "2026-10-13",
+          "rating": "7.5"
         }
       },
-      "familyScore": null
+      "familyScore": "8.1"
     },
     {
       "id": "353aec2d-56b7-81ab-8e67-fe65a0f6967a",
@@ -1648,12 +1648,12 @@
           "rating": "7.8"
         },
         {
-          "title": "Captain America: The Winter Soldier",
+          "title": "Avengers: Infinity War",
           "rating": "7.3"
         },
         {
-          "title": "Avengers: Age of Ultron",
-          "rating": "7.2"
+          "title": "Captain America: The Winter Soldier",
+          "rating": "7.3"
         }
       ],
       "Steve": [
@@ -1690,12 +1690,12 @@
           "rating": "10"
         },
         {
-          "title": "Spider-Man: Homecoming",
-          "rating": "9.9"
+          "title": "Captain Marvel",
+          "rating": "10"
         },
         {
-          "title": "Guardians of the Galaxy",
-          "rating": "9.8"
+          "title": "Spider-Man: Homecoming",
+          "rating": "9.9"
         }
       ],
       "Levi": [
@@ -1717,7 +1717,7 @@
       "title": "Captain America: Civil War",
       "rating": "8.7"
     },
-    "nextMovieSlug": "avengers-endgame",
-    "nextMovieTitle": "Avengers: Endgame"
+    "nextMovieSlug": "spider-man-far-from-home",
+    "nextMovieTitle": "Spider-Man: Far From Home"
   }
 }
