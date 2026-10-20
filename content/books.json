@@ -133,6 +133,38 @@
     "content": ""
   },
   {
+    "id": "39aaec2d-56b7-81a5-8bb6-f9280843dc8f",
+    "lastEditedTime": "2026-10-19T20:40:00.000Z",
+    "title": "The Explicit Gospel",
+    "subtitle": "",
+    "slug": "the-explicit-gospel",
+    "authors": [
+      {
+        "id": "HVvi",
+        "name": "Matt Chandler",
+        "color": "blue"
+      }
+    ],
+    "pageTotal": 240,
+    "pagesRead": 240,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2026-09-02T04:00:00.000+00:00",
+    "dateFinish": "2026-10-19",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/39aaec2d-56b7-81a5-8bb6-f9280843dc8f-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "3e9aec2d-56b7-80f1-89cb-ec02620e36b0",
     "lastEditedTime": "2026-09-30T19:30:00.000Z",
     "title": "City Spies",
@@ -325,43 +357,6 @@
     "content": ""
   },
   {
-    "id": "39aaec2d-56b7-81ad-8848-d463182248bb",
-    "lastEditedTime": "2026-08-14T17:39:00.000Z",
-    "title": "Do Hard Things",
-    "subtitle": "A Teenage Rebellion Against Low Expectations",
-    "slug": "do-hard-things",
-    "authors": [
-      {
-        "id": "5875dbf8-e6d7-42ed-bb2b-f2f38b699f0a",
-        "name": "Alex Harris",
-        "color": "blue"
-      },
-      {
-        "id": "5489f553-22b6-4356-b214-d7064d8ef27e",
-        "name": "Brett Harris",
-        "color": "yellow"
-      }
-    ],
-    "pageTotal": 256,
-    "pagesRead": 256,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2026-07-20T04:00:00.000+00:00",
-    "dateFinish": "2026-08-14T04:00:00.000+00:00",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/39aaec2d-56b7-81ad-8848-d463182248bb-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
     "id": "3b2aec2d-56b7-81fb-a639-f8d70e6482e1",
     "lastEditedTime": "2026-08-15T02:22:00.000Z",
     "title": "Skin",
@@ -532,38 +527,6 @@
     "content": ""
   },
   {
-    "id": "39aaec2d-56b7-81a5-8bb6-f9280843dc8f",
-    "lastEditedTime": "2026-10-16T15:02:00.000Z",
-    "title": "The Explicit Gospel",
-    "subtitle": "",
-    "slug": "the-explicit-gospel",
-    "authors": [
-      {
-        "id": "HVvi",
-        "name": "Matt Chandler",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 240,
-    "pagesRead": 202,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 0.841666666667,
-    "format": "HARDCOVER",
-    "dateStart": "2026-09-02T04:00:00.000+00:00",
-    "dateFinish": null,
-    "stars": null,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/39aaec2d-56b7-81a5-8bb6-f9280843dc8f-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
     "id": "39aaec2d-56b7-81c0-87f2-c7b9c0af4c91",
     "lastEditedTime": "2026-07-11T21:15:00.000Z",
     "title": "An Unstoppable Force",
@@ -616,6 +579,43 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/39aaec2d-56b7-810f-8df9-faf21fdd1e11-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "39aaec2d-56b7-81ad-8848-d463182248bb",
+    "lastEditedTime": "2026-08-14T17:39:00.000Z",
+    "title": "Do Hard Things",
+    "subtitle": "A Teenage Rebellion Against Low Expectations",
+    "slug": "do-hard-things",
+    "authors": [
+      {
+        "id": "5875dbf8-e6d7-42ed-bb2b-f2f38b699f0a",
+        "name": "Alex Harris",
+        "color": "blue"
+      },
+      {
+        "id": "5489f553-22b6-4356-b214-d7064d8ef27e",
+        "name": "Brett Harris",
+        "color": "yellow"
+      }
+    ],
+    "pageTotal": 256,
+    "pagesRead": 256,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2026-07-20T04:00:00.000+00:00",
+    "dateFinish": "2026-08-14T04:00:00.000+00:00",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/39aaec2d-56b7-81ad-8848-d463182248bb-large-260w.jpeg"
     },
     "fiction": false,
     "own": false,
