@@ -102,7 +102,7 @@
   },
   {
     "id": "3e9aec2d-56b7-8000-a5c7-e3923413109b",
-    "lastEditedTime": "2026-10-17T02:54:00.000Z",
+    "lastEditedTime": "2026-10-21T02:54:00.000Z",
     "title": "The Two Towers",
     "subtitle": "",
     "slug": "the-two-towers",
@@ -114,10 +114,10 @@
       }
     ],
     "pageTotal": 352,
-    "pagesRead": 179,
+    "pagesRead": 198,
     "minutesTotal": null,
     "miniutesRead": null,
-    "progress": 0.508522727273,
+    "progress": 0.5625,
     "format": "PAPERBACK",
     "dateStart": "2026-09-20",
     "dateFinish": null,
@@ -1139,7 +1139,7 @@
   },
   {
     "id": "364aec2d-56b7-8184-9d48-dbddaad5a3d5",
-    "lastEditedTime": "2026-10-16T17:22:00.000Z",
+    "lastEditedTime": "2026-10-20T20:39:00.000Z",
     "title": "The Coddling of the American Mind",
     "subtitle": "How Good Intentions and Bad Ideas Are Setting Up a Generation for Failure",
     "slug": "the-coddling-of-the-american-mind",
@@ -1151,10 +1151,10 @@
       }
     ],
     "pageTotal": 338,
-    "pagesRead": 142,
+    "pagesRead": 162,
     "minutesTotal": null,
     "miniutesRead": null,
-    "progress": 0.420118343195,
+    "progress": 0.479289940828,
     "format": "HARDCOVER",
     "dateStart": "2026-09-04T04:00:00.000+00:00",
     "dateFinish": null,
