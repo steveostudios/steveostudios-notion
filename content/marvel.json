@@ -765,7 +765,7 @@
     },
     {
       "id": "353aec2d-56b7-8111-ae9b-d1e4e6a85f7a",
-      "lastEditedTime": "2026-10-14T01:12:00.000Z",
+      "lastEditedTime": "2026-10-26T00:49:00.000Z",
       "title": "Avengers: Infinity War",
       "slug": "avengers-infinity-war",
       "imdbRating": "8.4",
@@ -780,7 +780,7 @@
         "Elliot": {
           "watched": "10-09-26",
           "watchedISO": "2026-10-09",
-          "rating": ""
+          "rating": "8"
         },
         "Levi": {
           "watched": "10-09-26",
@@ -803,11 +803,11 @@
           "rating": "7.5"
         }
       },
-      "familyScore": "8.1"
+      "familyScore": "8"
     },
     {
       "id": "353aec2d-56b7-815a-8a61-c001b459dba7",
-      "lastEditedTime": "2026-10-14T01:12:00.000Z",
+      "lastEditedTime": "2026-10-26T00:50:00.000Z",
       "title": "Ant-Man and the Wasp",
       "slug": "ant-man-and-the-wasp",
       "imdbRating": "7.0",
@@ -822,7 +822,7 @@
         "Elliot": {
           "watched": "10-11-26",
           "watchedISO": "2026-10-11",
-          "rating": ""
+          "rating": "7.5"
         },
         "Levi": {
           "watched": "10-11-26",
@@ -845,11 +845,11 @@
           "rating": "9.5"
         }
       },
-      "familyScore": "8"
+      "familyScore": "7.9"
     },
     {
       "id": "353aec2d-56b7-810b-8f75-e0b847e6275b",
-      "lastEditedTime": "2026-10-14T01:17:00.000Z",
+      "lastEditedTime": "2026-10-26T00:50:00.000Z",
       "title": "Captain Marvel",
       "slug": "captain-marvel",
       "imdbRating": "6.8",
@@ -864,7 +864,7 @@
         "Elliot": {
           "watched": "10-11-26",
           "watchedISO": "2026-10-11",
-          "rating": ""
+          "rating": "7.5"
         },
         "Levi": {
           "watched": "10-11-26",
@@ -887,11 +887,11 @@
           "rating": "10"
         }
       },
-      "familyScore": "7.6"
+      "familyScore": "7.5"
     },
     {
       "id": "353aec2d-56b7-813d-aba4-fa1c4381a8aa",
-      "lastEditedTime": "2026-10-14T01:18:00.000Z",
+      "lastEditedTime": "2026-10-26T00:51:00.000Z",
       "title": "Avengers: Endgame",
       "slug": "avengers-endgame",
       "imdbRating": "8.4",
@@ -906,7 +906,7 @@
         "Elliot": {
           "watched": "10-13-26",
           "watchedISO": "2026-10-13",
-          "rating": ""
+          "rating": "8.5"
         },
         "Levi": {
           "watched": "10-13-26",
@@ -929,11 +929,11 @@
           "rating": "7.5"
         }
       },
-      "familyScore": "8.1"
+      "familyScore": "8.2"
     },
     {
       "id": "353aec2d-56b7-81ab-8e67-fe65a0f6967a",
-      "lastEditedTime": "2026-08-21T20:12:00.000Z",
+      "lastEditedTime": "2026-10-26T00:51:00.000Z",
       "title": "Spider-Man: Far From Home",
       "slug": "spider-man-far-from-home",
       "imdbRating": "7.4",
@@ -946,14 +946,14 @@
       "order": 23,
       "reviews": {
         "Elliot": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "10-25-26",
+          "watchedISO": "2026-10-25",
+          "rating": "9.2"
         },
         "Levi": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "10-25-26",
+          "watchedISO": "2026-10-25",
+          "rating": "9.6"
         },
         "Lauren": {
           "watched": "",
@@ -961,17 +961,17 @@
           "rating": ""
         },
         "Steve": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "10-25-26",
+          "watchedISO": "2026-10-25",
+          "rating": "6.8"
         },
         "Oliver": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "10-25-26",
+          "watchedISO": "2026-10-25",
+          "rating": "9.1"
         }
       },
-      "familyScore": null
+      "familyScore": "8.7"
     },
     {
       "id": "353aec2d-56b7-8170-9446-c23a0eab3783",
@@ -1717,7 +1717,7 @@
       "title": "Captain America: Civil War",
       "rating": "8.7"
     },
-    "nextMovieSlug": "spider-man-far-from-home",
-    "nextMovieTitle": "Spider-Man: Far From Home"
+    "nextMovieSlug": "black-widow",
+    "nextMovieTitle": "Black Widow"
   }
 }
