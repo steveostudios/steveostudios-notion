@@ -134,7 +134,7 @@
   },
   {
     "id": "3e9aec2d-56b7-8000-a5c7-e3923413109b",
-    "lastEditedTime": "2026-10-26T02:38:00.000Z",
+    "lastEditedTime": "2026-11-01T03:18:00.000Z",
     "title": "The Two Towers",
     "subtitle": "",
     "slug": "the-two-towers",
@@ -146,10 +146,10 @@
       }
     ],
     "pageTotal": 352,
-    "pagesRead": 220,
+    "pagesRead": 270,
     "minutesTotal": null,
     "miniutesRead": null,
-    "progress": 0.625,
+    "progress": 0.767045454545,
     "format": "PAPERBACK",
     "dateStart": "2026-09-20",
     "dateFinish": null,
