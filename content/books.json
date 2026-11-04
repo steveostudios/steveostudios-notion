@@ -1,7 +1,7 @@
 [
   {
     "id": "40caec2d-56b7-80b6-b556-db705e1db6c1",
-    "lastEditedTime": "2026-11-02T19:44:00.000Z",
+    "lastEditedTime": "2026-11-03T21:07:00.000Z",
     "title": "Unstoppable",
     "subtitle": "Running the Race You Were Born to Win",
     "slug": "unstoppable",
@@ -13,10 +13,10 @@
       }
     ],
     "pageTotal": 179,
-    "pagesRead": 36,
+    "pagesRead": 72,
     "minutesTotal": null,
     "miniutesRead": null,
-    "progress": 0.201117318436,
+    "progress": 0.402234636872,
     "format": "PAPERBACK",
     "dateStart": "2026-11-01",
     "dateFinish": null,
@@ -33,7 +33,7 @@
   },
   {
     "id": "406aec2d-56b7-8071-bfbc-d898a79e90d7",
-    "lastEditedTime": "2026-10-27T01:24:00.000Z",
+    "lastEditedTime": "2026-11-04T01:07:00.000Z",
     "title": "The AGI Chronicles",
     "subtitle": "The Inside Story of the Race to Create an Artificial Superintelligence",
     "slug": "the-agi-chronicles",
@@ -47,8 +47,8 @@
     "pageTotal": 448,
     "pagesRead": null,
     "minutesTotal": 783,
-    "miniutesRead": 60,
-    "progress": 0.07662835249,
+    "miniutesRead": 267,
+    "progress": 0.340996168582,
     "format": "AUDIO",
     "dateStart": "2026-10-26",
     "dateFinish": null,
@@ -101,32 +101,32 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-800d-9bdb-f3dd4476884d",
-    "lastEditedTime": "2026-11-02T10:50:00.000Z",
-    "title": "The Unseen Realm",
-    "subtitle": "Recovering the Supernatural Worldview of the Bible",
-    "slug": "the-unseen-realm",
+    "id": "364aec2d-56b7-8184-9d48-dbddaad5a3d5",
+    "lastEditedTime": "2026-11-04T03:22:00.000Z",
+    "title": "The Coddling of the American Mind",
+    "subtitle": "How Good Intentions and Bad Ideas Are Setting Up a Generation for Failure",
+    "slug": "the-coddling-of-the-american-mind",
     "authors": [
       {
-        "id": "un?Q",
-        "name": "Michael S. Heiser",
-        "color": "pink"
+        "id": "62328aef-cce4-4da7-87c7-8bdb715ad219",
+        "name": "Greg Lukianoff",
+        "color": "gray"
       }
     ],
-    "pageTotal": 412,
-    "pagesRead": 412,
+    "pageTotal": 338,
+    "pagesRead": 338,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
     "format": "HARDCOVER",
-    "dateStart": "2024-09-08",
-    "dateFinish": "2026-11-02",
-    "stars": 5,
+    "dateStart": "2026-09-04T04:00:00.000+00:00",
+    "dateFinish": "2026-11-03",
+    "stars": 4,
     "asin": "",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-800d-9bdb-f3dd4476884d-large-260w.jpeg"
+      "large": "/assets/img/notion/364aec2d-56b7-8184-9d48-dbddaad5a3d5-large-260w.jpeg"
     },
     "fiction": false,
     "own": false,
@@ -230,7 +230,7 @@
   },
   {
     "id": "3e9aec2d-56b7-8000-a5c7-e3923413109b",
-    "lastEditedTime": "2026-11-01T03:18:00.000Z",
+    "lastEditedTime": "2026-11-04T11:59:00.000Z",
     "title": "The Two Towers",
     "subtitle": "",
     "slug": "the-two-towers",
@@ -242,10 +242,10 @@
       }
     ],
     "pageTotal": 352,
-    "pagesRead": 270,
+    "pagesRead": 262,
     "minutesTotal": null,
     "miniutesRead": null,
-    "progress": 0.767045454545,
+    "progress": 0.744318181818,
     "format": "PAPERBACK",
     "dateStart": "2026-09-20",
     "dateFinish": null,
@@ -257,6 +257,38 @@
       "large": "/assets/img/notion/3e9aec2d-56b7-8000-a5c7-e3923413109b-large-260w.jpeg"
     },
     "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-800d-9bdb-f3dd4476884d",
+    "lastEditedTime": "2026-11-02T10:50:00.000Z",
+    "title": "The Unseen Realm",
+    "subtitle": "Recovering the Supernatural Worldview of the Bible",
+    "slug": "the-unseen-realm",
+    "authors": [
+      {
+        "id": "un?Q",
+        "name": "Michael S. Heiser",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 412,
+    "pagesRead": 412,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2024-09-08",
+    "dateFinish": "2026-11-02",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-800d-9bdb-f3dd4476884d-large-260w.jpeg"
+    },
+    "fiction": false,
     "own": false,
     "content": ""
   },
@@ -1387,38 +1419,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/367aec2d-56b7-81b5-b262-e94b4677eab0-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "364aec2d-56b7-8184-9d48-dbddaad5a3d5",
-    "lastEditedTime": "2026-11-02T19:25:00.000Z",
-    "title": "The Coddling of the American Mind",
-    "subtitle": "How Good Intentions and Bad Ideas Are Setting Up a Generation for Failure",
-    "slug": "the-coddling-of-the-american-mind",
-    "authors": [
-      {
-        "id": "62328aef-cce4-4da7-87c7-8bdb715ad219",
-        "name": "Greg Lukianoff",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 338,
-    "pagesRead": 252,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 0.745562130178,
-    "format": "HARDCOVER",
-    "dateStart": "2026-09-04T04:00:00.000+00:00",
-    "dateFinish": null,
-    "stars": null,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/364aec2d-56b7-8184-9d48-dbddaad5a3d5-large-260w.jpeg"
     },
     "fiction": false,
     "own": false,
