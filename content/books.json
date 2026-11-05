@@ -1,7 +1,7 @@
 [
   {
     "id": "40caec2d-56b7-80b6-b556-db705e1db6c1",
-    "lastEditedTime": "2026-11-03T21:07:00.000Z",
+    "lastEditedTime": "2026-11-05T18:27:00.000Z",
     "title": "Unstoppable",
     "subtitle": "Running the Race You Were Born to Win",
     "slug": "unstoppable",
@@ -13,10 +13,10 @@
       }
     ],
     "pageTotal": 179,
-    "pagesRead": 72,
+    "pagesRead": 86,
     "minutesTotal": null,
     "miniutesRead": null,
-    "progress": 0.402234636872,
+    "progress": 0.480446927374,
     "format": "PAPERBACK",
     "dateStart": "2026-11-01",
     "dateFinish": null,
@@ -230,7 +230,7 @@
   },
   {
     "id": "3e9aec2d-56b7-8000-a5c7-e3923413109b",
-    "lastEditedTime": "2026-11-04T11:59:00.000Z",
+    "lastEditedTime": "2026-11-05T03:05:00.000Z",
     "title": "The Two Towers",
     "subtitle": "",
     "slug": "the-two-towers",
@@ -241,11 +241,11 @@
         "color": "brown"
       }
     ],
-    "pageTotal": 352,
-    "pagesRead": 262,
+    "pageTotal": 398,
+    "pagesRead": 304,
     "minutesTotal": null,
     "miniutesRead": null,
-    "progress": 0.744318181818,
+    "progress": 0.763819095477,
     "format": "PAPERBACK",
     "dateStart": "2026-09-20",
     "dateFinish": null,
