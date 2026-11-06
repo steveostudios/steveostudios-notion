@@ -1,5 +1,37 @@
 [
   {
+    "id": "410aec2d-56b7-806b-99e2-dde155b84a12",
+    "lastEditedTime": "2026-11-06T17:29:00.000Z",
+    "title": "Into the Quiet",
+    "subtitle": "Following Jesus in a world of noise",
+    "slug": "into-the-quiet",
+    "authors": [
+      {
+        "id": "JcfX",
+        "name": "John Mark Comer",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 289,
+    "pagesRead": 35,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 0.121107266436,
+    "format": "HARDCOVER",
+    "dateStart": "2026-11-05",
+    "dateFinish": null,
+    "stars": null,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/410aec2d-56b7-806b-99e2-dde155b84a12-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "40caec2d-56b7-80b6-b556-db705e1db6c1",
     "lastEditedTime": "2026-11-05T18:27:00.000Z",
     "title": "Unstoppable",
@@ -33,7 +65,7 @@
   },
   {
     "id": "406aec2d-56b7-8071-bfbc-d898a79e90d7",
-    "lastEditedTime": "2026-11-04T01:07:00.000Z",
+    "lastEditedTime": "2026-11-06T17:27:00.000Z",
     "title": "The AGI Chronicles",
     "subtitle": "The Inside Story of the Race to Create an Artificial Superintelligence",
     "slug": "the-agi-chronicles",
@@ -47,8 +79,8 @@
     "pageTotal": 448,
     "pagesRead": null,
     "minutesTotal": 783,
-    "miniutesRead": 267,
-    "progress": 0.340996168582,
+    "miniutesRead": 481,
+    "progress": 0.614303959132,
     "format": "AUDIO",
     "dateStart": "2026-10-26",
     "dateFinish": null,
@@ -97,70 +129,6 @@
       "large": "/assets/img/notion/3f5aec2d-56b7-807f-8f77-e13a9c1032e1-large-260w.jpeg"
     },
     "fiction": true,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "364aec2d-56b7-8184-9d48-dbddaad5a3d5",
-    "lastEditedTime": "2026-11-04T03:22:00.000Z",
-    "title": "The Coddling of the American Mind",
-    "subtitle": "How Good Intentions and Bad Ideas Are Setting Up a Generation for Failure",
-    "slug": "the-coddling-of-the-american-mind",
-    "authors": [
-      {
-        "id": "62328aef-cce4-4da7-87c7-8bdb715ad219",
-        "name": "Greg Lukianoff",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 338,
-    "pagesRead": 338,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2026-09-04T04:00:00.000+00:00",
-    "dateFinish": "2026-11-03",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/364aec2d-56b7-8184-9d48-dbddaad5a3d5-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "39aaec2d-56b7-81a5-8bb6-f9280843dc8f",
-    "lastEditedTime": "2026-10-19T20:40:00.000Z",
-    "title": "The Explicit Gospel",
-    "subtitle": "",
-    "slug": "the-explicit-gospel",
-    "authors": [
-      {
-        "id": "HVvi",
-        "name": "Matt Chandler",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 240,
-    "pagesRead": 240,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2026-09-02T04:00:00.000+00:00",
-    "dateFinish": "2026-10-19",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/39aaec2d-56b7-81a5-8bb6-f9280843dc8f-large-260w.jpeg"
-    },
-    "fiction": false,
     "own": false,
     "content": ""
   },
@@ -261,6 +229,38 @@
     "content": ""
   },
   {
+    "id": "364aec2d-56b7-8184-9d48-dbddaad5a3d5",
+    "lastEditedTime": "2026-11-04T03:22:00.000Z",
+    "title": "The Coddling of the American Mind",
+    "subtitle": "How Good Intentions and Bad Ideas Are Setting Up a Generation for Failure",
+    "slug": "the-coddling-of-the-american-mind",
+    "authors": [
+      {
+        "id": "62328aef-cce4-4da7-87c7-8bdb715ad219",
+        "name": "Greg Lukianoff",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 338,
+    "pagesRead": 338,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2026-09-04T04:00:00.000+00:00",
+    "dateFinish": "2026-11-03",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/364aec2d-56b7-8184-9d48-dbddaad5a3d5-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-800d-9bdb-f3dd4476884d",
     "lastEditedTime": "2026-11-02T10:50:00.000Z",
     "title": "The Unseen Realm",
@@ -287,6 +287,38 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-800d-9bdb-f3dd4476884d-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "39aaec2d-56b7-81a5-8bb6-f9280843dc8f",
+    "lastEditedTime": "2026-10-19T20:40:00.000Z",
+    "title": "The Explicit Gospel",
+    "subtitle": "",
+    "slug": "the-explicit-gospel",
+    "authors": [
+      {
+        "id": "HVvi",
+        "name": "Matt Chandler",
+        "color": "blue"
+      }
+    ],
+    "pageTotal": 240,
+    "pagesRead": 240,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2026-09-02T04:00:00.000+00:00",
+    "dateFinish": "2026-10-19",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/39aaec2d-56b7-81a5-8bb6-f9280843dc8f-large-260w.jpeg"
     },
     "fiction": false,
     "own": false,
@@ -517,6 +549,43 @@
     "content": ""
   },
   {
+    "id": "39aaec2d-56b7-81ad-8848-d463182248bb",
+    "lastEditedTime": "2026-08-14T17:39:00.000Z",
+    "title": "Do Hard Things",
+    "subtitle": "A Teenage Rebellion Against Low Expectations",
+    "slug": "do-hard-things",
+    "authors": [
+      {
+        "id": "5875dbf8-e6d7-42ed-bb2b-f2f38b699f0a",
+        "name": "Alex Harris",
+        "color": "blue"
+      },
+      {
+        "id": "5489f553-22b6-4356-b214-d7064d8ef27e",
+        "name": "Brett Harris",
+        "color": "yellow"
+      }
+    ],
+    "pageTotal": 256,
+    "pagesRead": 256,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2026-07-20T04:00:00.000+00:00",
+    "dateFinish": "2026-08-14T04:00:00.000+00:00",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/39aaec2d-56b7-81ad-8848-d463182248bb-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "3b2aec2d-56b7-81fb-a639-f8d70e6482e1",
     "lastEditedTime": "2026-08-15T02:22:00.000Z",
     "title": "Skin",
@@ -739,43 +808,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/39aaec2d-56b7-810f-8df9-faf21fdd1e11-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "39aaec2d-56b7-81ad-8848-d463182248bb",
-    "lastEditedTime": "2026-08-14T17:39:00.000Z",
-    "title": "Do Hard Things",
-    "subtitle": "A Teenage Rebellion Against Low Expectations",
-    "slug": "do-hard-things",
-    "authors": [
-      {
-        "id": "5875dbf8-e6d7-42ed-bb2b-f2f38b699f0a",
-        "name": "Alex Harris",
-        "color": "blue"
-      },
-      {
-        "id": "5489f553-22b6-4356-b214-d7064d8ef27e",
-        "name": "Brett Harris",
-        "color": "yellow"
-      }
-    ],
-    "pageTotal": 256,
-    "pagesRead": 256,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2026-07-20T04:00:00.000+00:00",
-    "dateFinish": "2026-08-14T04:00:00.000+00:00",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/39aaec2d-56b7-81ad-8848-d463182248bb-large-260w.jpeg"
     },
     "fiction": false,
     "own": false,
@@ -1622,38 +1654,6 @@
     "content": ""
   },
   {
-    "id": "2d5aec2d-56b7-819b-808c-d25bb407c9b5",
-    "lastEditedTime": "2026-04-29T16:42:00.000Z",
-    "title": "Dopamine Nation",
-    "subtitle": "Finding Balance in the Age of Indulgence",
-    "slug": "dopamine-nation",
-    "authors": [
-      {
-        "id": "444fddd5-6a9b-4664-9c91-2ce199aa7213",
-        "name": "Anna Lembke",
-        "color": "orange"
-      }
-    ],
-    "pageTotal": 304,
-    "pagesRead": 304,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2026-04-20T04:00:00.000+00:00",
-    "dateFinish": "2026-04-29T04:00:00.000+00:00",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2d5aec2d-56b7-819b-808c-d25bb407c9b5-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
     "id": "345aec2d-56b7-80ef-8e66-c8ae178b4813",
     "lastEditedTime": "2026-04-18T14:09:00.000Z",
     "title": "The Call of the Wild",
@@ -2335,6 +2335,38 @@
     "content": ""
   },
   {
+    "id": "2d5aec2d-56b7-819b-808c-d25bb407c9b5",
+    "lastEditedTime": "2026-04-29T16:42:00.000Z",
+    "title": "Dopamine Nation",
+    "subtitle": "Finding Balance in the Age of Indulgence",
+    "slug": "dopamine-nation",
+    "authors": [
+      {
+        "id": "444fddd5-6a9b-4664-9c91-2ce199aa7213",
+        "name": "Anna Lembke",
+        "color": "orange"
+      }
+    ],
+    "pageTotal": 304,
+    "pagesRead": 304,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2026-04-20T04:00:00.000+00:00",
+    "dateFinish": "2026-04-29T04:00:00.000+00:00",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2d5aec2d-56b7-819b-808c-d25bb407c9b5-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "2d5aec2d-56b7-8117-a624-e0ae676ce6f7",
     "lastEditedTime": "2025-12-26T15:23:00.000Z",
     "title": "Prometheus : Up and Running",
@@ -2436,38 +2468,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-8076-9ef1-f817b9224108",
-    "lastEditedTime": "2026-02-20T21:33:00.000Z",
-    "title": "Exiles",
-    "subtitle": "The Church in the Shadow of Empiren the Shadow of Empire",
-    "slug": "exiles",
-    "authors": [
-      {
-        "id": "?ktD",
-        "name": "Preston M. Sprinkle",
-        "color": "pink"
-      }
-    ],
-    "pageTotal": 220,
-    "pagesRead": 220,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2026-02-06T05:00:00.000+00:00",
-    "dateFinish": "2026-02-20T05:00:00.000+00:00",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8076-9ef1-f817b9224108-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2ccaec2d-56b7-8159-9b22-e583c2125c6d",
     "lastEditedTime": "2026-02-17T13:46:00.000Z",
     "title": "If on a Winter's Night a Traveler",
@@ -2500,67 +2500,35 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-809c-bb88-ff1e113b5a3b",
-    "lastEditedTime": "2026-01-06T15:16:00.000Z",
-    "title": "The Legend of the Monk and the Merchant",
-    "subtitle": "Twelve Keys to Successful Living",
-    "slug": "the-legend-of-the-monk-and-the-merchant",
+    "id": "2ccaec2d-56b7-810a-b4ae-d473e5ee2096",
+    "lastEditedTime": "2026-01-02T15:15:00.000Z",
+    "title": "When: the Scientific Secrets of Perfect Timing",
+    "subtitle": "",
+    "slug": "when-the-scientific-secrets-of-perfect-timing",
     "authors": [
       {
-        "id": "Ht\\I",
-        "name": "Terry Felber",
-        "color": "pink"
+        "id": "v@OT",
+        "name": "Daniel H. Pink",
+        "color": "default"
       }
     ],
-    "pageTotal": 145,
-    "pagesRead": 145,
+    "pageTotal": 272,
+    "pagesRead": 272,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
     "format": "HARDCOVER",
-    "dateStart": "2026-01-02T05:00:00.000+00:00",
-    "dateFinish": "2026-01-06T05:00:00.000+00:00",
-    "stars": 3,
+    "dateStart": "2025-12-19T05:00:00.000+00:00",
+    "dateFinish": "2026-01-02T05:00:00.000+00:00",
+    "stars": 4,
     "asin": "",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-809c-bb88-ff1e113b5a3b-large-260w.jpeg"
+      "large": "/assets/img/notion/2ccaec2d-56b7-810a-b4ae-d473e5ee2096-large-260w.jpeg"
     },
     "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8042-b0dc-c04e8eff6d30",
-    "lastEditedTime": "2026-01-02T14:46:00.000Z",
-    "title": "The Tech-wise Family",
-    "subtitle": "Everyday Steps for Putting Technology in Its Proper Place",
-    "slug": "the-tech-wise-family",
-    "authors": [
-      {
-        "id": "d_pA",
-        "name": "Andy Crouch",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 221,
-    "pagesRead": 221,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2025-12-05",
-    "dateFinish": "2026-01-02T05:00:00.000+00:00",
-    "stars": 5,
-    "asin": "[\"B01M1SDHYT\"]",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8042-b0dc-c04e8eff6d30-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
+    "own": false,
     "content": ""
   },
   {
@@ -2628,35 +2596,99 @@
     "content": ""
   },
   {
-    "id": "2ccaec2d-56b7-810a-b4ae-d473e5ee2096",
-    "lastEditedTime": "2026-01-02T15:15:00.000Z",
-    "title": "When: the Scientific Secrets of Perfect Timing",
-    "subtitle": "",
-    "slug": "when-the-scientific-secrets-of-perfect-timing",
+    "id": "2b2aec2d-56b7-8076-9ef1-f817b9224108",
+    "lastEditedTime": "2026-02-20T21:33:00.000Z",
+    "title": "Exiles",
+    "subtitle": "The Church in the Shadow of Empiren the Shadow of Empire",
+    "slug": "exiles",
     "authors": [
       {
-        "id": "v@OT",
-        "name": "Daniel H. Pink",
-        "color": "default"
+        "id": "?ktD",
+        "name": "Preston M. Sprinkle",
+        "color": "pink"
       }
     ],
-    "pageTotal": 272,
-    "pagesRead": 272,
+    "pageTotal": 220,
+    "pagesRead": 220,
     "minutesTotal": null,
     "miniutesRead": null,
     "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2025-12-19T05:00:00.000+00:00",
-    "dateFinish": "2026-01-02T05:00:00.000+00:00",
-    "stars": 4,
+    "format": "PAPERBACK",
+    "dateStart": "2026-02-06T05:00:00.000+00:00",
+    "dateFinish": "2026-02-20T05:00:00.000+00:00",
+    "stars": 5,
     "asin": "",
     "isbn": "",
     "url": null,
     "coverImage": {
-      "large": "/assets/img/notion/2ccaec2d-56b7-810a-b4ae-d473e5ee2096-large-260w.jpeg"
+      "large": "/assets/img/notion/2b2aec2d-56b7-8076-9ef1-f817b9224108-large-260w.jpeg"
     },
     "fiction": false,
-    "own": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-809c-bb88-ff1e113b5a3b",
+    "lastEditedTime": "2026-01-06T15:16:00.000Z",
+    "title": "The Legend of the Monk and the Merchant",
+    "subtitle": "Twelve Keys to Successful Living",
+    "slug": "the-legend-of-the-monk-and-the-merchant",
+    "authors": [
+      {
+        "id": "Ht\\I",
+        "name": "Terry Felber",
+        "color": "pink"
+      }
+    ],
+    "pageTotal": 145,
+    "pagesRead": 145,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2026-01-02T05:00:00.000+00:00",
+    "dateFinish": "2026-01-06T05:00:00.000+00:00",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-809c-bb88-ff1e113b5a3b-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8042-b0dc-c04e8eff6d30",
+    "lastEditedTime": "2026-01-02T14:46:00.000Z",
+    "title": "The Tech-wise Family",
+    "subtitle": "Everyday Steps for Putting Technology in Its Proper Place",
+    "slug": "the-tech-wise-family",
+    "authors": [
+      {
+        "id": "d_pA",
+        "name": "Andy Crouch",
+        "color": "blue"
+      }
+    ],
+    "pageTotal": 221,
+    "pagesRead": 221,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2025-12-05",
+    "dateFinish": "2026-01-02T05:00:00.000+00:00",
+    "stars": 5,
+    "asin": "[\"B01M1SDHYT\"]",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8042-b0dc-c04e8eff6d30-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
     "content": ""
   },
   {
@@ -2912,38 +2944,6 @@
       "large": "/assets/img/notion/2b2aec2d-56b7-8036-a45e-ee6ed0a24a82-large-260w.jpeg"
     },
     "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8019-9746-d85acb3299dc",
-    "lastEditedTime": "2025-11-26T20:47:00.000Z",
-    "title": "The Murder of Roger Ackroyd",
-    "subtitle": "",
-    "slug": "the-murder-of-roger-ackroyd",
-    "authors": [
-      {
-        "id": "u>ig",
-        "name": "Agatha Christie",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 269,
-    "pagesRead": null,
-    "minutesTotal": 323,
-    "miniutesRead": 323,
-    "progress": 1,
-    "format": "AUDIO",
-    "dateStart": "2025-07-02",
-    "dateFinish": "2025-07-07",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8019-9746-d85acb3299dc-large-260w.jpeg"
-    },
-    "fiction": true,
     "own": false,
     "content": ""
   },
@@ -5557,38 +5557,6 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-80b0-b175-e8cdc7b80b29-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-803e-b012-ce6df644f1f7",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Coders",
-    "subtitle": "",
-    "slug": "coders",
-    "authors": [
-      {
-        "id": "OLe}",
-        "name": "Clive Thompson",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 448,
-    "pagesRead": 448,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2020-06-05",
-    "dateFinish": "2020-06-30",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": "https://www.amazon.com/Coders-Making-Tribe-Remaking-World/dp/0735220565/",
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-803e-b012-ce6df644f1f7-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -8286,6 +8254,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-8019-9746-d85acb3299dc",
+    "lastEditedTime": "2025-11-26T20:47:00.000Z",
+    "title": "The Murder of Roger Ackroyd",
+    "subtitle": "",
+    "slug": "the-murder-of-roger-ackroyd",
+    "authors": [
+      {
+        "id": "u>ig",
+        "name": "Agatha Christie",
+        "color": "blue"
+      }
+    ],
+    "pageTotal": 269,
+    "pagesRead": null,
+    "minutesTotal": 323,
+    "miniutesRead": 323,
+    "progress": 1,
+    "format": "AUDIO",
+    "dateStart": "2025-07-02",
+    "dateFinish": "2025-07-07",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8019-9746-d85acb3299dc-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-8073-ae5a-d0b4880e507d",
     "lastEditedTime": "2025-11-26T20:48:00.000Z",
     "title": "Spy School British Invasion",
@@ -9958,38 +9958,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-805e-9b46-ed03b387df78",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "A Million Miles in a Thousand Years",
-    "subtitle": "How I Learned to Live a Better Story",
-    "slug": "a-million-miles-in-a-thousand-years",
-    "authors": [
-      {
-        "id": "DGM{",
-        "name": "Donald Miller",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 257,
-    "pagesRead": 257,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2011-08-07",
-    "dateFinish": "2011-08-07",
-    "stars": 5,
-    "asin": "0785213066",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-805e-9b46-ed03b387df78-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-80ae-b85b-cb50705961b8",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "When God Builds a Church",
@@ -10146,6 +10114,38 @@
       "large": "/assets/img/notion/2b2aec2d-56b7-8099-945f-c5758f7a9b0a-large-260w.jpeg"
     },
     "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8029-a359-ea6496155c88",
+    "lastEditedTime": "2025-11-26T20:47:00.000Z",
+    "title": "The Case for Christ",
+    "subtitle": "",
+    "slug": "the-case-for-christ",
+    "authors": [
+      {
+        "id": "XErQ",
+        "name": "Lee Strobel",
+        "color": "blue"
+      }
+    ],
+    "pageTotal": 336,
+    "pagesRead": 336,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2003-08-07",
+    "dateFinish": "2003-08-07",
+    "stars": 5,
+    "asin": "0310345863",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8029-a359-ea6496155c88-large-260w.jpeg"
+    },
+    "fiction": false,
     "own": false,
     "content": ""
   },
@@ -11747,38 +11747,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80ab-96f8-d9fedb3d488f",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Upgrade",
-    "subtitle": "",
-    "slug": "upgrade",
-    "authors": [
-      {
-        "id": "~VzN",
-        "name": "Blake Crouch",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 352,
-    "pagesRead": 352,
-    "minutesTotal": 587,
-    "miniutesRead": 587,
-    "progress": 1,
-    "format": "AUDIO",
-    "dateStart": "2023-05-03",
-    "dateFinish": "2023-05-08",
-    "stars": 4,
-    "asin": "B09L9V486F",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80ab-96f8-d9fedb3d488f-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-8029-9183-f7723a2fe5f3",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "A Beautiful Constraint",
@@ -12274,6 +12242,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-803e-b012-ce6df644f1f7",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Coders",
+    "subtitle": "",
+    "slug": "coders",
+    "authors": [
+      {
+        "id": "OLe}",
+        "name": "Clive Thompson",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 448,
+    "pagesRead": 448,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2020-06-05",
+    "dateFinish": "2020-06-30",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": "https://www.amazon.com/Coders-Making-Tribe-Remaking-World/dp/0735220565/",
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-803e-b012-ce6df644f1f7-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-80c6-bcc2-e2d5c5990d0b",
     "lastEditedTime": "2025-12-11T13:35:00.000Z",
     "title": "The Road Back To You",
@@ -12571,6 +12571,38 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-80eb-9d3d-d93d03d2bc09-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-805e-9b46-ed03b387df78",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "A Million Miles in a Thousand Years",
+    "subtitle": "How I Learned to Live a Better Story",
+    "slug": "a-million-miles-in-a-thousand-years",
+    "authors": [
+      {
+        "id": "DGM{",
+        "name": "Donald Miller",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 257,
+    "pagesRead": 257,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2011-08-07",
+    "dateFinish": "2011-08-07",
+    "stars": 5,
+    "asin": "0785213066",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-805e-9b46-ed03b387df78-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -13638,38 +13670,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-8029-a359-ea6496155c88",
-    "lastEditedTime": "2025-11-26T20:47:00.000Z",
-    "title": "The Case for Christ",
-    "subtitle": "",
-    "slug": "the-case-for-christ",
-    "authors": [
-      {
-        "id": "XErQ",
-        "name": "Lee Strobel",
-        "color": "blue"
-      }
-    ],
-    "pageTotal": 336,
-    "pagesRead": 336,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2003-08-07",
-    "dateFinish": "2003-08-07",
-    "stars": 5,
-    "asin": "0310345863",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8029-a359-ea6496155c88-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": false,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-80a5-96eb-eaf974f41767",
     "lastEditedTime": "2025-12-10T18:21:00.000Z",
     "title": "Regular Expression",
@@ -14000,198 +14000,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-8095-9556-c201c6d04de6",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Life in the Negative World",
-    "subtitle": "Confronting Challenges in an Anti-christian Culture",
-    "slug": "life-in-the-negative-world",
-    "authors": [
-      {
-        "id": ">tey",
-        "name": "Aaron M. Renn",
-        "color": "purple"
-      }
-    ],
-    "pageTotal": 272,
-    "pagesRead": 272,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2025-07-05",
-    "dateFinish": "2025-07-25",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8095-9556-c201c6d04de6-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-801d-bbb9-e93ed7fe077b",
-    "lastEditedTime": "2025-11-26T20:48:00.000Z",
-    "title": "A Princess of Mars",
-    "subtitle": "",
-    "slug": "a-princess-of-mars",
-    "authors": [
-      {
-        "id": "K;BR",
-        "name": "Edgar Rice Burroughs",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 145,
-    "pagesRead": null,
-    "minutesTotal": 208,
-    "miniutesRead": 208,
-    "progress": 1,
-    "format": "AUDIO",
-    "dateStart": "2025-03-14",
-    "dateFinish": "2025-03-16",
-    "stars": 3,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-801d-bbb9-e93ed7fe077b-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-808c-98f9-d0fab3b1f6fa",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Return of the God Hypothesis",
-    "subtitle": "Three Scientific Discoveries Revealing the Mind Behind the Universe",
-    "slug": "return-of-the-god-hypothesis",
-    "authors": [
-      {
-        "id": "lLs:",
-        "name": "Stephen C. Meyer",
-        "color": "gray"
-      }
-    ],
-    "pageTotal": 576,
-    "pagesRead": 576,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "EBOOK",
-    "dateStart": "2024-12-12",
-    "dateFinish": "2025-01-21",
-    "stars": 5,
-    "asin": "[\"B07H51QRXN\"]",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-808c-98f9-d0fab3b1f6fa-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-8087-bf3c-d51c6ce47d6d",
-    "lastEditedTime": "2025-11-26T20:47:00.000Z",
-    "title": "The Strange Case of Dr Jekyll and Mr Hyde",
-    "subtitle": "",
-    "slug": "the-strange-case-of-dr-jekyll-and-mr-hyde",
-    "authors": [
-      {
-        "id": "QLA=",
-        "name": "Robert Louis Stevenson",
-        "color": "purple"
-      }
-    ],
-    "pageTotal": 62,
-    "pagesRead": null,
-    "minutesTotal": 171,
-    "miniutesRead": 171,
-    "progress": 1,
-    "format": "AUDIO",
-    "dateStart": "2025-01-16",
-    "dateFinish": "2025-01-16",
-    "stars": 4,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-8087-bf3c-d51c6ce47d6d-large-260w.jpeg"
-    },
-    "fiction": true,
-    "own": false,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-80ca-ab90-e95c54b48d4f",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "Paul",
-    "subtitle": "A Biography",
-    "slug": "paul",
-    "authors": [
-      {
-        "id": "jyu`",
-        "name": "N. T. Wright",
-        "color": "green"
-      }
-    ],
-    "pageTotal": 480,
-    "pagesRead": 480,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2024-06-18",
-    "dateFinish": "2024-07-22",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80ca-ab90-e95c54b48d4f-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
-    "id": "2b2aec2d-56b7-806f-b6a9-fc136572bc2b",
-    "lastEditedTime": "2025-12-10T18:18:00.000Z",
-    "title": "Surprised by Hope",
-    "subtitle": "Rethinking Heaven, the Resurrection, and the Mission of the Church",
-    "slug": "surprised-by-hope",
-    "authors": [
-      {
-        "id": "jyu`",
-        "name": "N. T. Wright",
-        "color": "green"
-      }
-    ],
-    "pageTotal": 352,
-    "pagesRead": null,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 0,
-    "format": "HARDCOVER",
-    "dateStart": null,
-    "dateFinish": null,
-    "stars": null,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-806f-b6a9-fc136572bc2b-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-80ee-a8e3-d6699b8d0be6",
     "lastEditedTime": "2025-11-26T20:47:00.000Z",
     "title": "The Metamorphosis",
@@ -14221,6 +14029,38 @@
     },
     "fiction": true,
     "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8095-9556-c201c6d04de6",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Life in the Negative World",
+    "subtitle": "Confronting Challenges in an Anti-christian Culture",
+    "slug": "life-in-the-negative-world",
+    "authors": [
+      {
+        "id": ">tey",
+        "name": "Aaron M. Renn",
+        "color": "purple"
+      }
+    ],
+    "pageTotal": 272,
+    "pagesRead": 272,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2025-07-05",
+    "dateFinish": "2025-07-25",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8095-9556-c201c6d04de6-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
     "content": ""
   },
   {
@@ -14421,6 +14261,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-801d-bbb9-e93ed7fe077b",
+    "lastEditedTime": "2025-11-26T20:48:00.000Z",
+    "title": "A Princess of Mars",
+    "subtitle": "",
+    "slug": "a-princess-of-mars",
+    "authors": [
+      {
+        "id": "K;BR",
+        "name": "Edgar Rice Burroughs",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 145,
+    "pagesRead": null,
+    "minutesTotal": 208,
+    "miniutesRead": 208,
+    "progress": 1,
+    "format": "AUDIO",
+    "dateStart": "2025-03-14",
+    "dateFinish": "2025-03-16",
+    "stars": 3,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-801d-bbb9-e93ed7fe077b-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-80c4-9e10-ee6f3bc36978",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Meditations for Mortals",
@@ -14607,6 +14479,70 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-80cd-ac4b-d2a1d6e0af2e-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": false,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-808c-98f9-d0fab3b1f6fa",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Return of the God Hypothesis",
+    "subtitle": "Three Scientific Discoveries Revealing the Mind Behind the Universe",
+    "slug": "return-of-the-god-hypothesis",
+    "authors": [
+      {
+        "id": "lLs:",
+        "name": "Stephen C. Meyer",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 576,
+    "pagesRead": 576,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "EBOOK",
+    "dateStart": "2024-12-12",
+    "dateFinish": "2025-01-21",
+    "stars": 5,
+    "asin": "[\"B07H51QRXN\"]",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-808c-98f9-d0fab3b1f6fa-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-8087-bf3c-d51c6ce47d6d",
+    "lastEditedTime": "2025-11-26T20:47:00.000Z",
+    "title": "The Strange Case of Dr Jekyll and Mr Hyde",
+    "subtitle": "",
+    "slug": "the-strange-case-of-dr-jekyll-and-mr-hyde",
+    "authors": [
+      {
+        "id": "QLA=",
+        "name": "Robert Louis Stevenson",
+        "color": "purple"
+      }
+    ],
+    "pageTotal": 62,
+    "pagesRead": null,
+    "minutesTotal": 171,
+    "miniutesRead": 171,
+    "progress": 1,
+    "format": "AUDIO",
+    "dateStart": "2025-01-16",
+    "dateFinish": "2025-01-16",
+    "stars": 4,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-8087-bf3c-d51c6ce47d6d-large-260w.jpeg"
     },
     "fiction": true,
     "own": false,
@@ -14895,6 +14831,38 @@
     "url": null,
     "coverImage": {
       "large": "/assets/img/notion/2b2aec2d-56b7-80b3-a5f0-c4dd9aa474c1-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80ca-ab90-e95c54b48d4f",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Paul",
+    "subtitle": "A Biography",
+    "slug": "paul",
+    "authors": [
+      {
+        "id": "jyu`",
+        "name": "N. T. Wright",
+        "color": "green"
+      }
+    ],
+    "pageTotal": 480,
+    "pagesRead": 480,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2024-06-18",
+    "dateFinish": "2024-07-22",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80ca-ab90-e95c54b48d4f-large-260w.jpeg"
     },
     "fiction": false,
     "own": true,
@@ -15391,6 +15359,38 @@
     "content": ""
   },
   {
+    "id": "2b2aec2d-56b7-80ab-96f8-d9fedb3d488f",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "Upgrade",
+    "subtitle": "",
+    "slug": "upgrade",
+    "authors": [
+      {
+        "id": "~VzN",
+        "name": "Blake Crouch",
+        "color": "gray"
+      }
+    ],
+    "pageTotal": 352,
+    "pagesRead": 352,
+    "minutesTotal": 587,
+    "miniutesRead": 587,
+    "progress": 1,
+    "format": "AUDIO",
+    "dateStart": "2023-05-03",
+    "dateFinish": "2023-05-08",
+    "stars": 4,
+    "asin": "B09L9V486F",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80ab-96f8-d9fedb3d488f-large-260w.jpeg"
+    },
+    "fiction": true,
+    "own": true,
+    "content": ""
+  },
+  {
     "id": "2b2aec2d-56b7-803e-ab96-d0212132f380",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Ruthless Elimination of Hurry",
@@ -15579,6 +15579,117 @@
       "large": "/assets/img/notion/2b2aec2d-56b7-80a0-be00-fdcf3726adc4-large-260w.jpeg"
     },
     "fiction": true,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-80a2-89e6-dfd11bb1410f",
+    "lastEditedTime": "2025-11-26T20:46:00.000Z",
+    "title": "The Divine Conspiracy",
+    "subtitle": "Discovering Our Hidden Life in God",
+    "slug": "the-divine-conspiracy",
+    "authors": [
+      {
+        "id": "Yx{x",
+        "name": "Dallas Willard",
+        "color": "purple"
+      }
+    ],
+    "pageTotal": 428,
+    "pagesRead": 428,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "HARDCOVER",
+    "dateStart": "2021-09-12",
+    "dateFinish": "2022-07-13",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-80a2-89e6-dfd11bb1410f-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": ""
+  },
+  {
+    "id": "2b2aec2d-56b7-806f-a818-f5422c817f48",
+    "lastEditedTime": "2025-12-11T14:18:00.000Z",
+    "title": "Competing Against Luck",
+    "subtitle": "The Story of Innovation and Customer Choice",
+    "slug": "competing-against-luck",
+    "authors": [
+      {
+        "id": "E}CE",
+        "name": "Clayton M. Christensen",
+        "color": "red"
+      },
+      {
+        "id": "O{^X",
+        "name": "Taddy Hall",
+        "color": "brown"
+      },
+      {
+        "id": "[N~`",
+        "name": "Karen Dillion",
+        "color": "default"
+      },
+      {
+        "id": "OiKh",
+        "name": "and David S. Duncan",
+        "color": "purple"
+      }
+    ],
+    "pageTotal": 247,
+    "pagesRead": 247,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 1,
+    "format": "PAPERBACK",
+    "dateStart": "2018-12-15",
+    "dateFinish": "2019-02-02",
+    "stars": 5,
+    "asin": "",
+    "isbn": "",
+    "url": "https://www.amazon.com/Competing-Against-Luck-Innovation-Customer/dp/0062435612/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=steveostudi0c-20&linkId=14ae758bc13160f7a5be1e21de88db23&language=en_US",
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-806f-a818-f5422c817f48-large-260w.jpeg"
+    },
+    "fiction": false,
+    "own": true,
+    "content": "<p>This DEEPLY changed my thinking. This book outlines and chronicles the Jobs Theory. Customers don't necessarily want to buy your product, but what to 'hire for a job' in their life. Read this book if you do product development.</p>\n"
+  },
+  {
+    "id": "2b2aec2d-56b7-806f-b6a9-fc136572bc2b",
+    "lastEditedTime": "2025-12-10T18:18:00.000Z",
+    "title": "Surprised by Hope",
+    "subtitle": "Rethinking Heaven, the Resurrection, and the Mission of the Church",
+    "slug": "surprised-by-hope",
+    "authors": [
+      {
+        "id": "jyu`",
+        "name": "N. T. Wright",
+        "color": "green"
+      }
+    ],
+    "pageTotal": 352,
+    "pagesRead": null,
+    "minutesTotal": null,
+    "miniutesRead": null,
+    "progress": 0,
+    "format": "HARDCOVER",
+    "dateStart": null,
+    "dateFinish": null,
+    "stars": null,
+    "asin": "",
+    "isbn": "",
+    "url": null,
+    "coverImage": {
+      "large": "/assets/img/notion/2b2aec2d-56b7-806f-b6a9-fc136572bc2b-large-260w.jpeg"
+    },
+    "fiction": false,
     "own": true,
     "content": ""
   },
@@ -16196,38 +16307,6 @@
     "content": ""
   },
   {
-    "id": "2b2aec2d-56b7-80a2-89e6-dfd11bb1410f",
-    "lastEditedTime": "2025-11-26T20:46:00.000Z",
-    "title": "The Divine Conspiracy",
-    "subtitle": "Discovering Our Hidden Life in God",
-    "slug": "the-divine-conspiracy",
-    "authors": [
-      {
-        "id": "Yx{x",
-        "name": "Dallas Willard",
-        "color": "purple"
-      }
-    ],
-    "pageTotal": 428,
-    "pagesRead": 428,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "HARDCOVER",
-    "dateStart": "2021-09-12",
-    "dateFinish": "2022-07-13",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": null,
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-80a2-89e6-dfd11bb1410f-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": ""
-  },
-  {
     "id": "2b2aec2d-56b7-804e-a6a2-d7951e7f9e50",
     "lastEditedTime": "2025-11-26T20:46:00.000Z",
     "title": "Practical Object-Oriented Design",
@@ -16588,53 +16667,6 @@
     "fiction": false,
     "own": true,
     "content": "<p>OKRs are interesting. This book shows how others use these goals company-wide to meet their markets. Great overview.</p>\n"
-  },
-  {
-    "id": "2b2aec2d-56b7-806f-a818-f5422c817f48",
-    "lastEditedTime": "2025-12-11T14:18:00.000Z",
-    "title": "Competing Against Luck",
-    "subtitle": "The Story of Innovation and Customer Choice",
-    "slug": "competing-against-luck",
-    "authors": [
-      {
-        "id": "E}CE",
-        "name": "Clayton M. Christensen",
-        "color": "red"
-      },
-      {
-        "id": "O{^X",
-        "name": "Taddy Hall",
-        "color": "brown"
-      },
-      {
-        "id": "[N~`",
-        "name": "Karen Dillion",
-        "color": "default"
-      },
-      {
-        "id": "OiKh",
-        "name": "and David S. Duncan",
-        "color": "purple"
-      }
-    ],
-    "pageTotal": 247,
-    "pagesRead": 247,
-    "minutesTotal": null,
-    "miniutesRead": null,
-    "progress": 1,
-    "format": "PAPERBACK",
-    "dateStart": "2018-12-15",
-    "dateFinish": "2019-02-02",
-    "stars": 5,
-    "asin": "",
-    "isbn": "",
-    "url": "https://www.amazon.com/Competing-Against-Luck-Innovation-Customer/dp/0062435612/ref=as_li_ss_tl?ie=UTF8&linkCode=ll1&tag=steveostudi0c-20&linkId=14ae758bc13160f7a5be1e21de88db23&language=en_US",
-    "coverImage": {
-      "large": "/assets/img/notion/2b2aec2d-56b7-806f-a818-f5422c817f48-large-260w.jpeg"
-    },
-    "fiction": false,
-    "own": true,
-    "content": "<p>This DEEPLY changed my thinking. This book outlines and chronicles the Jobs Theory. Customers don't necessarily want to buy your product, but what to 'hire for a job' in their life. Read this book if you do product development.</p>\n"
   },
   {
     "id": "2b2aec2d-56b7-80ce-8af8-c27f0d8d2dfe",
