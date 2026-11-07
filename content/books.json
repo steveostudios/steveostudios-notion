@@ -1,7 +1,7 @@
 [
   {
     "id": "410aec2d-56b7-806b-99e2-dde155b84a12",
-    "lastEditedTime": "2026-11-06T17:29:00.000Z",
+    "lastEditedTime": "2026-11-06T21:30:00.000Z",
     "title": "Into the Quiet",
     "subtitle": "Following Jesus in a world of noise",
     "slug": "into-the-quiet",
@@ -13,10 +13,10 @@
       }
     ],
     "pageTotal": 289,
-    "pagesRead": 35,
+    "pagesRead": 46,
     "minutesTotal": null,
     "miniutesRead": null,
-    "progress": 0.121107266436,
+    "progress": 0.159169550173,
     "format": "HARDCOVER",
     "dateStart": "2026-11-05",
     "dateFinish": null,
@@ -33,7 +33,7 @@
   },
   {
     "id": "40caec2d-56b7-80b6-b556-db705e1db6c1",
-    "lastEditedTime": "2026-11-05T18:27:00.000Z",
+    "lastEditedTime": "2026-11-06T20:49:00.000Z",
     "title": "Unstoppable",
     "subtitle": "Running the Race You Were Born to Win",
     "slug": "unstoppable",
@@ -45,10 +45,10 @@
       }
     ],
     "pageTotal": 179,
-    "pagesRead": 86,
+    "pagesRead": 114,
     "minutesTotal": null,
     "miniutesRead": null,
-    "progress": 0.480446927374,
+    "progress": 0.63687150838,
     "format": "PAPERBACK",
     "dateStart": "2026-11-01",
     "dateFinish": null,
