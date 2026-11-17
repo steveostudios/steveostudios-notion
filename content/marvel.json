@@ -807,7 +807,7 @@
     },
     {
       "id": "353aec2d-56b7-815a-8a61-c001b459dba7",
-      "lastEditedTime": "2026-10-26T00:50:00.000Z",
+      "lastEditedTime": "2026-11-17T14:40:00.000Z",
       "title": "Ant-Man and the Wasp",
       "slug": "ant-man-and-the-wasp",
       "imdbRating": "7.0",
@@ -1017,7 +1017,7 @@
     },
     {
       "id": "353aec2d-56b7-8131-a973-f92727a17a3a",
-      "lastEditedTime": "2026-08-21T20:12:00.000Z",
+      "lastEditedTime": "2026-11-17T14:38:00.000Z",
       "title": "Shang-Chi and the Legend of the Ten Rings",
       "slug": "shang-chi-and-the-legend-of-the-ten-rings",
       "imdbRating": "7.3",
@@ -1030,32 +1030,32 @@
       "order": 25,
       "reviews": {
         "Elliot": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "11-16-26",
+          "watchedISO": "2026-11-16",
+          "rating": "6.8"
         },
         "Levi": {
-          "watched": "",
-          "watchedISO": "",
+          "watched": "11-16-26",
+          "watchedISO": "2026-11-16",
           "rating": ""
         },
         "Lauren": {
-          "watched": "",
-          "watchedISO": "",
+          "watched": "11-16-26",
+          "watchedISO": "2026-11-16",
           "rating": ""
         },
         "Steve": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "11-16-26",
+          "watchedISO": "2026-11-16",
+          "rating": "7.1"
         },
         "Oliver": {
-          "watched": "",
-          "watchedISO": "",
-          "rating": ""
+          "watched": "11-16-26",
+          "watchedISO": "2026-11-16",
+          "rating": "8"
         }
       },
-      "familyScore": null
+      "familyScore": "7.3"
     },
     {
       "id": "353aec2d-56b7-81e9-96d5-d62efd872e41",
@@ -1521,14 +1521,16 @@
     },
     {
       "id": "353aec2d-56b7-8127-a350-cdfae58ff16c",
-      "lastEditedTime": "2026-08-21T20:12:00.000Z",
+      "lastEditedTime": "2026-11-17T14:42:00.000Z",
       "title": "The Fantastic Four: First Steps",
       "slug": "the-fantastic-four-first-steps",
       "imdbRating": "6.8",
       "movieRating": "PG-13",
       "year": "2025",
-      "poster": "",
-      "posterSizes": null,
+      "poster": "/assets/img/notion/353aec2d-56b7-8127-a350-cdfae58ff16c-medium-288w.jpeg",
+      "posterSizes": {
+        "medium": "/assets/img/notion/353aec2d-56b7-8127-a350-cdfae58ff16c-medium-288w.jpeg"
+      },
       "order": 37,
       "reviews": {
         "Elliot": {
@@ -1561,14 +1563,16 @@
     },
     {
       "id": "353aec2d-56b7-811a-a477-f86bc79fe6df",
-      "lastEditedTime": "2026-08-21T20:12:00.000Z",
+      "lastEditedTime": "2026-11-17T14:43:00.000Z",
       "title": "Spider-Man: Brand New Day",
       "slug": "spider-man-brand-new-day",
-      "imdbRating": "TBD",
-      "movieRating": "TBD",
+      "imdbRating": "7.9",
+      "movieRating": "PG-13",
       "year": "2026",
-      "poster": "",
-      "posterSizes": null,
+      "poster": "/assets/img/notion/353aec2d-56b7-811a-a477-f86bc79fe6df-medium-288w.jpeg",
+      "posterSizes": {
+        "medium": "/assets/img/notion/353aec2d-56b7-811a-a477-f86bc79fe6df-medium-288w.jpeg"
+      },
       "order": 38,
       "reviews": {
         "Elliot": {
@@ -1601,14 +1605,16 @@
     },
     {
       "id": "353aec2d-56b7-81ed-a8eb-cfc07f201ceb",
-      "lastEditedTime": "2026-08-21T20:12:00.000Z",
+      "lastEditedTime": "2026-11-17T14:43:00.000Z",
       "title": "Avengers: Doomsday",
       "slug": "avengers-doomsday",
       "imdbRating": "TBD",
-      "movieRating": "TBD",
+      "movieRating": "PG-13",
       "year": "2026",
-      "poster": "",
-      "posterSizes": null,
+      "poster": "/assets/img/notion/353aec2d-56b7-81ed-a8eb-cfc07f201ceb-medium-288w.jpeg",
+      "posterSizes": {
+        "medium": "/assets/img/notion/353aec2d-56b7-81ed-a8eb-cfc07f201ceb-medium-288w.jpeg"
+      },
       "order": 39,
       "reviews": {
         "Elliot": {
@@ -1717,7 +1723,7 @@
       "title": "Captain America: Civil War",
       "rating": "8.7"
     },
-    "nextMovieSlug": "shang-chi-and-the-legend-of-the-ten-rings",
-    "nextMovieTitle": "Shang-Chi and the Legend of the Ten Rings"
+    "nextMovieSlug": "eternals",
+    "nextMovieTitle": "Eternals"
   }
 }
