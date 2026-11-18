@@ -38,7 +38,7 @@
   },
   {
     "id": "410aec2d-56b7-806b-99e2-dde155b84a12",
-    "lastEditedTime": "2026-11-17T20:59:00.000Z",
+    "lastEditedTime": "2026-11-18T21:23:00.000Z",
     "title": "Into the Quiet",
     "subtitle": "Following Jesus in a world of noise",
     "slug": "into-the-quiet",
@@ -50,10 +50,10 @@
       }
     ],
     "pageTotal": 289,
-    "pagesRead": 104,
+    "pagesRead": 136,
     "minutesTotal": null,
     "miniutesRead": null,
-    "progress": 0.359861591696,
+    "progress": 0.470588235294,
     "format": "HARDCOVER",
     "dateStart": "2026-11-05",
     "dateFinish": null,
@@ -235,7 +235,7 @@
   },
   {
     "id": "3e9aec2d-56b7-8000-a5c7-e3923413109b",
-    "lastEditedTime": "2026-11-13T02:47:00.000Z",
+    "lastEditedTime": "2026-11-18T14:37:00.000Z",
     "title": "The Two Towers",
     "subtitle": "",
     "slug": "the-two-towers",
@@ -247,10 +247,10 @@
       }
     ],
     "pageTotal": 398,
-    "pagesRead": 340,
+    "pagesRead": 367,
     "minutesTotal": null,
     "miniutesRead": null,
-    "progress": 0.854271356784,
+    "progress": 0.922110552764,
     "format": "PAPERBACK",
     "dateStart": "2026-09-20",
     "dateFinish": null,
